@@ -1,0 +1,6 @@
+@inproceedings{Park12icip,
+ author = {J. Park and J.-Y. Lee and Y.-W. Tai and I.S. Kweon},
+ title = {Modeling Photo Composition and its Application to Photo Re-arrangement},
+ booktitle = {ICIP},
+ year = {2012},
+ }

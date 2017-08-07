@@ -1,0 +1,6 @@
+@inproceedings{Ha153dv,
+ author = {Hyowon Ha and Jaesik Park and In So Kweon},
+ title = {Dense Depth and Albedo from a Single-shot Structured Light},
+ booktitle = {3DV},
+ year = {2015},
+ }

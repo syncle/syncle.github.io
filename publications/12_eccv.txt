@@ -1,0 +1,6 @@
+@inproceedings{Park12eccv,
+ author = {Jaesik Park and Tae Hyun Oh and Jiyoung Jung and Yu-Wing Tai and In So Kweon},
+ title = {A Tensor Voting Approach for Multi-View 3D Scene Flow Estimation and Renement},
+ booktitle = {ECCV},
+ year = {2012},
+ }

@@ -1,0 +1,6 @@
+@inproceedings{Choi14icip,
+ author = {Jinsoo Choi and Byungtae Ahn and Jaesik Park and In So Kweon},
+ title = {GMM-BASED SALIENCY AGGREGATION FOR CALIBRATION-FREE GAZE ESTIMATION},
+ booktitle = {ICIP},
+ year = {2014},
+ }

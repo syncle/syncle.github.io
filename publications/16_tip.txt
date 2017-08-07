@@ -1,0 +1,6 @@
+@inproceedings{Kim16TIP,
+ author = {Seong-Heum Kim and Yu-Wing Tai and Jaesik Park, and In So Kweon},
+ title = {Multi-view Object Extraction with Fractional Boundaries},
+ booktitle = {IEEE Transaction on Image Processing (TIP)},
+ year = {2016},
+ }

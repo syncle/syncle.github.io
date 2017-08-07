@@ -1,0 +1,232 @@
+#see available fields in script/gen_publication_list.py
+
+item_start
+special_year=2017
+item_end
+
+item_start
+title=Tanks and Temples: Benchmarking Large-Scale Scene Reconstruction
+author=Arno Knapitsch, Jaesik Park, Qian-Yi Zhou, and Vladlen Koltun
+venue=ACM Transactions on Graphics (Proc. SIGGRAPH 2017)
+image=publications/17_siggraph.png
+pdf=publications/17_siggraph.pdf
+web=https://www.tanksandtemples.org/
+item_end
+
+item_start
+title=Category‐Specific Salient View Selection via Deep Convolutional Neural Networks
+author=Seong‐heum Kim, Yu‐Wing Tai, Joon‐Young Lee, Jaesik Park, and In So Kweon
+venue=Computer Graphics Forum 2017
+image=publications/17_cgf.png
+web=http://rcv.kaist.ac.kr/v2/bbs/board.php?bo_table=rs_publications&wr_id=547
+item_end
+
+item_start
+special_year=2016
+item_end
+
+item_start
+title=Robust Multiview Photometric Stereo using Planar Mesh Parameterization
+author=Jaesik Park, Sudipta N. Sinha, Yasuyuki Matsushita, Yu-Wing Tai, and In So Kweon
+venue=TPAMI 2016
+image=publications/16_pami.png
+web=https://sites.google.com/site/jsparkcv/publications/multiviewps
+item_end
+
+item_start
+title=Fast Global Registration
+author=Qian-Yi Zhou, Jaesik Park, and Vladlen Koltun
+venue=ECCV 2016
+comment=(Oral Presentation, 1.8% acceptance rate)
+image=publications/16_eccv.png
+web=http://vladlen.info/publications/fast-global-registration/
+code=https://github.com/IntelVCL/FastGlobalRegistration
+item_end
+
+item_start
+title=Refining Geometry from Depth Sensors using IR Shading Images
+author=Gyeongmin Choe, Jaesik Park, Yu-Wing Tai, and In So Kweon
+venue=IJCV 2016
+image=publications/16_ijcv.png
+pdf=http://rcv.kaist.ac.kr/gmchoe/Project/Kinect_IR_IJCV/Published.pdf
+item_end
+
+item_start
+title=Efficient and Robust Color Consistency for Community Photo Collections
+author=Jaesik Park, Yu-Wing Tai, Sudipta N. Sinha, and In So Kweon
+venue=CVPR 2016
+image=publications/16_cvpr_color.png
+web=https://sites.google.com/site/jsparkcv/publications/photoconsistency
+item_end
+
+item_start
+title=High-quality Depth from Uncalibrated Small Motion Clip
+author=Hyowon Ha, Sunghoon Im, Jaesik Park, Hae-Gon Jeon, and In So Kweon
+venue=CVPR 2016
+image=publications/16_cvpr_sm.png
+comment=(Oral Presentation, 3.9% acceptance rate)
+web=https://sites.google.com/site/hyowoncv/ha_cvpr16
+item_end
+
+item_start
+title=Vision System and Depth Processing for DRC-HUBO+
+author=Inwook Shim, Seunghak Shin, Yunsu Bok, Kyungdon Joo, Dong-Geol Choi, Joon-Young Lee, Jaesik Park, Jun Ho Oh, and In So Kweon
+venue=ICRA 2016
+image=publications/16_icra.png
+comment=Depth processing algorithm of Team KAIST (winner of DARPA robotics challenge finals 2015)
+pdf=http://arxiv.org/pdf/1509.06114v2.pdf
+supp=https://drive.google.com/file/d/0B99EdZxWBWl_V1NYZVM3cFZQRGc/view?usp=sharing
+web=https://sites.google.com/site/iwshimcv/drc-finals-2015
+data=https://sites.google.com/site/kaistdrcdata/
+item_end
+
+item_start
+title=Multi-view Object Extraction with Fractional Boundaries,
+author=Seong-Heum Kim, Yu-Wing Tai, Jaesik Park, and In So Kweon
+venue=TIP 2016
+image=publications/16_tip.png
+pdf=publications/16_tip.pdf
+bibtex=publications/16_tip.txt
+item_end
+
+item_start
+special_year=2015
+item_end
+
+item_start
+title=Dense Depth and Albedo from a Single-shot Structured Light,
+author=Hyowon Ha, Jaesik Park, and In So Kweon
+venue=3DV 2015
+image=publications/15_3dv.png
+pdf=publications/15_3dv.pdf
+bibtex=publications/15_3dv.txt
+item_end
+
+item_start
+title=Accurate Depth Map Estimation from a Lenslet Light Field Camera
+author=Hae-Gon Jeon, Jaesik Park, Gyeongmin Choe, Jinsun Park, Yunsu Bok, Yu-Wing Tai, and In So Kweon
+venue=CVPR 2015
+image=publications/15_cvpr_lf.png
+web=https://sites.google.com/site/hgjeoncv/home/depthfromlf_cvpr15
+item_end
+
+item_start
+title=Multi-modal Pedestrian Detection: Benchmark Dataset and Baselines
+author=SoonMin Hwang, Jaesik Park, Namil Kim, Yukyung Choi, and In So Kweon
+venue=CVPR 2015
+image=publications/15_cvpr_pd.png
+web=https://sites.google.com/site/pedestrianbenchmark/
+item_end
+
+item_start
+special_year=2014
+item_end
+
+item_start
+title=High Quality Depth Map Upsampling and Completion for RGB-D Cameras
+author=Jaesik Park, Hyeongwoo Kim, Yu-Wing Tai, Michael S. Brown and In-So Kweon
+venue=TIP 2014
+image=publications/14_tip.png
+web=https://sites.google.com/site/jsparkcv/publications/depthups
+item_end
+
+item_start
+title=Real-time Head Orientation from a Monocular Camera using Deep Neural Network
+author=Byungtae Ahn, Jaesik Park, and In So Kweon
+venue=ACCV 2014
+image=publications/14_accv.png
+pdf=publications/14_accv.pdf
+bibtex=publications/14_accv.txt
+item_end
+
+item_start
+title=GMM-based Saliency Aggregation for Calibration-free Gaze Estimation
+author=Jinsoo Choi, Byungtae Ahn, Jaesik Park, In So Kweon
+venue=ICIP 2014
+image=publications/14_icip.png
+pdf=publications/14_icip.pdf
+bibtex=publications/14_icip.txt
+item_end
+
+item_start
+title=Exploiting Shading Cues in Kinect IR Images for Geometry Refinement
+author=Gyeongmin Choe*, Jaesik Park*, Yu-Wing Tai and In So Kweon
+venue=CVPR 2014
+image=publications/14_cvpr_gm.png
+comment=*Equal contributions. Received 20th HumanTech Paper Award (Silver Prize), Samsung Electronics Corp.
+web=http://rcv.kaist.ac.kr/gmchoe/project/Kinect_IR/
+item_end
+
+item_start
+title=Calibrating a Non-isotropic Near Point Light Source using a Plane
+author=Jaesik Park, Sudipta N. Sinha, Yasuyuki Matsushita, Yu-Wing Tai and In So Kweon
+venue=CVPR 2014
+image=publications/14_cvpr_cal.png
+web=https://sites.google.com/site/jsparkcv/publications/lightcalib
+item_end
+
+item_start
+special_year=2013
+item_end
+
+item_start
+title=Multiview Photometric Stereo using Planar Mesh Parameterization
+author=Jaesik Park, Sudipta N. Sinha, Yasuyuki Matsushita, Yu-Wing Tai and In So Kweon
+venue=ICCV 2013
+image=publications/13_iccv.png
+comment=Received 19th HumanTech Paper Award (Silver Prize), Samsung Electronics Corp.
+web=https://sites.google.com/site/jsparkcv/publications/multiviewps
+item_end
+
+item_start
+special_year=2012
+item_end
+
+item_start
+title=Tensor Voting Approach for Multi-View 3D Scene-flow Estimation and Refinement
+author=Jaesik Park, Tae Hyun Oh, Jiyoung Jung, Yu-Wing Tai and In So Kweon
+venue=ECCV 2012
+image=publications/12_eccv.png
+bibtex=publications/12_eccv.txt
+pdf=publications/12_eccv.pdf
+supp=publications/12_eccv_poster.pdf
+item_end
+
+item_start
+title=Modeling Photo Composition and Its Application to Photo Re-arrangement
+author=Jaesik Park, Joon-Young Lee, Yu-Wing Tai and In So Kweon
+venue=ICIP 2012
+image=publications/12_icip.png
+bibtex=publications/12_icip.txt
+pdf=publications/12_icip.pdf
+supp=publications/12_icip_poster.pdf
+item_end
+
+item_start
+title=Identigram/Watermark removal using cross-channel correlation
+author=Jaesik Park, Yu-Wing Tai and In-So Kweon
+venue=CVPR 2012
+image=publications/12_cvpr.png
+web=https://sites.google.com/site/jsparkcv/publications/identigram
+item_end
+
+item_start
+special_year=2011
+item_end
+
+item_start
+title=A Novel 2.5D Pattern for Extrinsic Calibration of ToF and Camera Fusion System
+author=Jiyoung Jung, Yekeun Jeong, Jaesik Park, Hyowon Ha, J. D. Kim and In-So Kweon
+venue=IROS 2011
+image=publications/11_iros.png
+pdf=publications/11_iros.pdf
+item_end
+
+item_start
+title=High Quality Depth Map Upsampling for 3D-TOF Cameras
+author=Jaesik Park*, Hyeongwoo Kim*, Yu-Wing Tai, Michael S. Brown and In-So Kweon
+venue=ICCV 2011
+image=publications/11_iccv.png
+comment=*Equal contributions.
+web=https://sites.google.com/site/jsparkcv/publications/depthups
+item_end
