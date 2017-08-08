@@ -1,0 +1,6 @@
+@inproceedings{Park2017,
+	author    = {Jaesik Park and Qian-Yi Zhou and Vladlen Koltun},
+	title     = {Colored Point Cloud Registration Revisited},
+	booktitle = {ICCV},
+	year      = {2017},
+}
