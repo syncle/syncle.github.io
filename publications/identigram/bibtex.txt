@@ -1,0 +1,6 @@
+@inproceedings{Park12cvpr,
+ author = {J. Park and Y.-W. Tai and I.S. Kweon},
+ title = {Identigram/Watermark Removal using Cross-channel Correlation},
+ booktitle = {CVPR},
+ year = {2012},
+ }

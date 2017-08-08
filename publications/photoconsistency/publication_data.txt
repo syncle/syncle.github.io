@@ -1,0 +1,9 @@
+item_start
+title=Efficient and Robust Color Consistency for Community Photo Collections
+author=Jaesik Park, Yu-Wing Tai, Sudipta N. Sinha, and In So Kweon
+venue=CVPR 2016
+pdf=paper.pdf
+supp=supp.pdf
+bibtex=bibtex.txt
+code=code.zip
+item_end

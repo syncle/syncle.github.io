@@ -1,0 +1,6 @@
+@article{Park16PAMI,
+  author    = {Jaesik Park and Sudipta N. Sinha and Yasuyuki Matsushita and Yu-Wing Tai, and In So Kweon},
+  title     = {Robust Multiview Photometric Stereo using Planar Mesh Parameterization},
+  journal = {IEEE Transactions of Pattern Analysis and Machine Intelligence (TPAMI)},
+  year = {2016},
+}

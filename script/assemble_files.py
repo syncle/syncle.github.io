@@ -1,4 +1,6 @@
 from gen_headers import write_header_html
+from record import read_record
+from gen_button_for_project_page import append_button_html
 
 path_header = '../source/header.html'
 path_footer = '../source/footer.html'
@@ -14,6 +16,18 @@ def include_file(output_file, include_file):
 		copy.write(line)
 	f.close()
 	copy.close()
+
+def gen_project_page(path, title):
+	clear_file(path + '/index.html')
+	include_file(path + '/index.html', path_header)
+	write_header_html(path + '/content_header.html', title)
+	include_file(path + '/index.html', path + '/content_header.html')
+	include_file(path + '/index.html', path + '/content_index.html')
+	record = read_record(path + '/publication_data.txt')
+	print(record[0])
+	append_button_html(path + '/index.html', record)
+	include_file(path + '/index.html', '../source/content_publications_footer.html')
+	include_file(path + '/index.html', path_footer)
 
 if __name__ == "__main__":
 
@@ -34,14 +48,11 @@ if __name__ == "__main__":
 	include_file('../publications.html', '../source/content_publications_footer.html')
 	include_file('../publications.html', path_footer)
 
-	# identigram_html
-	clear_file('../publications/identigram/index.html')
-	include_file('../publications/identigram/index.html', path_header)
-	write_header_html('../publications/identigram/content_header.html', 'Identigram')
-	include_file('../publications/identigram/index.html', '../publications/identigram/content_header.html')
-	include_file('../publications/identigram/index.html', '../publications/identigram/content_index.html')
-	include_file('../publications/identigram/index.html', '../source/content_publications_footer.html')
-	include_file('../publications/identigram/index.html', path_footer)
+	gen_project_page('../publications/identigram', 'Identigram/Watermark Removal')
+	gen_project_page('../publications/lightcalib', 'Calibrating a Non-isotropic Near Point Light Source')
+	gen_project_page('../publications/photoconsistency', 'Color Consistency for Community Photo Collections')
+	gen_project_page('../publications/depthups', 'High Quality Depth Map Upsampling')
+	gen_project_page('../publications/multiviewps', 'Multiview Photometric Stereo')
 
 	# about_me_html
 	clear_file('../about_me.html')

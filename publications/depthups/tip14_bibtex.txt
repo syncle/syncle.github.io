@@ -1,0 +1,10 @@
+
+@article{TIP_Depthcompletion,
+    author = {Jaesik Park and Hyeongwoo Kim and Yu-Wing Tai and Michael S. Brown and In So Kweon},
+    title = {High Quality Depth Map Upsampling and Completion for RGB-D cameras},
+    journal = {IEEE Transactions on Image Processing},
+    volume = {},
+    number = {},
+    pages = {},
+    year = {Accepted},
+}

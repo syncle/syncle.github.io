@@ -30,7 +30,7 @@ title=Robust Multiview Photometric Stereo using Planar Mesh Parameterization
 author=Jaesik Park, Sudipta N. Sinha, Yasuyuki Matsushita, Yu-Wing Tai, and In So Kweon
 venue=TPAMI 2016
 image=publications/16_pami.png
-web=https://sites.google.com/site/jsparkcv/publications/multiviewps
+web_inplace=publications/multiviewps/index.html
 item_end
 
 item_start
@@ -56,7 +56,7 @@ title=Efficient and Robust Color Consistency for Community Photo Collections
 author=Jaesik Park, Yu-Wing Tai, Sudipta N. Sinha, and In So Kweon
 venue=CVPR 2016
 image=publications/16_cvpr_color.png
-web=https://sites.google.com/site/jsparkcv/publications/photoconsistency
+web_inplace=publications/photoconsistency/index.html
 item_end
 
 item_start
@@ -127,7 +127,7 @@ title=High Quality Depth Map Upsampling and Completion for RGB-D Cameras
 author=Jaesik Park, Hyeongwoo Kim, Yu-Wing Tai, Michael S. Brown and In-So Kweon
 venue=TIP 2014
 image=publications/14_tip.png
-web=https://sites.google.com/site/jsparkcv/publications/depthups
+web_inplace=publications/depthups/index.html
 item_end
 
 item_start
@@ -162,7 +162,7 @@ title=Calibrating a Non-isotropic Near Point Light Source using a Plane
 author=Jaesik Park, Sudipta N. Sinha, Yasuyuki Matsushita, Yu-Wing Tai and In So Kweon
 venue=CVPR 2014
 image=publications/14_cvpr_cal.png
-web=https://sites.google.com/site/jsparkcv/publications/lightcalib
+web_inplace=publications/lightcalib/index.html
 item_end
 
 item_start
@@ -175,7 +175,7 @@ author=Jaesik Park, Sudipta N. Sinha, Yasuyuki Matsushita, Yu-Wing Tai and In So
 venue=ICCV 2013
 image=publications/13_iccv.png
 comment=Received 19th HumanTech Paper Award (Silver Prize), Samsung Electronics Corp.
-web=https://sites.google.com/site/jsparkcv/publications/multiviewps
+web_inplace=publications/multiviewps/index.html
 item_end
 
 item_start
@@ -207,7 +207,7 @@ title=Identigram/Watermark removal using cross-channel correlation
 author=Jaesik Park, Yu-Wing Tai and In-So Kweon
 venue=CVPR 2012
 image=publications/12_cvpr.png
-web=https://sites.google.com/site/jsparkcv/publications/identigram
+web_inplace=publications/identigram/index.html
 item_end
 
 item_start
@@ -228,5 +228,5 @@ author=Jaesik Park*, Hyeongwoo Kim*, Yu-Wing Tai, Michael S. Brown and In-So Kwe
 venue=ICCV 2011
 image=publications/11_iccv.png
 comment=*Equal contributions.
-web=https://sites.google.com/site/jsparkcv/publications/depthups
+web_inplace=publications/depthups/index.html
 item_end

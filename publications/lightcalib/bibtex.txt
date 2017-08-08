@@ -1,0 +1,6 @@
+@inproceedings{Park14cvpr,
+ author = {J. Park and S. Sinha and Y. Matsushita and Y.-W. Tai and I.S. Kweon},
+ title = {Calibrating a non-isotropic near point light source using a plane},
+ booktitle = {CVPR},
+ year = {2014},
+ }
