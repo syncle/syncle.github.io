@@ -46,8 +46,8 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
-				<li class="hidden">
-					<a href="index.html"></a>
+				<li class="active">
+					<a href="index.html">Home</a>
 				</li>
 				<li>
 					<a href="download.html">Download</a>
@@ -134,32 +134,39 @@
 
 <div class="col-lg-8 col-lg-offset-2">
 	<h2>Introduction</h2>
-	<p> To our knowledge, no publicly available RGB-D dataset provides dense ground-truth surface geometry across largescale real-world scenes. To complement existing datasets, we have created ground-truth models of five complete indoor environments using a high-end laser scanner, and captured RGB-D video sequences of these scenes. This data
-	enables quantitative evaluation of real-world scene reconstruction.</p>
-</div>
+		<p class="lead"> To our knowledge, no publicly available RGB-D dataset provides dense ground-truth surface geometry across largescale real-world scenes. To complement existing datasets, we have created ground-truth models of five complete indoor environments using a high-end laser scanner, and captured RGB-D video sequences of these scenes. This data
+		enables quantitative evaluation of real-world scene reconstruction.</p>
 
-<div class="col-lg-8 col-lg-offset-2">
-	<h2>Publication</h2>
-		<h3>Colored Point Cloud Registration Revisited</h3>
-		<p>Jaesik Park, Qian-Yi Zhou, and Vladlen Koltun<br>
-		ICCV 2017<br>
-		</p>
-		<a href="paper.pdf" target="_blank" class="btn btn-default" role="button">
-			<span class="glyphicon glyphicon-file"></span> Paper
-		</a>
+		<div class="col-lg-3">
+			<h2>Paper</h2>
+			<a href="paper.pdf" target="_blank" class="btn btn-default" role="button">
+				<img src="paper.jpg" alt="Paper" width="110" height="140">
+			</a>
+		</div>
+		<div class="col-lg-9">
+			<h2>Bibtex</h2>
+		Please cite our work if you use data from this site.
+<pre>
+@inproceedings{Park2017,
+	author    = {Jaesik Park and Qian-Yi Zhou and Vladlen Koltun},
+	title     = {Colored Point Cloud Registration Revisited},
+	booktitle = {ICCV},
+	year      = {2017},
+}
+</pre>
+	</div>
+	<div class="col-lg-12">
+		<a href="supp.pdf" target="_blank" class="btn btn-default" role="button">
+			<span class="glyphicon glyphicon-paperclip"></span> Supplementary
+		</a><br>
 		<a href="#" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-pencil"></span> Code
 		</a>
-		<a href="supp.pdf" target="_blank" class="btn btn-default" role="button">
-			<span class="glyphicon glyphicon-paperclip"></span> Supplementary
-		</a>
-		<a href="bibtex.txt" target="_blank" class="btn btn-default" role="button">
-			<span class="glyphicon glyphicon-list"></span> Bibtex
-		</a>
 		<p><br></p>
+	</div>
 </div>
 
-</div>
+
 <!-- Footer -->
 <footer>
 		<div class="container">

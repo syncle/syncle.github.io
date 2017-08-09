@@ -46,8 +46,8 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
-				<li class="hidden">
-					<a href="index.html"></a>
+				<li>
+					<a href="index.html">Home</a>
 				</li>
 				<li class="active">
 					<a href="download.html">Download</a>
@@ -74,97 +74,153 @@
 </header>
 
 <div class="col-lg-8 col-lg-offset-2">
-	<h2>Dataset</h2>
-</div>
-<div class="col-lg-4 col-lg-offset-4">
-	<table class="table">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Size (m<sup>2</sup>)</th>
-        <th># of laser pts.</th>
-				<th># of RGBD frames</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Apartment</td>
-        <td>69.17</td>
-        <td>18.7M</td>
-				<td>31.9K</td>
-      </tr>
-      <tr>
-        <td>Bedroom</td>
-        <td>21.01</td>
-        <td>10.9M</td>
-				<td>21.9K</td>
-      </tr>
-      <tr>
-        <td>Boardroom</td>
-        <td>60.90</td>
-        <td>17.4M</td>
-				<td>24.3K</td>
-      </tr>
-			<tr>
-        <td>Lobby</td>
-        <td>86.46</td>
-        <td>14.5M</td>
-				<td>20.0K</td>
-      </tr>
-			<tr>
-        <td>Loft</td>
-        <td>34.74</td>
-        <td>14.5M</td>
-				<td>25.3K</td>
-      </tr>
-    </tbody>
-  </table>
-	<p> Table. Summary of the dataset</p>
+	<h2>Download dataset</h2>
+	<div class="col-lg-12">
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Size (m<sup>2</sup>)</th>
+					<th># of laser pts.</th>
+					<th>Download Lidar</th>
+					<th># of RGB-D frames</th>
+					<th>Download RGB-D</th>
+					<th>Download <br>Our Reconstruction</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Apartment</td>
+					<td>69.17</td>
+					<td>18.7M</td>
+					<td>
+						<a href="#" target="_blank">
+							<span class="glyphicon glyphicon-paperclip"></span>
+						</a>(1.0GB)
+					</td>
+					<td>31.9K</td>
+					<td>
+						<a href="#" target="_blank">
+							<span class="glyphicon glyphicon-film"></span>
+						</a>(1.0GB)
+					</td>
+					<td>
+						<a href="#" target="_blank">
+							<span class="glyphicon glyphicon-save"></span>
+						</a>(1.0GB)
+					</td>
+				</tr>
+				<tr>
+					<td>Bedroom</td>
+					<td>21.01</td>
+					<td>10.9M</td>
+					<td>
+						<a href="#" target="_blank">
+							<span class="glyphicon glyphicon-paperclip"></span>
+						</a>(1.0GB)
+					</td>
+					<td>21.9K</td>
+					<td>
+						<a href="#" target="_blank">
+							<span class="glyphicon glyphicon-film"></span>
+						</a>(1.0GB)
+					</td>
+					<td>
+						<a href="#" target="_blank">
+							<span class="glyphicon glyphicon-save"></span>
+						</a>(1.0GB)
+					</td>
+				</tr>
+				<tr>
+					<td>Boardroom</td>
+					<td>60.90</td>
+					<td>17.4M</td>
+					<td>
+						<a href="#" target="_blank">
+							<span class="glyphicon glyphicon-paperclip"></span>
+						</a>(1.0GB)
+					</td>
+					<td>24.3K</td>
+					<td>
+						<a href="#" target="_blank">
+							<span class="glyphicon glyphicon-film"></span>
+						</a>(1.0GB)
+					</td>
+					<td>
+						<a href="#" target="_blank">
+							<span class="glyphicon glyphicon-save"></span>
+						</a>(1.0GB)
+					</td>
+				</tr>
+				<tr>
+					<td>Lobby</td>
+					<td>86.46</td>
+					<td>14.5M</td>
+					<td>
+						<a href="#" target="_blank">
+							<span class="glyphicon glyphicon-paperclip"></span>
+						</a>(1.0GB)
+					</td>
+					<td>20.0K</td>
+					<td>
+						<a href="#" target="_blank">
+							<span class="glyphicon glyphicon-film"></span>
+						</a>(1.0GB)
+					</td>
+					<td>
+						<a href="#" target="_blank">
+							<span class="glyphicon glyphicon-save"></span>
+						</a>(1.0GB)
+					</td>
+				</tr>
+				<tr>
+					<td>Loft</td>
+					<td>34.74</td>
+					<td>14.5M</td>
+					<td>
+						<a href="#" target="_blank">
+							<span class="glyphicon glyphicon-paperclip"></span>
+						</a>(1.0GB)
+					</td>
+					<td>25.3K</td>
+					<td>
+						<a href="#" target="_blank">
+							<span class="glyphicon glyphicon-film"></span>
+						</a>(1.0GB)
+					</td>
+					<td>
+						<a href="#" target="_blank">
+							<span class="glyphicon glyphicon-save"></span>
+						</a>(1.0GB)
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="col-lg-4">
+		<h3>Lidar scan</h3>
+		<p> Lidar scan data was collected using a FARO Focus 3D X330 HDR scanner. The scanner has an operating range of 0.6m to 330m. At a distance of 10 meters, its ranging accuracy is 0.1 millimeters. Each scene was scanned from multiple locations. The scans were merged using dedicated software provided by the manufacturer, which is used for range scan alignment in industrial applications.
+	</div>
+	<div class="col-lg-4">
+		<h3>RGB-D sequence</h3>
+		<p>Continuous RGB-D video sequences are captured using an Asus Xtion Live camera. The lengths of the sequences range from 11 to 18 minutes. Each sequence thoroughly covers the respective scene. The RGB-D sequences can be used as input to any scene reconstruction systems. </p>
+	</div>
+	<div class="col-lg-4">
+		<h3>Our reconstruction</h3>
+		<p>The results from our scene reconstruction system. Please check the <a href="paper.pdf">paper</a> for techincal details and comparison to other methods. It is written in ply format containg meshed surface.</p>
+	</div>
 </div>
 
 <div class="col-lg-8 col-lg-offset-2">
-	<div class="col-lg-6">
-		<h3>Lidar scan</h3>
-		<p> Lidar scan data was collected using a FARO Focus 3D X330 HDR scanner. The scanner has an operating range of 0.6m to 330m. At a distance of 10 meters, its ranging accuracy is 0.1 millimeters. Each scene was scanned from multiple locations. The scans were merged using dedicated software provided by the manufacturer, which is used for range scan alignment in industrial applications.</p>
-		<a href="bibtex.txt" target="_blank" class="btn btn-default" role="button">
-			<span class="glyphicon glyphicon-list"></span> Apartment (xGB)
-		</a>
-		<a href="bibtex.txt" target="_blank" class="btn btn-default" role="button">
-			<span class="glyphicon glyphicon-list"></span> Bedroom (xGB)
-		</a>
-		<a href="bibtex.txt" target="_blank" class="btn btn-default" role="button">
-			<span class="glyphicon glyphicon-list"></span> Boardroom (xGB)
-		</a>
-		<a href="bibtex.txt" target="_blank" class="btn btn-default" role="button">
-			<span class="glyphicon glyphicon-list"></span> Lobby (xGB)
-		</a>
-		<a href="bibtex.txt" target="_blank" class="btn btn-default" role="button">
-			<span class="glyphicon glyphicon-list"></span> Loft (xGB)
-		</a>
-	</div>
-	<div class="col-lg-6">
-		<h3>RGBD scan</h3>
-		<p>In each scene, we captured a continuous RGB-D video sequence using an Asus Xtion Live camera. The lengths of the sequences range from 11 to 18 minutes. Each sequence thoroughly covers the respective scene. The RGB-D sequences can be used as input to scene reconstruction systems. </p>
-		<a href="bibtex.txt" target="_blank" class="btn btn-default" role="button">
-			<span class="glyphicon glyphicon-list"></span> Apartment (xGB)
-		</a>
-		<a href="bibtex.txt" target="_blank" class="btn btn-default" role="button">
-			<span class="glyphicon glyphicon-list"></span> Bedroom (xGB)
-		</a>
-		<a href="bibtex.txt" target="_blank" class="btn btn-default" role="button">
-			<span class="glyphicon glyphicon-list"></span> Boardroom (xGB)
-		</a>
-		<a href="bibtex.txt" target="_blank" class="btn btn-default" role="button">
-			<span class="glyphicon glyphicon-list"></span> Lobby (xGB)
-		</a>
-		<a href="bibtex.txt" target="_blank" class="btn btn-default" role="button">
-			<span class="glyphicon glyphicon-list"></span> Loft (xGB)
-		</a>
+	<h2>File Format</h2>
+	<div class="col-lg-12">
+		<p>Each <strong>RGB-D Sequence</strong> is packaged in a zip archive that contains consecutive color images stored as JPG and depth images stored as 16-bit PNG, where pixel values represent depth in millimeters. The resolution is 640&times;480, the frame rate is 30Hz. Color images and depth images are synchronized using software trigger. The first part of a file name indicates the synchronized frame number and the second part provides a time stamp in microseconds. The focal length is 525 for both axes and the principal point is (319.5, 239.5). The depth images are registered to the color images.</p>
+		<p><strong>Lidar scan and reconstructed models</strong> are all in <a href="https://en.wikipedia.org/wiki/PLY_(file_format)">PLY file format</a>.</p>
 	</div>
 </div>
 
 
-</div>
+
 <!-- Footer -->
 <footer>
 		<div class="container">
