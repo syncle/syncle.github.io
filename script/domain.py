@@ -1,5 +1,5 @@
 
-DOMAIN = 'https://jaesik.info'
+DOMAIN = 'http://jaesik.info'
 
 def get_domain():
 	return DOMAIN
