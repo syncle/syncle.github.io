@@ -1,5 +1,5 @@
 
-DOMAIN = 'https://syncle.github.io'
+DOMAIN = 'http://jaesik.info'
 
 def get_domain():
 	return DOMAIN
