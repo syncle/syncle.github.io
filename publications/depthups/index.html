@@ -93,6 +93,15 @@
 	<h2>Abstract</h2>
 	<p> In this project, we propose an application framework to perform high quality upsampling and completion on noisy depth maps. Our framework targets a complementary system setup which consists of a depth camera coupled with an RGB camera. Inspired by a recent work that uses a nonlocal structure regularization, we regularize depth maps in order to maintain fine details and structures. We extend this regularization by combining the additional high-resolution RGB input when upsampling a lowresolution depth map together with a weighting scheme that favors structure details. Our technique is also able to repair large holes in a depth map with consideration of structures and discontinuities by utilizing edge information from the RGB input. Quantitative and qualitative results show that our method outperforms existing approaches for depth map upsampling and completion. We describe the complete process for this system, including device calibration, scene warping for input alignment, and even how our framework can be extended for video depthmap completion with consideration of temporal coherence.</p>
 </div>
+
+<div class = "col-lg-8 col-lg-offset-2">
+	<div class = "col-lg-12 alert alert-info">
+		<strong>Note</strong>
+		<p>In the following papers, we state that error measure is root mean square error, but it is not correct. 2 * mean absolute error is the number we had reported. You can find out these number by playing with <a href="file:///Users/jaesikpa/Research/syncle.github.io/publications/depthups/iccv11_dataset.zip">dataset example</a> of ICCV paper.</p>
+		<p> Actually many papers cites our result as mean absolute error,
+		and we appreciate Yuyuan Li for pointing out this mistake to us.</p>
+	</div>
+</div>
 <div class="col-lg-8 col-lg-offset-2">
 	<h2>Publication(s)</h2>
 		<h3>High Quality Depth Map Upsampling and Completion for RGB-D Cameras</h3>
