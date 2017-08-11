@@ -1,7 +1,15 @@
-#see available fields in script/gen_publication_list.py
+﻿#see available fields in script/gen_publication_list.py
 
 item_start
 special_year=2017
+item_end
+
+item_start
+title=Colored Point Cloud Registration Revisited
+author=Jaesik Park, Qian-Yi Zhou, and Vladlen Koltun
+venue=International Conference on Computer Vision (ICCV), 2017
+image=publications/17_iccv.jpg
+web=https://www.tanksandtemples.org/
 item_end
 
 item_start
