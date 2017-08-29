@@ -9,7 +9,9 @@ title=Colored Point Cloud Registration Revisited
 author=Jaesik Park, Qian-Yi Zhou, and Vladlen Koltun
 venue=International Conference on Computer Vision (ICCV), 2017
 image=publications/17_iccv.jpg
-web=https://www.tanksandtemples.org/
+pdf=publications/17_iccv.pdf
+supp=publications/17_iccv_supp.pdf
+web=#
 item_end
 
 item_start

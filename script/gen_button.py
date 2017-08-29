@@ -69,7 +69,8 @@ def get_button_str_all(record):
 	if record.poster != '':
 		button_poster = get_button_str_predefined(record.poster, 'Poster')
 
-	button = button_pdf + button_code + button_data +\
-	 		button_web + button_web_inplace + button_video + button_supp +\
-			button_bibtex + button_executable + button_poster
+	# this combined html script will determine the order of buttons
+	button = button_web + button_web_inplace + \
+			button_pdf + button_supp + button_code + button_data + \
+	 		button_video + button_bibtex + button_executable + button_poster
 	return button
