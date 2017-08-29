@@ -71,6 +71,7 @@ def get_button_str_all(record):
 
 	# this combined html script will determine the order of buttons
 	button = button_web + button_web_inplace + \
-			button_pdf + button_supp + button_code + button_data + \
-	 		button_video + button_bibtex + button_executable + button_poster
+			button_pdf + button_supp + button_poster + \
+			button_video + button_bibtex + \
+			button_code + button_executable + button_data
 	return button
