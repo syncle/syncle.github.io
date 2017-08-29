@@ -14,4 +14,6 @@ venue=The 14th International Conference on Computer Vision (ICCV), 2013
 pdf=ICCV2013.pdf
 poster=ICCV2013poster.pdf
 bibtex=ICCV2013bibtex.txt
+executable=https://www.dropbox.com/s/pdhiexb4jur5tqf/MeshOpt_Executable.zip?dl=1
+data=dataset.txt
 item_end
