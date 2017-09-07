@@ -11,7 +11,7 @@ venue=International Conference on Computer Vision (ICCV), 2017
 image=publications/17_iccv.jpg
 pdf=publications/17_iccv.pdf
 supp=publications/17_iccv_supp.pdf
-web=#
+web=http://redwood-data.org/indoor_lidar_rgbd/
 item_end
 
 item_start
