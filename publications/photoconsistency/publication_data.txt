@@ -5,5 +5,5 @@ venue=CVPR 2016
 pdf=paper.pdf
 supp=supp.pdf
 bibtex=bibtex.txt
-code=code.zip
+code=https://github.com/syncle/photo_consistency
 item_end
