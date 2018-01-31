@@ -32,6 +32,8 @@ def get_button_str_predefined(link, type):
 		return get_button_str(link, 'floppy-disk', 'Executable')
 	elif type == 'Poster':
 		return get_button_str(link, 'blackboard', 'Poster')
+	elif type == 'Tutorial':
+		return get_button_str(link, 'book', 'Tutorial')
 	else:
 		return ''
 
@@ -47,6 +49,7 @@ def get_button_str_all(record):
 	button_bibtex = ''
 	button_executable = ''
 	button_poster = ''
+	button_tutorial = ''
 
 	if record.pdf != '':
 		button_pdf = get_button_str_predefined(record.pdf, 'Paper')
@@ -68,10 +71,12 @@ def get_button_str_all(record):
 		button_executable = get_button_str_predefined(record.executable, 'Executable')
 	if record.poster != '':
 		button_poster = get_button_str_predefined(record.poster, 'Poster')
+	if record.tutorial != '':
+		button_tutorial = get_button_str_predefined(record.tutorial, 'Tutorial')
 
 	# this combined html script will determine the order of buttons
 	button = button_web + button_web_inplace + \
 			button_pdf + button_supp + button_poster + \
 			button_video + button_bibtex + \
-			button_code + button_executable + button_data
+			button_code + button_executable + button_data + button_tutorial
 	return button

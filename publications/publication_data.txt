@@ -5,6 +5,16 @@ special_year=2018
 item_end
 
 item_start
+title=Open3D: A Modern Library For 3D Data Processing
+author=Qian-Yi Zhou, Jaesik Park, and Vladlen Koltun
+venue=arXiv:1801.09847
+image=publications/18_arxiv.jpg
+web=http://www.open3d.org
+code=https://github.com/IntelVCL/Open3D
+tutorial=http://open3d.org/docs
+item_end
+
+item_start
 title=Real-time Head Pose Estimation using Multi-task Deep Neural Network
 author=Byungtae Ahn, Dong-Geol Choi, Jaesik Park, and In So Kweon
 venue=Robotics and Autonomous Systems (<b>RAS</b>), accepted
