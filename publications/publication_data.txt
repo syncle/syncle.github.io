@@ -9,6 +9,7 @@ title=Open3D: A Modern Library For 3D Data Processing
 author=Qian-Yi Zhou, Jaesik Park, and Vladlen Koltun
 venue=arXiv:1801.09847
 image=publications/18_arxiv.jpg
+pdf=http://www.open3d.org/paper.pdf
 web=http://www.open3d.org
 code=https://github.com/IntelVCL/Open3D
 tutorial=http://open3d.org/docs
