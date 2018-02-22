@@ -7,7 +7,7 @@ item_end
 item_start
 title=Open3D: A Modern Library For 3D Data Processing
 author=Qian-Yi Zhou, Jaesik Park, and Vladlen Koltun
-venue=arXiv:1801.09847
+venue=Technical Report, <a href="http://arxiv.org/abs/1801.09847" target="_blank">arXiv:1801.09847</a>, 2018
 image=publications/18_arxiv.jpg
 pdf=http://www.open3d.org/paper.pdf
 web=http://www.open3d.org
@@ -18,14 +18,14 @@ item_end
 item_start
 title=Real-time Head Pose Estimation using Multi-task Deep Neural Network
 author=Byungtae Ahn, Dong-Geol Choi, Jaesik Park, and In So Kweon
-venue=Robotics and Autonomous Systems (<b>RAS</b>), accepted
+venue=Robotics and Autonomous Systems (<b>RAS</b>), 2018
 image=publications/18_ras.jpg
 item_end
 
 item_start
 title=Depth from a Light Field Image with Learning-based Matching Costs
 author=Hae-Gon Jeon, Jaesik Park, Gyeongmin Choe, Jinsun Park, Yunsu Bok, Yu-Wing Tai, and In So Kweon
-venue=IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>), accepted
+venue=IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>), 2018
 image=publications/18_pami.png
 item_end
 
@@ -46,7 +46,7 @@ item_end
 item_start
 title=Tanks and Temples: Benchmarking Large-Scale Scene Reconstruction
 author=Arno Knapitsch, Jaesik Park, Qian-Yi Zhou, and Vladlen Koltun
-venue=ACM Transactions on Graphics (Proc. <b>SIGGRAPH</b>) 2017
+venue=ACM Transactions on Graphics (Proc. <b>SIGGRAPH</b>), 2017
 image=publications/17_siggraph.png
 pdf=publications/17_siggraph.pdf
 web=https://www.tanksandtemples.org/
@@ -55,7 +55,7 @@ item_end
 item_start
 title=Category‐Specific Salient View Selection via Deep Convolutional Neural Networks
 author=Seong‐heum Kim, Yu‐Wing Tai, Joon‐Young Lee, Jaesik Park, and In So Kweon
-venue=Computer Graphics Forum (<b>CGF</b>) 2017
+venue=Computer Graphics Forum (<b>CGF</b>), 2017
 image=publications/17_cgf.png
 web=http://rcv.kaist.ac.kr/v2/bbs/board.php?bo_table=rs_publications&wr_id=547
 item_end
@@ -67,7 +67,7 @@ item_end
 item_start
 title=Robust Multiview Photometric Stereo using Planar Mesh Parameterization
 author=Jaesik Park, Sudipta N. Sinha, Yasuyuki Matsushita, Yu-Wing Tai, and In So Kweon
-venue=IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>) 2016
+venue=IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>), 2016
 image=publications/16_pami.png
 web_inplace=publications/multiviewps/index.html
 item_end
@@ -75,7 +75,7 @@ item_end
 item_start
 title=Fast Global Registration
 author=Qian-Yi Zhou, Jaesik Park, and Vladlen Koltun
-venue=European Conference on Computer Vision (<b>ECCV</b>) 2016
+venue=European Conference on Computer Vision (<b>ECCV</b>), 2016
 comment=(<b>Oral</b> Presentation, 1.8% acceptance rate)
 image=publications/16_eccv.png
 web=http://vladlen.info/publications/fast-global-registration/
@@ -85,7 +85,7 @@ item_end
 item_start
 title=Refining Geometry from Depth Sensors using IR Shading Images
 author=Gyeongmin Choe, Jaesik Park, Yu-Wing Tai, and In So Kweon
-venue=International Journal of Computer Vision (<b>IJCV</b>) 2016
+venue=International Journal of Computer Vision (<b>IJCV</b>), 2016
 image=publications/16_ijcv.png
 pdf=http://rcv.kaist.ac.kr/gmchoe/Project/Kinect_IR_IJCV/Published.pdf
 item_end
@@ -93,7 +93,7 @@ item_end
 item_start
 title=Efficient and Robust Color Consistency for Community Photo Collections
 author=Jaesik Park, Yu-Wing Tai, Sudipta N. Sinha, and In So Kweon
-venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>) 2016
+venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2016
 image=publications/16_cvpr_color.png
 web_inplace=publications/photoconsistency/index.html
 item_end
@@ -101,7 +101,7 @@ item_end
 item_start
 title=High-quality Depth from Uncalibrated Small Motion Clip
 author=Hyowon Ha, Sunghoon Im, Jaesik Park, Hae-Gon Jeon, and In So Kweon
-venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>) 2016
+venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2016
 image=publications/16_cvpr_sm.png
 comment=(<b>Oral</b> Presentation, 3.9% acceptance rate)
 web=https://sites.google.com/site/hyowoncv/ha_cvpr16
@@ -110,7 +110,7 @@ item_end
 item_start
 title=Vision System and Depth Processing for DRC-HUBO+
 author=Inwook Shim, Seunghak Shin, Yunsu Bok, Kyungdon Joo, Dong-Geol Choi, Joon-Young Lee, Jaesik Park, Jun Ho Oh, and In So Kweon
-venue=IEEE International Conference on Robotics and Automation (<b>ICRA</b>) 2016
+venue=IEEE International Conference on Robotics and Automation (<b>ICRA</b>), 2016
 image=publications/16_icra.png
 comment=Depth processing algorithm of Team KAIST (winner of DARPA robotics challenge finals 2015)
 pdf=http://arxiv.org/pdf/1509.06114v2.pdf
@@ -122,7 +122,7 @@ item_end
 item_start
 title=Multi-view Object Extraction with Fractional Boundaries,
 author=Seong-Heum Kim, Yu-Wing Tai, Jaesik Park, and In So Kweon
-venue=IEEE Transaction on Image Processing (<b>TIP</b>) 2016
+venue=IEEE Transaction on Image Processing (<b>TIP</b>), 2016
 image=publications/16_tip.png
 pdf=publications/16_tip.pdf
 bibtex=publications/16_tip.txt
@@ -135,7 +135,7 @@ item_end
 item_start
 title=Dense Depth and Albedo from a Single-shot Structured Light,
 author=Hyowon Ha, Jaesik Park, and In So Kweon
-venue=International Conference on 3D Vision (<b>3DV</b>) 2015
+venue=International Conference on 3D Vision (<b>3DV</b>), 2015
 image=publications/15_3dv.png
 pdf=publications/15_3dv.pdf
 bibtex=publications/15_3dv.txt
@@ -144,7 +144,7 @@ item_end
 item_start
 title=Accurate Depth Map Estimation from a Lenslet Light Field Camera
 author=Hae-Gon Jeon, Jaesik Park, Gyeongmin Choe, Jinsun Park, Yunsu Bok, Yu-Wing Tai, and In So Kweon
-venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>) 2015
+venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2015
 image=publications/15_cvpr_lf.png
 web=https://sites.google.com/site/hgjeoncv/home/depthfromlf_cvpr15
 item_end
@@ -152,7 +152,7 @@ item_end
 item_start
 title=Multi-modal Pedestrian Detection: Benchmark Dataset and Baselines
 author=SoonMin Hwang, Jaesik Park, Namil Kim, Yukyung Choi, and In So Kweon
-venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>) 2015
+venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2015
 image=publications/15_cvpr_pd.png
 web=https://sites.google.com/site/pedestrianbenchmark/
 item_end
@@ -164,7 +164,7 @@ item_end
 item_start
 title=High Quality Depth Map Upsampling and Completion for RGB-D Cameras
 author=Jaesik Park, Hyeongwoo Kim, Yu-Wing Tai, Michael S. Brown and In-So Kweon
-venue=IEEE Transaction on Image Processing (<b>TIP</b>) 2014
+venue=IEEE Transaction on Image Processing (<b>TIP</b>), 2014
 image=publications/14_tip.png
 web_inplace=publications/depthups/index.html
 item_end
@@ -172,7 +172,7 @@ item_end
 item_start
 title=Real-time Head Orientation from a Monocular Camera using Deep Neural Network
 author=Byungtae Ahn, Jaesik Park, and In So Kweon
-venue=Asian Conference on Computer Vision (<b>ACCV</b>) 2014
+venue=Asian Conference on Computer Vision (<b>ACCV</b>), 2014
 image=publications/14_accv.png
 pdf=publications/14_accv.pdf
 bibtex=publications/14_accv.txt
@@ -181,7 +181,7 @@ item_end
 item_start
 title=GMM-based Saliency Aggregation for Calibration-free Gaze Estimation
 author=Jinsoo Choi, Byungtae Ahn, Jaesik Park, In So Kweon
-venue=International Conference on Image Processing (<b>ICIP</b>) 2014
+venue=International Conference on Image Processing (<b>ICIP</b>), 2014
 image=publications/14_icip.png
 pdf=publications/14_icip.pdf
 bibtex=publications/14_icip.txt
@@ -190,7 +190,7 @@ item_end
 item_start
 title=Exploiting Shading Cues in Kinect IR Images for Geometry Refinement
 author=Gyeongmin Choe*, Jaesik Park*, Yu-Wing Tai and In So Kweon
-venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>) 2014
+venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2014
 image=publications/14_cvpr_gm.png
 comment=*Equal contributions. Received 20th HumanTech Paper Award (Silver Prize), Samsung Electronics Corp.
 web=http://rcv.kaist.ac.kr/gmchoe/project/Kinect_IR/
@@ -199,7 +199,7 @@ item_end
 item_start
 title=Calibrating a Non-isotropic Near Point Light Source using a Plane
 author=Jaesik Park, Sudipta N. Sinha, Yasuyuki Matsushita, Yu-Wing Tai and In So Kweon
-venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>) 2014
+venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2014
 image=publications/14_cvpr_cal.png
 web_inplace=publications/lightcalib/index.html
 item_end
@@ -211,7 +211,7 @@ item_end
 item_start
 title=Multiview Photometric Stereo using Planar Mesh Parameterization
 author=Jaesik Park, Sudipta N. Sinha, Yasuyuki Matsushita, Yu-Wing Tai and In So Kweon
-venue=International Conference on Computer Vision (<b>ICCV</b>) 2013
+venue=International Conference on Computer Vision (<b>ICCV</b>), 2013
 image=publications/13_iccv.png
 comment=Received 19th HumanTech Paper Award (Silver Prize), Samsung Electronics Corp.
 web_inplace=publications/multiviewps/index.html
@@ -224,7 +224,7 @@ item_end
 item_start
 title=Tensor Voting Approach for Multi-View 3D Scene-flow Estimation and Refinement
 author=Jaesik Park, Tae Hyun Oh, Jiyoung Jung, Yu-Wing Tai and In So Kweon
-venue=European Conference on Computer Vision (<b>ECCV</b>) 2012
+venue=European Conference on Computer Vision (<b>ECCV</b>), 2012
 image=publications/12_eccv.png
 bibtex=publications/12_eccv.txt
 pdf=publications/12_eccv.pdf
@@ -234,7 +234,7 @@ item_end
 item_start
 title=Modeling Photo Composition and Its Application to Photo Re-arrangement
 author=Jaesik Park, Joon-Young Lee, Yu-Wing Tai and In So Kweon
-venue=International Conference on Image Processing (<b>ICIP</b>) 2012
+venue=International Conference on Image Processing (<b>ICIP</b>), 2012
 image=publications/12_icip.png
 bibtex=publications/12_icip.txt
 pdf=publications/12_icip.pdf
@@ -244,7 +244,7 @@ item_end
 item_start
 title=Identigram/Watermark removal using cross-channel correlation
 author=Jaesik Park, Yu-Wing Tai and In-So Kweon
-venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>) 2012
+venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2012
 image=publications/12_cvpr.png
 web_inplace=publications/identigram/index.html
 item_end
@@ -256,7 +256,7 @@ item_end
 item_start
 title=A Novel 2.5D Pattern for Extrinsic Calibration of ToF and Camera Fusion System
 author=Jiyoung Jung, Yekeun Jeong, Jaesik Park, Hyowon Ha, J. D. Kim and In-So Kweon
-venue=IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>) 2011
+venue=IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>), 2011
 image=publications/11_iros.png
 pdf=publications/11_iros.pdf
 item_end
@@ -264,7 +264,7 @@ item_end
 item_start
 title=High Quality Depth Map Upsampling for 3D-TOF Cameras
 author=Jaesik Park*, Hyeongwoo Kim*, Yu-Wing Tai, Michael S. Brown and In-So Kweon
-venue=International Conference on Computer Vision (<b>ICCV</b>) 2011
+venue=International Conference on Computer Vision (<b>ICCV</b>), 2011
 image=publications/11_iccv.png
 comment=*Equal contributions.
 web_inplace=publications/depthups/index.html
