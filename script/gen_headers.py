@@ -23,6 +23,7 @@ def write_header_html(file, type):
 	header_str = ''
 	if type != 'Index':
 		header_str = \
+			'\n'+\
 			'<!-- Header -->\n'+\
 			'<header>\n'+\
 			'	<div class="container" id="maincontent" tabindex="-1">\n'+\
@@ -38,6 +39,7 @@ def write_header_html(file, type):
 			'\n'
 	if type == 'Publications':
 		header_str = \
+			'\n'+\
 			'<!-- Header -->\n'+\
 			'<header>\n'+\
 			'	<div class="container" id="maincontent" tabindex="-1">\n'+\
@@ -65,6 +67,7 @@ def write_header_html(file, type):
 
 	f = open(file, "w")
 	f.write(
+		'\n'+\
 		'<!-- Navigation -->\n'+
 		'<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">\n'+
 		'	<div class="container">\n'+
@@ -101,5 +104,4 @@ def write_header_html(file, type):
 		'</nav>\n'+
 		'\n'+
 		header_str +
-		'\n'+
-		'<div class="container">\n')
+		'\n')
