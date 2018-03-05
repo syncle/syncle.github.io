@@ -5,6 +5,14 @@ special_year=2018
 item_end
 
 item_start
+title=Tangent Convolutions for Dense Prediction in 3D
+author=Maxim Tatarchenko, Jaesik Park, Vladlen Koltun, and Qian-Yi Zhou
+venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2018
+image=publications/18_cvpr.jpg
+web=http://vladlen.info/publications/tangent-convolutions-dense-prediction-3d/
+item_end
+
+item_start
 title=Open3D: A Modern Library For 3D Data Processing
 author=Qian-Yi Zhou, Jaesik Park, and Vladlen Koltun
 venue=Technical Report, <a href="http://arxiv.org/abs/1801.09847" target="_blank">arXiv:1801.09847</a>, 2018
