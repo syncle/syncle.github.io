@@ -2,10 +2,10 @@ item_start
 title=Calibrating a Non-isotropic Near Point Light Source using a Plane
 author=Jaesik Park, Sudipta N. Sinha, Yasuyuki Matsushita, Yu-Wing Tai, and In So Kweon
 venue=CVPR 2014
-pdf=paper.pdf
-supp=supp.pdf
-bibtex=bibtex.txt
-poster=poster.pdf
+pdf=publications/lightcalib/paper.pdf
+supp=publications/lightcalib/supp.pdf
+bibtex=publications/lightcalib/bibtex.txt
+poster=publications/lightcalib/poster.pdf
 data=https://drive.google.com/open?id=0B2c9Pxb5OdhMUXQ1RWU1UU1kbWM&authuser=0
 comment=(Dataset has raw images used in the experiment. Note that the size of this file is 2.15GB)
 item_end

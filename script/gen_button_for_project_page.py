@@ -2,8 +2,8 @@
 from gen_button import get_button_str_all
 from record import read_record
 
-def append_button_html(path, filename, data):
-	f = open('../' + path + filename, "a")
+def append_button_html(path, data):
+	f = open(path, "a")
 	f.write(# Buttons
 			'<div class="col-lg-8 col-lg-offset-2">\n'+
 			'	<h2>Publication(s)</h2>\n')
@@ -15,7 +15,7 @@ def append_button_html(path, filename, data):
 				'		%s<br>\n' % data_iter.venue +
 				'		%s</p>\n' % data_iter.comment +
 				# Buttons
-				get_button_str_all(data_iter, path) +
+				get_button_str_all(data_iter) +
 				# Some stupid spacing
 				'		<p><br></p>\n')
 	f.write('</div>\n\n')

@@ -32,11 +32,12 @@ def check_url(link):
 		except urllib2.HTTPError:
 			print('Warning:: broken link %s' % link)
 
-def check_link(path, link):
+def check_link(link):
+	# print("checking %s" % link)
 	if is_absolute(link):
 		check_url(link)
 	else:
 		root_folder = os.path.dirname(os.getcwd())
-		abs_path = os.path.join(root_folder, path + link)
+		abs_path = os.path.join(root_folder, link)
 		if os.path.exists(abs_path) == False:
 			print('Warning:: broken link %s' % abs_path)
