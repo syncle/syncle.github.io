@@ -29,6 +29,7 @@ title=Real-time Head Pose Estimation using Multi-task Deep Neural Network
 author=Byungtae Ahn, Dong-Geol Choi, Jaesik Park, and In So Kweon
 venue=Robotics and Autonomous Systems (<b>RAS</b>), 2018
 image=publications/data/18_ras.jpg
+pdf=https://www.sciencedirect.com/science/article/pii/S0921889017303524
 item_end
 
 item_start
@@ -36,6 +37,7 @@ title=Depth from a Light Field Image with Learning-based Matching Costs
 author=Hae-Gon Jeon, Jaesik Park, Gyeongmin Choe, Jinsun Park, Yunsu Bok, Yu-Wing Tai, and In So Kweon
 venue=IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>), 2018
 image=publications/data/18_pami.jpg
+pdf=http://ieeexplore.ieee.org/document/8263242/
 item_end
 
 item_start
@@ -96,7 +98,7 @@ title=Refining Geometry from Depth Sensors using IR Shading Images
 author=Gyeongmin Choe, Jaesik Park, Yu-Wing Tai, and In So Kweon
 venue=International Journal of Computer Vision (<b>IJCV</b>), 2016
 image=publications/data/16_ijcv.jpg
-pdf=http://rcv.kaist.ac.kr/gmchoe/Project/Kinect_IR_IJCV/Published.pdf
+pdf=https://drive.google.com/file/d/1LsgtzkOt-z8W6iX8tHHV8H_XTqTOg-_q/view
 item_end
 
 item_start
@@ -202,7 +204,7 @@ author=Gyeongmin Choe*, Jaesik Park*, Yu-Wing Tai and In So Kweon
 venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2014
 image=publications/data/14_cvpr_gm.jpg
 comment=*Equal contributions. Received 20th HumanTech Paper Award (Silver Prize), Samsung Electronics Corp.
-web=http://rcv.kaist.ac.kr/gmchoe/project/Kinect_IR/
+web=https://sites.google.com/site/gmchoe1/kinir
 item_end
 
 item_start
