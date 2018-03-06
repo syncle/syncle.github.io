@@ -1,12 +1,15 @@
 
 import record
+from check_link import check_url
 
 def get_button_str_inplace(link, glyphicon, text):
+	check_url(link)
 	return 	'		<a href="%s" class="btn btn-default" role="button">\n' % link + \
 			'			<span class="glyphicon glyphicon-%s"></span>' % glyphicon + ' %s\n' % text + \
 			'		</a>\n'
 
 def get_button_str(link, glyphicon, text):
+	check_url(link)
 	return 	'		<a href="%s" target="_blank" class="btn btn-default" role="button">\n' % link + \
 			'			<span class="glyphicon glyphicon-%s"></span>' % glyphicon + ' %s\n' % text + \
 			'		</a>\n'
