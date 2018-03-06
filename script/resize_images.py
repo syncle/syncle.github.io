@@ -2,8 +2,71 @@ import cv2
 import os
 import numpy as np
 
+def resize_and_pad(img, size, padColor=255):
+	h, w = img.shape[:2]
+	sh, sw = size
+
+	# interpolation method
+	if h > sh or w > sw: # shrinking image
+		interp = cv2.INTER_AREA
+	else: # stretching image
+		interp = cv2.INTER_CUBIC
+
+	# compute scaling
+	if w > sw and h > sh:
+		if w/sw > h/sh:
+			s = w/sw
+			new_h = np.round(h/s).astype(int)
+			scaled_img = cv2.resize(img, (sw, new_h), interpolation=interp)
+		else:
+			s = h/sh
+			new_w = np.round(w/s).astype(int)
+			scaled_img = cv2.resize(img, (new_w, sh), interpolation=interp)
+	elif w > sw:
+		s = w/sw
+		new_h = np.round(h/s).astype(int)
+		scaled_img = cv2.resize(img, (sw, new_h), interpolation=interp)
+	elif h > sh:
+		s = h/sh
+		new_w = np.round(w/s).astype(int)
+		scaled_img = cv2.resize(img, (new_w, sh), interpolation=interp)
+	else:
+		scaled_img = img
+
+	# padding
+	h, w = scaled_img.shape[:2]
+	aspect = w/h
+	aspect_desired = sw/sh
+	if aspect >= aspect_desired:
+		print("image is wider than desired shape. Adding vertical padding")
+		new_w = w
+		new_h = np.round(new_w/aspect_desired).astype(int)
+		pad_vert = (new_h-h)/2
+		pad_top, pad_bot = np.floor(pad_vert).astype(int), np.ceil(pad_vert).astype(int)
+		pad_left, pad_right = 0, 0
+	elif aspect < aspect_desired:
+		print("image is taller than desired shape. Adding horizontal padding")
+		new_h = h
+		new_w = np.round(new_h*aspect_desired).astype(int)
+		pad_horz = (new_w-w)/2
+		pad_left, pad_right = np.floor(pad_horz).astype(int), np.ceil(pad_horz).astype(int)
+		pad_top, pad_bot = 0, 0
+
+	# set pad color
+	if len(img.shape) is 3 and not isinstance(padColor, (list, tuple, np.ndarray)): # color image but only one color provided
+		padColor = [padColor]*3
+
+	if pad_top < 0 or pad_bot < 0 or pad_left < 0 or pad_right < 0:
+		scaled_img = scaled_img[-pad_top:new_h+pad_bot, -pad_left:new_w+pad_right,:]
+	else:
+		scaled_img = cv2.copyMakeBorder(
+				scaled_img, pad_top, pad_bot, pad_left, pad_right,
+				borderType=cv2.BORDER_CONSTANT, value=padColor)
+
+	return scaled_img
+
 # reference: https://stackoverflow.com/questions/44720580/resize-image-canvas-to-maintain-square-aspect-ratio-in-python-opencv
-def resizeAndPad(img, size, padColor=1):
+def resize_and_crop(img, size, padColor=255):
 	h, w = img.shape[:2]
 	sh, sw = size
 
@@ -38,6 +101,8 @@ def resizeAndPad(img, size, padColor=1):
 		padColor = [padColor]*3
 
 	# scale and pad
+	print("orig size : %d, %d" % (w, h))
+	print("new size : %d, %d" % (new_w, new_h))
 	scaled_img = cv2.resize(img, (new_w, new_h), interpolation=interp)
 	if pad_top < 0 or pad_bot < 0 or pad_left < 0 or pad_right < 0:
 		scaled_img = scaled_img[-pad_top:new_h+pad_bot, -pad_left:new_w+pad_right,:]
@@ -52,8 +117,9 @@ if __name__ == "__main__":
 	for file in os.listdir("../publications/data/"):
 		if file.endswith(".png") or file.endswith(".jpg"):
 			file_path = os.path.join("../publications/data/", file)
-			file_name = os.path.basename(file)
+			file_name = os.path.splitext(os.path.basename(file))[0]
+			print("processing %s" % file_name)
 			img = cv2.imread(file_path)
-			img_scale = resizeAndPad(img, [200,500], padColor=1)
+			img_scale = resize_and_pad(img, [400,750], padColor=255)
 			# os.remove(file_path)
-			cv2.imwrite("../publications/data/" + file_name + '_crop.jpg', img_scale)
+			cv2.imwrite("../publications/data/" + file_name + '.jpg', img_scale)
