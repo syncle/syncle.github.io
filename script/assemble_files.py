@@ -25,7 +25,7 @@ def gen_project_page(path, title):
 	include_file(path + '/index.html', path + '/content_header.html')
 	include_file(path + '/index.html', path + '/content_index.html')
 	record = read_record(path + '/publication_data.txt')
-	print(record[0])
+	#print(record[0])
 	append_button_html(path + '/index.html', record)
 	#include_file(path + '/index.html', '../source/publications_footer.html')
 	include_file(path + '/index.html', path_footer)

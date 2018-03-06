@@ -38,14 +38,14 @@ def resize_and_pad(img, size, padColor=255):
 	aspect = w/h
 	aspect_desired = sw/sh
 	if aspect >= aspect_desired:
-		print("image is wider than desired shape. Adding vertical padding")
+		#print("image is wider than desired shape. Adding vertical padding")
 		new_w = w
 		new_h = np.round(new_w/aspect_desired).astype(int)
 		pad_vert = (new_h-h)/2
 		pad_top, pad_bot = np.floor(pad_vert).astype(int), np.ceil(pad_vert).astype(int)
 		pad_left, pad_right = 0, 0
 	elif aspect < aspect_desired:
-		print("image is taller than desired shape. Adding horizontal padding")
+		#print("image is taller than desired shape. Adding horizontal padding")
 		new_h = h
 		new_w = np.round(new_h*aspect_desired).astype(int)
 		pad_horz = (new_w-w)/2
@@ -101,8 +101,8 @@ def resize_and_crop(img, size, padColor=255):
 		padColor = [padColor]*3
 
 	# scale and pad
-	print("orig size : %d, %d" % (w, h))
-	print("new size : %d, %d" % (new_w, new_h))
+	#print("orig size : %d, %d" % (w, h))
+	#print("new size : %d, %d" % (new_w, new_h))
 	scaled_img = cv2.resize(img, (new_w, new_h), interpolation=interp)
 	if pad_top < 0 or pad_bot < 0 or pad_left < 0 or pad_right < 0:
 		scaled_img = scaled_img[-pad_top:new_h+pad_bot, -pad_left:new_w+pad_right,:]
@@ -118,7 +118,7 @@ if __name__ == "__main__":
 		if file.endswith(".png") or file.endswith(".jpg"):
 			file_path = os.path.join("../publications/data/raw_images/", file)
 			file_name = os.path.splitext(os.path.basename(file))[0]
-			print("processing %s" % file_name)
+			#print("processing %s" % file_name)
 			img = cv2.imread(file_path)
 			img_scale = resize_and_pad(img, [400,750], padColor=255)
 			# os.remove(file_path)
