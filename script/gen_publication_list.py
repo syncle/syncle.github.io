@@ -14,10 +14,10 @@ def write_html(file, data):
 					'</div>\n\n')
 		else:
 			button = get_button_str_all(data_iter)
-			f.write('<div class="row">\n'+
+			f.write('<div class="row" style="height:200px">\n'+
 					# Image
 					'	<div class="col-lg-4 col-lg-offset-1">\n'+
-					'		<img src="%s" style="max-height:170px" class="img-responsive center-block">\n' % data_iter.image +
+					'		<img src="%s" style="max-height:170px" class="img-responsive center-block img-thumbnail">\n' % data_iter.image +
 					'	</div>\n'+
 					# Paper information
 					'	<div class="col-lg-7">\n'+
