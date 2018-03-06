@@ -114,9 +114,9 @@ def resize_and_crop(img, size, padColor=255):
 	return scaled_img
 
 if __name__ == "__main__":
-	for file in os.listdir("../publications/data/"):
+	for file in os.listdir("../publications/data/raw_images/"):
 		if file.endswith(".png") or file.endswith(".jpg"):
-			file_path = os.path.join("../publications/data/", file)
+			file_path = os.path.join("../publications/data/raw_images/", file)
 			file_name = os.path.splitext(os.path.basename(file))[0]
 			print("processing %s" % file_name)
 			img = cv2.imread(file_path)
