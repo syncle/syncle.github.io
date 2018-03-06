@@ -1,20 +1,23 @@
 
 import record
-from check_link import check_url
+
+CHECK_LINK = True
+if CHECK_LINK:
+	from check_link import check_link
 
 def get_button_str_inplace(link, glyphicon, text):
-	check_url(link)
 	return 	'		<a href="%s" class="btn btn-default" role="button">\n' % link + \
 			'			<span class="glyphicon glyphicon-%s"></span>' % glyphicon + ' %s\n' % text + \
 			'		</a>\n'
 
 def get_button_str(link, glyphicon, text):
-	check_url(link)
 	return 	'		<a href="%s" target="_blank" class="btn btn-default" role="button">\n' % link + \
 			'			<span class="glyphicon glyphicon-%s"></span>' % glyphicon + ' %s\n' % text + \
 			'		</a>\n'
 
-def get_button_str_predefined(link, type):
+def get_button_str_predefined(link, type, button_path):
+	if CHECK_LINK:
+		check_link(button_path, link)
 	if type == 'Paper':
 		return get_button_str(link, 'file', 'Paper')
 	elif type == 'Code':
@@ -40,7 +43,7 @@ def get_button_str_predefined(link, type):
 	else:
 		return ''
 
-def get_button_str_all(record):
+def get_button_str_all(record, button_path=""):
 
 	button_pdf = ''
 	button_code = ''
@@ -55,27 +58,27 @@ def get_button_str_all(record):
 	button_tutorial = ''
 
 	if record.pdf != '':
-		button_pdf = get_button_str_predefined(record.pdf, 'Paper')
+		button_pdf = get_button_str_predefined(record.pdf, 'Paper', button_path)
 	if record.code != '':
-		button_code = get_button_str_predefined(record.code, 'Code')
+		button_code = get_button_str_predefined(record.code, 'Code', button_path)
 	if record.data != '':
-		button_data = get_button_str_predefined(record.data, 'Data')
+		button_data = get_button_str_predefined(record.data, 'Data', button_path)
 	if record.web != '':
-		button_web = get_button_str_predefined(record.web, 'Project Page')
+		button_web = get_button_str_predefined(record.web, 'Project Page', button_path)
 	if record.web_inplace != '':
-		button_web_inplace = get_button_str_predefined(record.web_inplace, 'Project Page Inplace')
+		button_web_inplace = get_button_str_predefined(record.web_inplace, 'Project Page Inplace', button_path)
 	if record.video != '':
-		button_video = get_button_str_predefined(record.video, 'Video')
+		button_video = get_button_str_predefined(record.video, 'Video', button_path)
 	if record.supp != '':
-		button_supp = get_button_str_predefined(record.supp, 'Supplementary')
+		button_supp = get_button_str_predefined(record.supp, 'Supplementary', button_path)
 	if record.bibtex != '':
-		button_bibtex = get_button_str_predefined(record.bibtex, 'Bibtex')
+		button_bibtex = get_button_str_predefined(record.bibtex, 'Bibtex', button_path)
 	if record.executable != '':
-		button_executable = get_button_str_predefined(record.executable, 'Executable')
+		button_executable = get_button_str_predefined(record.executable, 'Executable', button_path)
 	if record.poster != '':
-		button_poster = get_button_str_predefined(record.poster, 'Poster')
+		button_poster = get_button_str_predefined(record.poster, 'Poster', button_path)
 	if record.tutorial != '':
-		button_tutorial = get_button_str_predefined(record.tutorial, 'Tutorial')
+		button_tutorial = get_button_str_predefined(record.tutorial, 'Tutorial', button_path)
 
 	# this combined html script will determine the order of buttons
 	button = button_web + button_web_inplace + \

@@ -17,23 +17,26 @@ def is_absolute(url):
 
 def check_url(link):
 	# only retrieve HEAD to save time.
+	if pversion == 3:
+		try:
+			request = urllib.request.Request(link)
+			request.get_method = lambda: 'HEAD'
+			urllib.request.urlopen(request)
+		except urllib.request.HTTPError:
+			print('Warning:: broken link %s' % link)
+	elif pversion == 2:
+		try:
+			request = urllib2.Request(link)
+			request.get_method = lambda: 'HEAD'
+			urllib2.urlopen(request)
+		except urllib2.HTTPError:
+			print('Warning:: broken link %s' % link)
+
+def check_link(path, link):
 	if is_absolute(link):
-		if pversion == 3:
-			try:
-				request = urllib.request.Request(link)
-				request.get_method = lambda: 'HEAD'
-				urllib.request.urlopen(request)
-			except urllib.request.HTTPError:
-				print('Warning:: broken link %s' % link)
-		elif pversion == 2:
-			try:
-				request = urllib2.Request(link)
-				request.get_method = lambda: 'HEAD'
-				urllib2.urlopen(request)
-			except urllib2.HTTPError:
-				print('Warning:: broken link %s' % link)
+		check_url(link)
 	else:
 		root_folder = os.path.dirname(os.getcwd())
-		abs_path = os.path.join(root_folder, link)
+		abs_path = os.path.join(root_folder, path + link)
 		if os.path.exists(abs_path) == False:
 			print('Warning:: broken link %s' % abs_path)

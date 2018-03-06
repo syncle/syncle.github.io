@@ -19,16 +19,16 @@ def include_file(output_file, include_file):
 	copy.close()
 
 def gen_project_page(path, title):
-	clear_file(path + '/index.html')
-	include_file(path + '/index.html', path_header)
-	write_header_html(path + '/header.html', title)
-	include_file(path + '/index.html', path + '/content_header.html')
-	include_file(path + '/index.html', path + '/content_index.html')
-	record = read_record(path + '/publication_data.txt')
+	clear_file('../' + path + 'index.html')
+	include_file('../' + path + 'index.html', path_header)
+	write_header_html('../' + path + 'header.html', title)
+	include_file('../' + path + 'index.html', '../' + path + 'content_header.html')
+	include_file('../' + path + 'index.html', '../' + path + 'content_index.html')
+	record = read_record('../' + path + 'publication_data.txt')
 	#print(record[0])
-	append_button_html(path + '/index.html', record)
+	append_button_html(path, 'index.html', record)
 	#include_file(path + '/index.html', '../source/publications_footer.html')
-	include_file(path + '/index.html', path_footer)
+	include_file('../' + path + 'index.html', path_footer)
 
 def gen_page(page, type):
 	clear_file('../%s.html' % page)
@@ -49,8 +49,8 @@ if __name__ == "__main__":
 
 	# publications
 	gen_page('publications', 'Publications')
-	gen_project_page('../publications/identigram', 'Identigram/Watermark Removal')
-	gen_project_page('../publications/lightcalib', 'Calibrating a Non-isotropic Near Point Light Source')
-	gen_project_page('../publications/photoconsistency', 'Color Consistency for Community Photo Collections')
-	gen_project_page('../publications/depthups', 'High Quality Depth Map Upsampling')
-	gen_project_page('../publications/multiviewps', 'Multiview Photometric Stereo')
+	gen_project_page('publications/identigram/', 'Identigram/Watermark Removal')
+	gen_project_page('publications/lightcalib/', 'Calibrating a Non-isotropic Near Point Light Source')
+	gen_project_page('publications/photoconsistency/', 'Color Consistency for Community Photo Collections')
+	gen_project_page('publications/depthups/', 'High Quality Depth Map Upsampling')
+	gen_project_page('publications/multiviewps/', 'Multiview Photometric Stereo')
