@@ -13,7 +13,7 @@ def write_html(file, data):
 			f.write('<div class="container">\n'+
 					'<div class="row">\n'+
 					'	<div class="col-lg-12 text-left">\n'+
-					'		<h2 class="name">%s</h2>\n' % data_iter.special_year+
+					'		<h2 class="name">%s</h2>\n' % data_iter.special_year +
 					'	</div>\n'+
 					'</div>\n'+
 					'</div>\n\n')
