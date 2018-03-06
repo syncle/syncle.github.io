@@ -129,7 +129,7 @@ data=https://sites.google.com/site/kaistdrcdata/
 item_end
 
 item_start
-title=Multi-view Object Extraction with Fractional Boundaries,
+title=Multi-view Object Extraction with Fractional Boundaries
 author=Seong-Heum Kim, Yu-Wing Tai, Jaesik Park, and In So Kweon
 venue=IEEE Transaction on Image Processing (<b>TIP</b>), 2016
 image=publications/data/16_tip.jpg
@@ -142,7 +142,7 @@ special_year=2015
 item_end
 
 item_start
-title=Dense Depth and Albedo from a Single-shot Structured Light,
+title=Dense Depth and Albedo from a Single-shot Structured Light
 author=Hyowon Ha, Jaesik Park, and In So Kweon
 venue=International Conference on 3D Vision (<b>3DV</b>), 2015
 image=publications/data/15_3dv.jpg
