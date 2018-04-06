@@ -10,6 +10,8 @@ author=Maxim Tatarchenko*, Jaesik Park*, Vladlen Koltun, and Qian-Yi Zhou
 venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2018
 image=publications/data/18_cvpr.jpg
 web=http://vladlen.info/publications/tangent-convolutions-dense-prediction-3d/
+pdf=publications/data/18_cvpr.pdf
+supp=#
 comment=(*Equal contributions. <b>Spotlight</b> Presentation)
 item_end
 
