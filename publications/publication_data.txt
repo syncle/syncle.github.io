@@ -12,7 +12,7 @@ image=publications/data/18_cvpr.jpg
 web=http://vladlen.info/publications/tangent-convolutions-dense-prediction-3d/
 pdf=publications/data/18_cvpr.pdf
 supp=#
-comment=(*Equal contributions. <b>Spotlight</b> Presentation)
+comment=(*Equal contributions. <b>Spotlight Oral</b> Presentation)
 item_end
 
 item_start
