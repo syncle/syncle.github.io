@@ -1,7 +1,41 @@
-﻿#see available fields in script/gen_publication_list.py
+﻿#see available fields in script/gen_publation_list.py
+
+item_start
+special_year=2019
+item_end
+
+item_start
+title=Fully Convolutional Geometric Features
+author=Christopher Choy, Jaesik Park, Vladlen Koltun
+venue=International Conference on Computer Vision (<b>ICCV</b>), 2019
+image=publications/data/19_iccv.jpg
+item_end
+
+item_start
+title=GPU Accelerated Robust Scene Reconstruction
+author=Wei Dong, Jaesik Park, Yi Yang, Michael Kaess
+venue=IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>), 2019
+image=publications/data/19_iros.jpg
+item_end
+
+item_start
+title=Depth from a Light Field Image with Learning-based Matching Costs
+author=Hae-Gon Jeon, Jaesik Park, Gyeongmin Choe, Jinsun Park, Yunsu Bok, Yu-Wing Tai, and In So Kweon
+venue=IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>), 2019
+image=publications/data/18_pami.jpg
+pdf=http://ieeexplore.ieee.org/document/8263242/
+item_end
 
 item_start
 special_year=2018
+item_end
+
+item_start
+title=HUMBI 1.0: HUman Multiview Behavioral Imaging Dataset
+author=Zhixuan Yu, Jae Shin Yoon, Prashanth Venkatesh, Jaesik Park, Jihun Yu, Hyun Soo Park
+venue=Technical Report, arXiv:1812.00281, 2018
+image=publications/data/18_arxiv2.jpg
+pdf=https://arxiv.org/abs/1812.00281
 item_end
 
 item_start
@@ -32,14 +66,6 @@ author=Byungtae Ahn, Dong-Geol Choi, Jaesik Park, and In So Kweon
 venue=Robotics and Autonomous Systems (<b>RAS</b>), 2018
 image=publications/data/18_ras.jpg
 pdf=https://www.sciencedirect.com/science/article/pii/S0921889017303524
-item_end
-
-item_start
-title=Depth from a Light Field Image with Learning-based Matching Costs
-author=Hae-Gon Jeon, Jaesik Park, Gyeongmin Choe, Jinsun Park, Yunsu Bok, Yu-Wing Tai, and In So Kweon
-venue=IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>), 2018
-image=publications/data/18_pami.jpg
-pdf=http://ieeexplore.ieee.org/document/8263242/
 item_end
 
 item_start
@@ -159,7 +185,8 @@ title=Accurate Depth Map Estimation from a Lenslet Light Field Camera
 author=Hae-Gon Jeon, Jaesik Park, Gyeongmin Choe, Jinsun Park, Yunsu Bok, Yu-Wing Tai, and In So Kweon
 venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2015
 image=publications/data/15_cvpr_lf.jpg
-web=https://sites.google.com/site/hgjeoncv/home/depthfromlf_cvpr15
+pdf=https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Jeon_Accurate_Depth_Map_2015_CVPR_paper.pdf
+code=https://drive.google.com/open?id=0B2553ggh3QTcS01zU0RjOG5FTjQ
 item_end
 
 item_start
