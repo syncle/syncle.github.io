@@ -9,6 +9,7 @@ title=Fully Convolutional Geometric Features
 author=Christopher Choy, Jaesik Park, Vladlen Koltun
 venue=International Conference on Computer Vision (<b>ICCV</b>), 2019
 image=publications/data/19_iccv.jpg
+pdf=publications/data/19_iccv.pdf
 item_end
 
 item_start
