@@ -6,10 +6,11 @@ item_end
 
 item_start
 title=Fully Convolutional Geometric Features
-author=Christopher Choy, Jaesik Park, Vladlen Koltun
+author=Christopher Choy*, Jaesik Park*, Vladlen Koltun
 venue=International Conference on Computer Vision (<b>ICCV</b>), 2019
 image=publications/data/19_iccv.jpg
 pdf=publications/data/19_iccv.pdf
+comment=(*Equal contributions)
 item_end
 
 item_start
@@ -46,7 +47,6 @@ venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2018
 image=publications/data/18_cvpr.jpg
 web=http://vladlen.info/publications/tangent-convolutions-dense-prediction-3d/
 pdf=publications/data/18_cvpr.pdf
-supp=#
 comment=(*Equal contributions. <b>Spotlight Oral</b> Presentation)
 item_end
 
