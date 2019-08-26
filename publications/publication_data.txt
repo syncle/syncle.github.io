@@ -6,7 +6,7 @@ item_end
 
 item_start
 title=Fully Convolutional Geometric Features
-author=Christopher Choy*, Jaesik Park*, Vladlen Koltun
+author=Christopher Choy*, Jaesik Park*, and Vladlen Koltun
 venue=International Conference on Computer Vision (<b>ICCV</b>), 2019
 image=publications/data/19_iccv.jpg
 pdf=publications/data/19_iccv.pdf
@@ -14,8 +14,15 @@ comment=(*Equal contributions)
 item_end
 
 item_start
+title=Global Texture Mapping for Dynamic Objects
+author=Jungeon Kim, Hyomin Kim, Jaesik Park, and Seungyong Lee
+venue=Pacific Graphics (<b>PG</b>), 2019
+image=publications/data/19_pg.jpg
+item_end
+
+item_start
 title=GPU Accelerated Robust Scene Reconstruction
-author=Wei Dong, Jaesik Park, Yi Yang, Michael Kaess
+author=Wei Dong, Jaesik Park, Yi Yang, and Michael Kaess
 venue=IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>), 2019
 image=publications/data/19_iros.jpg
 item_end
@@ -34,7 +41,7 @@ item_end
 
 item_start
 title=HUMBI 1.0: HUman Multiview Behavioral Imaging Dataset
-author=Zhixuan Yu, Jae Shin Yoon, Prashanth Venkatesh, Jaesik Park, Jihun Yu, Hyun Soo Park
+author=Zhixuan Yu, Jae Shin Yoon, Prashanth Venkatesh, Jaesik Park, Jihun Yu, and Hyun Soo Park
 venue=Technical Report, arXiv:1812.00281, 2018
 image=publications/data/18_arxiv2.jpg
 pdf=https://arxiv.org/abs/1812.00281
