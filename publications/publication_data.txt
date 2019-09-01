@@ -55,6 +55,7 @@ image=publications/data/18_cvpr.jpg
 web=http://vladlen.info/publications/tangent-convolutions-dense-prediction-3d/
 pdf=publications/data/18_cvpr.pdf
 comment=(*Equal contributions. <b>Spotlight Oral</b> Presentation)
+code=https://github.com/tatarchm/tangent_conv
 item_end
 
 item_start
@@ -88,6 +89,8 @@ image=publications/data/17_iccv.jpg
 pdf=publications/data/17_iccv.pdf
 supp=publications/data/17_iccv_supp.pdf
 web=http://redwood-data.org/indoor_lidar_rgbd/
+data=http://redwood-data.org/indoor_lidar_rgbd/download.html
+code=http://redwood-data.org/indoor_lidar_rgbd/code.html
 item_end
 
 item_start
@@ -98,6 +101,7 @@ image=publications/data/17_siggraph.jpg
 pdf=publications/data/17_siggraph.pdf
 web=https://www.tanksandtemples.org/
 code=https://github.com/intel-isl/TanksAndTemples
+data=https://www.tanksandtemples.org/download/
 item_end
 
 item_start
