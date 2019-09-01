@@ -97,6 +97,7 @@ venue=ACM Transactions on Graphics (Proc. <b>SIGGRAPH</b>), 2017
 image=publications/data/17_siggraph.jpg
 pdf=publications/data/17_siggraph.pdf
 web=https://www.tanksandtemples.org/
+code=https://github.com/intel-isl/TanksAndTemples
 item_end
 
 item_start
@@ -143,6 +144,7 @@ author=Jaesik Park, Yu-Wing Tai, Sudipta N. Sinha, and In So Kweon
 venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2016
 image=publications/data/16_cvpr_color.jpg
 web_inplace=publications/photoconsistency/index.html
+code=https://github.com/syncle/photo_consistency
 item_end
 
 item_start
@@ -152,6 +154,7 @@ venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2016
 image=publications/data/16_cvpr_sm.jpg
 comment=(<b>Oral</b> Presentation, 3.9% acceptance rate)
 web=https://sites.google.com/site/hyowoncv/ha_cvpr16
+code=https://github.com/hyowonha/DfUSMC
 item_end
 
 item_start

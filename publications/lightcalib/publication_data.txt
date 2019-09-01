@@ -6,6 +6,6 @@ pdf=publications/lightcalib/paper.pdf
 supp=publications/lightcalib/supp.pdf
 bibtex=publications/lightcalib/bibtex.txt
 poster=publications/lightcalib/poster.pdf
-data=https://drive.google.com/open?id=0B2c9Pxb5OdhMUXQ1RWU1UU1kbWM&authuser=0
+data=https://postechackr-my.sharepoint.com/:u:/g/personal/jaesik_postech_ac_kr/Ebnodir1zzhJgiQupYkhyuQBsCLfAkNNKZPqx3eS-ihw5w?e=evJ2I5
 comment=(Dataset has raw images used in the experiment. Note that the size of this file is 2.15GB)
 item_end
