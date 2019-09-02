@@ -10,7 +10,7 @@ author=Christopher Choy*, Jaesik Park*, and Vladlen Koltun
 venue=International Conference on Computer Vision (<b>ICCV</b>), 2019
 image=publications/data/19_iccv.jpg
 pdf=publications/data/19_iccv.pdf
-comment=(*Equal contributions)
+comment=(*Equal contribution)
 item_end
 
 item_start
@@ -54,7 +54,7 @@ venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2018
 image=publications/data/18_cvpr.jpg
 web=http://vladlen.info/publications/tangent-convolutions-dense-prediction-3d/
 pdf=publications/data/18_cvpr.pdf
-comment=(*Equal contributions. <b>Spotlight Oral</b> Presentation)
+comment=(*Equal contribution. <b>Spotlight Oral</b> Presentation)
 code=https://github.com/tatarchm/tangent_conv
 item_end
 
@@ -105,8 +105,8 @@ data=https://www.tanksandtemples.org/download/
 item_end
 
 item_start
-title=Category‐Specific Salient View Selection via Deep Convolutional Neural Networks
-author=Seong‐heum Kim, Yu‐Wing Tai, Joon‐Young Lee, Jaesik Park, and In So Kweon
+title=Category Specific Salient View Selection via Deep Convolutional Neural Networks
+author=Seong heum Kim, Yu Wing Tai, Joon Young Lee, Jaesik Park, and In So Kweon
 venue=Computer Graphics Forum (<b>CGF</b>), 2017
 image=publications/data/17_cgf.jpg
 web=http://rcv.kaist.ac.kr/v2/bbs/board.php?bo_table=rs_publications&wr_id=547
@@ -321,6 +321,6 @@ title=High Quality Depth Map Upsampling for 3D-TOF Cameras
 author=Jaesik Park*, Hyeongwoo Kim*, Yu-Wing Tai, Michael S. Brown and In-So Kweon
 venue=International Conference on Computer Vision (<b>ICCV</b>), 2011
 image=publications/data/11_iccv.jpg
-comment=*Equal contributions.
+comment=*Equal contributions
 web_inplace=publications/depthups/index.html
 item_end
