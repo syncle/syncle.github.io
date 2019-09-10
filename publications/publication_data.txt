@@ -25,6 +25,7 @@ title=GPU Accelerated Robust Scene Reconstruction
 author=Wei Dong, Jaesik Park, Yi Yang, and Michael Kaess
 venue=IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>), 2019
 image=publications/data/19_iros.jpg
+pdf=http://dongwei.info/publications/open3d-gpu.pdf
 item_end
 
 item_start
