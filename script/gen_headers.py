@@ -7,12 +7,15 @@ def write_header_html(file, type):
 	active_publications = ''
 	active_academic_activities = ''
 	active_contact = ''
+	active_lab = ''
 	if type == 'About me':
 		active_about_me = 'class="active"'
 	elif type == 'Publications':
 		active_publications = 'class="active"'
 	elif type == 'Academic activities':
 		active_academic_activities = 'class="active"'
+	elif type == '@POSTECH':
+		active_lab = 'class="active"'
 	elif type == 'Contact':
 		active_contact = 'class="active"'
 	elif type == "Index":
@@ -87,11 +90,14 @@ def write_header_html(file, type):
 		'				<li %s>\n' % active_about_me +
 		'					<a href="%s/about_me.html">About me</a>\n' % get_domain()+
 		'				</li>\n'+
+		'				<li %s>\n' % active_academic_activities +
+		'					<a href="%s/academic_activities.html">Academic activities</a>\n' % get_domain()+
+		'				</li>\n'+
 		'				<li %s>\n' % active_publications +
 		'					<a href="%s/publications.html">Publications</a>\n' % get_domain()+
 		'				</li>\n'+
-		'				<li %s>\n' % active_academic_activities +
-		'					<a href="%s/academic_activities.html">Academic activities</a>\n' % get_domain()+
+		'				<li %s>\n' % active_lab +
+		'					<a href="%s/lab.html">@POSTECH</a>\n' % get_domain()+
 		'				</li>\n'+
 		'				<li %s>\n' % active_contact +
 		'					<a href="%s/contact.html">Contact</a>\n' % get_domain()+
