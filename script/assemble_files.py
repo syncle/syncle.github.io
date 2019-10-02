@@ -45,7 +45,6 @@ if __name__ == "__main__":
 	gen_page('index', 'Index')
 	gen_page('about_me', 'About me')
 	gen_page('academic_activities', 'Academic activities')
-	gen_page('contact', 'Contact')
 
 	# publications
 	gen_page('publications', 'Publications')
@@ -54,3 +53,6 @@ if __name__ == "__main__":
 	gen_project_page('publications/photoconsistency/', 'Color Consistency for Community Photo Collections')
 	gen_project_page('publications/depthups/', 'High Quality Depth Map Upsampling')
 	gen_project_page('publications/multiviewps/', 'Multiview Photometric Stereo')
+
+	gen_page('lab', "@POSTECH")
+	gen_page('contact', 'Contact')
