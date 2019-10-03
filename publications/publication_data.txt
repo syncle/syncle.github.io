@@ -111,7 +111,7 @@ title=Category Specific Salient View Selection via Deep Convolutional Neural Net
 author=Seong heum Kim, Yu Wing Tai, Joon Young Lee, Jaesik Park, and In So Kweon
 venue=Computer Graphics Forum (<b>CGF</b>), 2017
 image=publications/data/17_cgf.jpg
-web=http://rcv.kaist.ac.kr/v2/bbs/board.php?bo_table=rs_publications&wr_id=547
+pdf=https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13082
 item_end
 
 item_start
