@@ -3,7 +3,7 @@ import record
 
 from check_link import is_absolute
 from domain import get_domain
-CHECK_LINK = True
+CHECK_LINK = False
 if CHECK_LINK:
 	from check_link import check_link
 
