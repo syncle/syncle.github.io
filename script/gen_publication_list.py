@@ -4,6 +4,8 @@ from record import read_record
 
 def write_html(file, data):
 	f = open(file, "w")
+	# github button
+	f.write('<script async defer src="https://buttons.github.io/buttons.js"></script>\n')
 	f.write('<div class="container"> <!-- begin of publication list -->\n\n')
 	for idx, data_iter in enumerate(data):
 		if data_iter.special_year != -1:
