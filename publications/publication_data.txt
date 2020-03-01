@@ -1,6 +1,32 @@
 ﻿#see available fields in script/gen_publation_list.py
 
 item_start
+special_year=2020
+item_end
+
+item_start
+title=HUMBI: A Large Multiview Dataset of Human Body Expressions
+author=Zhixuan Yu, Hyunsoo Park, Jaeshin Yoon, Prashanth Venkatesh, Inkyu Lee, Jaesik Park, Jihun Yu
+venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2020
+image=publications/data/18_arxiv2.jpg
+item_end
+
+item_start
+title=High-Dimensional Convolutional Networks for Geometric Pattern Recognition
+author=Christopher Choy, Junha Lee, Rene Ranftl, Jaesik Park, Vladlen Koltun
+venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2020
+image=publications/data/20_cvpr2.jpg
+item_end
+
+item_start
+title=Future Video Synthesis with Object Motion Predictions
+author=Yue Wu, Rongrong Gao, Jaesik Park, Qifeng Chen
+venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2020
+image=publications/data/20_cvpr1.jpg
+item_end
+
+
+item_start
 special_year=2019
 item_end
 
@@ -40,14 +66,6 @@ item_end
 
 item_start
 special_year=2018
-item_end
-
-item_start
-title=HUMBI 1.0: HUman Multiview Behavioral Imaging Dataset
-author=Zhixuan Yu, Jae Shin Yoon, Prashanth Venkatesh, Jaesik Park, Jihun Yu, and Hyun Soo Park
-venue=Technical Report, arXiv:1812.00281, 2018
-image=publications/data/18_arxiv2.jpg
-pdf=https://arxiv.org/abs/1812.00281
 item_end
 
 item_start
