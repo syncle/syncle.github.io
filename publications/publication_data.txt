@@ -6,7 +6,7 @@ item_end
 
 item_start
 title=HUMBI: A Large Multiview Dataset of Human Body Expressions
-author=Zhixuan Yu, Hyunsoo Park, Jaeshin Yoon, Prashanth Venkatesh, Inkyu Lee, Jaesik Park, Jihun Yu
+author=Zhixuan Yu, Jaeshin Yoon, Inkyu Lee, Prashanth Venkatesh, Jaesik Park, Jihun Yu, Hyunsoo Park
 venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2020
 image=publications/data/18_arxiv2.jpg
 item_end
