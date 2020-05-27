@@ -9,8 +9,9 @@ title=HUMBI: A Large Multiview Dataset of Human Body Expressions
 author=Zhixuan Yu, Jaeshin Yoon, Inkyu Lee, Prashanth Venkatesh, Jaesik Park, Jihun Yu, Hyunsoo Park
 venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2020
 image=publications/data/18_arxiv2.jpg
-web=
-pdf=
+web=#
+video=https://www.youtube.com/watch?v=1iVjFgYq8ZU
+pdf=publications/data/20_cvpr_humbi.pdf
 item_end
 
 item_start
@@ -18,7 +19,8 @@ title=High-Dimensional Convolutional Networks for Geometric Pattern Recognition
 author=Christopher Choy, Junha Lee, Rene Ranftl, Jaesik Park, Vladlen Koltun
 venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2020
 image=publications/data/20_cvpr2.jpg
-pdf=
+pdf=publications/data/20_cvpr_highconv.pdf
+supp=publications/data/20_cvpr_highconv_supp.pdf
 code=
 item_end
 
@@ -27,7 +29,8 @@ title=Future Video Synthesis with Object Motion Predictions
 author=Yue Wu, Rongrong Gao, Jaesik Park, Qifeng Chen
 venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2020
 image=publications/data/20_cvpr1.jpg
-pdf=
+pdf=publications/data/20_cvpr_future.pdf
+video=https://www.youtube.com/watch?v=3zGXWuMLQ5o
 item_end
 
 
@@ -59,6 +62,7 @@ author=Wei Dong, Jaesik Park, Yi Yang, and Michael Kaess
 venue=IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>), 2019
 image=publications/data/19_iros.jpg
 pdf=http://dongwei.info/publications/open3d-gpu.pdf
+video=https://www.youtube.com/watch?v=rrkiG4IF1ws
 item_end
 
 item_start
@@ -93,6 +97,7 @@ pdf=http://www.open3d.org/paper.pdf
 web=http://www.open3d.org
 code=https://github.com/IntelVCL/Open3D
 tutorial=http://open3d.org/docs
+video=https://www.youtube.com/watch?v=qEweHTSEXTk
 comment=<a class="github-button" href="https://github.com/intel-isl/open3d" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star intel-isl/open3d on GitHub">Star</a><a class="github-button" href="https://github.com/intel-isl/open3d/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork intel-isl/open3d on GitHub">Fork</a>
 item_end
 
@@ -129,6 +134,7 @@ pdf=publications/data/17_siggraph.pdf
 web=https://www.tanksandtemples.org/
 code=https://github.com/intel-isl/TanksAndTemples
 data=https://www.tanksandtemples.org/download/
+video=https://www.youtube.com/watch?v=DJnrp05g7vg
 item_end
 
 item_start
