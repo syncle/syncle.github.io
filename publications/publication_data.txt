@@ -6,7 +6,7 @@ item_end
 
 item_start
 title=HUMBI: A Large Multiview Dataset of Human Body Expressions
-author=Zhixuan Yu, Jaeshin Yoon, Inkyu Lee, Prashanth Venkatesh, Jaesik Park, Jihun Yu, Hyunsoo Park
+author=Zhixuan Yu, Jaeshin Yoon, Inkyu Lee, Prashanth Venkatesh, Jaesik Park, Jihun Yu, and Hyunsoo Park
 venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2020
 image=publications/data/18_arxiv2.jpg
 web=#
@@ -16,7 +16,7 @@ item_end
 
 item_start
 title=High-Dimensional Convolutional Networks for Geometric Pattern Recognition
-author=Christopher Choy, Junha Lee, Rene Ranftl, Jaesik Park, Vladlen Koltun
+author=Christopher Choy, Junha Lee, Rene Ranftl, Jaesik Park, and Vladlen Koltun
 venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2020
 image=publications/data/20_cvpr2.jpg
 pdf=publications/data/20_cvpr_highconv.pdf
@@ -26,7 +26,7 @@ item_end
 
 item_start
 title=Future Video Synthesis with Object Motion Predictions
-author=Yue Wu, Rongrong Gao, Jaesik Park, Qifeng Chen
+author=Yue Wu, Rongrong Gao, Jaesik Park, and Qifeng Chen
 venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2020
 image=publications/data/20_cvpr1.jpg
 pdf=publications/data/20_cvpr_future.pdf
