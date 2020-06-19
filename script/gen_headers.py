@@ -79,28 +79,28 @@ def write_header_html(file, type):
 		'			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">\n'+
 		'				<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>\n'+
 		'			</button>\n'+
-		'			<a class="navbar-brand" href="%s/index.html">Jaesik Park</a>\n' % get_domain()+
+		'			<a class="navbar-brand" href="%s">Jaesik Park</a>\n' % get_domain()+
 		'		</div>\n'+
 		'		<!-- Collect the nav links, forms, and other content for toggling -->\n'+
 		'		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">\n'+
 		'			<ul class="nav navbar-nav navbar-right">\n'+
 		'				<li class="hidden">\n'+
-		'					<a href="%s/index.html"></a>\n' % get_domain()+
+		'					<a href="%s"></a>\n' % get_domain()+
 		'				</li>\n'+
 		'				<li %s>\n' % active_about_me +
-		'					<a href="%s/about_me.html">About me</a>\n' % get_domain()+
+		'					<a href="%s/about_me">About me</a>\n' % get_domain()+
 		'				</li>\n'+
 		'				<li %s>\n' % active_academic_activities +
-		'					<a href="%s/academic_activities.html">Academic activities</a>\n' % get_domain()+
+		'					<a href="%s/academic_activities">Academic activities</a>\n' % get_domain()+
 		'				</li>\n'+
 		'				<li %s>\n' % active_publications +
-		'					<a href="%s/publications.html">Publications</a>\n' % get_domain()+
+		'					<a href="%s/publications">Publications</a>\n' % get_domain()+
 		'				</li>\n'+
 		'				<li %s>\n' % active_lab +
-		'					<a href="%s/lab.html">@POSTECH</a>\n' % get_domain()+
+		'					<a href="%s/lab">@POSTECH</a>\n' % get_domain()+
 		'				</li>\n'+
 		'				<li %s>\n' % active_contact +
-		'					<a href="%s/contact.html">Contact</a>\n' % get_domain()+
+		'					<a href="%s/contact">Contact</a>\n' % get_domain()+
 		'				</li>\n'+
 		'			</ul>\n'+
 		'		</div>\n'+
