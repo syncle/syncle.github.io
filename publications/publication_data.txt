@@ -9,7 +9,7 @@ title=HUMBI: A Large Multiview Dataset of Human Body Expressions
 author=Zhixuan Yu, Jaeshin Yoon, Inkyu Lee, Prashanth Venkatesh, Jaesik Park, Jihun Yu, and Hyunsoo Park
 venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2020
 image=publications/data/18_arxiv2.jpg
-web=#
+web=https://humbi-data.net
 video=https://www.youtube.com/watch?v=1iVjFgYq8ZU
 pdf=publications/data/20_cvpr_humbi.pdf
 item_end
