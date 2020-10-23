@@ -5,6 +5,14 @@ special_year=2020
 item_end
 
 item_start
+title=Combinatorial 3D Shape Generation via Sequential Assembly
+author=Jungtaek Kim, Hyunsoo Chung, Minsu Cho, and Jaesik Park
+venue=arXiv:2004.07414, 2020
+image=publications/data/20_arxiv.jpg
+pdf=https://arxiv.org/abs/2004.07414
+item_end
+
+item_start
 title=ContraGAN: Contrastive Learning for Conditional Image Generation
 author=Minguk Kang and Jaesik Park
 venue=Conference on Neural Information Processing Systems (<b>NeurIPS</b>), 2020
