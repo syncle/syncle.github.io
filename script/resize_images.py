@@ -53,7 +53,7 @@ def resize_and_pad(img, size, padColor=255):
 		pad_top, pad_bot = 0, 0
 
 	# set pad color
-	if len(img.shape) is 3 and not isinstance(padColor, (list, tuple, np.ndarray)): # color image but only one color provided
+	if len(img.shape) == 3 and not isinstance(padColor, (list, tuple, np.ndarray)): # color image but only one color provided
 		padColor = [padColor]*3
 
 	if pad_top < 0 or pad_bot < 0 or pad_left < 0 or pad_right < 0:
@@ -97,7 +97,7 @@ def resize_and_crop(img, size, padColor=255):
 		pad_left, pad_right, pad_top, pad_bot = 0, 0, 0, 0
 
 	# set pad color
-	if len(img.shape) is 3 and not isinstance(padColor, (list, tuple, np.ndarray)): # color image but only one color provided
+	if len(img.shape) == 3 and not isinstance(padColor, (list, tuple, np.ndarray)): # color image but only one color provided
 		padColor = [padColor]*3
 
 	# scale and pad
