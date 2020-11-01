@@ -5,9 +5,25 @@ special_year=2020
 item_end
 
 item_start
+title=Fragment Relation Networks for Geometric Shape Assembly
+author=Jinhwi Lee, Jungtaek Kim, Hyunsoo Chung, Jaesik Park, Minsu Cho
+venue=<b>NeurIPS</b> workshop (LMCA), 2020
+image=publications/data/20_arxiv.jpg
+pdf=https://arxiv.org/abs/2004.07414
+item_end
+
+item_start
 title=Combinatorial 3D Shape Generation via Sequential Assembly
 author=Jungtaek Kim, Hyunsoo Chung, Minsu Cho, and Jaesik Park
-venue=arXiv:2004.07414, 2020
+venue=<b>NeurIPS</b> workshop (ML4ENG), 2020
+image=publications/data/20_arxiv.jpg
+pdf=https://arxiv.org/abs/2004.07414
+item_end
+
+item_start
+title=Combinatorial 3D Shape Generation via Sequential Assembly
+author=Jungtaek Kim, Hyunsoo Chung, Minsu Cho, and Jaesik Park
+venue=<b>NeurIPS</b> workshop (ML4ENG), 2020
 image=publications/data/20_arxiv.jpg
 pdf=https://arxiv.org/abs/2004.07414
 item_end
