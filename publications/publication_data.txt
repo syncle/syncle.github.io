@@ -1,29 +1,33 @@
 ﻿#see available fields in script/gen_publation_list.py
 
 item_start
+special_year=2021
+item_end
+
+item_start
+title=High-quality Frame Interpolation via Tridirectional Inference
+author=Jinsoo Choi, Jaesik Park, and In So Kweon
+venue=Winter Conference on Applications of Computer Vision, (<b>WACV</b>), 2021
+image=publications/data/21_wacv.jpg
+pdf=
+item_end
+
+item_start
 special_year=2020
 item_end
 
 item_start
 title=Fragment Relation Networks for Geometric Shape Assembly
-author=Jinhwi Lee, Jungtaek Kim, Hyunsoo Chung, Jaesik Park, Minsu Cho
-venue=<b>NeurIPS</b> workshop (LMCA), 2020
+author=Jinhwi Lee, Jungtaek Kim, Hyunsoo Chung, Jaesik Park, and Minsu Cho
+venue=Learning Meets Combinatorial Algorithms (LMCA), (<b>NeurIPS workshop</b>), 2020
 image=publications/data/20_arxiv.jpg
-pdf=https://arxiv.org/abs/2004.07414
+pdf=
 item_end
 
 item_start
 title=Combinatorial 3D Shape Generation via Sequential Assembly
 author=Jungtaek Kim, Hyunsoo Chung, Minsu Cho, and Jaesik Park
-venue=<b>NeurIPS</b> workshop (ML4ENG), 2020
-image=publications/data/20_arxiv.jpg
-pdf=https://arxiv.org/abs/2004.07414
-item_end
-
-item_start
-title=Combinatorial 3D Shape Generation via Sequential Assembly
-author=Jungtaek Kim, Hyunsoo Chung, Minsu Cho, and Jaesik Park
-venue=<b>NeurIPS</b> workshop (ML4ENG), 2020
+venue=Machine Learning for Engineering Modeling, Simulation, and Design (ML4Eng), (<b>NeurIPS workshop</b>), 2020
 image=publications/data/20_arxiv.jpg
 pdf=https://arxiv.org/abs/2004.07414
 item_end
