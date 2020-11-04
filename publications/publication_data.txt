@@ -17,14 +17,6 @@ special_year=2020
 item_end
 
 item_start
-title=Fragment Relation Networks for Geometric Shape Assembly
-author=Jinhwi Lee, Jungtaek Kim, Hyunsoo Chung, Jaesik Park, and Minsu Cho
-venue=Learning Meets Combinatorial Algorithms (LMCA), (<b>NeurIPS workshop</b>), 2020
-image=publications/data/20_arxiv.jpg
-pdf=
-item_end
-
-item_start
 title=Combinatorial 3D Shape Generation via Sequential Assembly
 author=Jungtaek Kim, Hyunsoo Chung, Minsu Cho, and Jaesik Park
 venue=Machine Learning for Engineering Modeling, Simulation, and Design (ML4Eng), (<b>NeurIPS workshop</b>), 2020
