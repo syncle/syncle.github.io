@@ -9,7 +9,7 @@ title=High-quality Frame Interpolation via Tridirectional Inference
 author=Jinsoo Choi, Jaesik Park, and In So Kweon
 venue=Winter Conference on Applications of Computer Vision (<b>WACV</b>), 2021
 image=publications/data/21_wacv.jpg
-pdf=
+pdf=https://openaccess.thecvf.com/content/WACV2021/papers/Choi_High-Quality_Frame_Interpolation_via_Tridirectional_Inference_WACV_2021_paper.pdf
 item_end
 
 item_start
