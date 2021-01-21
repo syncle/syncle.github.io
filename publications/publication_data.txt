@@ -32,6 +32,7 @@ author=Jungtaek Kim, Hyunsoo Chung, Minsu Cho, and Jaesik Park
 venue=Machine Learning for Engineering Modeling, Simulation, and Design (ML4Eng, <b>NeurIPS workshop</b>), 2020
 image=publications/data/20_arxiv.jpg
 pdf=https://arxiv.org/abs/2004.07414
+code=https://github.com/POSTECH-CVLab/Combinatorial-3D-Shape-Generation
 item_end
 
 item_start
