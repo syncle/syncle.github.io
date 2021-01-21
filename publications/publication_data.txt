@@ -85,6 +85,7 @@ venue=Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2020
 image=publications/data/20_cvpr1.jpg
 pdf=publications/data/20_cvpr_future.pdf
 video=https://www.youtube.com/watch?v=3zGXWuMLQ5o
+code=https://github.com/YueWuHKUST/FutureVideoSynthesis
 item_end
 
 
