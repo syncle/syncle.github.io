@@ -1,6 +1,6 @@
 
 class Record:
-	def __init__(self, year = '', image='', title='', author='', venue='', pdf='', code='', data='', web='', web_inplace='', video='', supp='', comment = '', bibtex='', executable='', poster='', tutorial=''):
+	def __init__(self, year = '', image='', title='', author='', venue='', pdf='', code='', data='', web='', web_inplace='', video='', supp='', comment = '', bibtex='', executable='', poster='', tutorial='', status=''):
 		self.special_year = -1
 		self.image = image
 		self.title = title
@@ -18,6 +18,7 @@ class Record:
 		self.executable = executable
 		self.poster = poster
 		self.tutorial = tutorial
+		self.status = status
 	def __str__(self):
 		if self.special_year != -1:
 			return 'year indicator : %s' % self.special_year
@@ -37,7 +38,8 @@ class Record:
 				"bibtex : " + self.bibtex + '\n' + \
 				"executable : " + self.executable + '\n' + \
 				"poster : " + self.poster + '\n' + \
-				"tutorial : " + self.tutorial + '\n'
+				"tutorial : " + self.tutorial + '\n' + \
+				"status : " + self.tutorial + '\n'
 
 def read_record(file):
 	f = open(file, "r")
@@ -84,6 +86,8 @@ def read_record(file):
 				record.poster = line[7:]
 			if 'tutorial=' in line:
 				record.tutorial = line[9:]
+			if 'status=' in line:
+				record.status = line[7:]
 		if 'item_end' in line:
 			data.append(record)
 			read = False

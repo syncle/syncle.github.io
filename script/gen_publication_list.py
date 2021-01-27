@@ -20,26 +20,27 @@ def write_html(file, data):
 					'</div>\n'+
 					'</div>\n\n')
 		else:
-			f.write('<div class="container">\n'+
-					'<div class="row">\n'+
-					# Thumbnail image
-					'	<div class="col-lg-4 col-lg-offset-1">\n'+
-					'		<img src="%s" style="max-height:170px" class="img-responsive center-block img-thumbnail">\n' % data_iter.image +
-					'	</div>\n'+
-					# Paper information
-					'	<div class="col-lg-7">\n'+
-					'		<h3>%s</h3>\n' % data_iter.title +
-					'		<p>%s<br>\n' % data_iter.author +
-					'		%s<br>\n' % data_iter.venue +
-					'		%s</p>\n' % data_iter.comment +
-					# Buttons
-					get_button_str_all(data_iter) +
-					'	</div>\n'+
-					'</div>\n'+
-					# just for adding some space - not sure style="height" is compatible for browsers
-					'<div class="row" style="height: 30px">\n'+
-					'</div>\n'+
-					'</div>\n\n')
+			if data_iter.status=='visible':
+				f.write('<div class="container">\n'+
+						'<div class="row">\n'+
+						# Thumbnail image
+						'	<div class="col-lg-4 col-lg-offset-1">\n'+
+						'		<img src="%s" style="max-height:170px" class="img-responsive center-block img-thumbnail">\n' % data_iter.image +
+						'	</div>\n'+
+						# Paper information
+						'	<div class="col-lg-7">\n'+
+						'		<h3>%s</h3>\n' % data_iter.title +
+						'		<p>%s<br>\n' % data_iter.author +
+						'		%s<br>\n' % data_iter.venue +
+						'		%s</p>\n' % data_iter.comment +
+						# Buttons
+						get_button_str_all(data_iter) +
+						'	</div>\n'+
+						'</div>\n'+
+						# just for adding some space - not sure style="height" is compatible for browsers
+						'<div class="row" style="height: 30px">\n'+
+						'</div>\n'+
+						'</div>\n\n')
 	f.write('</div>  <!-- end of publication list -->\n\n')
 	f.close()
 
