@@ -10,10 +10,10 @@ def append_button_html(path, data):
 	for data_iter in data:
 		f.write(
 				# Paper information
-				'		<h3>%s</h3>\n' % data_iter.title +
-				'		<p>%s<br>\n' % data_iter.author +
-				'		%s<br>\n' % data_iter.venue +
-				'		%s</p>\n' % data_iter.comment +
+				'		<h3>%s</h3>\n' % data_iter['title'] +
+				'		<p>%s<br>\n' % data_iter['author'] +
+				'		%s<br>\n' % data_iter['venue'] +
+				# '		%s</p>\n' % data_iter.comment +
 				# Buttons
 				get_button_str_all(data_iter) +
 				# Some stupid spacing

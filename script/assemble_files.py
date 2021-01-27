@@ -24,10 +24,9 @@ def gen_project_page(path, title):
 	write_header_html('../' + path + 'header.html', title)
 	include_file('../' + path + 'index.html', '../' + path + 'content_header.html')
 	include_file('../' + path + 'index.html', '../' + path + 'content_index.html')
-	record = read_record('../' + path + 'publication_data.txt')
+	# record = read_record('../' + path + 'publication_data.txt')
 	#print(record[0])
-	append_button_html('../' + path + 'index.html', record)
-	#include_file(path + '/index.html', '../source/publications_footer.html')
+	# append_button_html('../' + path + 'index.html', record)
 	include_file('../' + path + 'index.html', path_footer)
 
 def gen_page(page, type):
