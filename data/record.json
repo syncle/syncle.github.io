@@ -1,0 +1,713 @@
+{
+    "2021": 
+    {
+        "papers": [
+            {
+                "type": "international",
+                "title": "High-quality Frame Interpolation via Tridirectional Inference", 
+                "author": ["Jinsoo Choi", "Jaesik Park", "In So Kweon"],
+                "venue": "Winter Conference on Applications of Computer Vision (<b>WACV</b>), 2021",
+                "image": "publications/data/21_wacv.jpg",
+                "pdf": "https://openaccess.thecvf.com/content/WACV2021/papers/Choi_High-Quality_Frame_Interpolation_via_Tridirectional_Inference_WACV_2021_paper.pdf",
+                "code": "https://github.com/POSTECH-CVLab/HighQualityFrameInterpolation"
+            },
+            {
+                "type": "domestic",
+                "title": "계층적 허프 변환을 통한 포인트 클라우드 정합", 
+                "author": ["Junha Lee", "Seungwook Kim", "Minsu Cho", "Jaesik Park"],
+                "venue": "제 33회 영상처리 및 이해에 관한 워크샵 (IPIU), Feb 2021"
+            },
+            {
+                "type": "domestic",
+                "title": "강화학습을 이용한 그래프 표현 기반의 3차원 물체 생성", 
+                "author": ["Hyunsoo Chung", "Jungtaek Kim", "Jinhwi Lee", "Jaesik Park", "Minsu Cho"],
+                "venue": "제 33회 영상처리 및 이해에 관한 워크샵 (IPIU), Feb 2021"
+            },
+            {
+                "type": "domestic",
+                "title": "일관된 비디오 뎁스 맵 추정을 위한 시간 어텐션 모듈", 
+                "author": ["Hyunmin Lee", "Jaesik Park"],
+                "venue": "제 33회 영상처리 및 이해에 관한 워크샵 (IPIU), Feb 2021"
+            }
+        ],
+        "program committee": [
+            {
+                "title": "Area Chair",
+                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
+            }
+        ]
+    },
+    "2020":
+    {
+        "papers": [
+            {
+                "type": "international",
+                "title": "ContraGAN: Contrastive Learning for Conditional Image Generation", 
+                "author": ["Minguk Kang", "Jaesik Park"],
+                "venue": "Conference on Neural Information Processing Systems (<b>NeurIPS</b>), 2020",
+                "image": "publications/data/20_neurips.jpg",
+                "pdf": "https://papers.nips.cc/paper/2020/file/f490c742cd8318b8ee6dca10af2a163f-Paper.pdf",
+                "code": "https://github.com/POSTECH-CVLab/PyTorch-StudioGAN"
+            },
+            {
+                "type": "international",
+                "title": "Combinatorial 3D Shape Generation via Sequential Assembly", 
+                "author": ["Jungtaek Kim", "Hyunsoo Chung", "Minsu Cho", "Jaesik Park"],
+                "venue": "Machine Learning for Engineering Modeling, Simulation, and Design (ML4Eng, <b>NeurIPS workshop</b>), 2020",
+                "image": "publications/data/20_arxiv.jpg",
+                "pdf": "https://arxiv.org/abs/2004.07414",
+                "code": "https://github.com/POSTECH-CVLab/Combinatorial-3D-Shape-Generation"
+            },
+            {
+                "type": "international",
+                "title": "Fragment Relation Networks for Geometric Shape Assembly", 
+                "author": ["Jinhwi Lee*", "Jungtaek Kim*", "Hyunsoo Chung", "Jaesik Park", "Minsu Cho"],
+                "venue": "Learning Meets Combinatorial Algorithms (LMCA, <b>NeurIPS workshop</b>), 2020",
+                "image": "publications/data/20_lmca.jpg",
+                "pdf": "https://openreview.net/pdf?id=05KxJSXwPl",
+                "comment": "*Equal contribution"
+            },
+            {
+                "type": "international",
+                "title": "HUMBI: A Large Multiview Dataset of Human Body Expressions", 
+                "author": ["Zhixuan Yu", "Jaeshin Yoon", "Inkyu Lee", "Prashanth Venkatesh", "Jaesik Park", "Jihun Yu", "Hyunsoo Park"],
+                "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2020",
+                "image": "publications/data/18_arxiv2.jpg",
+                "web": "https://humbi-data.net",
+                "video": "https://www.youtube.com/watch?v=1iVjFgYq8ZU",
+                "pdf": "publications/data/20_cvpr_humbi.pdf"
+            },
+            {
+                "type": "international",
+                "title": "High-Dimensional Convolutional Networks for Geometric Pattern Recognition", 
+                "author": ["Christopher Choy", "Junha Lee", "Rene Ranftl", "Jaesik Park", "Vladlen Koltun"],
+                "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2020",
+                "image": "publications/data/20_cvpr2.jpg",
+                "pdf": "publications/data/20_cvpr_highconv.pdf",
+                "supp": "publications/data/20_cvpr_highconv_supp.pdf",
+                "comment": "(<b>Oral</b> Presentation, 5.7% acceptance rate)"
+            },
+            {
+                "type": "international",
+                "title": "Future Video Synthesis with Object Motion Predictions", 
+                "author": ["Yue Wu", "Rongrong Gao", "Jaesik Park", "Qifeng Chen"],
+                "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2020",
+                "image": "publications/data/20_cvpr1.jpg",
+                "pdf": "publications/data/20_cvpr_future.pdf",
+                "supp": "publications/data/20_cvpr_highconv_supp.pdf",
+                "video": "https://www.youtube.com/watch?v=3zGXWuMLQ5o",
+                "code": "https://github.com/YueWuHKUST/FutureVideoSynthesis"
+            },
+            {
+                "type": "domestic",
+                "title": "동적 객체에 대한 전역 텍스쳐 맵 생성", 
+                "author": ["Jungeon Kim", "Hyomin Kim", "Jaesik Park", "Seungyong Lee"],
+                "venue": "제 32회 영상처리 및 이해에 관한 워크샵 (IPIU), Feb 2020"
+            }
+        ],
+        "talks": [
+            {
+                "title": "Introduction to Computer Vision",
+                "venue": "Kyungbuk Science High School, Pohang, Republic of Korea",
+                "month": 8
+            }            
+        ],
+        "program committee": [
+            {
+                "title": "Area Chair",
+                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
+            }
+        ],
+        "teaching": [
+            {
+                "title": "CSED703F, 3D Vision",
+                "semester": "Fall"
+            }
+        ],
+        "awards": [
+            {
+                "title": "Outstanding Online Class Award",
+                "awardee": "POSTECH",
+                "comment": "Awarded to five classes among ~170 classes",
+                "month": 7
+            }
+        ]
+    },
+    "2019":
+    {
+        "papers": [
+            {
+                "type": "international",
+                "title": "Fully Convolutional Geometric Features", 
+                "author": ["Christopher Choy*", "Jaesik Park*", "Vladlen Koltun"],
+                "venue": "International Conference on Computer Vision (<b>ICCV</b>), 2019",
+                "image": "publications/data/19_iccv.jpg",
+                "pdf": "publications/data/19_iccv.pdf",
+                "code": "https://github.com/chrischoy/fcgf",
+                "comment": "(*Equal contribution)"
+            },
+            {
+                "type": "international",
+                "title": "Global Texture Mapping for Dynamic Objects", 
+                "author": ["Jungeon Kim", "Hyomin Kim", "Jaesik Park", "Seungyong Lee"],
+                "venue": "Pacific Graphics (<b>PG</b>), 2019",
+                "image": "publications/data/19_pg.jpg",
+                "pdf": "http://cg.postech.ac.kr/papers/2019_PG_Kim.pdf"
+            },
+            {
+                "type": "international",
+                "title": "GPU Accelerated Robust Scene Reconstruction", 
+                "author": ["Wei Dong", "Jaesik Park", "Yi Yang", "Michael Kaess"],
+                "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>), 2019",
+                "image": "publications/data/19_iros.jpg",
+                "pdf": "http://dongwei.info/publications/open3d-gpu.pdf",
+                "video": "https://www.youtube.com/watch?v=rrkiG4IF1ws"
+            },
+            {
+                "type": "international",
+                "title": "Depth from a Light Field Image with Learning-based Matching Costs", 
+                "author": ["Hae-Gon Jeon", "Jaesik Park", "Gyeongmin Choe", "Jinsun Park", "Yunsu Bok", "Yu-Wing Tai", "In So Kweon"],
+                "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>), 2019",
+                "image": "publications/data/18_pami.jpg",
+                "pdf": "http://ieeexplore.ieee.org/document/8263242/"
+            }
+        ],
+        "talks": [
+            {
+                "title": "Introduction to Computer Vision",
+                "venue": "Kyungbuk Science High School, Pohang, Republic of Korea",
+                "month": 8
+            }            
+        ],
+        "program committee": [
+            {
+                "title": "Area Chair",
+                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
+            }
+        ],
+        "teaching": [
+            {
+                "title": "CSED703F, 3D Vision",
+                "semester": "Fall"
+            }
+        ],
+        "awards": [
+            {
+                "title": "Outstanding Online Class Award",
+                "awardee": "POSTECH",
+                "comment": "Awarded to five classes among ~170 classes",
+                "month": 7
+            }
+        ]
+    },
+    "2018":
+    {
+        "papers": [
+            {
+                "type": "international",
+                "title": "Tangent Convolutions for Dense Prediction in 3D", 
+                "author": ["Maxim Tatarchenko*", "Jaesik Park*", "Vladlen Koltun", "Qian-Yi Zhou"],
+                "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2018",
+                "image": "publications/data/18_cvpr.jpg",
+                "web": "http://vladlen.info/publications/tangent-convolutions-dense-prediction-3d/",
+                "pdf": "publications/data/18_cvpr.pdf",
+                "code": "https://github.com/tatarchm/tangent_conv",
+                "comment": "(*Equal contribution. <b>Spotlight Oral</b> Presentation)"
+            },
+            {
+                "type": "international",
+                "title": "Open3D: A Modern Library For 3D Data Processing", 
+                "author": ["Qian-Yi Zhou", "Jaesik Park", "Vladlen Koltun"],
+                "venue": "Technical Report, arXiv:1801.09847, 2018",
+                "image": "publications/data/18_arxiv.jpg",
+                "pdf": "http://www.open3d.org/paper.pdf",
+                "web": "http://www.open3d.org",
+                "code": "https://github.com/IntelVCL/Open3D",
+                "tutorial": "http://open3d.org/docs",
+                "video": "https://www.youtube.com/watch?v=qEweHTSEXTk",
+                "comment": "<a class=\"github-button\" href=\"https:\/\/github.com\/intel-isl\/open3d\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star intel-isl\/open3d on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/intel-isl\/open3d\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork intel-isl\/open3d on GitHub\">Fork<\/a>"
+            },
+            {
+                "type": "international",
+                "title": "Real-time Head Pose Estimation using Multi-task Deep Neural Network", 
+                "author": ["Byungtae Ahn", "Dong-Geol Choi", "Jaesik Park", "In So Kweon"],
+                "venue": "Robotics and Autonomous Systems (<b>RAS</b>), 2018",
+                "image": "publications/data/18_ras.jpg",
+                "pdf": "https://www.sciencedirect.com/science/article/pii/S0921889017303524"
+            }
+        ],
+        "talks": [
+            {
+                "title": "Introduction to Computer Vision",
+                "venue": "Kyungbuk Science High School, Pohang, Republic of Korea",
+                "month": 8
+            }            
+        ],
+        "program committee": [
+            {
+                "title": "Area Chair",
+                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
+            }
+        ],
+        "teaching": [
+            {
+                "title": "CSED703F, 3D Vision",
+                "semester": "Fall"
+            }
+        ],
+        "awards": [
+            {
+                "title": "Outstanding Online Class Award",
+                "awardee": "POSTECH",
+                "comment": "Awarded to five classes among ~170 classes",
+                "month": 7
+            }
+        ]
+    },
+    "2017":
+    {
+        "papers": [
+            {
+                "type": "international",
+                "title": "Colored Point Cloud Registration Revisited", 
+                "author": ["Jaesik Park", "Qian-Yi Zhou", "Vladlen Koltun"],
+                "venue": "International Conference on Computer Vision (<b>ICCV</b>), 2017",
+                "image": "publications/data/17_iccv.jpg",
+                "supp": "publications/data/17_iccv_supp.pdf",
+                "web": "http://redwood-data.org/indoor_lidar_rgbd/",
+                "data": "http://redwood-data.org/indoor_lidar_rgbd/download.html",
+                "code": "http://redwood-data.org/indoor_lidar_rgbd/code.html"
+            },
+            {
+                "type": "international",
+                "title": "Tanks and Temples: Benchmarking Large-Scale Scene Reconstruction", 
+                "author": ["Arno Knapitsch", "Jaesik Park", "Qian-Yi Zhou", "Vladlen Koltun"],
+                "venue": "ACM Transactions on Graphics (Proc. <b>SIGGRAPH</b>), 2017",
+                "image": "publications/data/17_siggraph.jpg",
+                "pdf": "publications/data/17_siggraph.pdf",
+                "web": "https://www.tanksandtemples.org/",
+                "code": "https://github.com/intel-isl/TanksAndTemples",
+                "data": "https://www.tanksandtemples.org/download/",
+                "video": "https://www.youtube.com/watch?v=DJnrp05g7vg"
+            },
+            {
+                "type": "international",
+                "title": "Category Specific Salient View Selection via Deep Convolutional Neural Networks", 
+                "author": ["Seong heum Kim", "Yu Wing Tai", "Joon Young Lee", "Jaesik Park", "In So Kweon"],
+                "venue": "Computer Graphics Forum (<b>CGF</b>), 2017",
+                "image": "publications/data/17_cgf.jpg",
+                "pdf": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13082"
+            }
+        ],
+        "talks": [
+            {
+                "title": "Introduction to Computer Vision",
+                "venue": "Kyungbuk Science High School, Pohang, Republic of Korea",
+                "month": 8
+            }            
+        ],
+        "program committee": [
+            {
+                "title": "Area Chair",
+                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
+            }
+        ],
+        "teaching": [
+            {
+                "title": "CSED703F, 3D Vision",
+                "semester": "Fall"
+            }
+        ],
+        "awards": [
+            {
+                "title": "Outstanding Online Class Award",
+                "awardee": "POSTECH",
+                "comment": "Awarded to five classes among ~170 classes",
+                "month": 7
+            }
+        ]
+    },
+    "2016":
+    {
+        "papers": [
+            {
+                "type": "international",
+                "title": "Robust Multiview Photometric Stereo using Planar Mesh Parameterization", 
+                "author": ["Jaesik Park", "Sudipta N. Sinha", "Yasuyuki Matsushita", "Yu-Wing Tai", "In So Kweon"],
+                "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>), 2016",
+                "image": "publications/data/16_pami.jpg",
+                "web_inplace": "publications/multiviewps/index.html"
+            },
+            {
+                "type": "international",
+                "title": "Fast Global Registration", 
+                "author": ["Qian-Yi Zhou", "Jaesik Park", "Vladlen Koltun"],
+                "venue": "European Conference on Computer Vision (<b>ECCV</b>), 2016",
+                "comment": "(<b>Oral</b> Presentation, 1.8% acceptance rate)",
+                "image": "publications/data/16_eccv.jpg",
+                "pdf": "publications/data/17_siggraph.pdf",
+                "web": "http://vladlen.info/publications/fast-global-registration/",
+                "code": "https://github.com/IntelVCL/FastGlobalRegistration"
+            },
+            {
+                "type": "international",
+                "title": "Refining Geometry from Depth Sensors using IR Shading Images", 
+                "author": ["Gyeongmin Choe", "Jaesik Park", "Yu-Wing Tai", "In So Kweon"],
+                "venue": "International Journal of Computer Vision (<b>IJCV</b>), 2016",
+                "image": "publications/data/16_ijcv.jpg",
+                "pdf": "https://drive.google.com/file/d/1LsgtzkOt-z8W6iX8tHHV8H_XTqTOg-_q/view"
+            },
+            {
+                "type": "international",
+                "title": "Efficient and Robust Color Consistency for Community Photo Collections", 
+                "author": ["Jaesik Park", "Yu-Wing Tai", "Sudipta N. Sinha", "In So Kweon"],
+                "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2016",
+                "image": "publications/data/16_cvpr_color.jpg",
+                "web_inplace": "publications/photoconsistency/index.html",
+                "code": "https://github.com/syncle/photo_consistency"
+            },
+            {
+                "type": "international",
+                "title": "High-quality Depth from Uncalibrated Small Motion Clip", 
+                "author": ["Hyowon Ha", "Sunghoon Im", "Jaesik Park", "Hae-Gon Jeon", "In So Kweon"],
+                "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2016",
+                "image": "publications/data/16_cvpr_sm.jpg",
+                "comment": "(<b>Oral</b> Presentation, 3.9% acceptance rate)",
+                "web": "https://sites.google.com/site/hyowoncv/ha_cvpr16",
+                "code": "https://github.com/hyowonha/DfUSMC"
+            },
+            {
+                "type": "international",
+                "title": "Vision System and Depth Processing for DRC-HUBO+", 
+                "author": ["Inwook Shim", "Seunghak Shin", "Yunsu Bok", "Kyungdon Joo", "Dong-Geol Choi", "Joon-Young Lee", "Jaesik Park", "Jun Ho Oh", "In So Kweon"],
+                "venue": "IEEE International Conference on Robotics and Automation (<b>ICRA</b>), 2016",
+                "image": "publications/data/16_icra.jpg",
+                "comment": "Depth processing algorithm of Team KAIST (winner of DARPA robotics challenge finals 2015)",
+                "pdf": "http://arxiv.org/pdf/1509.06114v2.pdf",
+                "supp": "https://drive.google.com/file/d/0B99EdZxWBWl_V1NYZVM3cFZQRGc/view?usp=sharing",
+                "web": "https://sites.google.com/site/iwshimcv/drc-finals-2015",
+                "data": "https://sites.google.com/site/kaistdrcdata/"
+            },
+            {
+                "type": "international",
+                "title": "Multi-view Object Extraction with Fractional Boundaries", 
+                "author": ["Seong-Heum Kim", "Yu-Wing Tai", "Jaesik Park", "In So Kweon"],
+                "venue": "IEEE Transaction on Image Processing (<b>TIP</b>), 2016",
+                "image": "publications/data/16_tip.jpg",
+                "comment": "Depth processing algorithm of Team KAIST (winner of DARPA robotics challenge finals 2015)",
+                "pdf": "publications/data/16_tip.pdf",
+                "bibtex": "publications/data/16_tip.txt"
+            }
+        ],
+        "talks": [
+            {
+                "title": "Introduction to Computer Vision",
+                "venue": "Kyungbuk Science High School, Pohang, Republic of Korea",
+                "month": 8
+            }            
+        ],
+        "program committee": [
+            {
+                "title": "Area Chair",
+                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
+            }
+        ],
+        "teaching": [
+            {
+                "title": "CSED703F, 3D Vision",
+                "semester": "Fall"
+            }
+        ],
+        "awards": [
+            {
+                "title": "Outstanding Online Class Award",
+                "awardee": "POSTECH",
+                "comment": "Awarded to five classes among ~170 classes",
+                "month": 7
+            }
+        ]
+    },
+    "2015":
+    {
+        "papers": [
+            {
+                "type": "international",
+                "title": "Dense Depth and Albedo from a Single-shot Structured Light", 
+                "author": ["Hyowon Ha", "Jaesik Park", "In So Kweon"],
+                "venue": "International Conference on 3D Vision (<b>3DV</b>), 2015",
+                "image": "publications/data/15_3dv.jpg",
+                "pdf": "publications/data/15_3dv.pdf",
+                "bibtex": "publications/data/15_3dv.txt"
+            },
+            {
+                "type": "international",
+                "title": "Accurate Depth Map Estimation from a Lenslet Light Field Camera", 
+                "author": ["Hae-Gon Jeon", "Jaesik Park", "Gyeongmin Choe", "Jinsun Park", "Yunsu Bok", "Yu-Wing Tai", "In So Kweon"],
+                "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2015",
+                "image": "publications/data/15_cvpr_lf.jpg",
+                "pdf": "https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Jeon_Accurate_Depth_Map_2015_CVPR_paper.pdf",
+                "code": "https://drive.google.com/open?id=0B2553ggh3QTcS01zU0RjOG5FTjQ"
+            },
+            {
+                "type": "international",
+                "title": "Multi-modal Pedestrian Detection: Benchmark Dataset and Baselines", 
+                "author": ["SoonMin Hwang", "Jaesik Park", "Namil Kim", "Yukyung Choi", "In So Kweon"],
+                "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2015",
+                "image": "publications/data/15_cvpr_pd.jpg",
+                "web": "https://sites.google.com/site/pedestrianbenchmark/"
+            }
+        ],
+        "talks": [
+            {
+                "title": "Introduction to Computer Vision",
+                "venue": "Kyungbuk Science High School, Pohang, Republic of Korea",
+                "month": 8
+            }            
+        ],
+        "program committee": [
+            {
+                "title": "Area Chair",
+                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
+            }
+        ],
+        "teaching": [
+            {
+                "title": "CSED703F, 3D Vision",
+                "semester": "Fall"
+            }
+        ],
+        "awards": [
+            {
+                "title": "Outstanding Online Class Award",
+                "awardee": "POSTECH",
+                "comment": "Awarded to five classes among ~170 classes",
+                "month": 7
+            }
+        ]
+    },
+    "2014":
+    {
+        "papers": [
+            {
+                "type": "international",
+                "title": "High Quality Depth Map Upsampling and Completion for RGB-D Cameras", 
+                "author": ["Jaesik Park", "Hyeongwoo Kim", "Yu-Wing Tai", "Michael S. Brown", "In-So Kweon"],
+                "venue": "IEEE Transaction on Image Processing (<b>TIP</b>), 2014",
+                "image": "publications/data/14_tip.jpg",
+                "web_inplace": "web_inplace=publications/depthups/index.html"
+            },
+            {
+                "type": "international",
+                "title": "Real-time Head Orientation from a Monocular Camera using Deep Neural Network", 
+                "author": ["Byungtae Ahn", "Jaesik Park", "In So Kweon"],
+                "venue": "Asian Conference on Computer Vision (<b>ACCV</b>), 2014",
+                "image": "publications/data/14_accv.jpg",
+                "pdf": "publications/data/14_accv.pdf",
+                "bibtex": "publications/data/14_accv.txt"
+            },
+            {
+                "type": "international",
+                "title": "GMM-based Saliency Aggregation for Calibration-free Gaze Estimation", 
+                "author": ["Jinsoo Choi", "Byungtae Ahn", "Jaesik Park", "In So Kweon"],
+                "venue": "International Conference on Image Processing (<b>ICIP</b>), 2014",
+                "image": "publications/data/14_icip.jpg",
+                "pdf": "publications/data/14_icip.pdf",
+                "bibtex": "publications/data/14_icip.txt"
+            },
+            {
+                "type": "international",
+                "title": "Exploiting Shading Cues in Kinect IR Images for Geometry Refinement", 
+                "author": ["Gyeongmin Choe*", "Jaesik Park*", "Yu-Wing Tai", "In So Kweon"],
+                "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2014",
+                "image": "publications/data/14_cvpr_gm.jpg",
+                "comment": "=*Equal contributions. Received 20th HumanTech Paper Award (Silver Prize), Samsung Electronics Corp.",
+                "web": "https://sites.google.com/site/gmchoe1/kinir"
+            },
+            {
+                "type": "international",
+                "title": "Calibrating a Non-isotropic Near Point Light Source using a Plane", 
+                "author": ["Jaesik Park", "Sudipta N. Sinha", "Yasuyuki Matsushita", "Yu-Wing Tai", "In So Kweon"],
+                "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2014",
+                "image": "publications/data/14_cvpr_cal.jpg",
+                "web_inplace": "web_inplace=publications/lightcalib/index.html"
+            }
+        ],
+        "talks": [
+            {
+                "title": "Introduction to Computer Vision",
+                "venue": "Kyungbuk Science High School, Pohang, Republic of Korea",
+                "month": 8
+            }            
+        ],
+        "program committee": [
+            {
+                "title": "Area Chair",
+                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
+            }
+        ],
+        "teaching": [
+            {
+                "title": "CSED703F, 3D Vision",
+                "semester": "Fall"
+            }
+        ],
+        "awards": [
+            {
+                "title": "Outstanding Online Class Award",
+                "awardee": "POSTECH",
+                "comment": "Awarded to five classes among ~170 classes",
+                "month": 7
+            }
+        ]
+    },
+    "2013":
+    {
+        "papers": [
+            {
+                "type": "international",
+                "title": "Multiview Photometric Stereo using Planar Mesh Parameterization", 
+                "author": ["Jaesik Park", "Sudipta N. Sinha", "Yasuyuki Matsushita", "Yu-Wing Tai", "In So Kweon"],
+                "venue": "International Conference on Computer Vision (<b>ICCV</b>), 2013",
+                "image": "publications/data/13_iccv.jpg",
+                "comment": "Received 19th HumanTech Paper Award (Silver Prize), Samsung Electronics Corp.",
+                "web_inplace": "publications/multiviewps/index.html"
+            }
+        ],
+        "talks": [
+            {
+                "title": "Introduction to Computer Vision",
+                "venue": "Kyungbuk Science High School, Pohang, Republic of Korea",
+                "month": 8
+            }            
+        ],
+        "program committee": [
+            {
+                "title": "Area Chair",
+                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
+            }
+        ],
+        "teaching": [
+            {
+                "title": "CSED703F, 3D Vision",
+                "semester": "Fall"
+            }
+        ],
+        "awards": [
+            {
+                "title": "Outstanding Online Class Award",
+                "awardee": "POSTECH",
+                "comment": "Awarded to five classes among ~170 classes",
+                "month": 7
+            }
+        ]
+    },
+    "2012":
+    {
+        "papers": [
+            {
+                "type": "international",
+                "title": "Tensor Voting Approach for Multi-View 3D Scene-flow Estimation and Refinement", 
+                "author": ["Jaesik Park", "Tae Hyun Oh", "Jiyoung Jung", "Yu-Wing Tai", "In So Kweon"],
+                "venue": "European Conference on Computer Vision (<b>ECCV</b>), 2012",
+                "image": "publications/data/12_eccv.jpg",
+                "bibtex": "publications/data/12_eccv.txt",
+                "pdf": "publications/data/12_eccv.pdf",
+                "supp": "publications/data/12_eccv_poster.pdf"
+            },
+            {
+                "type": "international",
+                "title": "Modeling Photo Composition and Its Application to Photo Re-arrangement", 
+                "author": ["Jaesik Park", "Joon-Young Lee", "Yu-Wing Tai", "In So Kweon"],
+                "venue": "International Conference on Image Processing (<b>ICIP</b>), 2012",
+                "image": "publications/data/12_icip.jpg",
+                "bibtex": "publications/data/12_icip.txt",
+                "pdf": "publications/data/12_icip.pdf",
+                "supp": "publications/data/12_icip_poster.pdf"
+            },
+            {
+                "type": "international",
+                "title": "Identigram/Watermark removal using cross-channel correlation", 
+                "author": ["Jaesik Park", "Yu-Wing Tai", "In-So Kweon"],
+                "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2012",
+                "image": "publications/data/12_cvpr.jpg",
+                "web_inplace": "publications/identigram/index.html"
+            }
+        ],
+        "talks": [
+            {
+                "title": "Introduction to Computer Vision",
+                "venue": "Kyungbuk Science High School, Pohang, Republic of Korea",
+                "month": 8
+            }            
+        ],
+        "program committee": [
+            {
+                "title": "Area Chair",
+                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
+            }
+        ],
+        "teaching": [
+            {
+                "title": "CSED703F, 3D Vision",
+                "semester": "Fall"
+            }
+        ],
+        "awards": [
+            {
+                "title": "Outstanding Online Class Award",
+                "awardee": "POSTECH",
+                "comment": "Awarded to five classes among ~170 classes",
+                "month": 7
+            }
+        ]
+    },
+    "2011":
+    {
+        "papers": [
+            {
+                "type": "international",
+                "title": "A Novel 2.5D Pattern for Extrinsic Calibration of ToF and Camera Fusion System", 
+                "author": ["Jiyoung Jung", "Yekeun Jeong", "Jaesik Park", "Hyowon Ha", "J. D. Kim", "In-So Kweon"],
+                "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>), 2011",
+                "image": "publications/data/11_iros.jpg",
+                "pdf": "publications/data/11_iros.pdf"
+            },
+            {
+                "type": "international",
+                "title": "High Quality Depth Map Upsampling for 3D-TOF Cameras", 
+                "author": ["Jaesik Park*", "Hyeongwoo Kim*", "Yu-Wing Tai", "Michael S. Brown", "In-So Kweon"],
+                "venue": "International Conference on Computer Vision (<b>ICCV</b>), 2011",
+                "image": "publications/data/11_iccv.jpg",
+                "comment": "*Equal contributions",
+                "web_inplace": "publications/depthups/index.html"
+            }
+        ],
+        "talks": [
+            {
+                "title": "Introduction to Computer Vision",
+                "venue": "Kyungbuk Science High School, Pohang, Republic of Korea",
+                "month": 8
+            }            
+        ],
+        "program committee": [
+            {
+                "title": "Area Chair",
+                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
+            }
+        ],
+        "teaching": [
+            {
+                "title": "CSED703F, 3D Vision",
+                "semester": "Fall"
+            }
+        ],
+        "awards": [
+            {
+                "title": "Outstanding Online Class Award",
+                "awardee": "POSTECH",
+                "comment": "Awarded to five classes among ~170 classes",
+                "month": 7
+            }
+        ]
+    }
+}
