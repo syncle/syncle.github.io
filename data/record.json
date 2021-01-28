@@ -30,10 +30,32 @@
                 "venue": "제 33회 영상처리 및 이해에 관한 워크샵 (IPIU), Feb 2021"
             }
         ],
+        "teaching": [
+            {
+                "title": "AIGS101 Artifical Intelligence Basis I",
+                "semester": "Spring"
+            },
+            {
+                "title": "CSED538/AIGS538 Deep learning",
+                "semester": "Spring"
+            }
+        ],
         "program committee": [
             {
                 "title": "Area Chair",
                 "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
+            },
+            {
+                "title": "Area Chair",
+                "venue": "International Conference on Computer Vision (ICCV)"
+            },
+            {
+                "title": "Senior Program Committee",
+                "venue": "Int. Joint Conf. on Artificial Intelligence (IJCAI)"
+            },
+            {
+                "title": "Senior Program Committee",
+                "venue": "American Assoc. for Artificial Intelligence (AAAI)"
             }
         ]
     },
@@ -120,8 +142,33 @@
         ],
         "teaching": [
             {
+                "title": "AIGS101, Artifical Intelligence Basis II",
+                "semester": "Fall"
+            },
+            {
+                "title": "CSED100, Introduction to Computer Science Engineering",
+                "semester": "Fall"
+            },
+            {
                 "title": "CSED703F, 3D Vision",
                 "semester": "Fall"
+            },
+            {
+                "title": "CSED800/AIGS800, CSE/GSAI Colloquium",
+                "semester": "Fall"
+            },
+            {
+                "title": "AIGS101, Artifical Intelligence Basis I",
+                "semester": "Spring"
+            },
+            {
+                "title": "AIGS537/CSED537, Artificial Intelligence & Data Science, 2020 Spring",
+                "semester": "Spring"
+            },
+            {
+                "title": "Data Structure",
+                "semester": "Spring",
+                "comment": "(Awarded as the outstanding online class)"
             }
         ],
         "awards": [
@@ -136,6 +183,11 @@
                 "title": "Outstanding Online Class Award",
                 "awardee": "Awarded to five classes among ~170 classes",
                 "month": 7
+            },
+            {
+                "title": "Faculty Support Program",
+                "awardee": "Intel Corporation",
+                "month": 6
             }
         ]
     },
@@ -188,12 +240,16 @@
         "program committee": [
             {
                 "title": "Area Chair",
-                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
+                "venue": "International Conference on Computer Vision (ICCV)"
+            },
+            {
+                "title": "Session Chair",
+                "venue": "International Conference on Computer Vision (ICCV)"
             }
         ],
         "teaching": [
             {
-                "title": "CSED703F, 3D Vision",
+                "title": "CSED703F-01 3D Vision",
                 "semester": "Fall"
             }
         ],
@@ -490,6 +546,7 @@
                 "image": "publications/data/15_cvpr_pd.jpg",
                 "web": "https://sites.google.com/site/pedestrianbenchmark/"
             }
+<<<<<<< HEAD
         ],
         "talks": [
             {
@@ -519,6 +576,8 @@
                 "comment": "Annual Ph.D. Research Progress Evaluation",
                 "month": 5
             }
+=======
+>>>>>>> 7ff4862 (update record.json)
         ]
     },
     "2014":
@@ -567,6 +626,7 @@
                 "image": "publications/data/14_cvpr_cal.jpg",
                 "web_inplace": "web_inplace=publications/lightcalib/index.html"
             }
+<<<<<<< HEAD
         ],
         "talks": [
             {
@@ -595,6 +655,8 @@
                 "awardee": "Samsung Electronics Corp.",
                 "month": 2
             }
+=======
+>>>>>>> 7ff4862 (update record.json)
         ]
     },
     "2013":
