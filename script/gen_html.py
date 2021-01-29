@@ -1,16 +1,6 @@
 import json
+from util import authorlist_to_text
 from gen_button import get_button_str_all
-
-def authorlist_to_text(author):
-	# adding special action for my name?
-	if len(author) == 2:
-		return author[0] + ' and ' + author[1]
-	else:		
-		s = ''
-		for a in author[:-1]:
-			s += (a + ', ')
-		s += author[-1]
-		return s
 
 def write_html(file, data):
 	f = open(file, "w")
