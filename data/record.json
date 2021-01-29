@@ -43,6 +43,14 @@
         "program committee": [
             {
                 "title": "Area Chair",
+                "venue": "Machine Vision Applications (MVA) conference"
+            },
+            {
+                "title": "Area Chair",
+                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
+            },
+            {
+                "title": "Area Chair",
                 "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
             },
             {
@@ -132,7 +140,17 @@
                 "title": "Introduction to Computer Vision",
                 "venue": "Kyungbuk Science High School, Pohang, Republic of Korea",
                 "month": 8
-            }            
+            },
+            {
+                "title": "High-Dimensional Convolutional Networks for Geometric Pattern Recognition",
+                "venue": "KCCV 2020, Seoul, Republic of Korea",
+                "month": 8
+            },
+            {
+                "title": "Object Detection from Images or Point Clouds",
+                "venue": "LG Electronics, Seoul, Republic of Korea",
+                "month": 8
+            }
         ],
         "program committee": [
             {
@@ -225,10 +243,30 @@
         ],
         "talks": [
             {
-                "title": "Introduction to Computer Vision",
-                "venue": "Kyungbuk Science High School, Pohang, Republic of Korea",
+                "title": "Fully Convolutional Geometric Features",
+                "venue": "Koh Young Technology, Yongin, Republic of Korea",
+                "month": 12
+            },
+            {
+                "title": "Open3D Tutorial & Fully Convolutional Geometric Features", 
+                "venue": "Korea Electronics Technology Institute, Seongnam, Republic of Korea", 
+                "month": 11
+            },
+            {
+                "title": "Introduction to Computer Vision and Deep Learning",
+                "venue": "Daegu Science High School, Daegu, Republic of Korea",
                 "month": 8
-            }            
+            },
+            {
+                "title": "3D Computer Vision and Open3D", 
+                "venue": "International Conference on Machine Vision Applications, Tokyo, Japan", 
+                "month": 5
+            },
+            {
+                "title": "3D Computer Vision and Open3D", 
+                "venue": "Qualcomm Head Quater, San Diego, USA", 
+                "month": 6
+            }
         ],
         "program committee": [
             {
@@ -299,10 +337,16 @@
         ],
         "talks": [
             {
-                "title": "Introduction to Computer Vision",
-                "venue": "Kyungbuk Science High School, Pohang, Republic of Korea",
-                "month": 8
-            }            
+                "title": "3D reconstruction using Open3D",
+                "venue": "Minneapolis, University of Minnesota",
+                "comment": "invited lecture for Multiview 3D Geometry in Computer Vision (CSCI 5980) Class",
+                "month": 4
+            },
+            {
+                "title": "3D reconstruction using Open3D", 
+                "venue": "Forma Technology (a startup company at Bay Area), San Francisco, USA", 
+                "month": 3
+            }
         ],
         "program committee": [
             {
@@ -586,6 +630,31 @@
                 "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2014",
                 "image": "publications/data/14_cvpr_cal.jpg",
                 "web_inplace": "web_inplace=publications/lightcalib/index.html"
+            },
+            {
+                "type": "domestic",
+                "title": "깊이 영상 처리를 위한 학습기반 신뢰도 추정 및 재질 분류",
+                "author": ["Min-Hyun Kim", "Jaesik Park", "In So Kweon"],
+                "venue": "제 27회 영상처리 및 이해에 관한 워크샵 (IPIU)"
+            },
+            {
+                "type": "domestic",
+                "title": "시야 공유가 없는 다중 카메라를 이용한 사람 추적",
+                "author": ["Junsik Kim", "Kyungdon Joo", "Tae-Hyun Oh", "Jaesik Park", "In So Kweon"],
+                "venue": "제 27회 영상처리 및 이해에 관한 워크샵 (IPIU)"
+            },
+            {
+                "type": "domestic",
+                "title": "컬러-열영상 퓨전을 통한 강인한 보행자 검출 기법",
+                "author": ["SoonMin Hwang", "Jaesik Park", "Namil Kim", "Yukyung Choi", "In So Kweon"],
+                "venue": "제 27회 영상처리 및 이해에 관한 워크샵 (IPIU)"
+            },
+            {
+                "type": "domestic",
+                "title": "마이크로 렌즈 기반의 휴대용 라이트필드 카메라를 이용한 정확한 깊이 정보 추정방법",
+                "author": ["Hae-Gon Jeon", "Jaesik Park", "Gyeongmin Choe", "Jinsun Park", "Yunsu Bok", "Yu-Wing Tai", "In So Kweon"],
+                "venue": "한국멀티미디어학회 춘계학술발표대회, May 2015",
+                "comment": "(Received best paper award)"
             }
         ],
         "talks": [
@@ -628,6 +697,25 @@
                 "image": "publications/data/13_iccv.jpg",
                 "comment": "Received 19th HumanTech Paper Award (Silver Prize), Samsung Electronics Corp.",
                 "web_inplace": "publications/multiviewps/index.html"
+            },
+            {
+                "type": "domestic",
+                "title": "키넥트 깊이 정밀도 개선을 위한 적외선 패턴 영상의 스테레오 정합", 
+                "author": ["Gyeongmin Choe", "Jaesik Park", "Hyowon Ha", "In So Kweon"],
+                "venue": "2013년도 한국 멀티미디어 학회 춘계학술 발표대회 논문집 제 16권 1호, May, 2013"
+            },
+            {
+                "type": "domestic",
+                "title": "다시점 영상기반 3차원 움직임 추정기법", 
+                "author": ["Jaesik Park", "Tae Hyun Oh", "Jiyoung Jung", "Yu-Wing Tai", "In So Kweon"],
+                "venue": "제 25회 영상처리 및 이해에 관한 워크샵 (IPIU)"
+            },
+            {
+                "type": "domestic",
+                "title": "컬러 영상의 홀로그램 및 워터마크 제거 기법", 
+                "author": ["Jaesik Park", "Yu-Wing Tai", "In So Kweon"],
+                "venue": "제 25회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "comment": "(Received best paper award)"
             }
         ],
         "program committee": [
