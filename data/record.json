@@ -173,21 +173,14 @@
         ],
         "awards": [
             {
-                "type": "visible",
                 "title": "Faculty Support Program",
                 "awardee": "Intel Corporation",
                 "month": 6
             },
             {
-                "type": "visible",
                 "title": "Outstanding Online Class Award",
                 "awardee": "Awarded to five classes among ~170 classes",
                 "month": 7
-            },
-            {
-                "title": "Faculty Support Program",
-                "awardee": "Intel Corporation",
-                "month": 6
             }
         ]
     },
@@ -262,7 +255,6 @@
                 "month": 4
             },
             {
-                "type": "visible",
                 "title": "Qualcomm Gift Grant",
                 "awardee": "Qualcomm Corporation",
                 "month": 9
@@ -326,7 +318,6 @@
         ],
         "awards": [
             {
-                "type": "visible",
                 "title": "Research Velocity Challenge Award",
                 "awardee": "Intel Corporation",
                 "month": 12
@@ -389,7 +380,6 @@
         ],
         "awards": [
             {
-                "type": "visible",
                 "title": "Depth estimation challenge: robustness champion",
                 "awardee": "CVPR workshop on Light Fields for Computer Vision",
                 "month": 7
@@ -470,7 +460,6 @@
         ],
         "talks": [
             {
-                "type": "visible",
                 "title": "Introduction to Computer Vision",
                 "venue": "Kyungbuk Science High School, Pohang, Republic of Korea",
                 "month": 8
@@ -490,26 +479,22 @@
         ],
         "awards": [
             {
-                "type": "visible",
                 "title": "Qualcomm Innovation Award",
                 "awardee": "Qualcomm Korea Corp. and KAIST",
                 "month": 3
             },
             {
-                "type": "visible",
                 "title": "CVPR 2015 Doctoral Consortium",
                 "awardee": "IEEE CVPR",
                 "month": 4
             },
             {
-                "type": "visible",
                 "title": "Honor Prize",
                 "awardee": "KAIST",
                 "comment": "Annual Ph.D. Research Progress Evaluation",
                 "month": 5
             },
             {
-                "type": "visible",
                 "title": "Best Paper Award",
                 "awardee": "Korea Multimedia Society",
                 "comment": "2015 Spring Annual Conference",
@@ -546,38 +531,14 @@
                 "image": "publications/data/15_cvpr_pd.jpg",
                 "web": "https://sites.google.com/site/pedestrianbenchmark/"
             }
-<<<<<<< HEAD
-        ],
-        "talks": [
-            {
-                "type": "visible",
-                "title": "Introduction to Computer Vision",
-                "venue": "Kyungbuk Science High School, Pohang, Republic of Korea",
-                "month": 8
-            }            
-        ],
-        "program committee": [
-            {
-                "title": "Area Chair",
-                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
-            }
-        ],
-        "teaching": [
-            {
-                "title": "CSED703F, 3D Vision",
-                "semester": "Fall"
-            }
         ],
         "awards": [
             {
-                "type": "visible",
                 "title": "Honor Prize",
                 "awardee": "KAIST",
                 "comment": "Annual Ph.D. Research Progress Evaluation",
                 "month": 5
             }
-=======
->>>>>>> 7ff4862 (update record.json)
         ]
     },
     "2014":
@@ -626,7 +587,6 @@
                 "image": "publications/data/14_cvpr_cal.jpg",
                 "web_inplace": "web_inplace=publications/lightcalib/index.html"
             }
-<<<<<<< HEAD
         ],
         "talks": [
             {
@@ -655,8 +615,6 @@
                 "awardee": "Samsung Electronics Corp.",
                 "month": 2
             }
-=======
->>>>>>> 7ff4862 (update record.json)
         ]
     },
     "2013":
@@ -672,13 +630,6 @@
                 "web_inplace": "publications/multiviewps/index.html"
             }
         ],
-        "talks": [
-            {
-                "title": "Introduction to Computer Vision",
-                "venue": "Kyungbuk Science High School, Pohang, Republic of Korea",
-                "month": 8
-            }            
-        ],
         "program committee": [
             {
                 "title": "Area Chair",
@@ -693,13 +644,11 @@
         ],
         "awards": [
             {
-                "type": "visible",
                 "title": "19th HumanTech Paper Award (Silver Prize)",
                 "awardee": "Samsung Electronics Corp.",                
                 "month": 2
             },
             {
-                "type": "visible",
                 "title": "Best Paper Award",
                 "awardee": "25th Workshop on Image Processing and Image Understanding (IPIU2013)",                
                 "month": 2
@@ -759,13 +708,11 @@
         ],
         "awards": [
             {
-                "type": "visible",
                 "title": "Bronze Prize",
                 "awardee": "Samsung Techwin research center conference",
                 "month": 2
             },
             {
-                "type": "visible",
                 "title": "Excellent Intern Award",
                 "awardee": "Microsoft Research Asia",
                 "month": 12
@@ -814,7 +761,6 @@
         ],
         "awards": [
             {
-                "type": "visible",
                 "title": "Microsoft Research Asia Fellowship",
                 "awardee": "Microsoft",
                 "comment": "Awarded to 11 Ph.D. students in the top Asian universities.",
@@ -826,7 +772,6 @@
     {
         "awards": [
             {
-                "type": "visible",
                 "title": "Summa cum laude",
                 "awardee": "Hanyang University",
                 "month": 2
@@ -837,13 +782,11 @@
     {
         "awards": [
             {
-                "type": "visible",
                 "title": "Full Scholarship",
                 "awardee": "Jeongsu scholarship foundation",
                 "month": 8
             },
             {
-                "type": "visible",
                 "title": "Scholarship for Selected Undergraduate Students",
                 "awardee": "The Korea Foundation for Advanced Studies (KFAS)",
                 "month": 6
@@ -854,7 +797,6 @@
     {
         "awards": [
             {
-                "type": "visible",
                 "title": "Full scholarship",
                 "awardee": "Hanyang University",
                 "month": 8
