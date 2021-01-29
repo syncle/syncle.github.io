@@ -2,21 +2,10 @@ from gen_headers import write_header_html
 from record import read_record
 from gen_button_for_project_page import append_button_html
 import os
+from util import clear_file, include_file
 
 path_header = '../source/header.html'
 path_footer = '../source/footer.html'
-
-def clear_file(file):
-	f = open(file, "w")
-	f.close()
-
-def include_file(output_file, include_file):
-	f = open(include_file, "r")
-	copy = open(output_file, "a")
-	for line in f:
-		copy.write(line)
-	f.close()
-	copy.close()
 
 def gen_project_page(path, title):
 	clear_file('../' + path + 'index.html')

@@ -28,7 +28,7 @@ def write_latex_awards(file, data):
 		for category, items in data[year].items():
 			if category == 'awards':
 				for i in items:
-					if i['type'] == 'visible':
+					if not 'hide' in i:
 						f.write('\\resumeItem' + \
 						'{' + i['title'] + ', ' \
 							+ i['awardee'] + ', ' \
@@ -43,3 +43,10 @@ if __name__ == "__main__":
 	
 	write_latex_publication('../source/latex/publication.tex', data)
 	write_latex_awards('../source/latex/awards.tex', data)
+
+	page = 'cv'
+	clear_file('../%s.tex' % page)
+	include_file('../%s.tex' % page, '../source/latex/header.tex')
+	include_file('../%s.tex' % page, '../source/latex/publication.tex')
+	include_file('../%s.tex' % page, '../source/latex/awards.tex')
+	include_file('../%s.tex' % page, '../source/latex/footer.tex')

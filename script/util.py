@@ -36,3 +36,15 @@ def change_bold(text):
 	text = text.replace('<b>', '\\textbf{')
 	text = text.replace('</b>', '}')
 	return text
+
+def clear_file(file):
+	f = open(file, "w")
+	f.close()
+
+def include_file(output_file, include_file):
+	f = open(include_file, "r")
+	copy = open(output_file, "a")
+	for line in f:
+		copy.write(line)
+	f.close()
+	copy.close()
