@@ -13,6 +13,9 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \input{glyphtounicode}
+\usepackage{kotex}
+\usepackage{enumitem}
+
 
 
 %----------FONT OPTIONS----------
@@ -58,8 +61,14 @@
 %-------------------------
 % Custom commands
 \newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-2pt}}
+  \small{
+  \item{#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\publicationItem}[3]{
+  \small{
+  \item{#1\\ \emph{#2}\\ #3\vspace{-2pt}}
   }
 }
 
@@ -94,6 +103,9 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
+\newcommand{\resumePublicationListStart}{\begin{enumerate}[leftmargin=0.5in, label={[\arabic*]}]}
+\newcommand{\resumePublicationListEnd}{\end{enumerate}\vspace{-5pt}}
+
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -107,23 +119,21 @@
     \footnotesize{Chungam-Ro 77, POSTECH, Pohang-Si, Republic of Korea (37673)}
 \end{center}
 
-\section{Experience}
+\section{Working Experiences}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Assistant Professor}{Pohang, Republic of Korea}
       {Computer Vision Lab, Pohang University of Science and Technology (POSTECH)}{April. 2019 -- Present}
         \resumeItemListStart
-            \resumeItem{Communicate with managers to set up campus computers used on campus}
-            \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
-            \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
+            \resumeItem{Principal investigator tackling various computer vision problems}
+            \resumeItem{3D scene understanding, generative models.}
         \resumeItemListEnd
     \resumeSubheading
       {Staff Research Scientist}{Santa Clara, CA, USA}
       {Intelligent Systems Lab, Intel}{Dec. 2015 -- March 2019}
         \resumeItemListStart
-            \resumeItem{Communicate with managers to set up campus computers used on campus}
-            \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
-            \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
+            \resumeItem{Devoted to basic computer vision research (Manager: Dr. Vladlen Koltun)}
+            \resumeItem{Co-founder of Open3D. Tanks and Temples. Efficient point set registration techniques.}
         \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -132,6 +142,10 @@
     \resumeSubheading
       {Korea Advanced Institute of Science and Technology (KAIST)}{Daejeon, Republic of Korea}
       {Ph.D. and M.S. in Electrical Engineering}{Feb. 2009 -- Aug. 2015}
+        \resumeItemListStart
+        \resumeItem{Ph.D. thesis: Image-based 3D Modeling via Constrained Optimization (Advisor: Prof. In So Kweon)}
+        \resumeItem{Master's thesis: Upsampling Low-resolution Image using Heterogeneous High-resolution Image}
+        \resumeItemListEnd
     \resumeSubheading
       {Hanyang University}{Seoul, Republic of Korea}
       {B.E. in Media Communication Eng. (\textbf{Summa cum laude})}{March. 2005 -- Feb. 2009}
