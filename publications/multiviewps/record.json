@@ -1,0 +1,31 @@
+{
+    "2016":
+    {
+        "papers": [
+            {
+                "type": "international",
+                "title": "Robust Multiview Photometric Stereo using Planar Mesh Parameterization", 
+                "author": ["Jaesik Park", "Sudipta N. Sinha", "Yasuyuki Matsushita", "Yu-Wing Tai", "In So Kweon"],
+                "venue": "IEEE Transactions of Pattern Analysis and Machine Intelligence (TPAMI), 2016",
+                "pdf": "publications/multiviewps/PAMI2016.pdf",
+                "bibtex": "publications/multiviewps/PAMI2016bibtex.txt"
+            }
+        ]
+    },
+    "2013":
+    {
+        "papers": [
+            {
+                "type": "international",
+                "title": "Multiview Photometric Stereo using Planar Mesh Parameterization", 
+                "author": ["Jaesik Park", "Sudipta N. Sinha", "Yasuyuki Matsushita", "Yu-Wing Tai", "In So Kweon"],
+                "venue": "The 14th International Conference on Computer Vision (ICCV), 2013",
+                "pdf": "publications/multiviewps/ICCV2013.pdf",
+                "poster": "publications/multiviewps/ICCV2013poster.pdf",
+                "executable": "https://www.dropbox.com/s/pdhiexb4jur5tqf/MeshOpt_Executable.zip?dl=1",
+                "bibtex": "publications/multiviewps/ICCV2013bibtex.txt",
+                "data": "publications/multiviewps/dataset.txt"
+            }
+        ]
+    }
+}

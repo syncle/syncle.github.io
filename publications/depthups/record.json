@@ -3,6 +3,7 @@
     {
         "papers": [
             {
+                "type": "international",
                 "title": "High Quality Depth Map Upsampling and Completion for RGB-D Cameras", 
                 "author": ["Jaesik Park", "Hyeongwoo Kim", "Yu-Wing Tai", "Michael S. Brown", "In-So Kweon"],
                 "venue": "IEEE Transactions of Image Processing (TIP), 2014",
@@ -15,6 +16,7 @@
     {
         "papers": [
             {
+                "type": "international",
                 "title": "High Quality Depth Map Upsampling for 3D-TOF Cameras", 
                 "author": ["Jaesik Park", "Hyeongwoo Kim*", "Yu-Wing Tai", "Michael S. Brown", "In-So Kweon"],
                 "venue": "The 13th International Conference on Computer Vision (ICCV), 2011",

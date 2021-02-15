@@ -8,16 +8,23 @@ def write_html(file, data):
 	f.write('<script async defer src="https://buttons.github.io/buttons.js"></script>\n')
 	f.write('<div class="container"> <!-- begin of publication list -->\n\n')
 	for idx, year in enumerate(data):
-		if idx != 0:
-			f.write('<hr>\n') # adding horizontal line for every years except for the first appearing year
-		# adding year
-		f.write('<div class="container">\n'+
-				'<div class="row">\n'+
-				'	<div class="col-lg-12 text-left">\n'+
-				'		<h2 class="name">%s</h2>\n' % year +
-				'	</div>\n'+
-				'</div>\n'+
-				'</div>\n\n')
+		print_year = False
+		for category, items in data[year].items():
+			if category == 'papers':
+				for i in items:
+					if i['type'] == 'international':
+						print_year = True
+		if print_year:
+			if idx != 0:
+				f.write('<hr>\n') # adding horizontal line for every years except for the first appearing year
+			# adding year
+			f.write('<div class="container">\n'+
+					'<div class="row">\n'+
+					'	<div class="col-lg-12 text-left">\n'+
+					'		<h2 class="name">%s</h2>\n' % year +
+					'	</div>\n'+
+					'</div>\n'+
+					'</div>\n\n')
 		# adding elements
 		for category, items in data[year].items():
 			if category == 'papers':
