@@ -1,6 +1,4 @@
 
-import record
-
 from check_link import is_absolute
 from domain import get_domain
 from check_link import check_link
