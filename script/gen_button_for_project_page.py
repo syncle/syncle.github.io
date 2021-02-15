@@ -1,6 +1,5 @@
 
 from gen_button import get_button_str_all
-# from record import read_record
 from util import authorlist_to_text
 
 def append_button_html(path, data):
@@ -23,16 +22,5 @@ def append_button_html(path, data):
 							get_button_str_all(i) +
 							# Some stupid spacing
 							'		<p><br></p>\n')
-		# for data_iter in data:
-		# 	f.write(
-		# 			# Paper information
-		# 			'		<h3>%s</h3>\n' % data_iter['title'] +
-		# 			'		<p>%s<br>\n' % data_iter['author'] +
-		# 			'		%s<br>\n' % data_iter['venue'] +
-		# 			# '		%s</p>\n' % data_iter.comment +
-		# 			# Buttons
-		# 			get_button_str_all(data_iter) +
-		# 			# Some stupid spacing
-		# 			'		<p><br></p>\n')
 	f.write('</div>\n\n')
 	f.close()
