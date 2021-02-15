@@ -4,6 +4,22 @@
         "papers": [
             {
                 "type": "international",
+                "title": "Accelerated crystal structure prediction of multi-elements random alloy using expandable features", 
+                "author": ["Taewon Jin", "Taesoo Park", "In ah Park", "Jaesik Park", "Ji Hoon Shim"],
+                "venue": "<b>Scientific Reports</b> published by Nature Research, 2021",
+                "image": "publications/data/21_scientific_reports.jpg",
+                "pdf": "#"
+            },
+            {
+                "type": "international",
+                "title": "Spatiotemporal Texture Reconstruction for Dynamic Objects Using a Single RGB-D Camera", 
+                "author": ["Hyomin Kim", "Jungeon Kim", "Hyeonseo Nam", "Jaesik Park", "Seungyong Lee"],
+                "venue": "42nd Annual Conference of the European Association for Computer Graphics (<b>EuroGraphics</b>), 2021",
+                "image": "publications/data/21_eurographics.jpg",
+                "pdf": "#"
+            },
+            {
+                "type": "international",
                 "title": "High-quality Frame Interpolation via Tridirectional Inference", 
                 "author": ["Jinsoo Choi", "Jaesik Park", "In So Kweon"],
                 "venue": "Winter Conference on Applications of Computer Vision (<b>WACV</b>), 2021",
