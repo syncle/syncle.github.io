@@ -1,0 +1,17 @@
+{
+    "2016":
+    {
+        "papers": [
+            {
+                "type": "international",
+                "title": "Efficient and Robust Color Consistency for Community Photo Collections", 
+                "author": ["Jaesik Park", "Yu-Wing Tai", "Sudipta N. Sinha", "In So Kweon"],
+                "venue": "CVPR, 2016",
+                "pdf": "publications/photoconsistency/paper.pdf",
+                "supp": "publications/photoconsistency/supp.pdf",
+                "bibtex": "publications/photoconsistency/bibtex.txt",
+                "code": "https://github.com/syncle/photo_consistency"
+            }
+        ]
+    }
+}

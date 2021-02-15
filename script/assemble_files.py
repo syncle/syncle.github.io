@@ -1,7 +1,8 @@
 from gen_headers import write_header_html
-from record import read_record
+# from record import read_record
 from gen_button_for_project_page import append_button_html
 import os
+import json
 from util import clear_file, include_file
 
 path_header = '../source/header.html'
@@ -14,8 +15,9 @@ def gen_project_page(path, title):
 	include_file('../' + path + 'index.html', '../' + path + 'content_header.html')
 	include_file('../' + path + 'index.html', '../' + path + 'content_index.html')
 	# record = read_record('../' + path + 'publication_data.txt')
-	#print(record[0])
-	# append_button_html('../' + path + 'index.html', record)
+	with open('../' + path + 'record.json') as f:
+		data = json.load(f)
+	append_button_html('../' + path + 'index.html', data)
 	include_file('../' + path + 'index.html', path_footer)
 
 def gen_page(page, type):
