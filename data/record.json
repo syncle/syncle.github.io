@@ -81,6 +81,39 @@
                 "title": "Senior Program Committee",
                 "venue": "American Assoc. for Artificial Intelligence (AAAI)"
             }
+        ],
+        "talks": [
+            {
+                "title": "3D Representations and Detections",
+                "venue": "Chungbuk University, Chungju, Republic of Korea",
+                "month": 1
+            }
+        ],
+        "patents": [
+            {
+                "title": "Tangent Convolutions for 3D Data, US10572770B2, (Application granted)"
+            },
+            {
+                "title": "깊이 정보 획득 장치 및 깊이 정보 획득 방법 (Depth Map Acquisition Device And Depth Map Acquisition Method), Patent No. 1018520850000, Republic of Korea, (Application granted)"
+            },
+            {
+                "title": "삼차원 영상 정보 획득 방법 및 이를 구현한 컴퓨팅 장치 (Method For Acquiring Three Dimensional Image Information, And Computing Device Implementing The Same Method), Patent No. 1017652570000, Republic of Korea (Application granted)"
+            },
+            {
+                "title": "전경 추출 방법 및 장치 (Foreground Area Extracting Method and Apparatus), Patent No. 10-2015-0084331, Republic of Korea."
+            },
+            {
+                "title": "다중 객체 추적 방법 및 이를 위한 장치 (Method Of Tracking Multiple Objects And Apparatus For The Same), Patent No. 10-2015-0070569, Republic of Korea"
+            },
+            {
+                "title": "깊이 센서와 적외선 음영 영상을 이용한 고품질 3차원 정보 획득 장치 및 방법 (Device and method for obtaining accurate 3D information using depth sensor and infrared shading cues), Patent No. 1017079390000, Republic of Korea. (Application granted)"
+            },
+            {
+                "title": "가려짐이 있는 환경에서 이동표적의 위치를 추정하는 방법 (Method for Estimating Location of Moving Target in Occluded Tracking Environment), Patent No. 1012883880000, Republic of Korea. (Application granted)"
+            },
+            {
+                "title": "컬러 이미지의 채널간 상관관계를 이용하는 워터마크 제거 방법 (Method for removing watermark using cross-channel correlation of color image), Patent No. 1013952840000, Republic of Korea. (Application granted)"
+            }
         ]
     },
     "2020":
@@ -196,16 +229,21 @@
                 "semester": "Spring"
             },
             {
-                "title": "AIGS537/CSED537, Artificial Intelligence & Data Science, 2020 Spring",
+                "title": "AIGS537/CSED537, Artificial Intelligence and Data Science, 2020 Spring",
                 "semester": "Spring"
             },
             {
-                "title": "Data Structure",
+                "title": "CSED233, Data Structure",
                 "semester": "Spring",
                 "comment": "(Awarded as the outstanding online class)"
             }
         ],
         "awards": [
+            {
+                "title": "Qualcomm Gift Grant",
+                "awardee": "Qualcomm Corporation",
+                "month": 12
+            },
             {
                 "title": "Faculty Support Program",
                 "awardee": "Intel Corporation",
@@ -264,7 +302,7 @@
                 "month": 12
             },
             {
-                "title": "Open3D Tutorial & Fully Convolutional Geometric Features", 
+                "title": "Open3D Tutorial and Fully Convolutional Geometric Features", 
                 "venue": "Korea Electronics Technology Institute, Seongnam, Republic of Korea", 
                 "month": 11
             },
@@ -363,18 +401,6 @@
                 "month": 3
             }
         ],
-        "program committee": [
-            {
-                "title": "Area Chair",
-                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
-            }
-        ],
-        "teaching": [
-            {
-                "title": "CSED703F, 3D Vision",
-                "semester": "Fall"
-            }
-        ],
         "awards": [
             {
                 "title": "Research Velocity Challenge Award",
@@ -416,25 +442,6 @@
                 "venue": "Computer Graphics Forum (<b>CGF</b>), 2017",
                 "image": "publications/data/17_cgf.jpg",
                 "pdf": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13082"
-            }
-        ],
-        "talks": [
-            {
-                "title": "Introduction to Computer Vision",
-                "venue": "Kyungbuk Science High School, Pohang, Republic of Korea",
-                "month": 8
-            }            
-        ],
-        "program committee": [
-            {
-                "title": "Area Chair",
-                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
-            }
-        ],
-        "teaching": [
-            {
-                "title": "CSED703F, 3D Vision",
-                "semester": "Fall"
             }
         ],
         "awards": [
@@ -515,25 +522,6 @@
                 "comment": "Depth processing algorithm of Team KAIST (winner of DARPA robotics challenge finals 2015)",
                 "pdf": "publications/data/16_tip.pdf",
                 "bibtex": "publications/data/16_tip.txt"
-            }
-        ],
-        "talks": [
-            {
-                "title": "Introduction to Computer Vision",
-                "venue": "Kyungbuk Science High School, Pohang, Republic of Korea",
-                "month": 8
-            }            
-        ],
-        "program committee": [
-            {
-                "title": "Area Chair",
-                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
-            }
-        ],
-        "teaching": [
-            {
-                "title": "CSED703F, 3D Vision",
-                "semester": "Fall"
             }
         ],
         "awards": [
@@ -705,18 +693,6 @@
                 "comment": "(Received best paper award)"
             }
         ],
-        "program committee": [
-            {
-                "title": "Area Chair",
-                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
-            }
-        ],
-        "teaching": [
-            {
-                "title": "CSED703F, 3D Vision",
-                "semester": "Fall"
-            }
-        ],
         "awards": [
             {
                 "title": "19th HumanTech Paper Award (Silver Prize)",
@@ -762,25 +738,6 @@
                 "web_inplace": "publications/identigram/index.html"
             }
         ],
-        "talks": [
-            {
-                "title": "Introduction to Computer Vision",
-                "venue": "Kyungbuk Science High School, Pohang, Republic of Korea",
-                "month": 8
-            }            
-        ],
-        "program committee": [
-            {
-                "title": "Area Chair",
-                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
-            }
-        ],
-        "teaching": [
-            {
-                "title": "CSED703F, 3D Vision",
-                "semester": "Fall"
-            }
-        ],
         "awards": [
             {
                 "title": "Bronze Prize",
@@ -813,25 +770,6 @@
                 "image": "publications/data/11_iccv.jpg",
                 "comment": "*Equal contributions",
                 "web_inplace": "publications/depthups/index.html"
-            }
-        ],
-        "talks": [
-            {
-                "title": "Introduction to Computer Vision",
-                "venue": "Kyungbuk Science High School, Pohang, Republic of Korea",
-                "month": 8
-            }            
-        ],
-        "program committee": [
-            {
-                "title": "Area Chair",
-                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
-            }
-        ],
-        "teaching": [
-            {
-                "title": "CSED703F, 3D Vision",
-                "semester": "Fall"
             }
         ],
         "awards": [
