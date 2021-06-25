@@ -4,6 +4,14 @@
         "papers": [
             {
                 "type": "international",
+                "title": "STAD: Stable Video Depth Estimation", 
+                "author": ["Hyunmin Lee", "Jaesik Park"],
+                "venue": "IEEE International Conference on Image Processing (ICIP), 2021",
+                "image": "",
+                "pdf": "#"
+            },
+            {
+                "type": "international",
                 "title": "Accelerated Crystal Structure Prediction of Multi-elements Random Alloy using Expandable Features", 
                 "author": ["Taewon Jin", "Taesoo Park", "Ina Park", "Jaesik Park", "Ji Hoon Shim"],
                 "venue": "<b>Scientific Reports</b> published by Nature Research, 2021",
@@ -85,31 +93,34 @@
         "talks": [
             {
                 "title": "Self-Calibrating Neural Radiance Fields",
-                "venue": "Korea Institute of Science and Technology (KIST)",
+                "venue": "Korea Institute of Science and Technology (KIST), Virtual",
                 "month": 6
             },
             {
                 "title": "Mentor session: how to become a professor",
-                "venue": "Conference on Computer Vision and Pattern Recognition (CVPR 2021)",
+                "venue": "Conference on Computer Vision and Pattern Recognition (CVPR 2021), Virtual",
                 "month": 6
             },
             {
                 "title": "Recent work on Image Generation",
-                "venue": "Gwangju Institute of Science and Technology (GIST)",
+                "venue": "Gwangju Institute of Science and Technology (GIST), Virtual",
                 "month": 5
             },
             {
                 "title": "Point Cloud Registration using Hierachical Hough Transform",
-                "venue": "33nd Workshop on Image Processing and Image Understanding (IPIU2021)",
+                "venue": "33nd Workshop on Image Processing and Image Understanding (IPIU2021), Virtual",
                 "month": 2
             },
             {
                 "title": "3D Representations and Detections",
-                "venue": "Chungbuk University, Chungju, Republic of Korea",
+                "venue": "Chungbuk University, Virtual",
                 "month": 1
             }
         ],
         "patents": [
+            {
+                "title": "대조 학습과 적대적 생성 신경망을 활용한 이미지 생성 및 편집 방법과 장치, Republic of Korea"
+            },
             {
                 "title": "Tangent Convolutions for 3D Data, US10572770B2, (Application granted)"
             },
