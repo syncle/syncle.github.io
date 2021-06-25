@@ -84,6 +84,26 @@
         ],
         "talks": [
             {
+                "title": "Self-Calibrating Neural Radiance Fields",
+                "venue": "Korea Institute of Science and Technology (KIST)",
+                "month": 6
+            },
+            {
+                "title": "Mentor session: how to become a professor",
+                "venue": "Conference on Computer Vision and Pattern Recognition (CVPR 2021)",
+                "month": 6
+            },
+            {
+                "title": "Recent work on Image Generation",
+                "venue": "Gwangju Institute of Science and Technology (GIST)",
+                "month": 5
+            },
+            {
+                "title": "Point Cloud Registration using Hierachical Hough Transform",
+                "venue": "33nd Workshop on Image Processing and Image Understanding (IPIU2021)",
+                "month": 2
+            },
+            {
                 "title": "3D Representations and Detections",
                 "venue": "Chungbuk University, Chungju, Republic of Korea",
                 "month": 1
