@@ -7,7 +7,7 @@
                 "title": "STAD: Stable Video Depth Estimation", 
                 "author": ["Hyunmin Lee", "Jaesik Park"],
                 "venue": "IEEE International Conference on Image Processing (ICIP), 2021",
-                "image": "",
+                "image": "publications/data/21_scientific_reports.jpg",
                 "pdf": "#"
             },
             {
@@ -68,10 +68,6 @@
             {
                 "title": "Area Chair",
                 "venue": "Machine Vision Applications (MVA) conference"
-            },
-            {
-                "title": "Area Chair",
-                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
             },
             {
                 "title": "Area Chair",
