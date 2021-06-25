@@ -4,14 +4,6 @@
         "papers": [
             {
                 "type": "international",
-                "title": "STAD: Stable Video Depth Estimation", 
-                "author": ["Hyunmin Lee", "Jaesik Park"],
-                "venue": "IEEE International Conference on Image Processing (ICIP), 2021",
-                "image": "publications/data/21_scientific_reports.jpg",
-                "pdf": "#"
-            },
-            {
-                "type": "international",
                 "title": "Accelerated Crystal Structure Prediction of Multi-elements Random Alloy using Expandable Features", 
                 "author": ["Taewon Jin", "Taesoo Park", "Ina Park", "Jaesik Park", "Ji Hoon Shim"],
                 "venue": "<b>Scientific Reports</b> published by Nature Research, 2021",
