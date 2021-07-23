@@ -4,11 +4,44 @@
         "papers": [
             {
                 "type": "international",
+                "title": "Self-Calibrating Neural Radiance Fields", 
+                "author": ["Yoonwoo Jeong", "Seokjun Ahn", "Christopher Choy", "Animashree Anandkumar", "Minsu Cho", "Jaesik Park"],
+                "venue": "International Conference on Computer Vision (<b>ICCV</b>), 2021",
+                "image": "publications/data/21_iccv2.jpg",
+                "pdf": "#"
+            },
+            {
+                "type": "international",
+                "title": "Deep Hough Voting for Robust Global Registration", 
+                "author": ["Junha Lee", "Seungwook Kim", "Minsu Cho", "Jaesik Park"],
+                "venue": "International Conference on Computer Vision (<b>ICCV</b>), 2021",
+                "image": "publications/data/21_iccv3.jpg",
+                "pdf": "#"
+            },
+            {
+                "type": "international",
+                "title": "Deep Virtual Markers for Articulated 3D Shapes", 
+                "author": ["Hyomin Kim", "Jungeon Kim", "Jaewon Kam", "Jaesik Park", "Seungyong Lee"],
+                "venue": "International Conference on Computer Vision (<b>ICCV</b>), 2021",
+                "image": "publications/data/21_iccv1.jpg",
+                "comment": "(<b>Oral</b> Presentation, -% acceptance rate)",
+                "pdf": "#"
+            },
+            {
+                "type": "international",
+                "title": "STAD: Stable Video Depth Estimation", 
+                "author": ["Hyunmin Lee", "Jaesik Park"],
+                "venue": "IEEE International Conference on Image Processing (<b>ICIP</b>), 2021",
+                "image": "publications/data/21_icip.jpg",
+                "pdf": "#"
+            },
+            {
+                "type": "international",
                 "title": "Accelerated Crystal Structure Prediction of Multi-elements Random Alloy using Expandable Features", 
                 "author": ["Taewon Jin", "Taesoo Park", "Ina Park", "Jaesik Park", "Ji Hoon Shim"],
                 "venue": "<b>Scientific Reports</b> published by Nature Research, 2021",
                 "image": "publications/data/21_scientific_reports.jpg",
-                "pdf": "#"
+                "pdf": "https://www.nature.com/articles/s41598-021-84544-8"
             },
             {
                 "type": "international",
@@ -16,7 +49,7 @@
                 "author": ["Hyomin Kim", "Jungeon Kim", "Hyeonseo Nam", "Jaesik Park", "Seungyong Lee"],
                 "venue": "42nd Annual Conference of the European Association for Computer Graphics (<b>EuroGraphics</b>), 2021",
                 "image": "publications/data/21_eurographics.jpg",
-                "pdf": "#"
+                "pdf": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.142652"
             },
             {
                 "type": "international",
