@@ -166,6 +166,13 @@
             {
                 "title": "컬러 이미지의 채널간 상관관계를 이용하는 워터마크 제거 방법 (Method for removing watermark using cross-channel correlation of color image), Patent No. 1013952840000, Republic of Korea. (Application granted)"
             }
+        ],
+        "awards": [
+            {
+                "title": "Representative research achievements",
+                "awardee": "POSTECH",
+                "month": 7
+            }
         ]
     },
     "2020":
@@ -346,6 +353,12 @@
                 "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>), 2019",
                 "image": "publications/data/18_pami.jpg",
                 "pdf": "http://ieeexplore.ieee.org/document/8263242/"
+            },
+            {
+                "type": "domestic",
+                "title": "메시 피라미드를 활용한 3차원 비강체 모델 텍스쳐 맵 생성", 
+                "author": ["Jungeon Kim", "Hyomin Kim", "Jaesik Park", "Seungyong Lee"],
+                "venue": "한국컴퓨터그래픽스학회, Jul 2019"
             }
         ],
         "talks": [
