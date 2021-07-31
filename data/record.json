@@ -21,10 +21,10 @@
             {
                 "type": "international",
                 "title": "Deep Virtual Markers for Articulated 3D Shapes", 
-                "author": ["Hyomin Kim", "Jungeon Kim", "Jaewon Kam", "Jaesik Park", "Seungyong Lee"],
+                "author": ["Hyomin Kim", "Jungeon Kim", "Jaewon Kam", "Jaesik Park*", "Seungyong Lee*"],
                 "venue": "International Conference on Computer Vision (<b>ICCV</b>), 2021",
                 "image": "publications/data/21_iccv1.jpg",
-                "comment": "(<b>Oral</b> Presentation, -% acceptance rate)",
+                "comment": "(*Joint corrresponding author. <b>Oral</b> Presentation, -% acceptance rate)",
                 "pdf": "#"
             },
             {
