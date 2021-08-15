@@ -24,6 +24,7 @@
                 "author": ["Hyomin Kim", "Jungeon Kim", "Jaewon Kam", "Jaesik Park*", "Seungyong Lee*"],
                 "venue": "International Conference on Computer Vision (<b>ICCV</b>), 2021",
                 "image": "publications/data/21_iccv1.jpg",
+                "code": "https://github.com/T2Kim/DeepVirtualMarkers",
                 "comment": "(*Joint corrresponding author. <b>Oral</b> Presentation, -% acceptance rate)",
                 "pdf": "#"
             },
@@ -33,6 +34,7 @@
                 "author": ["Hyunmin Lee", "Jaesik Park"],
                 "venue": "IEEE International Conference on Image Processing (<b>ICIP</b>), 2021",
                 "image": "publications/data/21_icip.jpg",
+                "code": "https://github.com/semonemo/STAD",
                 "pdf": "#"
             },
             {
