@@ -7,26 +7,26 @@
                 "title": "Self-Calibrating Neural Radiance Fields", 
                 "author": ["Yoonwoo Jeong", "Seokjun Ahn", "Christopher Choy", "Animashree Anandkumar", "Minsu Cho", "Jaesik Park"],
                 "venue": "International Conference on Computer Vision (<b>ICCV</b>), 2021",
-                "image": "publications/data/21_iccv2.jpg",
-                "pdf": "#"
+                "image": "publications/data/21_iccv1.jpg",
+                "pdf": "publications/data/21_iccv1.pdf"
             },
             {
                 "type": "international",
                 "title": "Deep Hough Voting for Robust Global Registration", 
                 "author": ["Junha Lee", "Seungwook Kim", "Minsu Cho", "Jaesik Park"],
                 "venue": "International Conference on Computer Vision (<b>ICCV</b>), 2021",
-                "image": "publications/data/21_iccv3.jpg",
-                "pdf": "#"
+                "image": "publications/data/21_iccv2.jpg",
+                "pdf": "publications/data/21_iccv2.pdf"
             },
             {
                 "type": "international",
                 "title": "Deep Virtual Markers for Articulated 3D Shapes", 
                 "author": ["Hyomin Kim", "Jungeon Kim", "Jaewon Kam", "Jaesik Park*", "Seungyong Lee*"],
                 "venue": "International Conference on Computer Vision (<b>ICCV</b>), 2021",
-                "image": "publications/data/21_iccv1.jpg",
+                "image": "publications/data/21_iccv3.jpg",
                 "code": "https://github.com/T2Kim/DeepVirtualMarkers",
                 "comment": "(*Joint corrresponding author. <b>Oral</b> Presentation, -% acceptance rate)",
-                "pdf": "#"
+                "pdf": "publications/data/21_iccv3.pdf"
             },
             {
                 "type": "international",
