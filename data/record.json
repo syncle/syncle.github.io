@@ -4,6 +4,20 @@
         "papers": [
             {
                 "type": "international",
+                "title": "Rebooting ACGAN: Auxiliary Classifier GANs with Stable Training", 
+                "author": ["Minguk Kang", "Woohyeon Joseph Shim", "Minsu Cho", "Jaesik Park"],
+                "venue": "Conference on Neural Information Processing Systems (<b>NeurIPS</b>), 2021",
+                "image": "publications/data/21_neurips1.jpg"
+            },
+            {
+                "type": "international",
+                "title": "Brick-by-Brick: Combinatorial Construction with Deep Reinforcement Learning", 
+                "author": ["Hyunsoo Chung", "Jungtaek Kim", "Boris Knyazev", "Jinhwi Lee", "Graham W. Taylor", "Jaesik Park", "Minsu Cho"],
+                "venue": "Conference on Neural Information Processing Systems (<b>NeurIPS</b>), 2021",
+                "image": "publications/data/21_neurips2.jpg"
+            },            
+            {
+                "type": "international",
                 "title": "Self-Calibrating Neural Radiance Fields", 
                 "author": ["Yoonwoo Jeong", "Seokjun Ahn", "Christopher Choy", "Animashree Anandkumar", "Minsu Cho", "Jaesik Park"],
                 "venue": "International Conference on Computer Vision (<b>ICCV</b>), 2021",
