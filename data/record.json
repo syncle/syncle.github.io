@@ -85,6 +85,14 @@
         ],
         "teaching": [
             {
+                "title": "AIGS101 Artifical Intelligence Basis II",
+                "semester": "Fall"
+            },
+            {
+                "title": "CSED703F Topics in AI: 3D Vision",
+                "semester": "Fall"
+            },
+            {
                 "title": "AIGS101 Artifical Intelligence Basis I",
                 "semester": "Spring"
             },
@@ -94,6 +102,14 @@
             }
         ],
         "program committee": [
+            {
+                "title": "Associate Editor",
+                "venue": "IEEE International Conference on Robotics and Automation (ICRA)"
+            },
+            {
+                "title": "Associate Editor",
+                "venue": "IEEE/RSJ International Conference on Inteligent Robotics and Systems (IROS)"
+            },
             {
                 "title": "Area Chair",
                 "venue": "Machine Vision Applications (MVA) conference"
