@@ -4,6 +4,13 @@
         "papers": [
             {
                 "type": "international",
+                "title": "TextureMe: High-quality Textured Scene Reconstruction in Real-time", 
+                "author": ["Jungeon Kim", "Hyomin Kim", "Hyeonseo Nam", "Jaesik Park", "Seungyong Lee"],
+                "venue": "ACM Transactions on Graphics (<b>ToG</b>), 2021",
+                "image": "publications/data/21_tog.jpg"
+            },
+            {
+                "type": "international",
                 "title": "Rebooting ACGAN: Auxiliary Classifier GANs with Stable Training", 
                 "author": ["Minguk Kang", "Woohyeon Joseph Shim", "Minsu Cho", "Jaesik Park"],
                 "venue": "Conference on Neural Information Processing Systems (<b>NeurIPS</b>), 2021",
