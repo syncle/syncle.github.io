@@ -48,7 +48,7 @@
                 "venue": "International Conference on Computer Vision (<b>ICCV</b>), 2021",
                 "image": "publications/data/21_iccv3.jpg",
                 "code": "https://github.com/T2Kim/DeepVirtualMarkers",
-                "comment": "(*Joint corrresponding author. <b>Oral</b> Presentation, -% acceptance rate)",
+                "comment": "(*Joint corrresponding author, <b>Oral</b> Presentation, -% acceptance rate)",
                 "pdf": "publications/data/21_iccv3.pdf"
             },
             {
@@ -63,9 +63,10 @@
             {
                 "type": "international",
                 "title": "Accelerated Crystal Structure Prediction of Multi-elements Random Alloy using Expandable Features", 
-                "author": ["Taewon Jin", "Taesoo Park", "Ina Park", "Jaesik Park", "Ji Hoon Shim"],
+                "author": ["Taewon Jin", "Taesoo Park", "Ina Park", "Jaesik Park*", "Ji Hoon Shim*"],
                 "venue": "<b>Scientific Reports</b> published by Nature Research, 2021",
                 "image": "publications/data/21_scientific_reports.jpg",
+                "comment": "(*Joint corrresponding author)",
                 "pdf": "https://www.nature.com/articles/s41598-021-84544-8"
             },
             {
