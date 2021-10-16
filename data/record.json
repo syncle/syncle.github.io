@@ -4,6 +4,13 @@
         "papers": [
             {
                 "type": "international",
+                "title": "Self-Supervised Real-time Video Stabilization", 
+                "author": ["Jinsoo Choi", "Jaesik Park", "In So Kweon"],
+                "venue": "The British Machine Vision Conference (<b>BMVC</b>), 2021",
+                "image": "publications/data/21_bmvc.jpg"
+            },
+            {
+                "type": "international",
                 "title": "TextureMe: High-quality Textured Scene Reconstruction in Real-time", 
                 "author": ["Jungeon Kim", "Hyomin Kim", "Hyeonseo Nam", "Jaesik Park", "Seungyong Lee"],
                 "venue": "ACM Transactions on Graphics (<b>ToG</b>), 2021",
@@ -211,6 +218,11 @@
         ],
         "awards": [
             {
+                "title": "Best EduTech Award",
+                "awardee": "POSTECH",
+                "month": 10
+            },
+            {
                 "title": "Representative research achievements",
                 "awardee": "POSTECH",
                 "month": 7
@@ -353,7 +365,7 @@
             },
             {
                 "title": "Outstanding Online Class Award",
-                "awardee": "Awarded to five classes among ~170 classes",
+                "awardee": "Awarded to five classes among 170 classes, POSTECH",
                 "month": 7
             }
         ]
