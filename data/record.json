@@ -97,20 +97,22 @@
                 "type": "domestic",
                 "title": "계층적 허프 변환을 통한 포인트 클라우드 정합", 
                 "author": ["Junha Lee", "Seungwook Kim", "Minsu Cho", "Jaesik Park"],
-                "venue": "제 33회 영상처리 및 이해에 관한 워크샵 (IPIU), Feb 2021"
-            },
-            {
-                "type": "domestic",
-                "title": "강화학습을 이용한 그래프 표현 기반의 3차원 물체 생성", 
-                "author": ["Hyunsoo Chung", "Jungtaek Kim", "Jinhwi Lee", "Jaesik Park", "Minsu Cho"],
-                "venue": "제 33회 영상처리 및 이해에 관한 워크샵 (IPIU), Feb 2021"
+                "venue": "제 33회 영상처리 및 이해에 관한 워크샵 (IPIU), Feb 2021",
+                "comment": "(<b>Received The Gold Prize</b>)"
             },
             {
                 "type": "domestic",
                 "title": "일관된 비디오 뎁스 맵 추정을 위한 시간 어텐션 모듈", 
                 "author": ["Hyunmin Lee", "Jaesik Park"],
-                "venue": "제 33회 영상처리 및 이해에 관한 워크샵 (IPIU), Feb 2021"
-            }
+                "venue": "제 33회 영상처리 및 이해에 관한 워크샵 (IPIU), Feb 2021",
+                "comment": "(<b>Received The Silver Prize</b>)"
+            },
+            {
+                "type": "domestic",
+                "title": "강화학습을 이용한 그래프 표현 기반의 3차원 물체 생성", 
+                "author": ["Hyunsoo Chung", "Jungtaek Kim", "Jinhwi Lee", "Jaesik Park", "Minsu Cho"],
+                "venue": "제 33회 영상처리 및 이해에 관한 워크샵 (IPIU), Feb 2021"                
+            }            
         ],
         "teaching": [
             {
@@ -162,6 +164,11 @@
             }
         ],
         "talks": [
+            {
+                "title": "Object Detection from Images or Point Clouds",
+                "venue": "LG Electronics, Seoul, Republic of Korea",
+                "month": 8
+            },
             {
                 "title": "Self-Calibrating Neural Radiance Fields",
                 "venue": "Korea Institute of Science and Technology (KIST), Virtual",
@@ -628,7 +635,7 @@
                 "author": ["Inwook Shim", "Seunghak Shin", "Yunsu Bok", "Kyungdon Joo", "Dong-Geol Choi", "Joon-Young Lee", "Jaesik Park", "Jun Ho Oh", "In So Kweon"],
                 "venue": "IEEE International Conference on Robotics and Automation (<b>ICRA</b>), 2016",
                 "image": "publications/data/16_icra.jpg",
-                "comment": "Depth processing algorithm of Team KAIST (winner of DARPA robotics challenge finals 2015)",
+                "comment": "(Depth processing algorithm of Team KAIST (winner of DARPA robotics challenge finals 2015))",
                 "pdf": "http://arxiv.org/pdf/1509.06114v2.pdf",
                 "supp": "https://drive.google.com/file/d/0B99EdZxWBWl_V1NYZVM3cFZQRGc/view?usp=sharing",
                 "web": "https://sites.google.com/site/iwshimcv/drc-finals-2015",
@@ -639,8 +646,7 @@
                 "title": "Multi-view Object Extraction with Fractional Boundaries", 
                 "author": ["Seong-Heum Kim", "Yu-Wing Tai", "Jaesik Park", "In So Kweon"],
                 "venue": "IEEE Transaction on Image Processing (<b>TIP</b>), 2016",
-                "image": "publications/data/16_tip.jpg",
-                "comment": "Depth processing algorithm of Team KAIST (winner of DARPA robotics challenge finals 2015)",
+                "image": "publications/data/16_tip.jpg",                
                 "pdf": "publications/data/16_tip.pdf",
                 "bibtex": "publications/data/16_tip.txt"
             }
@@ -744,7 +750,7 @@
                 "author": ["Gyeongmin Choe*", "Jaesik Park*", "Yu-Wing Tai", "In So Kweon"],
                 "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2014",
                 "image": "publications/data/14_cvpr_gm.jpg",
-                "comment": "*Equal contributions. Received 20th HumanTech Paper Award (Silver Prize), Samsung Electronics Corp.",
+                "comment": "(*Equal contributions. Received 20th <b>HumanTech Paper Award (Silver Prize)</b>, Samsung Electronics Corp.)",
                 "web": "https://sites.google.com/site/gmchoe1/kinir"
             },
             {
@@ -759,26 +765,29 @@
                 "type": "domestic",
                 "title": "깊이 영상 처리를 위한 학습기반 신뢰도 추정 및 재질 분류",
                 "author": ["Min-Hyun Kim", "Jaesik Park", "In So Kweon"],
-                "venue": "제 27회 영상처리 및 이해에 관한 워크샵 (IPIU)"
+                "venue": "제 27회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
             },
             {
                 "type": "domestic",
                 "title": "시야 공유가 없는 다중 카메라를 이용한 사람 추적",
                 "author": ["Junsik Kim", "Kyungdon Joo", "Tae-Hyun Oh", "Jaesik Park", "In So Kweon"],
-                "venue": "제 27회 영상처리 및 이해에 관한 워크샵 (IPIU)"
+                "venue": "제 27회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
             },
             {
                 "type": "domestic",
                 "title": "컬러-열영상 퓨전을 통한 강인한 보행자 검출 기법",
                 "author": ["SoonMin Hwang", "Jaesik Park", "Namil Kim", "Yukyung Choi", "In So Kweon"],
-                "venue": "제 27회 영상처리 및 이해에 관한 워크샵 (IPIU)"
+                "venue": "제 27회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
             },
             {
                 "type": "domestic",
                 "title": "마이크로 렌즈 기반의 휴대용 라이트필드 카메라를 이용한 정확한 깊이 정보 추정방법",
                 "author": ["Hae-Gon Jeon", "Jaesik Park", "Gyeongmin Choe", "Jinsun Park", "Yunsu Bok", "Yu-Wing Tai", "In So Kweon"],
                 "venue": "한국멀티미디어학회 춘계학술발표대회, May 2015",
-                "comment": "(Received best paper award)"
+                "comment": "(<b>Received the Best Paper Award</b>)"
             }
         ],
 <<<<<<< HEAD
@@ -826,7 +835,7 @@
                 "author": ["Jaesik Park", "Sudipta N. Sinha", "Yasuyuki Matsushita", "Yu-Wing Tai", "In So Kweon"],
                 "venue": "International Conference on Computer Vision (<b>ICCV</b>), 2013",
                 "image": "publications/data/13_iccv.jpg",
-                "comment": "Received 19th HumanTech Paper Award (Silver Prize), Samsung Electronics Corp.",
+                "comment": "(Received 19th <b>HumanTech Paper Award (Silver Prize)</b>, Samsung Electronics Corp.)",
                 "web_inplace": "publications/multiviewps/index.html"
             },
             {
@@ -839,14 +848,16 @@
                 "type": "domestic",
                 "title": "다시점 영상기반 3차원 움직임 추정기법", 
                 "author": ["Jaesik Park", "Tae Hyun Oh", "Jiyoung Jung", "Yu-Wing Tai", "In So Kweon"],
-                "venue": "제 25회 영상처리 및 이해에 관한 워크샵 (IPIU)"
+                "venue": "제 25회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
             },
             {
                 "type": "domestic",
                 "title": "컬러 영상의 홀로그램 및 워터마크 제거 기법", 
                 "author": ["Jaesik Park", "Yu-Wing Tai", "In So Kweon"],
                 "venue": "제 25회 영상처리 및 이해에 관한 워크샵 (IPIU)",
-                "comment": "(Received best paper award)"
+                "comment": "(<b>Received the Best Paper Award</b>)",
+                "month": 2
             }
         ],
         "awards": [
@@ -924,7 +935,7 @@
                 "author": ["Jaesik Park*", "Hyeongwoo Kim*", "Yu-Wing Tai", "Michael S. Brown", "In-So Kweon"],
                 "venue": "International Conference on Computer Vision (<b>ICCV</b>), 2011",
                 "image": "publications/data/11_iccv.jpg",
-                "comment": "*Equal contributions",
+                "comment": "(*Equal contributions)",
                 "web_inplace": "publications/depthups/index.html"
             }
         ],
