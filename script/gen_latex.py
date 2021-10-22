@@ -30,8 +30,8 @@ def write_latex_publication(file, data):
 						f.write('    \publicationItem' + \
 						'{' + change_bold(authorlist_to_text(i['author'])) + '}' + \
 						'{' + i['title'] + '}' + \
-						'{' + change_bold(i['venue']) + '}\n' \
-						)
+						'{' + change_bold(i['venue']) + '}{' + \
+						(change_percent(change_bold(i['comment'])) if 'comment' in i else '') + '}\n')
 	f.write('\\resumePublicationListEnd\n\n\n\n')
 	f.close()
 
@@ -64,9 +64,8 @@ def write_latex_patents(file, data):
 				for i in items:
 					if not 'hide' in i:
 						f.write('    \\resumeItem' + \
-						'{' + i['title'] + ', ' \
-							# + i['awardee'] + ', ' \
-							+ (i['comment']  + ', ' if 'comment' in i else '') \
+						'{' + i['title'] \
+							+ (', ' + i['comment'] if 'comment' in i else '') \
 							+ '}\n')
 	f.write('\\resumeItemListEnd\n\n\n\n')
 	f.close()
