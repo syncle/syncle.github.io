@@ -2,10 +2,17 @@ import json
 from gen_button import get_button_str_all
 from util import *
 
+def get_venue(i, year):
+	v = change_bold(i['venue']) 
+	v += ', '
+	v += (number_to_month(i['month']) + ' ' if 'month' in i else '')
+	v += year
+	return v
+
 def write_latex_publication(file, data):
 	f = open(file, "w")
 	f.write('\\section{Publications}\n\n')
-	f.write('International~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(* decleares co-first authors or co-corresponding authors)\n')
+	f.write('International\n')
 	f.write('\\resumePublicationListStart\n')
 	# international
 	for year in data:
@@ -16,8 +23,8 @@ def write_latex_publication(file, data):
 						f.write('    \publicationItem' + \
 						'{' + change_bold(authorlist_to_text(i['author'])) + '}' + \
 						'{' + i['title'] + '}' + \
-						'{' + change_bold(i['venue']) + '}{' + \
-						(change_percent(change_bold(i['comment'])) if 'comment' in i else '') + '}\n')
+						'{' + get_venue(i, year) + '}' + \
+						'{' + (change_percent(change_bold(i['comment'])) if 'comment' in i else '') + '}\n')
 	f.write('\\resumePublicationListEnd\n\n\n\n')
 	# domestic
 	f.write('Domestic\n')
@@ -30,8 +37,8 @@ def write_latex_publication(file, data):
 						f.write('    \publicationItem' + \
 						'{' + change_bold(authorlist_to_text(i['author'])) + '}' + \
 						'{' + i['title'] + '}' + \
-						'{' + change_bold(i['venue']) + '}{' + \
-						(change_percent(change_bold(i['comment'])) if 'comment' in i else '') + '}\n')
+						'{' + get_venue(i, year) + '}' + \
+						'{' + (change_percent(change_bold(i['comment'])) if 'comment' in i else '') + '}\n')
 	f.write('\\resumePublicationListEnd\n\n\n\n')
 	f.close()
 
@@ -100,7 +107,7 @@ def write_latex_teaching(file, data):
 					if not 'hide' in i:
 						f.write('    \\resumeItem' + \
 						'{' + i['title'] + ', ' \
-							+ (change_emph(change_bold(i['comment']))  + ', ' if 'comment' in i else '') \
+							+ (change_bold(i['comment'])  + ', ' if 'comment' in i else '') \
 							+ i['semester'] + ', ' + ' ' + year + '}\n')
 	f.write('\\resumeItemListEnd\n\n\n\n')
 	f.close()
