@@ -37,6 +37,13 @@ def change_bold(text):
 	text = text.replace('</b>', '}')
 	return text
 
+def change_emph(text):
+	return '\\emph{' + text + '}'
+
+def change_percent(text):
+	text = text.replace('%', '\%')
+	return text
+
 def clear_file(file):
 	f = open(file, "w")
 	f.close()

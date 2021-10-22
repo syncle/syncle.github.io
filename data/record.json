@@ -55,7 +55,7 @@
                 "venue": "International Conference on Computer Vision (<b>ICCV</b>), 2021",
                 "image": "publications/data/21_iccv3.jpg",
                 "code": "https://github.com/T2Kim/DeepVirtualMarkers",
-                "comment": "(*Joint corrresponding author, <b>Oral</b> Presentation, 3.4% acceptance rate)",
+                "comment": "(*Joint corrresponding authors, <b>Oral</b> Presentation, 3.4% acceptance rate)",
                 "pdf": "publications/data/21_iccv3.pdf"
             },
             {
@@ -73,7 +73,7 @@
                 "author": ["Taewon Jin", "Taesoo Park", "Ina Park", "Jaesik Park*", "Ji Hoon Shim*"],
                 "venue": "<b>Scientific Reports</b> published by Nature Research, 2021",
                 "image": "publications/data/21_scientific_reports.jpg",
-                "comment": "(*Joint corrresponding author)",
+                "comment": "(*Joint corrresponding authors)",
                 "pdf": "https://www.nature.com/articles/s41598-021-84544-8"
             },
             {
@@ -127,37 +127,38 @@
             },
             {
                 "title": "CSED538/AIGS538 Deep learning",
-                "semester": "Spring"
+                "semester": "Spring",
+                "comment": "<b>Awarded as the Best EduTech Class</b> by POSTECH"
             }
         ],
         "program committee": [
             {
-                "title": "Associate Editor",
-                "venue": "IEEE International Conference on Robotics and Automation (ICRA)"
+                "title": "<b>Associate Editor</b>",
+                "venue": "IEEE International Conference on Robotics and Automation (<b>ICRA</b>)"
             },
             {
-                "title": "Associate Editor",
-                "venue": "IEEE/RSJ International Conference on Inteligent Robotics and Systems (IROS)"
+                "title": "<b>Associate Editor</b>",
+                "venue": "IEEE/RSJ International Conference on Inteligent Robotics and Systems (<b>IROS</b>)"
             },
             {
                 "title": "Area Chair",
                 "venue": "Machine Vision Applications (MVA) conference"
             },
             {
-                "title": "Area Chair",
-                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
+                "title": "<b>Area Chair</b>",
+                "venue": "International Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)"
             },
             {
-                "title": "Area Chair",
-                "venue": "International Conference on Computer Vision (ICCV)"
-            },
-            {
-                "title": "Senior Program Committee",
-                "venue": "Int. Joint Conf. on Artificial Intelligence (IJCAI)"
+                "title": "<b>Area Chair</b>",
+                "venue": "International Conference on Computer Vision (<b>ICCV</b>)"
             },
             {
                 "title": "Senior Program Committee",
-                "venue": "American Assoc. for Artificial Intelligence (AAAI)"
+                "venue": "Int. Joint Conf. on Artificial Intelligence (<b>IJCAI</b>)"
+            },
+            {
+                "title": "Senior Program Committee",
+                "venue": "American Assoc. for Artificial Intelligence (<b>AAAI</b>)"
             }
         ],
         "talks": [
@@ -218,12 +219,12 @@
         ],
         "awards": [
             {
-                "title": "Best EduTech Award",
+                "title": "<b>Best EduTech Class Award</b>",
                 "awardee": "POSTECH",
                 "month": 10
             },
             {
-                "title": "Representative research achievements",
+                "title": "<b>Representative Research Achievements</b>",
                 "awardee": "POSTECH",
                 "month": 7
             }
@@ -240,7 +241,7 @@
                 "image": "publications/data/20_neurips.jpg",
                 "pdf": "https://papers.nips.cc/paper/2020/file/f490c742cd8318b8ee6dca10af2a163f-Paper.pdf",
                 "code": "https://github.com/POSTECH-CVLab/PyTorch-StudioGAN",
-                "comment": "<a class=\"github-button\" href=\"https:\/\/github.com\/POSTECH-CVLab\/PyTorch-StudioGAN\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star POSTECH-CVLab\/PyTorch-StudioGAN on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/POSTECH-CVLab\/PyTorch-StudioGAN\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork POSTECH-CVLab\/PyTorch-StudioGAN on GitHub\">Fork<\/a>"
+                "github": "<a class=\"github-button\" href=\"https:\/\/github.com\/POSTECH-CVLab\/PyTorch-StudioGAN\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star POSTECH-CVLab\/PyTorch-StudioGAN on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/POSTECH-CVLab\/PyTorch-StudioGAN\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork POSTECH-CVLab\/PyTorch-StudioGAN on GitHub\">Fork<\/a>"
             },
             {
                 "type": "international",
@@ -258,7 +259,7 @@
                 "venue": "Learning Meets Combinatorial Algorithms (LMCA, <b>NeurIPS workshop</b>), 2020",
                 "image": "publications/data/20_lmca.jpg",
                 "pdf": "https://openreview.net/pdf?id=05KxJSXwPl",
-                "comment": "*Equal contribution"
+                "comment": "(*Equal contribution)"
             },
             {
                 "type": "international",
@@ -317,8 +318,8 @@
         ],
         "program committee": [
             {
-                "title": "Area Chair",
-                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
+                "title": "<b>Area Chair</b>",
+                "venue": "International Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)"
             }
         ],
         "teaching": [
@@ -349,24 +350,24 @@
             {
                 "title": "CSED233, Data Structure",
                 "semester": "Spring",
-                "comment": "(Awarded as the outstanding online class)"
+                "comment": "<b>Awarded as the Outstanding Online Class</b> by POSTECH"
             }
         ],
         "awards": [
             {
-                "title": "Qualcomm Gift Grant",
+                "title": "<b>Qualcomm Gift Grant</b>",
                 "awardee": "Qualcomm Corporation",
                 "month": 12
             },
             {
-                "title": "Faculty Support Program",
-                "awardee": "Intel Corporation",
-                "month": 6
-            },
-            {
-                "title": "Outstanding Online Class Award",
+                "title": "<b>Outstanding Online Class</b>",
                 "awardee": "Awarded to five classes among 170 classes, POSTECH",
                 "month": 7
+            },
+            {
+                "title": "<b>Faculty Support Program</b>",
+                "awardee": "Intel Corporation",
+                "month": 6
             }
         ]
     },
@@ -444,12 +445,12 @@
         ],
         "program committee": [
             {
-                "title": "Area Chair",
-                "venue": "International Conference on Computer Vision (ICCV)"
+                "title": "<b>Area Chair</b>",
+                "venue": "International Conference on Computer Vision (<b>ICCV</b>)"
             },
             {
-                "title": "Session Chair",
-                "venue": "International Conference on Computer Vision (ICCV)"
+                "title": "<b>Session Chair</b>",
+                "venue": "International Conference on Computer Vision (<b>ICCV</b>)"
             }
         ],
         "teaching": [
@@ -460,13 +461,13 @@
         ],
         "awards": [
             {
-                "title": "Google Season of Docs",
+                "title": "<b>Google Season of Docs</b>",
                 "awardee": "Google Corporation",
                 "comment": "Technical writer support for Open3D",
                 "month": 4
             },
             {
-                "title": "Qualcomm Gift Grant",
+                "title": "<b>Qualcomm Gift Grant</b>",
                 "awardee": "Qualcomm Corporation",
                 "month": 9
             }
@@ -497,7 +498,7 @@
                 "code": "https://github.com/IntelVCL/Open3D",
                 "tutorial": "http://open3d.org/docs",
                 "video": "https://www.youtube.com/watch?v=qEweHTSEXTk",
-                "comment": "<a class=\"github-button\" href=\"https:\/\/github.com\/intel-isl\/open3d\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star intel-isl\/open3d on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/intel-isl\/open3d\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork intel-isl\/open3d on GitHub\">Fork<\/a>"
+                "github": "<a class=\"github-button\" href=\"https:\/\/github.com\/intel-isl\/open3d\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star intel-isl\/open3d on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/intel-isl\/open3d\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork intel-isl\/open3d on GitHub\">Fork<\/a>"
             },
             {
                 "type": "international",
@@ -566,8 +567,8 @@
         ],
         "awards": [
             {
-                "title": "Depth estimation challenge: robustness champion",
-                "awardee": "CVPR workshop on Light Fields for Computer Vision",
+                "title": "Depth Estimation Challenge: Robustness Champion",
+                "awardee": "CVPR workshop on Light Fields for Comp. Vis.",
                 "month": 7
             }
         ]
@@ -646,8 +647,8 @@
         ],
         "awards": [
             {
-                "title": "Qualcomm Innovation Award",
-                "awardee": "Qualcomm Korea Corp. and KAIST",
+                "title": "<b>Qualcomm Innovation Award</b>",
+                "awardee": "Qualcomm Korea Corp.",
                 "month": 3
             },
             {
@@ -656,7 +657,7 @@
                 "month": 4
             },
             {
-                "title": "Honor Prize",
+                "title": "<b>Honor Prize</b>",
                 "awardee": "KAIST",
                 "comment": "Annual Ph.D. Research Progress Evaluation",
                 "month": 5
@@ -701,7 +702,7 @@
         ],
         "awards": [
             {
-                "title": "Honor Prize",
+                "title": "<b>Honor Prize</b>",
                 "awardee": "KAIST",
                 "comment": "Annual Ph.D. Research Progress Evaluation",
                 "month": 5
@@ -743,7 +744,7 @@
                 "author": ["Gyeongmin Choe*", "Jaesik Park*", "Yu-Wing Tai", "In So Kweon"],
                 "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2014",
                 "image": "publications/data/14_cvpr_gm.jpg",
-                "comment": "=*Equal contributions. Received 20th HumanTech Paper Award (Silver Prize), Samsung Electronics Corp.",
+                "comment": "*Equal contributions. Received 20th HumanTech Paper Award (Silver Prize), Samsung Electronics Corp.",
                 "web": "https://sites.google.com/site/gmchoe1/kinir"
             },
             {
@@ -778,6 +779,13 @@
                 "author": ["Hae-Gon Jeon", "Jaesik Park", "Gyeongmin Choe", "Jinsun Park", "Yunsu Bok", "Yu-Wing Tai", "In So Kweon"],
                 "venue": "한국멀티미디어학회 춘계학술발표대회, May 2015",
                 "comment": "(Received best paper award)"
+            }
+        ],
+        "awards": [
+            {
+                "title": "<b>20th HumanTech Paper Award (Silver Prize)</b>",
+                "awardee": "Samsung Electronics Corp.",                
+                "month": 2
             }
         ]
     },
@@ -815,7 +823,7 @@
         ],
         "awards": [
             {
-                "title": "19th HumanTech Paper Award (Silver Prize)",
+                "title": "<b>19th HumanTech Paper Award (Silver Prize)</b>",
                 "awardee": "Samsung Electronics Corp.",                
                 "month": 2
             },
@@ -894,7 +902,7 @@
         ],
         "awards": [
             {
-                "title": "Microsoft Research Asia Fellowship",
+                "title": "<b>Microsoft Research Asia Fellowship</b>",
                 "awardee": "Microsoft",
                 "comment": "Awarded to 11 Ph.D. students in the top Asian universities.",
                 "month": 11
@@ -905,8 +913,9 @@
     {
         "awards": [
             {
-                "title": "Summa cum laude",
+                "title": "<b>Summa Cum Laude</b>",
                 "awardee": "Hanyang University",
+                "comment": "GPA 4.32/4.5",
                 "month": 2
             }
         ]
@@ -915,12 +924,12 @@
     {
         "awards": [
             {
-                "title": "Full Scholarship",
-                "awardee": "Jeongsu scholarship foundation",
+                "title": "<b>Full Scholarship</b>",
+                "awardee": "Jeong-Su Scholarship Foundation",
                 "month": 8
             },
             {
-                "title": "Scholarship for Selected Undergraduate Students",
+                "title": "<b>Scholarship for Undergraduate Students</b>",
                 "awardee": "The Korea Foundation for Advanced Studies (KFAS)",
                 "month": 6
             }
@@ -930,7 +939,7 @@
     {
         "awards": [
             {
-                "title": "Full scholarship",
+                "title": "<b>Full scholarship</b>",
                 "awardee": "Hanyang University",
                 "month": 8
             }

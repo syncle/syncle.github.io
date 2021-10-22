@@ -4,8 +4,8 @@ from util import *
 
 def write_latex_publication(file, data):
 	f = open(file, "w")
-	f.write('\\section{Publications}\n\n\n\n')
-	f.write('International\n')
+	f.write('\\section{Publications}\n\n')
+	f.write('International~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(* decleares co-first authors or co-corresponding authors)\n')
 	f.write('\\resumePublicationListStart\n')
 	# international
 	for year in data:
@@ -16,8 +16,8 @@ def write_latex_publication(file, data):
 						f.write('    \publicationItem' + \
 						'{' + change_bold(authorlist_to_text(i['author'])) + '}' + \
 						'{' + i['title'] + '}' + \
-						'{' + change_bold(i['venue']) + '}\n' \
-						)
+						'{' + change_bold(i['venue']) + '}{' + \
+						(change_percent(change_bold(i['comment'])) if 'comment' in i else '') + '}\n')
 	f.write('\\resumePublicationListEnd\n\n\n\n')
 	# domestic
 	f.write('Domestic\n')
@@ -46,9 +46,9 @@ def write_latex_awards(file, data):
 				for i in items:
 					if not 'hide' in i:
 						f.write('    \\resumeItem' + \
-						'{' + i['title'] + ', ' \
+						'{' + change_bold(i['title']) + ', ' \
 							+ i['awardee'] + ', ' \
-							+ (i['comment']  + ', ' if 'comment' in i else '') \
+							+ (change_emph(i['comment'])  + ', ' if 'comment' in i else '') \
 							+ number_to_month(i['month']) + ' ' + year + '}\n')
 	f.write('\\resumeItemListEnd\n\n\n\n')
 	f.close()
@@ -101,9 +101,8 @@ def write_latex_teaching(file, data):
 					if not 'hide' in i:
 						f.write('    \\resumeItem' + \
 						'{' + i['title'] + ', ' \
-							+ i['semester'] + ', ' \
-							+ (i['comment']  + ', ' if 'comment' in i else '') \
-							+ ' ' + year + '}\n')
+							+ (change_emph(change_bold(i['comment']))  + ', ' if 'comment' in i else '') \
+							+ i['semester'] + ', ' + ' ' + year + '}\n')
 	f.write('\\resumeItemListEnd\n\n\n\n')
 	f.close()
 	
@@ -118,10 +117,12 @@ def write_latex_program_committe(file, data):
 				for i in items:
 					if not 'hide' in i:
 						f.write('    \\resumeItem' + \
-						'{' + i['title'] + ', ' \
-							+ i['venue'] + ', ' \
+						'{' + change_bold(i['title']) + ', ' \
+							+ change_bold(i['venue']) + ', ' \
 							+ (i['comment']  + ', ' if 'comment' in i else '') \
 							+ ' ' + year + '}\n')
+	f.write(change_bold('\\resumeItem{Have been served as a reviewer for international conferences, such as <b>CVPR</b>, <b>ICCV</b>, <b>ECCV</b>, <b>ICLR</b>, <b>NeurIPS</b>, <b>AAAI</b>, <b>ICRA</b>, <b>IROS</b>, <b>SIGGRAPH</b>, <b>SIGGRAPH Asia</b>, BMVC, 3DV, ACCV, WACV, and so on.}\n'))
+	f.write(change_bold('\\resumeItem{Have been served as a reviewer for international journals, such as <b>TPAMI</b>, <b>TIP</b>, <b>TVCG</b>, <b>TRO</b>, <b>IJCV</b>, CVIU, SPL, IVC, Neurocomputing, and so on.}\n'))
 	f.write('\\resumeItemListEnd\n\n\n\n')
 	f.close()
 

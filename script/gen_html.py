@@ -41,7 +41,9 @@ def write_html(file, data):
 							'		<h3>%s</h3>\n' % i['title'] +
 							'		<p>%s<br>\n' % authorlist_to_text(i['author']) +
 							'		%s<br>\n' % i['venue'] +
-							'		%s</p>\n' % (i['comment'] if 'comment' in i else '') +
+							'		%s' % (i['comment'] if 'comment' in i else '') +
+							'		%s' % (i['github'] if 'github' in i else '') +
+							'       </p>\n' +
 							# Buttons
 							get_button_str_all(i) +
 							'	</div>\n'+
