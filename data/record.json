@@ -19,7 +19,7 @@
             {
                 "type": "international",
                 "title": "Rebooting ACGAN: Auxiliary Classifier GANs with Stable Training", 
-                "author": ["Minguk Kang", "Woohyeon Joseph Shim", "Minsu Cho", "Jaesik Park"],
+                "author": ["Minguk Kang", "Woohyeon Shim", "Minsu Cho", "Jaesik Park"],
                 "venue": "Conference on Neural Information Processing Systems (<b>NeurIPS</b>)",
                 "image": "publications/data/21_neurips1.jpg",
                 "pdf": "https://arxiv.org/abs/2111.01118",
