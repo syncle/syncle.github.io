@@ -511,9 +511,9 @@
                 "image": "publications/data/18_arxiv.jpg",
                 "pdf": "http://www.open3d.org/paper.pdf",
                 "web": "http://www.open3d.org",
-                "code": "https://github.com/IntelVCL/Open3D",
+                "code": "https://github.com/isl-org/Open3D",
                 "tutorial": "http://open3d.org/docs",
-                "video": "https://www.youtube.com/watch?v=qEweHTSEXTk",
+                "video": "https://www.youtube.com/channel/UCRJBlASPfPBtPXJSPffJV-w",
                 "github": "<a class=\"github-button\" href=\"https:\/\/github.com\/intel-isl\/open3d\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star intel-isl\/open3d on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/intel-isl\/open3d\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork intel-isl\/open3d on GitHub\">Fork<\/a>"
             },
             {
