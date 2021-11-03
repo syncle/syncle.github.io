@@ -41,7 +41,8 @@
                 "image": "publications/data/21_iccv1.jpg",
                 "pdf": "publications/data/21_iccv1.pdf",
                 "code": "https://github.com/POSTECH-CVLab/SCNeRF",
-                "web": "https://postech-cvlab.github.io/SCNeRF"
+                "web": "https://postech-cvlab.github.io/SCNeRF",
+                "github": "<a class=\"github-button\" href=\"https:\/\/github.com\/POSTECH-CVLab\/SCNeRF\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star POSTECH-CVLab\/SCNeRF on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/POSTECH-CVLab\/SCNeRF\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork POSTECH-CVLab\/SCNeRF on GitHub\">Fork<\/a>"
             },
             {
                 "type": "international",
