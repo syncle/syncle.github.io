@@ -1,5 +1,6 @@
 *.pyc
 .DS_Store
-cv_jaesik_park.aux
-cv_jaesik_park.log
-cv_jaesik_park.out
+cv.aux
+cv.log
+cv.out
+cv.pdf
