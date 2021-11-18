@@ -7,7 +7,8 @@
                 "title": "Self-Supervised Real-time Video Stabilization", 
                 "author": ["Jinsoo Choi", "Jaesik Park", "In So Kweon"],
                 "venue": "The British Machine Vision Conference (<b>BMVC</b>)",
-                "image": "publications/data/21_bmvc.jpg"
+                "image": "publications/data/21_bmvc.jpg",
+                "pdf": "https://arxiv.org/abs/2111.05980"
             },
             {
                 "type": "international",
@@ -31,7 +32,8 @@
                 "title": "Brick-by-Brick: Combinatorial Construction with Deep Reinforcement Learning", 
                 "author": ["Hyunsoo Chung", "Jungtaek Kim", "Boris Knyazev", "Jinhwi Lee", "Graham W. Taylor", "Jaesik Park", "Minsu Cho"],
                 "venue": "Conference on Neural Information Processing Systems (<b>NeurIPS</b>)",
-                "image": "publications/data/21_neurips2.jpg"
+                "image": "publications/data/21_neurips2.jpg",
+                "pdf": "https://arxiv.org/abs/2110.15481"
             },            
             {
                 "type": "international",
