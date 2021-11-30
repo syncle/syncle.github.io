@@ -52,7 +52,10 @@
                 "author": ["Junha Lee", "Seungwook Kim", "Minsu Cho", "Jaesik Park"],
                 "venue": "International Conference on Computer Vision (<b>ICCV</b>)",
                 "image": "publications/data/21_iccv2.jpg",
-                "pdf": "publications/data/21_iccv2.pdf"
+                "pdf": "publications/data/21_iccv2.pdf",
+                "supp": "https://arxiv.org/abs/2109.04310",
+                "code": "https://github.com/POSTECH-CVLab/DHVR",
+                "web": "http://cvlab.postech.ac.kr/research/DHVR/"
             },
             {
                 "type": "international",
@@ -295,7 +298,8 @@
                 "image": "publications/data/20_cvpr2.jpg",
                 "pdf": "publications/data/20_cvpr_highconv.pdf",
                 "supp": "publications/data/20_cvpr_highconv_supp.pdf",
-                "comment": "(<b>Oral</b> Presentation, 5.7% acceptance rate)"
+                "comment": "(<b>Oral</b> Presentation, 5.7% acceptance rate)",
+                "code": "https://github.com/chrischoy/HighDimConvNets"
             },
             {
                 "type": "international",
