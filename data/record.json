@@ -4,6 +4,31 @@
         "papers": [
             {
                 "type": "international",
+                "title": "Instance-wise Occlusion and Depth Orders in Natural Scenes", 
+                "author": ["Hyunmin Lee", "Jaesik Park"],
+                "venue": "arXiv:2111.14562",
+                "image": "publications/data/21_arxiv2.jpg",
+                "pdf": "https://arxiv.org/pdf/2111.14562.pdf"
+            },
+            {
+                "type": "international",
+                "title": "PointMixer: MLP-Mixer for Point Cloud Understanding", 
+                "author": ["Jaesung Choe*", "Chunghyun Park*", "Francois Rameau", "Jaesik Park", "In So Kweon"],
+                "venue": "arXiv:2111.11187",
+                "image": "publications/data/21_arxiv3.jpg",
+                "pdf": "https://arxiv.org/pdf/2111.11187.pdf",
+                "comment": "(*Equal contribution)"
+            },
+            {
+                "type": "international",
+                "title": "Deep Point Cloud Reconstruction", 
+                "author": ["Jaesung Choe", "Byeongin Joung", "Francois Rameau", "Jaesik Park", "In So Kweon"],
+                "venue": "arXiv:2111.11704",
+                "image": "publications/data/21_arxiv.jpg",
+                "pdf": "https://arxiv.org/pdf/2111.11704.pdf"
+            },
+            {
+                "type": "international",
                 "title": "Self-Supervised Real-time Video Stabilization", 
                 "author": ["Jinsoo Choi", "Jaesik Park", "In So Kweon"],
                 "venue": "The British Machine Vision Conference (<b>BMVC</b>)",
