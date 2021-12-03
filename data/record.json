@@ -8,7 +8,23 @@
                 "author": ["Hyunmin Lee", "Jaesik Park"],
                 "venue": "arXiv:2111.14562",
                 "image": "publications/data/21_arxiv2.jpg",
-                "pdf": "https://arxiv.org/pdf/2111.14562.pdf"
+                "pdf": "https://arxiv.org/abs/2111.14562"
+            },
+            {
+                "type": "international",
+                "title": "Fast Point Transformer", 
+                "author": ["Chunghyun Park", "Yoonwoo Jeong", "Minsu Cho", "Jaesik Park"],
+                "venue": "arXiv:TBA",
+                "image": "publications/data/21_arxiv4.jpg",
+                "pdf": ""
+            },
+            {
+                "type": "international",
+                "title": "Putting 3D Spatially Sparse Networks on a Diet", 
+                "author": ["Junha Lee", "Christopher Choy", "Jaesik Park"],
+                "venue": "arXiv:2112.01316",
+                "image": "publications/data/21_arxiv5.jpg",
+                "pdf": "https://arxiv.org/abs/2112.01316"
             },
             {
                 "type": "international",
@@ -16,7 +32,7 @@
                 "author": ["Jaesung Choe*", "Chunghyun Park*", "Francois Rameau", "Jaesik Park", "In So Kweon"],
                 "venue": "arXiv:2111.11187",
                 "image": "publications/data/21_arxiv3.jpg",
-                "pdf": "https://arxiv.org/pdf/2111.11187.pdf",
+                "pdf": "https://arxiv.org/abs/2111.11187",
                 "comment": "(*Equal contribution)"
             },
             {
@@ -25,7 +41,15 @@
                 "author": ["Jaesung Choe", "Byeongin Joung", "Francois Rameau", "Jaesik Park", "In So Kweon"],
                 "venue": "arXiv:2111.11704",
                 "image": "publications/data/21_arxiv.jpg",
-                "pdf": "https://arxiv.org/pdf/2111.11704.pdf"
+                "pdf": "https://arxiv.org/abs/2111.11704"
+            },
+            {
+                "type": "international",
+                "title": "Real-time Registration and Reconstruction with Cylindrical LiDAR Images", 
+                "author": ["Wei Dong*", "Kwonyoung Ryu*", "Michael Kaess", "Jaesik Park"],
+                "venue": "arXiv:TBA",
+                "image": "publications/data/21_arxiv6.jpg",
+                "pdf": ""
             },
             {
                 "type": "international",
@@ -99,7 +123,7 @@
                 "venue": "IEEE International Conference on Image Processing (<b>ICIP</b>)",
                 "image": "publications/data/21_icip.jpg",
                 "code": "https://github.com/semonemo/STAD",
-                "pdf": "#"
+                "pdf": "https://ieeexplore.ieee.org/document/9506521"
             },
             {
                 "type": "international",
@@ -831,7 +855,6 @@
                 "month": 5
             }
         ],
-<<<<<<< HEAD
         "talks": [
             {
                 "title": "Introduction to Computer Vision",
@@ -857,12 +880,6 @@
                 "type": "visible",
                 "title": "20th HumanTech Paper Award (Silver Prize)",
                 "awardee": "Samsung Electronics Corp.",
-=======
-        "awards": [
-            {
-                "title": "<b>20th HumanTech Paper Award (Silver Prize)</b>",
-                "awardee": "Samsung Electronics Corp.",                
->>>>>>> 878a3df (updates on Latex and webpage)
                 "month": 2
             }
         ]
