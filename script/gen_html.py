@@ -25,33 +25,41 @@ def write_html(file, data):
 					'	</div>\n'+
 					'</div>\n'+
 					'</div>\n\n')
-		# adding elements
+		items_international = []
 		for category, items in data[year].items():
 			if category == 'papers':
 				for i in items:
 					if i['type'] == 'international':
-						f.write('<div class="container">\n'+
-							'<div class="row">\n'+
-							# Thumbnail image
-							'	<div class="col-lg-4 col-lg-offset-1">\n'+
-							'		<img src="%s" style="max-height:170px" class="img-responsive center-block img-thumbnail">\n' % i['image'] +
-							'	</div>\n'+
-							# Paper information
-							'	<div class="col-lg-7">\n'+
-							'		<h3>%s</h3>\n' % i['title'] +
-							'		<p>%s<br>\n' % authorlist_to_text(i['author']) +
-							'		%s<br>\n' % (i['venue'] + ", " + year) +
-							'		%s' % (i['comment'] if 'comment' in i else '') +
-							'		%s' % (i['github'] if 'github' in i else '') +
-							'       </p>\n' +
-							# Buttons
-							get_button_str_all(i) +
-							'	</div>\n'+
-							'</div>\n'+
-							# just for adding some space - not sure style="height" is compatible for browsers
-							'<div class="row" style="height: 30px">\n'+
-							'</div>\n'+
-							'</div>\n\n')
+						items_international.append(i)
+		# adding elements
+		column_cnt = 0
+		for id, i in enumerate(items_international):
+			if column_cnt == 0:
+				f.write('<div class="container">\n'+
+					'	<div class="row">\n')
+			f.write(
+				'		<div class="col-lg-4 text-left">'
+				# Thumbnail image
+				'			<img src="%s" style="max-height:190px" class="img-responsive center-block img-thumbnail">\n' % i['image'] +
+				# Paper information
+				'			<h3>%s</h3>\n' % i['title'] +
+				'			<p>%s. ' % authorlist_to_text(i['author']) +
+				'			<em>%s</em><br>\n' % (i['venue'] + ", " + year) +
+				'			%s' % (i['comment'] if 'comment' in i else '') +
+				'			%s' % (i['github'] if 'github' in i else '') + '</p>\n' +
+				# Buttons
+				get_button_str_all(i) +
+				'		</div>\n')
+			if column_cnt == 2 or id == (len(items_international)-1):
+				# import ipdb; ipdb.set_trace()
+			# just for adding some space - not sure style="height" is compatible for browsers
+				f.write(
+				# '	<div class="row" style="height: 30px">\n'+
+				# '	</div>\n'+						
+				'	</div>\n'+
+				'</div>\n\n')
+			column_cnt += 1
+			column_cnt = column_cnt % 3
 	f.write('</div>  <!-- end of publication list -->\n\n')
 	f.close()
 
