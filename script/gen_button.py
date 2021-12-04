@@ -3,15 +3,11 @@ from check_link import is_absolute
 from domain import get_domain
 from check_link import check_link
 
-def get_button_str_inplace(link, glyphicon, text):
-	return 	'		<a href="%s" class="btn btn-default" role="button">\n' % link + \
-			'			<span class="glyphicon glyphicon-%s"></span>' % glyphicon + ' %s\n' % text + \
-			'		</a>\n'
+def get_button_str_inplace(link, text):
+	return 	'			<a href="%s" class="btn btn-outline-secondary btn-sm" role="button">' % link + '%s' % text + '</a>\n'
 
-def get_button_str(link, glyphicon, text):
-	return 	'		<a href="%s" target="_blank" class="btn btn-default" role="button">\n' % link + \
-			'			<span class="glyphicon glyphicon-%s"></span>' % glyphicon + ' %s\n' % text + \
-			'		</a>\n'
+def get_button_str(link, text):
+	return 	'			<a href="%s" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">' % link + ' %s' % text + '</a>\n'
 
 def get_button_str_predefined(link, type, CHECK_LINK = False):
 	if CHECK_LINK:
@@ -19,27 +15,27 @@ def get_button_str_predefined(link, type, CHECK_LINK = False):
 	if not is_absolute(link):
 		link = get_domain() + '/' + link
 	if type == 'Paper':
-		return get_button_str(link, 'file', 'Paper')
+		return get_button_str(link, 'Paper')
 	elif type == 'Code':
-		return get_button_str(link, 'pencil', 'Code')
+		return get_button_str(link, 'Code')
 	elif type == 'Data':
-		return get_button_str(link, 'download-alt', 'Data')
+		return get_button_str(link, 'Data')
 	elif type == 'Project Page':
-		return get_button_str(link, 'home', 'Project Page')
+		return get_button_str(link, 'Project Page')
 	elif type == 'Project Page Inplace':
-		return get_button_str_inplace(link, 'home', 'Project Page')
+		return get_button_str_inplace(link, 'Project Page')
 	elif type == 'Video':
-		return get_button_str(link, 'play', 'Video')
-	elif type == 'Supplementary':
-		return get_button_str(link, 'paperclip', 'Supplementary')
+		return get_button_str(link, 'Video')
+	elif type == 'Supplement':
+		return get_button_str(link, 'Supplement')
 	elif type == 'Bibtex':
-		return get_button_str(link, 'list', 'Bibtex')
+		return get_button_str(link, 'Bibtex')
 	elif type == 'Executable':
-		return get_button_str(link, 'floppy-disk', 'Executable')
+		return get_button_str(link, 'Executable')
 	elif type == 'Poster':
-		return get_button_str(link, 'blackboard', 'Poster')
+		return get_button_str(link, 'Poster')
 	elif type == 'Tutorial':
-		return get_button_str(link, 'book', 'Tutorial')
+		return get_button_str(link, 'Tutorial')
 	else:
 		return ''
 
@@ -70,7 +66,7 @@ def get_button_str_all(record):
 	if 'video' in record:
 		button_video = get_button_str_predefined(record['video'], 'Video')
 	if 'supp' in record:
-		button_supp = get_button_str_predefined(record['supp'], 'Supplementary')
+		button_supp = get_button_str_predefined(record['supp'], 'Supplement')
 	if 'bibtex' in record:
 		button_bibtex = get_button_str_predefined(record['bibtex'], 'Bibtex')
 	if 'executable' in record:

@@ -15,13 +15,16 @@ def write_html(file, data):
 					if i['type'] == 'international':
 						print_year = True
 		if print_year:
+			# adding horizontal line for every years except for the first appearing year
 			if idx != 0:
-				f.write('<hr>\n') # adding horizontal line for every years except for the first appearing year
+				f.write('<div class="container mt-4">\n'+
+						'	<hr class="py-1">\n'+
+						'</div>\n\n')
 			# adding year
-			f.write('<div class="container">\n'+
+			f.write('<div class="container mt-4">\n'+
 					'<div class="row">\n'+
 					'	<div class="col-lg-12 text-start">\n'+
-					'		<h2 class="name">%s</h2>\n' % year +
+					'		<h2>%s</h2>\n' % year +
 					'	</div>\n'+
 					'</div>\n'+
 					'</div>\n\n')
@@ -37,22 +40,32 @@ def write_html(file, data):
 		# adding elements
 		f.write('<div class="container">\n'+
 				'	<div class="row gx-5 gy-5">\n')
+
+		# <img src="publications/data/21_arxiv2.jpg" class="img-fluid rounded float-center img-thumbnail shadow mb-3">
+		# <h4>Instance-wise Occlusion and Depth Orders in Natural Scenes</h4>
+		# <p class="text-muted">Hyunmin Lee and <b>Jaesik Park</b>. <em>arXiv:2111.14562, 2021</em></p>
+		# <p><a href="https://arxiv.org/abs/2111.14562" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a></p>		
 		for i in items_international:
 			f.write(
-				'		<div class="col-lg-4 text-center">'
+				'		<div class="col-lg-4 text-center">\n' +				
 				# Thumbnail image
-				'			<img src="%s" class="mb-3 img-fluid rounded float-center img-thumbnail">\n' % i['image'] +
+				'			<img src="%s" class="img-fluid rounded float-center img-thumbnail shadow mb-3">\n' % i['image'] + 
 				# Paper information
 				'			<h4>%s</h4>\n' % i['title'] +
-				'			<p>%s. ' % authorlist_to_text(i['author']) +
-				'			<em>%s</em><br>\n' % (i['venue'] + ", " + year) +
-				'			%s' % (i['comment'] if 'comment' in i else '') +
-				'			%s' % (i['github'] if 'github' in i else '') + '</p>\n' +
+				'			<p class="text-muted">\n' +
+				'				%s.\n' % authorlist_to_text(i['author']) +
+				'				<em>%s</em>\n' % (i['venue'] + ", " + year) +
+				'%s' % ('				<br>' + i['comment'] + '\n' if 'comment' in i else '') +
+				'%s' % ('				<br>' + i['github'] + '\n' if 'github' in i else '') +
+				'			</p>\n' +
 				# Buttons
-				get_button_str_all(i) +
+				get_button_str_all(i) +	
 				'		</div>\n')
 		f.write(
 			'	</div>\n'+
+			'</div>\n\n')
+	f.write('<div class="container mt-4">\n'+
+			'	<hr class="py-1">\n'+
 			'</div>\n\n')
 	f.write('</div>  <!-- end of publication list -->\n\n')
 	f.close()

@@ -26,7 +26,7 @@ def write_header_html(file, type):
 	header_str = ''
 	if type != 'Index':
 		header_str = \
-			'<header class="masthead bg-primary text-white test-start">\n'+\
+			'<header class="masthead bg-primary text-white text-start">\n'+\
 			'	<div class="container d-flex align-items-left flex-column">\n'+\
 			'		<h1 class="text-uppercase mb-0">%s</h1>\n' % type+\
 			'	</div>\n'+\
@@ -41,10 +41,10 @@ def write_header_html(file, type):
 			'				<h1 class="text-uppercase mb-0">%s</h1>\n' % type +\
 			'			</div>\n'+\
 			'			<div class="col-lg-6 text-end">\n'+\
-			'				<a href="https://scholar.google.com/citations?user=_3q6KBIAAAAJ&hl=en" target="_blank" class="btn btn-default" role="button">\n' +\
+			'				<a href="https://scholar.google.com/citations?user=_3q6KBIAAAAJ&hl=en" target="_blank" class="btn btn-secondary" role="button">\n' +\
 			'					<span class="glyphicon glyphicon-search"></span> Google Scholar\n'+\
 			'				</a>\n'+\
-			'				<a href="http://dblp.uni-trier.de/pers/hd/p/Park:Jaesik" target="_blank" class="btn btn-default" role="button">\n'+\
+			'				<a href="http://dblp.uni-trier.de/pers/hd/p/Park:Jaesik" target="_blank" class="btn btn-secondary" role="button">\n'+\
 			'					<span class="glyphicon glyphicon-search"></span> DBLP\n'+\
 			'				</a>\n'+\
 			'			</div>\n'+\
