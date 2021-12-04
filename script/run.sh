@@ -12,7 +12,7 @@ run_and_check_success()
 	fi
 }
 
-run_and_check_success "python gen_html.py"
+run_and_check_success "python gen_publication_html.py"
 run_and_check_success "python gen_button_for_project_page.py"
 run_and_check_success "python gen_headers.py"
 run_and_check_success "python assemble_files.py"
