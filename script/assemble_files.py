@@ -5,8 +5,8 @@ import os
 import json
 from util import clear_file, include_file
 
-path_header = '../source/header.html'
-path_footer = '../source/footer.html'
+path_header = '../source/html/header.html'
+path_footer = '../source/html/footer.html'
 
 def gen_project_page(path, title):
 	clear_file('../' + path + 'index.html')
@@ -23,13 +23,13 @@ def gen_project_page(path, title):
 def gen_page(page, type):
 	clear_file('../%s.html' % page)
 	include_file('../%s.html' % page, path_header)
-	write_header_html('../source/%s_header.html' % page, type)
-	include_file('../%s.html' % page, '../source/%s_header.html' % page)
-	include_file('../%s.html' % page, '../source/%s.html' % page)
+	write_header_html('../source/html/%s_header.html' % page, type)
+	include_file('../%s.html' % page, '../source/html/%s_header.html' % page)
+	include_file('../%s.html' % page, '../source/html/%s.html' % page)
 	include_file('../%s.html' % page, path_footer)
-	os.remove('../source/%s_header.html' % page)
+	os.remove('../source/html/%s_header.html' % page)
 	if page == 'publications':
-		os.remove('../source/%s.html' % page)
+		os.remove('../source/html/%s.html' % page)
 
 if __name__ == "__main__":
 	gen_page('index', 'Index')

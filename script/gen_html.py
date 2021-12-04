@@ -20,7 +20,7 @@ def write_html(file, data):
 			# adding year
 			f.write('<div class="container">\n'+
 					'<div class="row">\n'+
-					'	<div class="col-lg-12 text-left">\n'+
+					'	<div class="col-lg-12 test-start">\n'+
 					'		<h2 class="name">%s</h2>\n' % year +
 					'	</div>\n'+
 					'</div>\n'+
@@ -31,21 +31,23 @@ def write_html(file, data):
 				for i in items:
 					if i['type'] == 'international':
 						f.write('<div class="container">\n'+
-							'<div class="row">\n'+
+							'<div class="row gx-4 gy-4">\n'+
 							# Thumbnail image
-							'	<div class="col-lg-4 col-lg-offset-1">\n'+
-							'		<img src="%s" style="max-height:170px" class="img-responsive center-block img-thumbnail">\n' % i['image'] +
+							'	<div class="col-lg-4">\n'+
+							'		<img src="%s" class="center-block img-thumbnail">\n' % i['image'] +
 							'	</div>\n'+
 							# Paper information
-							'	<div class="col-lg-7">\n'+
-							'		<h3>%s</h3>\n' % i['title'] +
-							'		<p>%s<br>\n' % authorlist_to_text(i['author']) +
-							'		%s<br>\n' % (i['venue'] + ", " + year) +
-							'		%s' % (i['comment'] if 'comment' in i else '') +
-							'		%s' % (i['github'] if 'github' in i else '') +
-							'       </p>\n' +
+							'	<div class="col-lg-8">\n'+
+							# '		<span class="align-middle">\n' + # not working..
+							'			<h4>%s</h4>\n' % i['title'] +
+							'			<p>%s<br>\n' % authorlist_to_text(i['author']) +
+							'			%s<br>\n' % (i['venue'] + ", " + year) +
+							'			%s' % (i['comment'] if 'comment' in i else '') +
+							'			%s' % (i['github'] if 'github' in i else '') +
+							'   	    </p>\n' +							
 							# Buttons
 							get_button_str_all(i) +
+							# '		</span>\n' +
 							'	</div>\n'+
 							'</div>\n'+
 							# just for adding some space - not sure style="height" is compatible for browsers
@@ -60,4 +62,4 @@ if __name__ == "__main__":
 	with open('../data/record.json') as f:
 		data = json.load(f)
 	
-	write_html('../source/publications.html', data)
+	write_html('../source/html/publications.html', data)

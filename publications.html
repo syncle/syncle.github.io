@@ -14,13 +14,20 @@
     <title>Jaesik Park</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="http://jaesik.info/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="/Users/jaesik/Research/syncle.github.io/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <!-- Freerancer Core CSS -->
+    <!-- <link href="/Users/jaesik/Research/syncle.github.io/css/styles.css" rel="stylesheet"> -->
 
     <!-- Custom CSS -->
-    <link href="http://jaesik.info/css/mystyle.css" rel="stylesheet">
+    <link href="/Users/jaesik/Research/syncle.github.io/css/styles.css" rel="stylesheet">
+
+    <!-- Font Awesome icons (free version)-->
+    <!-- <script src="/Users/jaesik/Research/syncle.github.io/js/all.js" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script> -->
 
     <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,65 +39,39 @@
 </head>
 
 <body id="page-top" class="index">
-
-<!-- Navigation -->
-<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+<nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
 	<div class="container">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header page-scroll">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-			</button>
-			<a class="navbar-brand" href="http://jaesik.info">Jaesik Park</a>
-		</div>
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
-				<li class="hidden">
-					<a href="http://jaesik.info"></a>
-				</li>
-				<li >
-					<a href="http://jaesik.info/about_me">About me</a>
-				</li>
-				<li >
-					<a href="http://jaesik.info/academic_activities">Academic activities</a>
-				</li>
-				<li class="active">
-					<a href="http://jaesik.info/publications">Publications</a>
-				</li>
-				<li >
-					<a href="http://jaesik.info/lab">@POSTECH</a>
-				</li>
-				<li >
-					<a href="http://jaesik.info/contact">Contact</a>
-				</li>
+		<a class="navbar-brand" href="http://jaesik.info">Jaesik Park</a>
+		<button class="navbar-toggler font-weight-bold bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			Menu
+			<i class="fas fa-bars"></i>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ms-auto">
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3" href="http://jaesik.info"></a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link  py-3 px-0 px-lg-3" href="http://jaesik.info/about_me">About me</a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link  py-3 px-0 px-lg-3" href="http://jaesik.info/academic_activities">Academic activities</a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link active py-3 px-0 px-lg-3" href="http://jaesik.info/publications">Publications</a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link  py-3 px-0 px-lg-3" href="http://jaesik.info/lab">@POSTECH</a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link  py-3 px-0 px-lg-3" href="http://jaesik.info/contact">Contact</a></li>
 			</ul>
 		</div>
-		<!-- /.navbar-collapse -->
 	</div>
-<!-- /.container-fluid -->
 </nav>
 
-
-<!-- Header -->
-<header>
-	<div class="container" id="maincontent" tabindex="-1">
+<header class="masthead bg-primary text-white">
+	<div class="container">
 		<div class="row">
-			<div class="col-lg-6 text-left">
-				<div class="intro-text">
-					<h1>Publications</h1>
-				</div>
+			<div class="col-lg-6 text-start">
+				<h1 class="text-uppercase mb-0">Publications</h1>
 			</div>
-			<div class="col-lg-6 text-right">
-				<div class="intro-text">
-					<br>
-					<a href="https://scholar.google.com/citations?user=_3q6KBIAAAAJ&hl=en" target="_blank" class="btn btn-default" role="button">
-						<span class="glyphicon glyphicon-search"></span> Google Scholar
-					</a>
-					<a href="http://dblp.uni-trier.de/pers/hd/p/Park:Jaesik" target="_blank" class="btn btn-default" role="button">
-						<span class="glyphicon glyphicon-search"></span> DBLP
-					</a>
-				</div>
+			<div class="col-lg-6 text-end">
+				<a href="https://scholar.google.com/citations?user=_3q6KBIAAAAJ&hl=en" target="_blank" class="btn btn-default" role="button">
+					<span class="glyphicon glyphicon-search"></span> Google Scholar
+				</a>
+				<a href="http://dblp.uni-trier.de/pers/hd/p/Park:Jaesik" target="_blank" class="btn btn-default" role="button">
+					<span class="glyphicon glyphicon-search"></span> DBLP
+				</a>
 			</div>
 		</div>
 	</div>
@@ -102,22 +83,22 @@
 
 <div class="container">
 <div class="row">
-	<div class="col-lg-12 text-left">
+	<div class="col-lg-12 test-start">
 		<h2 class="name">2021</h2>
 	</div>
 </div>
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/21_arxiv2.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/21_arxiv2.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Instance-wise Occlusion and Depth Orders in Natural Scenes</h3>
-		<p>Hyunmin Lee and <b>Jaesik Park</b><br>
-		arXiv:2111.14562, 2021<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Instance-wise Occlusion and Depth Orders in Natural Scenes</h4>
+			<p>Hyunmin Lee and <b>Jaesik Park</b><br>
+			arXiv:2111.14562, 2021<br>
+						   	    </p>
 		<a href="https://arxiv.org/pdf/2111.14562.pdf" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -128,15 +109,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/21_arxiv3.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/21_arxiv3.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>PointMixer: MLP-Mixer for Point Cloud Understanding</h3>
-		<p>Jaesung Choe*, Chunghyun Park*, Francois Rameau, <b>Jaesik Park</b>, and In So Kweon<br>
-		arXiv:2111.11187, 2021<br>
-		(*Equal contribution)		       </p>
+	<div class="col-lg-8">
+			<h4>PointMixer: MLP-Mixer for Point Cloud Understanding</h4>
+			<p>Jaesung Choe*, Chunghyun Park*, Francois Rameau, <b>Jaesik Park</b>, and In So Kweon<br>
+			arXiv:2111.11187, 2021<br>
+			(*Equal contribution)			   	    </p>
 		<a href="https://arxiv.org/pdf/2111.11187.pdf" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -147,15 +128,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/21_arxiv.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/21_arxiv.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Deep Point Cloud Reconstruction</h3>
-		<p>Jaesung Choe, Byeongin Joung, Francois Rameau, <b>Jaesik Park</b>, and In So Kweon<br>
-		arXiv:2111.11704, 2021<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Deep Point Cloud Reconstruction</h4>
+			<p>Jaesung Choe, Byeongin Joung, Francois Rameau, <b>Jaesik Park</b>, and In So Kweon<br>
+			arXiv:2111.11704, 2021<br>
+						   	    </p>
 		<a href="https://arxiv.org/pdf/2111.11704.pdf" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -166,15 +147,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/21_bmvc.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/21_bmvc.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Self-Supervised Real-time Video Stabilization</h3>
-		<p>Jinsoo Choi, <b>Jaesik Park</b>, and In So Kweon<br>
-		The British Machine Vision Conference (<b>BMVC</b>), 2021<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Self-Supervised Real-time Video Stabilization</h4>
+			<p>Jinsoo Choi, <b>Jaesik Park</b>, and In So Kweon<br>
+			The British Machine Vision Conference (<b>BMVC</b>), 2021<br>
+						   	    </p>
 		<a href="https://arxiv.org/abs/2111.05980" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -185,15 +166,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/21_tog.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/21_tog.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>TextureMe: High-quality Textured Scene Reconstruction in Real-time</h3>
-		<p>Jungeon Kim, Hyomin Kim, Hyeonseo Nam, <b>Jaesik Park</b>, and Seungyong Lee<br>
-		ACM Transactions on Graphics (<b>ToG</b>), 2021<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>TextureMe: High-quality Textured Scene Reconstruction in Real-time</h4>
+			<p>Jungeon Kim, Hyomin Kim, Hyeonseo Nam, <b>Jaesik Park</b>, and Seungyong Lee<br>
+			ACM Transactions on Graphics (<b>ToG</b>), 2021<br>
+						   	    </p>
 	</div>
 </div>
 <div class="row" style="height: 30px">
@@ -201,15 +182,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/21_neurips1.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/21_neurips1.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Rebooting ACGAN: Auxiliary Classifier GANs with Stable Training</h3>
-		<p>Minguk Kang, Woohyeon Shim, Minsu Cho, and <b>Jaesik Park</b><br>
-		Conference on Neural Information Processing Systems (<b>NeurIPS</b>), 2021<br>
-				<a class="github-button" href="https://github.com/POSTECH-CVLab/PyTorch-StudioGAN" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star POSTECH-CVLab/PyTorch-StudioGAN on GitHub">Star</a><a class="github-button" href="https://github.com/POSTECH-CVLab/PyTorch-StudioGAN/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork POSTECH-CVLab/PyTorch-StudioGAN on GitHub">Fork</a>       </p>
+	<div class="col-lg-8">
+			<h4>Rebooting ACGAN: Auxiliary Classifier GANs with Stable Training</h4>
+			<p>Minguk Kang, Woohyeon Shim, Minsu Cho, and <b>Jaesik Park</b><br>
+			Conference on Neural Information Processing Systems (<b>NeurIPS</b>), 2021<br>
+						<a class="github-button" href="https://github.com/POSTECH-CVLab/PyTorch-StudioGAN" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star POSTECH-CVLab/PyTorch-StudioGAN on GitHub">Star</a><a class="github-button" href="https://github.com/POSTECH-CVLab/PyTorch-StudioGAN/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork POSTECH-CVLab/PyTorch-StudioGAN on GitHub">Fork</a>   	    </p>
 		<a href="https://arxiv.org/abs/2111.01118" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -223,15 +204,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/21_neurips2.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/21_neurips2.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Brick-by-Brick: Combinatorial Construction with Deep Reinforcement Learning</h3>
-		<p>Hyunsoo Chung, Jungtaek Kim, Boris Knyazev, Jinhwi Lee, Graham W. Taylor, <b>Jaesik Park</b>, and Minsu Cho<br>
-		Conference on Neural Information Processing Systems (<b>NeurIPS</b>), 2021<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Brick-by-Brick: Combinatorial Construction with Deep Reinforcement Learning</h4>
+			<p>Hyunsoo Chung, Jungtaek Kim, Boris Knyazev, Jinhwi Lee, Graham W. Taylor, <b>Jaesik Park</b>, and Minsu Cho<br>
+			Conference on Neural Information Processing Systems (<b>NeurIPS</b>), 2021<br>
+						   	    </p>
 		<a href="https://arxiv.org/abs/2110.15481" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -242,15 +223,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/21_iccv1.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/21_iccv1.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Self-Calibrating Neural Radiance Fields</h3>
-		<p>Yoonwoo Jeong, Seokjun Ahn, Christopher Choy, Animashree Anandkumar, Minsu Cho, and <b>Jaesik Park</b><br>
-		International Conference on Computer Vision (<b>ICCV</b>), 2021<br>
-				<a class="github-button" href="https://github.com/POSTECH-CVLab/SCNeRF" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star POSTECH-CVLab/SCNeRF on GitHub">Star</a><a class="github-button" href="https://github.com/POSTECH-CVLab/SCNeRF/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork POSTECH-CVLab/SCNeRF on GitHub">Fork</a>       </p>
+	<div class="col-lg-8">
+			<h4>Self-Calibrating Neural Radiance Fields</h4>
+			<p>Yoonwoo Jeong, Seokjun Ahn, Christopher Choy, Animashree Anandkumar, Minsu Cho, and <b>Jaesik Park</b><br>
+			International Conference on Computer Vision (<b>ICCV</b>), 2021<br>
+						<a class="github-button" href="https://github.com/POSTECH-CVLab/SCNeRF" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star POSTECH-CVLab/SCNeRF on GitHub">Star</a><a class="github-button" href="https://github.com/POSTECH-CVLab/SCNeRF/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork POSTECH-CVLab/SCNeRF on GitHub">Fork</a>   	    </p>
 		<a href="https://postech-cvlab.github.io/SCNeRF" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-home"></span> Project Page
 		</a>
@@ -267,15 +248,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/21_iccv2.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/21_iccv2.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Deep Hough Voting for Robust Global Registration</h3>
-		<p>Junha Lee, Seungwook Kim, Minsu Cho, and <b>Jaesik Park</b><br>
-		International Conference on Computer Vision (<b>ICCV</b>), 2021<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Deep Hough Voting for Robust Global Registration</h4>
+			<p>Junha Lee, Seungwook Kim, Minsu Cho, and <b>Jaesik Park</b><br>
+			International Conference on Computer Vision (<b>ICCV</b>), 2021<br>
+						   	    </p>
 		<a href="http://cvlab.postech.ac.kr/research/DHVR/" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-home"></span> Project Page
 		</a>
@@ -295,15 +276,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/21_iccv3.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/21_iccv3.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Deep Virtual Markers for Articulated 3D Shapes</h3>
-		<p>Hyomin Kim, Jungeon Kim, Jaewon Kam, <b>Jaesik Park</b>*, and Seungyong Lee*<br>
-		International Conference on Computer Vision (<b>ICCV</b>), 2021<br>
-		(*Joint corrresponding authors, <b>Oral</b> Presentation, 3.4% acceptance rate)		       </p>
+	<div class="col-lg-8">
+			<h4>Deep Virtual Markers for Articulated 3D Shapes</h4>
+			<p>Hyomin Kim, Jungeon Kim, Jaewon Kam, <b>Jaesik Park</b>*, and Seungyong Lee*<br>
+			International Conference on Computer Vision (<b>ICCV</b>), 2021<br>
+			(*Joint corrresponding authors, <b>Oral</b> Presentation, 3.4% acceptance rate)			   	    </p>
 		<a href="http://jaesik.info/publications/data/21_iccv3.pdf" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -317,15 +298,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/21_icip.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/21_icip.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>STAD: Stable Video Depth Estimation</h3>
-		<p>Hyunmin Lee and <b>Jaesik Park</b><br>
-		IEEE International Conference on Image Processing (<b>ICIP</b>), 2021<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>STAD: Stable Video Depth Estimation</h4>
+			<p>Hyunmin Lee and <b>Jaesik Park</b><br>
+			IEEE International Conference on Image Processing (<b>ICIP</b>), 2021<br>
+						   	    </p>
 		<a href="http://jaesik.info/#" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -339,15 +320,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/21_scientific_reports.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/21_scientific_reports.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Accelerated Crystal Structure Prediction of Multi-elements Random Alloy using Expandable Features</h3>
-		<p>Taewon Jin, Taesoo Park, Ina Park, <b>Jaesik Park</b>*, and Ji Hoon Shim*<br>
-		<b>Scientific Reports</b> published by Nature Research, 2021<br>
-		(*Joint corrresponding authors)		       </p>
+	<div class="col-lg-8">
+			<h4>Accelerated Crystal Structure Prediction of Multi-elements Random Alloy using Expandable Features</h4>
+			<p>Taewon Jin, Taesoo Park, Ina Park, <b>Jaesik Park</b>*, and Ji Hoon Shim*<br>
+			<b>Scientific Reports</b> published by Nature Research, 2021<br>
+			(*Joint corrresponding authors)			   	    </p>
 		<a href="https://www.nature.com/articles/s41598-021-84544-8" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -358,15 +339,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/21_eurographics.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/21_eurographics.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Spatiotemporal Texture Reconstruction for Dynamic Objects Using a Single RGB-D Camera</h3>
-		<p>Hyomin Kim, Jungeon Kim, Hyeonseo Nam, <b>Jaesik Park</b>, and Seungyong Lee<br>
-		42nd Annual Conference of the European Association for Computer Graphics (<b>EuroGraphics</b>), 2021<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Spatiotemporal Texture Reconstruction for Dynamic Objects Using a Single RGB-D Camera</h4>
+			<p>Hyomin Kim, Jungeon Kim, Hyeonseo Nam, <b>Jaesik Park</b>, and Seungyong Lee<br>
+			42nd Annual Conference of the European Association for Computer Graphics (<b>EuroGraphics</b>), 2021<br>
+						   	    </p>
 		<a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.142652" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -377,15 +358,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/21_wacv.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/21_wacv.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>High-quality Frame Interpolation via Tridirectional Inference</h3>
-		<p>Jinsoo Choi, <b>Jaesik Park</b>, and In So Kweon<br>
-		Winter Conference on Applications of Computer Vision (<b>WACV</b>), 2021<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>High-quality Frame Interpolation via Tridirectional Inference</h4>
+			<p>Jinsoo Choi, <b>Jaesik Park</b>, and In So Kweon<br>
+			Winter Conference on Applications of Computer Vision (<b>WACV</b>), 2021<br>
+						   	    </p>
 		<a href="https://openaccess.thecvf.com/content/WACV2021/papers/Choi_High-Quality_Frame_Interpolation_via_Tridirectional_Inference_WACV_2021_paper.pdf" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -401,22 +382,22 @@
 <hr>
 <div class="container">
 <div class="row">
-	<div class="col-lg-12 text-left">
+	<div class="col-lg-12 test-start">
 		<h2 class="name">2020</h2>
 	</div>
 </div>
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/20_neurips.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/20_neurips.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>ContraGAN: Contrastive Learning for Conditional Image Generation</h3>
-		<p>Minguk Kang and <b>Jaesik Park</b><br>
-		Conference on Neural Information Processing Systems (<b>NeurIPS</b>), 2020<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>ContraGAN: Contrastive Learning for Conditional Image Generation</h4>
+			<p>Minguk Kang and <b>Jaesik Park</b><br>
+			Conference on Neural Information Processing Systems (<b>NeurIPS</b>), 2020<br>
+						   	    </p>
 		<a href="https://papers.nips.cc/paper/2020/file/f490c742cd8318b8ee6dca10af2a163f-Paper.pdf" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -430,15 +411,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/20_arxiv.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/20_arxiv.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Combinatorial 3D Shape Generation via Sequential Assembly</h3>
-		<p>Jungtaek Kim, Hyunsoo Chung, Minsu Cho, and <b>Jaesik Park</b><br>
-		Machine Learning for Engineering Modeling, Simulation, and Design (ML4Eng, <b>NeurIPS workshop</b>), 2020<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Combinatorial 3D Shape Generation via Sequential Assembly</h4>
+			<p>Jungtaek Kim, Hyunsoo Chung, Minsu Cho, and <b>Jaesik Park</b><br>
+			Machine Learning for Engineering Modeling, Simulation, and Design (ML4Eng, <b>NeurIPS workshop</b>), 2020<br>
+						   	    </p>
 		<a href="https://arxiv.org/abs/2004.07414" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -452,15 +433,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/20_lmca.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/20_lmca.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Fragment Relation Networks for Geometric Shape Assembly</h3>
-		<p>Jinhwi Lee*, Jungtaek Kim*, Hyunsoo Chung, <b>Jaesik Park</b>, and Minsu Cho<br>
-		Learning Meets Combinatorial Algorithms (LMCA, <b>NeurIPS workshop</b>), 2020<br>
-		(*Equal contribution)		       </p>
+	<div class="col-lg-8">
+			<h4>Fragment Relation Networks for Geometric Shape Assembly</h4>
+			<p>Jinhwi Lee*, Jungtaek Kim*, Hyunsoo Chung, <b>Jaesik Park</b>, and Minsu Cho<br>
+			Learning Meets Combinatorial Algorithms (LMCA, <b>NeurIPS workshop</b>), 2020<br>
+			(*Equal contribution)			   	    </p>
 		<a href="https://openreview.net/pdf?id=05KxJSXwPl" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -471,15 +452,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/18_arxiv2.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/18_arxiv2.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>HUMBI: A Large Multiview Dataset of Human Body Expressions</h3>
-		<p>Zhixuan Yu, Jaeshin Yoon, Inkyu Lee, Prashanth Venkatesh, <b>Jaesik Park</b>, Jihun Yu, and Hyunsoo Park<br>
-		Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2020<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>HUMBI: A Large Multiview Dataset of Human Body Expressions</h4>
+			<p>Zhixuan Yu, Jaeshin Yoon, Inkyu Lee, Prashanth Venkatesh, <b>Jaesik Park</b>, Jihun Yu, and Hyunsoo Park<br>
+			Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2020<br>
+						   	    </p>
 		<a href="https://humbi-data.net" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-home"></span> Project Page
 		</a>
@@ -496,15 +477,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/20_cvpr2.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/20_cvpr2.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>High-Dimensional Convolutional Networks for Geometric Pattern Recognition</h3>
-		<p>Christopher Choy, Junha Lee, Rene Ranftl, <b>Jaesik Park</b>, and Vladlen Koltun<br>
-		Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2020<br>
-		(<b>Oral</b> Presentation, 5.7% acceptance rate)		       </p>
+	<div class="col-lg-8">
+			<h4>High-Dimensional Convolutional Networks for Geometric Pattern Recognition</h4>
+			<p>Christopher Choy, Junha Lee, Rene Ranftl, <b>Jaesik Park</b>, and Vladlen Koltun<br>
+			Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2020<br>
+			(<b>Oral</b> Presentation, 5.7% acceptance rate)			   	    </p>
 		<a href="http://jaesik.info/publications/data/20_cvpr_highconv.pdf" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -521,15 +502,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/20_cvpr1.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/20_cvpr1.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Future Video Synthesis with Object Motion Predictions</h3>
-		<p>Yue Wu, Rongrong Gao, <b>Jaesik Park</b>, and Qifeng Chen<br>
-		Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2020<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Future Video Synthesis with Object Motion Predictions</h4>
+			<p>Yue Wu, Rongrong Gao, <b>Jaesik Park</b>, and Qifeng Chen<br>
+			Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2020<br>
+						   	    </p>
 		<a href="http://jaesik.info/publications/data/20_cvpr_future.pdf" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -551,22 +532,22 @@
 <hr>
 <div class="container">
 <div class="row">
-	<div class="col-lg-12 text-left">
+	<div class="col-lg-12 test-start">
 		<h2 class="name">2019</h2>
 	</div>
 </div>
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/19_iccv.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/19_iccv.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Fully Convolutional Geometric Features</h3>
-		<p>Christopher Choy*, <b>Jaesik Park</b>*, and Vladlen Koltun<br>
-		International Conference on Computer Vision (<b>ICCV</b>), 2019<br>
-		(*Equal contribution)		       </p>
+	<div class="col-lg-8">
+			<h4>Fully Convolutional Geometric Features</h4>
+			<p>Christopher Choy*, <b>Jaesik Park</b>*, and Vladlen Koltun<br>
+			International Conference on Computer Vision (<b>ICCV</b>), 2019<br>
+			(*Equal contribution)			   	    </p>
 		<a href="http://jaesik.info/publications/data/19_iccv.pdf" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -580,15 +561,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/19_pg.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/19_pg.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Global Texture Mapping for Dynamic Objects</h3>
-		<p>Jungeon Kim, Hyomin Kim, <b>Jaesik Park</b>, and Seungyong Lee<br>
-		Pacific Graphics (<b>PG</b>), 2019<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Global Texture Mapping for Dynamic Objects</h4>
+			<p>Jungeon Kim, Hyomin Kim, <b>Jaesik Park</b>, and Seungyong Lee<br>
+			Pacific Graphics (<b>PG</b>), 2019<br>
+						   	    </p>
 		<a href="http://cg.postech.ac.kr/papers/2019_PG_Kim.pdf" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -599,15 +580,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/19_iros.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/19_iros.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>GPU Accelerated Robust Scene Reconstruction</h3>
-		<p>Wei Dong, <b>Jaesik Park</b>, Yi Yang, and Michael Kaess<br>
-		IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>), 2019<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>GPU Accelerated Robust Scene Reconstruction</h4>
+			<p>Wei Dong, <b>Jaesik Park</b>, Yi Yang, and Michael Kaess<br>
+			IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>), 2019<br>
+						   	    </p>
 		<a href="http://dongwei.info/publications/open3d-gpu.pdf" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -621,15 +602,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/18_pami.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/18_pami.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Depth from a Light Field Image with Learning-based Matching Costs</h3>
-		<p>Hae-Gon Jeon, <b>Jaesik Park</b>, Gyeongmin Choe, Jinsun Park, Yunsu Bok, Yu-Wing Tai, and In So Kweon<br>
-		IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>), 2019<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Depth from a Light Field Image with Learning-based Matching Costs</h4>
+			<p>Hae-Gon Jeon, <b>Jaesik Park</b>, Gyeongmin Choe, Jinsun Park, Yunsu Bok, Yu-Wing Tai, and In So Kweon<br>
+			IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>), 2019<br>
+						   	    </p>
 		<a href="http://ieeexplore.ieee.org/document/8263242/" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -642,22 +623,22 @@
 <hr>
 <div class="container">
 <div class="row">
-	<div class="col-lg-12 text-left">
+	<div class="col-lg-12 test-start">
 		<h2 class="name">2018</h2>
 	</div>
 </div>
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/18_cvpr.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/18_cvpr.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Tangent Convolutions for Dense Prediction in 3D</h3>
-		<p>Maxim Tatarchenko*, <b>Jaesik Park</b>*, Vladlen Koltun, and Qian-Yi Zhou<br>
-		Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2018<br>
-		(*Equal contribution. <b>Spotlight Oral</b> Presentation)		       </p>
+	<div class="col-lg-8">
+			<h4>Tangent Convolutions for Dense Prediction in 3D</h4>
+			<p>Maxim Tatarchenko*, <b>Jaesik Park</b>*, Vladlen Koltun, and Qian-Yi Zhou<br>
+			Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2018<br>
+			(*Equal contribution. <b>Spotlight Oral</b> Presentation)			   	    </p>
 		<a href="http://vladlen.info/publications/tangent-convolutions-dense-prediction-3d/" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-home"></span> Project Page
 		</a>
@@ -674,15 +655,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/18_arxiv.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/18_arxiv.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Open3D: A Modern Library For 3D Data Processing</h3>
-		<p>Qian-Yi Zhou, <b>Jaesik Park</b>, and Vladlen Koltun<br>
-		Technical Report, arXiv:1801.09847, 2018<br>
-				<a class="github-button" href="https://github.com/intel-isl/open3d" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star intel-isl/open3d on GitHub">Star</a><a class="github-button" href="https://github.com/intel-isl/open3d/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork intel-isl/open3d on GitHub">Fork</a>       </p>
+	<div class="col-lg-8">
+			<h4>Open3D: A Modern Library For 3D Data Processing</h4>
+			<p>Qian-Yi Zhou, <b>Jaesik Park</b>, and Vladlen Koltun<br>
+			Technical Report, arXiv:1801.09847, 2018<br>
+						<a class="github-button" href="https://github.com/intel-isl/open3d" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star intel-isl/open3d on GitHub">Star</a><a class="github-button" href="https://github.com/intel-isl/open3d/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork intel-isl/open3d on GitHub">Fork</a>   	    </p>
 		<a href="http://www.open3d.org" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-home"></span> Project Page
 		</a>
@@ -705,15 +686,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/18_ras.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/18_ras.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Real-time Head Pose Estimation using Multi-task Deep Neural Network</h3>
-		<p>Byungtae Ahn, Dong-Geol Choi, <b>Jaesik Park</b>, and In So Kweon<br>
-		Robotics and Autonomous Systems (<b>RAS</b>), 2018<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Real-time Head Pose Estimation using Multi-task Deep Neural Network</h4>
+			<p>Byungtae Ahn, Dong-Geol Choi, <b>Jaesik Park</b>, and In So Kweon<br>
+			Robotics and Autonomous Systems (<b>RAS</b>), 2018<br>
+						   	    </p>
 		<a href="https://www.sciencedirect.com/science/article/pii/S0921889017303524" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -726,22 +707,22 @@
 <hr>
 <div class="container">
 <div class="row">
-	<div class="col-lg-12 text-left">
+	<div class="col-lg-12 test-start">
 		<h2 class="name">2017</h2>
 	</div>
 </div>
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/17_iccv.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/17_iccv.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Colored Point Cloud Registration Revisited</h3>
-		<p><b>Jaesik Park</b>, Qian-Yi Zhou, and Vladlen Koltun<br>
-		International Conference on Computer Vision (<b>ICCV</b>), 2017<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Colored Point Cloud Registration Revisited</h4>
+			<p><b>Jaesik Park</b>, Qian-Yi Zhou, and Vladlen Koltun<br>
+			International Conference on Computer Vision (<b>ICCV</b>), 2017<br>
+						   	    </p>
 		<a href="http://redwood-data.org/indoor_lidar_rgbd/" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-home"></span> Project Page
 		</a>
@@ -761,15 +742,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/17_siggraph.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/17_siggraph.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Tanks and Temples: Benchmarking Large-Scale Scene Reconstruction</h3>
-		<p>Arno Knapitsch, <b>Jaesik Park</b>, Qian-Yi Zhou, and Vladlen Koltun<br>
-		ACM Transactions on Graphics (Proc. <b>SIGGRAPH</b>), 2017<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Tanks and Temples: Benchmarking Large-Scale Scene Reconstruction</h4>
+			<p>Arno Knapitsch, <b>Jaesik Park</b>, Qian-Yi Zhou, and Vladlen Koltun<br>
+			ACM Transactions on Graphics (Proc. <b>SIGGRAPH</b>), 2017<br>
+						   	    </p>
 		<a href="https://www.tanksandtemples.org/" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-home"></span> Project Page
 		</a>
@@ -792,15 +773,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/17_cgf.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/17_cgf.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Category Specific Salient View Selection via Deep Convolutional Neural Networks</h3>
-		<p>Seong heum Kim, Yu Wing Tai, Joon Young Lee, <b>Jaesik Park</b>, and In So Kweon<br>
-		Computer Graphics Forum (<b>CGF</b>), 2017<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Category Specific Salient View Selection via Deep Convolutional Neural Networks</h4>
+			<p>Seong heum Kim, Yu Wing Tai, Joon Young Lee, <b>Jaesik Park</b>, and In So Kweon<br>
+			Computer Graphics Forum (<b>CGF</b>), 2017<br>
+						   	    </p>
 		<a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13082" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -813,22 +794,22 @@
 <hr>
 <div class="container">
 <div class="row">
-	<div class="col-lg-12 text-left">
+	<div class="col-lg-12 test-start">
 		<h2 class="name">2016</h2>
 	</div>
 </div>
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/16_pami.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/16_pami.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Robust Multiview Photometric Stereo using Planar Mesh Parameterization</h3>
-		<p><b>Jaesik Park</b>, Sudipta N. Sinha, Yasuyuki Matsushita, Yu-Wing Tai, and In So Kweon<br>
-		IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>), 2016<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Robust Multiview Photometric Stereo using Planar Mesh Parameterization</h4>
+			<p><b>Jaesik Park</b>, Sudipta N. Sinha, Yasuyuki Matsushita, Yu-Wing Tai, and In So Kweon<br>
+			IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>), 2016<br>
+						   	    </p>
 		<a href="http://jaesik.info/publications/multiviewps/index.html" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-home"></span> Project Page
 		</a>
@@ -839,15 +820,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/16_eccv.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/16_eccv.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Fast Global Registration</h3>
-		<p>Qian-Yi Zhou, <b>Jaesik Park</b>, and Vladlen Koltun<br>
-		European Conference on Computer Vision (<b>ECCV</b>), 2016<br>
-		(<b>Oral</b> Presentation, 1.8% acceptance rate)		       </p>
+	<div class="col-lg-8">
+			<h4>Fast Global Registration</h4>
+			<p>Qian-Yi Zhou, <b>Jaesik Park</b>, and Vladlen Koltun<br>
+			European Conference on Computer Vision (<b>ECCV</b>), 2016<br>
+			(<b>Oral</b> Presentation, 1.8% acceptance rate)			   	    </p>
 		<a href="http://vladlen.info/publications/fast-global-registration/" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-home"></span> Project Page
 		</a>
@@ -864,15 +845,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/16_ijcv.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/16_ijcv.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Refining Geometry from Depth Sensors using IR Shading Images</h3>
-		<p>Gyeongmin Choe, <b>Jaesik Park</b>, Yu-Wing Tai, and In So Kweon<br>
-		International Journal of Computer Vision (<b>IJCV</b>), 2016<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Refining Geometry from Depth Sensors using IR Shading Images</h4>
+			<p>Gyeongmin Choe, <b>Jaesik Park</b>, Yu-Wing Tai, and In So Kweon<br>
+			International Journal of Computer Vision (<b>IJCV</b>), 2016<br>
+						   	    </p>
 		<a href="https://drive.google.com/file/d/1LsgtzkOt-z8W6iX8tHHV8H_XTqTOg-_q/view" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -883,15 +864,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/16_cvpr_color.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/16_cvpr_color.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Efficient and Robust Color Consistency for Community Photo Collections</h3>
-		<p><b>Jaesik Park</b>, Yu-Wing Tai, Sudipta N. Sinha, and In So Kweon<br>
-		Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2016<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Efficient and Robust Color Consistency for Community Photo Collections</h4>
+			<p><b>Jaesik Park</b>, Yu-Wing Tai, Sudipta N. Sinha, and In So Kweon<br>
+			Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2016<br>
+						   	    </p>
 		<a href="http://jaesik.info/publications/photoconsistency/index.html" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-home"></span> Project Page
 		</a>
@@ -905,15 +886,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/16_cvpr_sm.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/16_cvpr_sm.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>High-quality Depth from Uncalibrated Small Motion Clip</h3>
-		<p>Hyowon Ha, Sunghoon Im, <b>Jaesik Park</b>, Hae-Gon Jeon, and In So Kweon<br>
-		Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2016<br>
-		(<b>Oral</b> Presentation, 3.9% acceptance rate)		       </p>
+	<div class="col-lg-8">
+			<h4>High-quality Depth from Uncalibrated Small Motion Clip</h4>
+			<p>Hyowon Ha, Sunghoon Im, <b>Jaesik Park</b>, Hae-Gon Jeon, and In So Kweon<br>
+			Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2016<br>
+			(<b>Oral</b> Presentation, 3.9% acceptance rate)			   	    </p>
 		<a href="https://sites.google.com/site/hyowoncv/ha_cvpr16" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-home"></span> Project Page
 		</a>
@@ -927,15 +908,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/16_icra.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/16_icra.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Vision System and Depth Processing for DRC-HUBO+</h3>
-		<p>Inwook Shim, Seunghak Shin, Yunsu Bok, Kyungdon Joo, Dong-Geol Choi, Joon-Young Lee, <b>Jaesik Park</b>, Jun Ho Oh, and In So Kweon<br>
-		IEEE International Conference on Robotics and Automation (<b>ICRA</b>), 2016<br>
-		(Depth processing algorithm of Team KAIST (winner of DARPA robotics challenge finals 2015))		       </p>
+	<div class="col-lg-8">
+			<h4>Vision System and Depth Processing for DRC-HUBO+</h4>
+			<p>Inwook Shim, Seunghak Shin, Yunsu Bok, Kyungdon Joo, Dong-Geol Choi, Joon-Young Lee, <b>Jaesik Park</b>, Jun Ho Oh, and In So Kweon<br>
+			IEEE International Conference on Robotics and Automation (<b>ICRA</b>), 2016<br>
+			(Depth processing algorithm of Team KAIST (winner of DARPA robotics challenge finals 2015))			   	    </p>
 		<a href="https://sites.google.com/site/iwshimcv/drc-finals-2015" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-home"></span> Project Page
 		</a>
@@ -955,15 +936,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/16_tip.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/16_tip.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Multi-view Object Extraction with Fractional Boundaries</h3>
-		<p>Seong-Heum Kim, Yu-Wing Tai, <b>Jaesik Park</b>, and In So Kweon<br>
-		IEEE Transaction on Image Processing (<b>TIP</b>), 2016<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Multi-view Object Extraction with Fractional Boundaries</h4>
+			<p>Seong-Heum Kim, Yu-Wing Tai, <b>Jaesik Park</b>, and In So Kweon<br>
+			IEEE Transaction on Image Processing (<b>TIP</b>), 2016<br>
+						   	    </p>
 		<a href="http://jaesik.info/publications/data/16_tip.pdf" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -979,22 +960,22 @@
 <hr>
 <div class="container">
 <div class="row">
-	<div class="col-lg-12 text-left">
+	<div class="col-lg-12 test-start">
 		<h2 class="name">2015</h2>
 	</div>
 </div>
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/15_3dv.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/15_3dv.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Dense Depth and Albedo from a Single-shot Structured Light</h3>
-		<p>Hyowon Ha, <b>Jaesik Park</b>, and In So Kweon<br>
-		International Conference on 3D Vision (<b>3DV</b>), 2015<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Dense Depth and Albedo from a Single-shot Structured Light</h4>
+			<p>Hyowon Ha, <b>Jaesik Park</b>, and In So Kweon<br>
+			International Conference on 3D Vision (<b>3DV</b>), 2015<br>
+						   	    </p>
 		<a href="http://jaesik.info/publications/data/15_3dv.pdf" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -1008,15 +989,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/15_cvpr_lf.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/15_cvpr_lf.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Accurate Depth Map Estimation from a Lenslet Light Field Camera</h3>
-		<p>Hae-Gon Jeon, <b>Jaesik Park</b>, Gyeongmin Choe, Jinsun Park, Yunsu Bok, Yu-Wing Tai, and In So Kweon<br>
-		Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2015<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Accurate Depth Map Estimation from a Lenslet Light Field Camera</h4>
+			<p>Hae-Gon Jeon, <b>Jaesik Park</b>, Gyeongmin Choe, Jinsun Park, Yunsu Bok, Yu-Wing Tai, and In So Kweon<br>
+			Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2015<br>
+						   	    </p>
 		<a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Jeon_Accurate_Depth_Map_2015_CVPR_paper.pdf" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -1030,15 +1011,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/15_cvpr_pd.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/15_cvpr_pd.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Multi-modal Pedestrian Detection: Benchmark Dataset and Baselines</h3>
-		<p>SoonMin Hwang, <b>Jaesik Park</b>, Namil Kim, Yukyung Choi, and In So Kweon<br>
-		Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2015<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Multi-modal Pedestrian Detection: Benchmark Dataset and Baselines</h4>
+			<p>SoonMin Hwang, <b>Jaesik Park</b>, Namil Kim, Yukyung Choi, and In So Kweon<br>
+			Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2015<br>
+						   	    </p>
 		<a href="https://sites.google.com/site/pedestrianbenchmark/" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-home"></span> Project Page
 		</a>
@@ -1051,22 +1032,22 @@
 <hr>
 <div class="container">
 <div class="row">
-	<div class="col-lg-12 text-left">
+	<div class="col-lg-12 test-start">
 		<h2 class="name">2014</h2>
 	</div>
 </div>
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/14_tip.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/14_tip.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>High Quality Depth Map Upsampling and Completion for RGB-D Cameras</h3>
-		<p><b>Jaesik Park</b>, Hyeongwoo Kim, Yu-Wing Tai, Michael S. Brown, and In-So Kweon<br>
-		IEEE Transaction on Image Processing (<b>TIP</b>), 2014<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>High Quality Depth Map Upsampling and Completion for RGB-D Cameras</h4>
+			<p><b>Jaesik Park</b>, Hyeongwoo Kim, Yu-Wing Tai, Michael S. Brown, and In-So Kweon<br>
+			IEEE Transaction on Image Processing (<b>TIP</b>), 2014<br>
+						   	    </p>
 		<a href="http://jaesik.info/web_inplace=publications/depthups/index.html" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-home"></span> Project Page
 		</a>
@@ -1077,15 +1058,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/14_accv.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/14_accv.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Real-time Head Orientation from a Monocular Camera using Deep Neural Network</h3>
-		<p>Byungtae Ahn, <b>Jaesik Park</b>, and In So Kweon<br>
-		Asian Conference on Computer Vision (<b>ACCV</b>), 2014<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Real-time Head Orientation from a Monocular Camera using Deep Neural Network</h4>
+			<p>Byungtae Ahn, <b>Jaesik Park</b>, and In So Kweon<br>
+			Asian Conference on Computer Vision (<b>ACCV</b>), 2014<br>
+						   	    </p>
 		<a href="http://jaesik.info/publications/data/14_accv.pdf" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -1099,15 +1080,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/14_icip.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/14_icip.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>GMM-based Saliency Aggregation for Calibration-free Gaze Estimation</h3>
-		<p>Jinsoo Choi, Byungtae Ahn, <b>Jaesik Park</b>, and In So Kweon<br>
-		International Conference on Image Processing (<b>ICIP</b>), 2014<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>GMM-based Saliency Aggregation for Calibration-free Gaze Estimation</h4>
+			<p>Jinsoo Choi, Byungtae Ahn, <b>Jaesik Park</b>, and In So Kweon<br>
+			International Conference on Image Processing (<b>ICIP</b>), 2014<br>
+						   	    </p>
 		<a href="http://jaesik.info/publications/data/14_icip.pdf" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -1121,15 +1102,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/14_cvpr_gm.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/14_cvpr_gm.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Exploiting Shading Cues in Kinect IR Images for Geometry Refinement</h3>
-		<p>Gyeongmin Choe*, <b>Jaesik Park</b>*, Yu-Wing Tai, and In So Kweon<br>
-		Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2014<br>
-		(*Equal contributions. Received 20th <b>HumanTech Paper Award (Silver Prize)</b>, Samsung Electronics Corp.)		       </p>
+	<div class="col-lg-8">
+			<h4>Exploiting Shading Cues in Kinect IR Images for Geometry Refinement</h4>
+			<p>Gyeongmin Choe*, <b>Jaesik Park</b>*, Yu-Wing Tai, and In So Kweon<br>
+			Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2014<br>
+			(*Equal contributions. Received 20th <b>HumanTech Paper Award (Silver Prize)</b>, Samsung Electronics Corp.)			   	    </p>
 		<a href="https://sites.google.com/site/gmchoe1/kinir" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-home"></span> Project Page
 		</a>
@@ -1140,15 +1121,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/14_cvpr_cal.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/14_cvpr_cal.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Calibrating a Non-isotropic Near Point Light Source using a Plane</h3>
-		<p><b>Jaesik Park</b>, Sudipta N. Sinha, Yasuyuki Matsushita, Yu-Wing Tai, and In So Kweon<br>
-		Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2014<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Calibrating a Non-isotropic Near Point Light Source using a Plane</h4>
+			<p><b>Jaesik Park</b>, Sudipta N. Sinha, Yasuyuki Matsushita, Yu-Wing Tai, and In So Kweon<br>
+			Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2014<br>
+						   	    </p>
 		<a href="http://jaesik.info/web_inplace=publications/lightcalib/index.html" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-home"></span> Project Page
 		</a>
@@ -1161,22 +1142,22 @@
 <hr>
 <div class="container">
 <div class="row">
-	<div class="col-lg-12 text-left">
+	<div class="col-lg-12 test-start">
 		<h2 class="name">2013</h2>
 	</div>
 </div>
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/13_iccv.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/13_iccv.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Multiview Photometric Stereo using Planar Mesh Parameterization</h3>
-		<p><b>Jaesik Park</b>, Sudipta N. Sinha, Yasuyuki Matsushita, Yu-Wing Tai, and In So Kweon<br>
-		International Conference on Computer Vision (<b>ICCV</b>), 2013<br>
-		(Received 19th <b>HumanTech Paper Award (Silver Prize)</b>, Samsung Electronics Corp.)		       </p>
+	<div class="col-lg-8">
+			<h4>Multiview Photometric Stereo using Planar Mesh Parameterization</h4>
+			<p><b>Jaesik Park</b>, Sudipta N. Sinha, Yasuyuki Matsushita, Yu-Wing Tai, and In So Kweon<br>
+			International Conference on Computer Vision (<b>ICCV</b>), 2013<br>
+			(Received 19th <b>HumanTech Paper Award (Silver Prize)</b>, Samsung Electronics Corp.)			   	    </p>
 		<a href="http://jaesik.info/publications/multiviewps/index.html" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-home"></span> Project Page
 		</a>
@@ -1189,22 +1170,22 @@
 <hr>
 <div class="container">
 <div class="row">
-	<div class="col-lg-12 text-left">
+	<div class="col-lg-12 test-start">
 		<h2 class="name">2012</h2>
 	</div>
 </div>
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/12_eccv.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/12_eccv.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Tensor Voting Approach for Multi-View 3D Scene-flow Estimation and Refinement</h3>
-		<p><b>Jaesik Park</b>, Tae Hyun Oh, Jiyoung Jung, Yu-Wing Tai, and In So Kweon<br>
-		European Conference on Computer Vision (<b>ECCV</b>), 2012<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Tensor Voting Approach for Multi-View 3D Scene-flow Estimation and Refinement</h4>
+			<p><b>Jaesik Park</b>, Tae Hyun Oh, Jiyoung Jung, Yu-Wing Tai, and In So Kweon<br>
+			European Conference on Computer Vision (<b>ECCV</b>), 2012<br>
+						   	    </p>
 		<a href="http://jaesik.info/publications/data/12_eccv.pdf" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -1221,15 +1202,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/12_icip.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/12_icip.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Modeling Photo Composition and Its Application to Photo Re-arrangement</h3>
-		<p><b>Jaesik Park</b>, Joon-Young Lee, Yu-Wing Tai, and In So Kweon<br>
-		International Conference on Image Processing (<b>ICIP</b>), 2012<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Modeling Photo Composition and Its Application to Photo Re-arrangement</h4>
+			<p><b>Jaesik Park</b>, Joon-Young Lee, Yu-Wing Tai, and In So Kweon<br>
+			International Conference on Image Processing (<b>ICIP</b>), 2012<br>
+						   	    </p>
 		<a href="http://jaesik.info/publications/data/12_icip.pdf" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -1246,15 +1227,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/12_cvpr.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/12_cvpr.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>Identigram/Watermark removal using cross-channel correlation</h3>
-		<p><b>Jaesik Park</b>, Yu-Wing Tai, and In-So Kweon<br>
-		Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2012<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>Identigram/Watermark removal using cross-channel correlation</h4>
+			<p><b>Jaesik Park</b>, Yu-Wing Tai, and In-So Kweon<br>
+			Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2012<br>
+						   	    </p>
 		<a href="http://jaesik.info/publications/identigram/index.html" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-home"></span> Project Page
 		</a>
@@ -1267,22 +1248,22 @@
 <hr>
 <div class="container">
 <div class="row">
-	<div class="col-lg-12 text-left">
+	<div class="col-lg-12 test-start">
 		<h2 class="name">2011</h2>
 	</div>
 </div>
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/11_iros.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/11_iros.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>A Novel 2.5D Pattern for Extrinsic Calibration of ToF and Camera Fusion System</h3>
-		<p>Jiyoung Jung, Yekeun Jeong, <b>Jaesik Park</b>, Hyowon Ha, J. D. Kim, and In-So Kweon<br>
-		IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>), 2011<br>
-				       </p>
+	<div class="col-lg-8">
+			<h4>A Novel 2.5D Pattern for Extrinsic Calibration of ToF and Camera Fusion System</h4>
+			<p>Jiyoung Jung, Yekeun Jeong, <b>Jaesik Park</b>, Hyowon Ha, J. D. Kim, and In-So Kweon<br>
+			IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>), 2011<br>
+						   	    </p>
 		<a href="http://jaesik.info/publications/data/11_iros.pdf" target="_blank" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-file"></span> Paper
 		</a>
@@ -1293,15 +1274,15 @@
 </div>
 
 <div class="container">
-<div class="row">
-	<div class="col-lg-4 col-lg-offset-1">
-		<img src="publications/data/11_iccv.jpg" style="max-height:170px" class="img-responsive center-block img-thumbnail">
+<div class="row gx-4 gy-4">
+	<div class="col-lg-4">
+		<img src="publications/data/11_iccv.jpg" class="center-block img-thumbnail">
 	</div>
-	<div class="col-lg-7">
-		<h3>High Quality Depth Map Upsampling for 3D-TOF Cameras</h3>
-		<p><b>Jaesik Park</b>*, Hyeongwoo Kim*, Yu-Wing Tai, Michael S. Brown, and In-So Kweon<br>
-		International Conference on Computer Vision (<b>ICCV</b>), 2011<br>
-		(*Equal contributions)		       </p>
+	<div class="col-lg-8">
+			<h4>High Quality Depth Map Upsampling for 3D-TOF Cameras</h4>
+			<p><b>Jaesik Park</b>*, Hyeongwoo Kim*, Yu-Wing Tai, Michael S. Brown, and In-So Kweon<br>
+			International Conference on Computer Vision (<b>ICCV</b>), 2011<br>
+			(*Equal contributions)			   	    </p>
 		<a href="http://jaesik.info/publications/depthups/index.html" class="btn btn-default" role="button">
 			<span class="glyphicon glyphicon-home"></span> Project Page
 		</a>
@@ -1326,17 +1307,8 @@
 		</div>
 </footer>
 
-<!-- jQuery -->
-<script src="http://jaesik.info/js/jquery.js"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src="http://jaesik.info/js/bootstrap.min.js"></script>
-
-<!-- Plugin JavaScript for Navbar -->
-<script src="http://jaesik.info/js/jquery.easing.min.js"></script>
-
 <!-- Theme JavaScript for Navbar -->
-<script src="http://jaesik.info/js/freelancer.js"></script>
+<script src="/Users/jaesik/Research/syncle.github.io/js/scripts.js"></script>
 
 </body>
 
