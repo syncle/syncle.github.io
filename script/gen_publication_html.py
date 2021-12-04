@@ -20,40 +20,40 @@ def write_html(file, data):
 			# adding year
 			f.write('<div class="container">\n'+
 					'<div class="row">\n'+
-					'	<div class="col-lg-12 test-start">\n'+
+					'	<div class="col-lg-12 text-start">\n'+
 					'		<h2 class="name">%s</h2>\n' % year +
 					'	</div>\n'+
 					'</div>\n'+
 					'</div>\n\n')
-		# adding elements
+		# list up international
+		items_international = []
 		for category, items in data[year].items():
 			if category == 'papers':
 				for i in items:
 					if i['type'] == 'international':
-						f.write('<div class="container">\n'+
-							'<div class="row gx-4 gy-4">\n'+
-							# Thumbnail image
-							'	<div class="col-lg-4">\n'+
-							'		<img src="%s" class="center-block img-thumbnail">\n' % i['image'] +
-							'	</div>\n'+
-							# Paper information
-							'	<div class="col-lg-8">\n'+
-							# '		<span class="align-middle">\n' + # not working..
-							'			<h4>%s</h4>\n' % i['title'] +
-							'			<p>%s<br>\n' % authorlist_to_text(i['author']) +
-							'			%s<br>\n' % (i['venue'] + ", " + year) +
-							'			%s' % (i['comment'] if 'comment' in i else '') +
-							'			%s' % (i['github'] if 'github' in i else '') +
-							'   	    </p>\n' +							
-							# Buttons
-							get_button_str_all(i) +
-							# '		</span>\n' +
-							'	</div>\n'+
-							'</div>\n'+
-							# just for adding some space - not sure style="height" is compatible for browsers
-							'<div class="row" style="height: 30px">\n'+
-							'</div>\n'+
-							'</div>\n\n')
+						items_international.append(i)
+		if len(items_international) == 0:
+			continue
+		# adding elements
+		f.write('<div class="container">\n'+
+				'	<div class="row gx-5 gy-5">\n')
+		for i in items_international:
+			f.write(
+				'		<div class="col-lg-4 text-center">'
+				# Thumbnail image
+				'			<img src="%s" class="mb-3 img-fluid rounded float-center img-thumbnail">\n' % i['image'] +
+				# Paper information
+				'			<h4>%s</h4>\n' % i['title'] +
+				'			<p>%s. ' % authorlist_to_text(i['author']) +
+				'			<em>%s</em><br>\n' % (i['venue'] + ", " + year) +
+				'			%s' % (i['comment'] if 'comment' in i else '') +
+				'			%s' % (i['github'] if 'github' in i else '') + '</p>\n' +
+				# Buttons
+				get_button_str_all(i) +
+				'		</div>\n')
+		f.write(
+			'	</div>\n'+
+			'</div>\n\n')
 	f.write('</div>  <!-- end of publication list -->\n\n')
 	f.close()
 
