@@ -9,38 +9,7 @@ def get_button_str_inplace(link, text):
 def get_button_str(link, text):
 	return 	'			<a href="%s" target="_blank" class="btn btn-outline-secondary btn-sm" role="button">' % link + ' %s' % text + '</a>\n'
 
-def get_button_str_predefined(link, type, CHECK_LINK = False):
-	if CHECK_LINK:
-		check_link(link)
-	if not is_absolute(link):
-		link = get_domain() + '/' + link
-	if type == 'Paper':
-		return get_button_str(link, 'Paper')
-	elif type == 'Code':
-		return get_button_str(link, 'Code')
-	elif type == 'Data':
-		return get_button_str(link, 'Data')
-	elif type == 'Project Page':
-		return get_button_str(link, 'Project Page')
-	elif type == 'Project Page Inplace':
-		return get_button_str_inplace(link, 'Project Page')
-	elif type == 'Video':
-		return get_button_str(link, 'Video')
-	elif type == 'Supplement':
-		return get_button_str(link, 'Supplement')
-	elif type == 'Bibtex':
-		return get_button_str(link, 'Bibtex')
-	elif type == 'Executable':
-		return get_button_str(link, 'Executable')
-	elif type == 'Poster':
-		return get_button_str(link, 'Poster')
-	elif type == 'Tutorial':
-		return get_button_str(link, 'Tutorial')
-	else:
-		return ''
-
 def get_button_str_all(record):
-
 	button_pdf = ''
 	button_code = ''
 	button_data = ''
@@ -54,27 +23,27 @@ def get_button_str_all(record):
 	button_tutorial = ''
 
 	if 'pdf' in record:
-		button_pdf = get_button_str_predefined(record['pdf'], 'Paper')
+		button_pdf = get_button_str(record['pdf'], 'Paper')
 	if 'code' in record:
-		button_code = get_button_str_predefined(record['code'], 'Code')
+		button_code = get_button_str(record['code'], 'Code')
 	if 'data' in record:
-		button_data = get_button_str_predefined(record['data'], 'Data')
+		button_data = get_button_str(record['data'], 'Data')
 	if 'web' in record:
-		button_web = get_button_str_predefined(record['web'], 'Project Page')
+		button_web = get_button_str(record['web'], 'Project Page')
 	if 'web_inplace' in record:
-		button_web_inplace = get_button_str_predefined(record['web_inplace'], 'Project Page Inplace')
+		button_web_inplace = get_button_str_inplace(record['web_inplace'], 'Project Page')
 	if 'video' in record:
-		button_video = get_button_str_predefined(record['video'], 'Video')
+		button_video = get_button_str(record['video'], 'Video')
 	if 'supp' in record:
-		button_supp = get_button_str_predefined(record['supp'], 'Supplement')
+		button_supp = get_button_str(record['supp'], 'Supplement')
 	if 'bibtex' in record:
-		button_bibtex = get_button_str_predefined(record['bibtex'], 'Bibtex')
+		button_bibtex = get_button_str(record['bibtex'], 'Bibtex')
 	if 'executable' in record:
-		button_executable = get_button_str_predefined(record['executable'], 'Executable')
+		button_executable = get_button_str(record['executable'], 'Executable')
 	if 'poster' in record:
-		button_poster = get_button_str_predefined(record['poster'], 'Poster')
+		button_poster = get_button_str(record['poster'], 'Poster')
 	if 'tutorial' in record:
-		button_tutorial = get_button_str_predefined(record['tutorial'], 'Tutorial')
+		button_tutorial = get_button_str(record['tutorial'], 'Tutorial')
 
 	# this combined html script will determine the order of buttons
 	button = button_web + button_web_inplace + \
