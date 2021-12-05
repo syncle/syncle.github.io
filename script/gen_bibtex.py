@@ -39,13 +39,22 @@ def get_bibtex_article(i, year):
         '\n}'
     return bibitem
 
+def get_bibtex_arxiv(i, year):
+    bibitem = '@article{%s,<br>' % gen_nickname(i, year) + \
+        '\nTitle={%s},<br>' % i['title'] + \
+        '\nAuthor={%s},<br>' % authorlist_to_bibtex_style(i['author']) + \
+        '\nJournal={%s},<br>' % remove_html_bold(i['venue']) + \
+        '\nYear={%s}<br>' % year + \
+        '\n}'
+    return bibitem
+
 def get_bibtex_str(i, year):
     if i['type'] == 'conference':
         return get_bibtex_proceedings(i, year)
     elif i['type'] == 'journal':
         return get_bibtex_article(i, year)
-    else:
-        assert 'Wrong paper types'
+    elif i['type'] == 'arxiv':
+        return get_bibtex_arxiv(i, year)
 
 def get_collapsed_bibtex_html(i, year):
     nickname = gen_nickname(i, year)
