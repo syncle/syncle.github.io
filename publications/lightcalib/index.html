@@ -17,78 +17,72 @@
 
 <body id="page-top" class="index">
 
-<!-- Navigation -->
-<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+<nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
 	<div class="container">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header page-scroll">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-			</button>
-			<a class="navbar-brand" href="http://jaesik.info/index.html">Jaesik Park</a>
-		</div>
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
-				<li class="hidden">
-					<a href="http://jaesik.info/index.html"></a>
-				</li>
-				<li >
-					<a href="http://jaesik.info/about_me.html">About me</a>
-				</li>
-				<li class="active">
-					<a href="http://jaesik.info/publications.html">Publications</a>
-				</li>
-				<li >
-					<a href="http://jaesik.info/academic_activities.html">Academic activities</a>
-				</li>
-				<li >
-					<a href="http://jaesik.info/contact.html">Contact</a>
-				</li>
+		<a class="navbar-brand" href="http://jaesik.info">Jaesik Park</a>
+		<button class="navbar-toggler font-weight-bold bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			Menu
+			<i class="fas fa-bars"></i>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ms-auto">
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3" href="http://jaesik.info"></a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link  py-3 px-0 px-lg-3" href="http://jaesik.info/about_me">About me</a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link  py-3 px-0 px-lg-3" href="http://jaesik.info/academic_activities">Academic activities</a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link active py-3 px-0 px-lg-3" href="http://jaesik.info/publications">Publications</a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link  py-3 px-0 px-lg-3" href="http://jaesik.info/lab">@POSTECH</a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link  py-3 px-0 px-lg-3" href="http://jaesik.info/contact">Contact</a></li>
 			</ul>
 		</div>
-		<!-- /.navbar-collapse -->
 	</div>
-<!-- /.container-fluid -->
 </nav>
 
-<!-- Header -->
-<header>
-	<div class="container" id="maincontent" tabindex="-1">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="intro-text">
-					<h1>Calibrating a Non-isotropic Near Point Light Source</h1>
-				</div>
-			</div>
-		</div>
+<header class="masthead bg-primary text-white text-start">
+	<div class="container d-flex align-items-left flex-column">
+		<h1 class="text-uppercase mt-3">Calibrating a Non-isotropic Near Point Light Source</h1>
 	</div>
 </header>
 
 
-<div class="container">
-<div class="col-lg-8 col-lg-offset-2">
-	<img src="framework.jpg" class="img-responsive">
+<div class="container mt-4">
+	<div class="row">
+		<div class="col-12 mb-4">
+			<img src="framework.jpg" class="img-fluid">
+		</div>
+		<div class="col-12">
+			<h2>Abstract</h2>
+			<p> We show that a non-isotropic near point light source rigidly attached to a camera can be calibrated using multiple images 
+				of a weakly textured planar scene. We prove that if the radiant intensity distribution (RID) of a light source is radially symmetric 
+				with respect to its dominant direction, then the shading observed on a Lambertian scene plane is bilaterally symmetric with respect to 
+				a 2D line on the plane. The symmetry axis detected in an image provides a linear constraint for estimating the dominant light axis. 
+				The light position and RID parameters can then be estimated using a linear method. 
+				Specular highlights if available can also be used for light position estimation. 
+				We also extend our method to handle non-Lambertian reflectances which we model using a biquadratic BRDF. 
+				We have evaluated our method on synthetic data quantitavely. Our experiments on real scenes show that our method works well in 
+				practice and enables light calibration without the need of a specialized hardware.</p>
+		</div>
+	</div>
+	
+
 </div>
 
-<div class="col-lg-8 col-lg-offset-2">
-	<h2>Abstract</h2>
-	<p> We show that a non-isotropic near point light source rigidly attached to a camera can be calibrated using multiple images of a weakly textured planar scene. We prove that if the radiant intensity distribution (RID) of a light source is radially symmetric with respect to its dominant direction, then the shading observed on a Lambertian scene plane is bilaterally symmetric with respect to a 2D line on the plane. The symmetry axis detected in an image provides a linear constraint for estimating the dominant light axis. The light position and RID parameters can then be estimated using a linear method. Specular highlights if available can also be used for light position estimation. We also extend our method to handle non-Lambertian reflectances which we model using a biquadratic BRDF. We have evaluated our method on synthetic data quantitavely. Our experiments on real scenes show that our method works well in practice and enables light calibration without the need of a specialized hardware.</p>
-</div>
-<div class="col-lg-8 col-lg-offset-2">
-	<h2>Publication(s)</h2>
-		<h3>Calibrating a Non-isotropic Near Point Light Source using a Plane</h3>
-		<p><b>Jaesik Park</b>, Sudipta N. Sinha, Yasuyuki Matsushita, Yu-Wing Tai, and In So Kweon<br>
-		CVPR, 2014<br>
-		(Dataset has raw images used in the experiment. Note that the size of this file is 2.15GB)</p>
+<div class="container">
+	<div class="row">
+		<div class="col-12">
+			<h2>Publication(s)</h2>
+			<h4>Calibrating a Non-isotropic Near Point Light Source using a Plane</h4>
+			<p><b>Jaesik Park</b>, Sudipta N. Sinha, Yasuyuki Matsushita, Yu-Wing Tai, and In So Kweon<br>
+			CVPR, 2014<br>
+			(Dataset has raw images used in the experiment. Note that the size of this file is 2.15GB)</p>
 			<a href="http://jaesik.info/publications/lightcalib/paper.pdf" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a>
 			<a href="http://jaesik.info/publications/lightcalib/supp.pdf" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Supplement</a>
 			<a href="http://jaesik.info/publications/lightcalib/poster.pdf" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Poster</a>
 			<a href="http://jaesik.info/publications/lightcalib/bibtex.txt" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Bibtex</a>
 			<a href="https://postechackr-my.sharepoint.com/:u:/g/personal/jaesik_postech_ac_kr/Ebnodir1zzhJgiQupYkhyuQBsCLfAkNNKZPqx3eS-ihw5w?e=evJ2I5" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Data</a>
-		<p><br></p>
+<br><br>
+		</div>
+	</div>
 </div>
-
 <!-- Footer -->
 <footer>
 		<div class="container">

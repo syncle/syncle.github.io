@@ -12,7 +12,7 @@ def write_html(file, data):
 		for category, items in data[year].items():
 			if category == 'papers':
 				for i in items:
-					if i['type'] == 'international':
+					if i['language'] == 'international':
 						print_year = True
 		if print_year:
 			# adding horizontal line for every years except for the first appearing year
@@ -33,18 +33,14 @@ def write_html(file, data):
 		for category, items in data[year].items():
 			if category == 'papers':
 				for i in items:
-					if i['type'] == 'international':
+					if i['language'] == 'international':
 						items_international.append(i)
 		if len(items_international) == 0:
 			continue
 		# adding elements
 		f.write('<div class="container">\n'+
 				'	<div class="row gx-5 gy-5">\n')
-
-		# <img src="publications/data/21_arxiv2.jpg" class="img-fluid rounded float-center img-thumbnail shadow mb-3">
-		# <h4>Instance-wise Occlusion and Depth Orders in Natural Scenes</h4>
-		# <p class="text-muted">Hyunmin Lee and <b>Jaesik Park</b>. <em>arXiv:2111.14562, 2021</em></p>
-		# <p><a href="https://arxiv.org/abs/2111.14562" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a></p>		
+		# a paper
 		for i in items_international:
 			f.write(
 				'		<div class="col-lg-4 text-center">\n' +				

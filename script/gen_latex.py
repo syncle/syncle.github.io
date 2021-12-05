@@ -19,7 +19,7 @@ def write_latex_publication(file, data):
 		for category, items in data[year].items():
 			if category == 'papers':
 				for i in items:
-					if i['type'] == 'international':
+					if i['language'] == 'international':
 						f.write('    \publicationItem' + \
 						'{' + change_bold(authorlist_to_text(i['author'])) + '}' + \
 						'{' + i['title'] + '}' + \
@@ -33,7 +33,7 @@ def write_latex_publication(file, data):
 		for category, items in data[year].items():
 			if category == 'papers':
 				for i in items:
-					if i['type'] == 'domestic':
+					if i['language'] == 'domestic':
 						f.write('    \publicationItem' + \
 						'{' + change_bold(authorlist_to_text(i['author'])) + '}' + \
 						'{' + i['title'] + '}' + \

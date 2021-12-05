@@ -9,12 +9,12 @@ path_header = '../source/html/header.html'
 path_footer = '../source/html/footer.html'
 
 def gen_project_page(path, title):
+	# import ipdb; ipdb.set_trace()
 	clear_file('../' + path + 'index.html')
 	include_file('../' + path + 'index.html', path_header)
-	write_header_html('../' + path + 'header.html', title)
+	write_header_html('../' + path + 'content_header.html', title)
 	include_file('../' + path + 'index.html', '../' + path + 'content_header.html')
 	include_file('../' + path + 'index.html', '../' + path + 'content_index.html')
-	# record = read_record('../' + path + 'publication_data.txt')
 	with open('../' + path + 'record.json') as f:
 		data = json.load(f)
 	append_button_html('../' + path + 'index.html', data)
@@ -32,12 +32,12 @@ def gen_page(page, type):
 		os.remove('../source/html/%s.html' % page)
 
 if __name__ == "__main__":
-	gen_page('index', 'Index')
-	gen_page('about_me', 'About me')
-	gen_page('academic_activities', 'Academic activities')
+	# gen_page('index', 'Index')
+	# gen_page('about_me', 'About me')
+	# gen_page('academic_activities', 'Academic activities')
 
-	# publications
-	gen_page('publications', 'Publications')
+	# # publications
+	# gen_page('publications', 'Publications')	
 	gen_project_page('publications/identigram/', 'Identigram/Watermark Removal')
 	gen_project_page('publications/lightcalib/', 'Calibrating a Non-isotropic Near Point Light Source')
 	gen_project_page('publications/photoconsistency/', 'Color Consistency for Community Photo Collections')

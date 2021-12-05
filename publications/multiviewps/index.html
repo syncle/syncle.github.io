@@ -17,87 +17,78 @@
 
 <body id="page-top" class="index">
 
-<!-- Navigation -->
-<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+<nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
 	<div class="container">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header page-scroll">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-			</button>
-			<a class="navbar-brand" href="http://jaesik.info/index.html">Jaesik Park</a>
-		</div>
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
-				<li class="hidden">
-					<a href="http://jaesik.info/index.html"></a>
-				</li>
-				<li >
-					<a href="http://jaesik.info/about_me.html">About me</a>
-				</li>
-				<li class="active">
-					<a href="http://jaesik.info/publications.html">Publications</a>
-				</li>
-				<li >
-					<a href="http://jaesik.info/academic_activities.html">Academic activities</a>
-				</li>
-				<li >
-					<a href="http://jaesik.info/contact.html">Contact</a>
-				</li>
+		<a class="navbar-brand" href="http://jaesik.info">Jaesik Park</a>
+		<button class="navbar-toggler font-weight-bold bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			Menu
+			<i class="fas fa-bars"></i>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ms-auto">
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3" href="http://jaesik.info"></a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link  py-3 px-0 px-lg-3" href="http://jaesik.info/about_me">About me</a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link  py-3 px-0 px-lg-3" href="http://jaesik.info/academic_activities">Academic activities</a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link active py-3 px-0 px-lg-3" href="http://jaesik.info/publications">Publications</a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link  py-3 px-0 px-lg-3" href="http://jaesik.info/lab">@POSTECH</a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link  py-3 px-0 px-lg-3" href="http://jaesik.info/contact">Contact</a></li>
 			</ul>
 		</div>
-		<!-- /.navbar-collapse -->
 	</div>
-<!-- /.container-fluid -->
 </nav>
 
-<!-- Header -->
-<header>
-	<div class="container" id="maincontent" tabindex="-1">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="intro-text">
-					<h1>Multiview Photometric Stereo</h1>
-				</div>
-			</div>
-		</div>
+<header class="masthead bg-primary text-white text-start">
+	<div class="container d-flex align-items-left flex-column">
+		<h1 class="text-uppercase mt-3">Multiview Photometric Stereo</h1>
 	</div>
 </header>
 
 
-<div class="container">
-<div class="col-lg-8 col-lg-offset-2">
-	<div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JG2Zq1Ot-oY" frameborder="0" allowfullscreen></iframe>
-  </div>
+<div class="container mt-4">
+	<div class="row">
+		<div class="col-12 mb-4 text-center">
+			<div class="ratio ratio-16x9">
+				<iframe src="https://www.youtube.com/embed/JG2Zq1Ot-oY" title="YouTube video" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="col-12">
+			<h2>Abstract</h2>
+			<p> We propose a robust uncalibrated multiview photometric stereo method for high quality 3D shape reconstruction. 
+				In our method, a coarse initial 3D mesh obtained using a multiview stereo method is projected onto a 2D planar domain 
+				using a planar mesh parameterization technique. We describe methods for surface normal estimation 
+				that work in the parameterized 2D space that jointly incorporates all geometric and photometric cues from multiple viewpoints.
+				Using an estimated surface normal map, a refined 3D mesh is then recovered by computing an optimal displacement map in the same 2D planar domain. 
+				Our method avoids the need of merging view-dependent surface normal maps that is often required in conventional methods. 
+				We conduct evaluation on various real-world objects containing surfaces with specular reflections, multiple albedos, and complex topologies 
+				in both controlled and uncontrolled settings and demonstrate that accurate 3D meshes with fine geometric details can be recovered by our method.</p>
+		</div>
+	</div>
 </div>
 
-<div class="col-lg-8 col-lg-offset-2">
-	<h2>Abstract</h2>
-	<p> We propose a robust uncalibrated multiview photometric stereo method for high quality 3D shape reconstruction. In our method, a coarse initial 3D mesh obtained using a multiview stereo method is projected onto a 2D planar domain using a planar mesh parameterization technique. We describe methods for surface normal estimation that work in the parameterized 2D space that jointly incorporates all geometric and photometric cues from multiple viewpoints. Using an estimated surface normal map, a refined 3D mesh is then recovered by computing an optimal displacement map in the same 2D planar domain. Our method avoids the need of merging view-dependent surface normal maps that is often required in conventional methods. We conduct evaluation on various real-world objects containing surfaces with specular reflections, multiple albedos, and complex topologies in both controlled and uncontrolled settings and demonstrate that accurate 3D meshes with fine geometric details can be recovered by our method.</p>
-</div>
-<div class="col-lg-8 col-lg-offset-2">
-	<h2>Publication(s)</h2>
-		<h3>Robust Multiview Photometric Stereo using Planar Mesh Parameterization</h3>
-		<p><b>Jaesik Park</b>, Sudipta N. Sinha, Yasuyuki Matsushita, Yu-Wing Tai, and In So Kweon<br>
-		IEEE Transactions of Pattern Analysis and Machine Intelligence (TPAMI), 2016<br>
-		</p>
+<div class="container">
+	<div class="row">
+		<div class="col-12">
+			<h2>Publication(s)</h2>
+			<h4>Robust Multiview Photometric Stereo using Planar Mesh Parameterization</h4>
+			<p><b>Jaesik Park</b>, Sudipta N. Sinha, Yasuyuki Matsushita, Yu-Wing Tai, and In So Kweon<br>
+			IEEE Transactions of Pattern Analysis and Machine Intelligence (TPAMI), 2016<br>
+			</p>
 			<a href="http://jaesik.info/publications/multiviewps/PAMI2016.pdf" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a>
 			<a href="http://jaesik.info/publications/multiviewps/PAMI2016bibtex.txt" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Bibtex</a>
-		<p><br></p>
-		<h3>Multiview Photometric Stereo using Planar Mesh Parameterization</h3>
-		<p><b>Jaesik Park</b>, Sudipta N. Sinha, Yasuyuki Matsushita, Yu-Wing Tai, and In So Kweon<br>
-		The 14th International Conference on Computer Vision (ICCV), 2013<br>
-		</p>
+<br><br>
+			<h4>Multiview Photometric Stereo using Planar Mesh Parameterization</h4>
+			<p><b>Jaesik Park</b>, Sudipta N. Sinha, Yasuyuki Matsushita, Yu-Wing Tai, and In So Kweon<br>
+			The 14th International Conference on Computer Vision (ICCV), 2013<br>
+			</p>
 			<a href="http://jaesik.info/publications/multiviewps/ICCV2013.pdf" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a>
 			<a href="http://jaesik.info/publications/multiviewps/ICCV2013poster.pdf" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Poster</a>
 			<a href="http://jaesik.info/publications/multiviewps/ICCV2013bibtex.txt" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Bibtex</a>
 			<a href="https://www.dropbox.com/s/pdhiexb4jur5tqf/MeshOpt_Executable.zip?dl=1" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Executable</a>
 			<a href="http://jaesik.info/publications/multiviewps/dataset.txt" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Data</a>
-		<p><br></p>
+<br><br>
+		</div>
+	</div>
 </div>
-
 <!-- Footer -->
 <footer>
 		<div class="container">

@@ -21,7 +21,7 @@ def write_header_html(file, type):
 	elif type == "Index":
 		active_index = '' # do nothing
 	else:
-		active_publications = 'class="active"' # project pages for example
+		active_publications = 'active' # project pages for example
 
 	header_str = ''
 	if type != 'Index':

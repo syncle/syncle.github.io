@@ -17,80 +17,73 @@
 
 <body id="page-top" class="index">
 
-<!-- Navigation -->
-<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+<nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
 	<div class="container">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header page-scroll">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-			</button>
-			<a class="navbar-brand" href="http://jaesik.info/index.html">Jaesik Park</a>
-		</div>
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
-				<li class="hidden">
-					<a href="http://jaesik.info/index.html"></a>
-				</li>
-				<li >
-					<a href="http://jaesik.info/about_me.html">About me</a>
-				</li>
-				<li class="active">
-					<a href="http://jaesik.info/publications.html">Publications</a>
-				</li>
-				<li >
-					<a href="http://jaesik.info/academic_activities.html">Academic activities</a>
-				</li>
-				<li >
-					<a href="http://jaesik.info/contact.html">Contact</a>
-				</li>
+		<a class="navbar-brand" href="http://jaesik.info">Jaesik Park</a>
+		<button class="navbar-toggler font-weight-bold bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			Menu
+			<i class="fas fa-bars"></i>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ms-auto">
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3" href="http://jaesik.info"></a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link  py-3 px-0 px-lg-3" href="http://jaesik.info/about_me">About me</a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link  py-3 px-0 px-lg-3" href="http://jaesik.info/academic_activities">Academic activities</a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link active py-3 px-0 px-lg-3" href="http://jaesik.info/publications">Publications</a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link  py-3 px-0 px-lg-3" href="http://jaesik.info/lab">@POSTECH</a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link  py-3 px-0 px-lg-3" href="http://jaesik.info/contact">Contact</a></li>
 			</ul>
 		</div>
-		<!-- /.navbar-collapse -->
 	</div>
-<!-- /.container-fluid -->
 </nav>
 
-<!-- Header -->
-<header>
-	<div class="container" id="maincontent" tabindex="-1">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="intro-text">
-					<h1>Color Consistency for Community Photo Collections</h1>
-				</div>
-			</div>
-		</div>
+<header class="masthead bg-primary text-white text-start">
+	<div class="container d-flex align-items-left flex-column">
+		<h1 class="text-uppercase mt-3">Color Consistency for Community Photo Collections</h1>
 	</div>
 </header>
 
 
-<div class="container">
-<div class="col-lg-8 col-lg-offset-2">
-	<img src="photoconsistency.png" class="img-responsive">
-	<div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nnH-CJaRxas" frameborder="0" allowfullscreen></iframe>
-  </div>
-</div>
+<div class="container mt-4">
 
-<div class="col-lg-8 col-lg-offset-2">
-	<h2>Abstract</h2>
-	<p> We present an efficient technique to optimize color consistency of a collection of images depicting a common scene. Our method first recovers sparse pixel correspondences in the input images and stacks them into a matrix with many missing entries. We show that this matrix satisfies a rank two constraint under a simple color correction model. These parameters can be viewed as pseudo white balance and gamma correction parameters for each input image. We present a robust low-rank matrix factorization method to estimate the unknown parameters of this model. Using them, we improve color consistency of the input images or perform color transfer with any input image as the source. Our approach is insensitive to outliers in the pixel correspondences thereby precluding the need for complex pre-processing steps. We demonstrate high-quality color consistency results on large photo collections of popular tourist landmarks and personal photo collections containing images of people.</p>
+	<div class="row">
+		<div class="col-12 text-center">
+			<img src="photoconsistency.png" class="img-fluid">
+		</div>
+		<div class="col-12 text-center">
+			<div class="ratio ratio-16x9">
+				<iframe src="https://www.youtube.com/embed/nnH-CJaRxas" title="YouTube video" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="col-12">
+			<h2>Abstract</h2>
+			<p> We present an efficient technique to optimize color consistency of a collection of images depicting a common scene. 
+				Our method first recovers sparse pixel correspondences in the input images and stacks them into a matrix with many missing entries. 
+				We show that this matrix satisfies a rank two constraint under a simple color correction model. 
+				These parameters can be viewed as pseudo white balance and gamma correction parameters for each input image. 
+				We present a robust low-rank matrix factorization method to estimate the unknown parameters of this model. 
+				Using them, we improve color consistency of the input images or perform color transfer with any input image as the source. 
+				Our approach is insensitive to outliers in the pixel correspondences thereby precluding the need for complex pre-processing steps. 
+				We demonstrate high-quality color consistency results on large photo collections of popular tourist landmarks and personal photo collections containing images of people.</p>
+		</div>
+	</div>
 </div>
-<div class="col-lg-8 col-lg-offset-2">
-	<h2>Publication(s)</h2>
-		<h3>Efficient and Robust Color Consistency for Community Photo Collections</h3>
-		<p><b>Jaesik Park</b>, Yu-Wing Tai, Sudipta N. Sinha, and In So Kweon<br>
-		CVPR, 2016<br>
-		</p>
+<div class="container">
+	<div class="row">
+		<div class="col-12">
+			<h2>Publication(s)</h2>
+			<h4>Efficient and Robust Color Consistency for Community Photo Collections</h4>
+			<p><b>Jaesik Park</b>, Yu-Wing Tai, Sudipta N. Sinha, and In So Kweon<br>
+			CVPR, 2016<br>
+			</p>
 			<a href="http://jaesik.info/publications/photoconsistency/paper.pdf" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a>
 			<a href="http://jaesik.info/publications/photoconsistency/supp.pdf" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Supplement</a>
 			<a href="http://jaesik.info/publications/photoconsistency/bibtex.txt" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Bibtex</a>
 			<a href="https://github.com/syncle/photo_consistency" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Code</a>
-		<p><br></p>
+<br><br>
+		</div>
+	</div>
 </div>
-
 <!-- Footer -->
 <footer>
 		<div class="container">
