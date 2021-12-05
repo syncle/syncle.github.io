@@ -1,5 +1,5 @@
 import json
-from util import remove_asterisks, remove_html_bold
+from util import remove_asterisks, remove_html_bold, indent_multiline_texts, remove_special_characters
 
 def authorlist_to_bibtex_style(author):
     s = ''
@@ -12,32 +12,31 @@ def authorlist_to_bibtex_style(author):
 def gen_nickname(i, year):
     first_author = remove_asterisks(i['author'][0]).split()
     first_author_last_name = first_author[-1]
+    first_word_in_title = remove_special_characters(i['title'].split()[0])
     venue = i['venue']
     venue_short = remove_html_bold(venue[venue.find("(")+1:venue.find(")")])
     venue_short = venue_short.replace(' ', '_')
-    nickname = first_author_last_name + '_' + venue_short + '_' + year
+    nickname = first_author_last_name + '_' + first_word_in_title + '_' + venue_short + '_' + year
     return nickname
 
 def get_bibtex_proceedings(i, year):
-    bibitem = '@inproceedings{%s,' % gen_nickname(i, year) + \
-        '\n   Title={%s},' % i['title'] + \
-        '\n   Author={%s},' % authorlist_to_bibtex_style(i['author']) + \
-        '\n   Booktitle={Proceedings of the %s},' % remove_html_bold(i['venue']) + \
-        '\n   Year={%s}' % year + \
-        '\n}\n'
-    print(bibitem)
+    bibitem = '@inproceedings{%s,<br>' % gen_nickname(i, year) + \
+        '\nTitle={%s},<br>' % i['title'] + \
+        '\nAuthor={%s},<br>' % authorlist_to_bibtex_style(i['author']) + \
+        '\nBooktitle={Proceedings of the %s},<br>' % remove_html_bold(i['venue']) + \
+        '\nYear={%s}<br>' % year + \
+        '\n}'
     return bibitem
 
 def get_bibtex_article(i, year):
-    bibitem = '@article{%s,' % gen_nickname(i, year) + \
-        '\n   Title={%s},' % i['title'] + \
-        '\n   Author={%s},' % authorlist_to_bibtex_style(i['author']) + \
-        '\n   Journal={%s},' % remove_html_bold(i['venue']) + \
-        ('\n   Volume={%s},' % i['volume'] if 'volume' in i else '') + \
-        ('\n   Number={%s},' % i['number'] if 'number' in i else '') + \
-        ('\n   Pages={%s},' % i['pages'] if 'pages' in i else '') + \
-        '\n}\n'
-    print(bibitem)
+    bibitem = '@article{%s,<br>' % gen_nickname(i, year) + \
+        '\nTitle={%s},<br>' % i['title'] + \
+        '\nAuthor={%s},<br>' % authorlist_to_bibtex_style(i['author']) + \
+        '\nJournal={%s},<br>' % remove_html_bold(i['venue']) + \
+        ('\nVolume={%s},<br>' % i['volume'] if 'volume' in i else '') + \
+        ('\nNumber={%s},<br>' % i['number'] if 'number' in i else '') + \
+        ('\nPages={%s},<br>' % i['pages'] if 'pages' in i else '') + \
+        '\n}'
     return bibitem
 
 def get_bibtex_str(i, year):
@@ -48,6 +47,23 @@ def get_bibtex_str(i, year):
     else:
         assert 'Wrong paper types'
 
+def get_collapsed_bibtex_html(i, year):
+    nickname = gen_nickname(i, year)
+    bibtex = get_bibtex_str(i, year)
+    button = '<a class="btn btn-outline-secondary btn-sm" role="button" data-bs-toggle="collapse" data-bs-target="#%s" aria-expanded="false" aria-controls="%s">BibTeX</a>' % (nickname, nickname)
+    button = indent_multiline_texts(button, 4)
+    bibtex = indent_multiline_texts(bibtex, 4)
+    box = '<div class="collapse" id="%s">\n' % nickname + \
+            '	<div class="card">\n' + \
+            '		<div class="card-body">\n' + \
+            '			<p class="card-text text-start fw-lighter">\n' + \
+            '%s' % bibtex + '\n' + \
+            '			</p>\n' + \
+            '		</div>\n' + \
+            '	</div>\n' + \
+            '</div>'
+    box = indent_multiline_texts(box, 3)
+    return button, box
 
 def test(data):
     for year in data:
@@ -58,10 +74,9 @@ def test(data):
                     if i['language'] == 'international':
                         items_international.append(i)
         for i in items_international:
-            get_bibtex_str(i, year)
+            print(get_bibtex_str(i, year))
 
 if __name__ == "__main__":
     with open('../data/record.json') as f:
         data = json.load(f)
-    # todo: producing txt files?
     test(data)
