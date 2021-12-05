@@ -4,7 +4,7 @@
         "papers": [
             {
                 "language": "international",
-                "type": "conference",
+                "type": "arxiv",
                 "title": "Instance-wise Occlusion and Depth Orders in Natural Scenes", 
                 "author": ["Hyunmin Lee", "Jaesik Park"],
                 "venue": "2111.14562 (arXiv)",
@@ -13,7 +13,7 @@
             },
             {
                 "language": "international",
-                "type": "conference",
+                "type": "arxiv",
                 "title": "Fast Point Transformer", 
                 "author": ["Chunghyun Park", "Yoonwoo Jeong", "Minsu Cho", "Jaesik Park"],
                 "venue": "TBA (arXiv)",
@@ -22,7 +22,7 @@
             },
             {
                 "language": "international",
-                "type": "conference",
+                "type": "arxiv",
                 "title": "Putting 3D Spatially Sparse Networks on a Diet", 
                 "author": ["Junha Lee", "Christopher Choy", "Jaesik Park"],
                 "venue": "2112.01316 (arXiv)",
@@ -31,7 +31,7 @@
             },
             {
                 "language": "international",
-                "type": "conference",
+                "type": "arxiv",
                 "title": "PointMixer: MLP-Mixer for Point Cloud Understanding", 
                 "author": ["Jaesung Choe*", "Chunghyun Park*", "Francois Rameau", "Jaesik Park", "In So Kweon"],
                 "venue": "2111.11187 (arXiv)",
@@ -41,7 +41,7 @@
             },
             {
                 "language": "international",
-                "type": "conference",
+                "type": "arxiv",
                 "title": "Deep Point Cloud Reconstruction", 
                 "author": ["Jaesung Choe", "Byeongin Joung", "Francois Rameau", "Jaesik Park", "In So Kweon"],
                 "venue": "2111.11704 (arXiv)",
@@ -50,7 +50,7 @@
             },
             {
                 "language": "international",
-                "type": "conference",
+                "type": "arxiv",
                 "title": "Real-time Registration and Reconstruction with Cylindrical LiDAR Images", 
                 "author": ["Wei Dong*", "Kwonyoung Ryu*", "Michael Kaess", "Jaesik Park"],
                 "venue": "TBA (arXiv)",
@@ -62,7 +62,7 @@
                 "type": "conference",
                 "title": "Self-Supervised Real-time Video Stabilization", 
                 "author": ["Jinsoo Choi", "Jaesik Park", "In So Kweon"],
-                "venue": "The British Machine Vision Conference (<b>BMVC</b>)",
+                "venue": "British Machine Vision Conference (<b>BMVC</b>)",
                 "image": "publications/data/21_bmvc.jpg",
                 "pdf": "https://arxiv.org/abs/2111.05980"
             },
@@ -597,7 +597,7 @@
             },
             {
                 "language": "international",
-                "type": "conference",
+                "type": "arxiv",
                 "title": "Open3D: A Modern Library For 3D Data Processing", 
                 "author": ["Qian-Yi Zhou", "Jaesik Park", "Vladlen Koltun"],
                 "venue": "1801.09847 (arXiv)",
