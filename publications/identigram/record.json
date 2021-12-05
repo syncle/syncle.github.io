@@ -7,7 +7,7 @@
                 "type": "conference",
                 "title": "Identigram/Watermark removal using cross-channel correlation", 
                 "author": ["Jaesik Park", "Yu-Wing Tai", "In-So Kweon"],
-                "venue": "CVPR, 2012",
+                "venue": "Conference on Computer Vision and Pattern Recognition (CVPR)",
                 "pdf": "publications/identigram/paper.pdf",
                 "supp": "publications/identigram/supp.pdf",
                 "bibtex": "publications/identigram/bibtex.txt",

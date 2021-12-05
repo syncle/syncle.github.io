@@ -1,6 +1,7 @@
 
 from gen_button import get_button_str_all
 from util import authorlist_to_html_text
+from gen_bibtex import get_collapsed_bibtex_html
 
 def append_button_html(path, data):
 	f = open(path, "a")
@@ -12,8 +13,9 @@ def append_button_html(path, data):
 	for idx, year in enumerate(data):			
 		for category, items in data[year].items():
 			if category == 'papers':
-				for i in items:
+				for i in items:					
 					if i['language'] == 'international':
+						bibtex_button, bibtex_box = get_collapsed_bibtex_html(i, year)						
 						f.write(
 							# Paper information
 							'			<h4>%s</h4>\n' % i['title'] +
@@ -21,7 +23,11 @@ def append_button_html(path, data):
 							'			%s<br>\n' % i['venue'] +
 							'			%s</p>\n' % (i['comment'] if 'comment' in i else '') +
 							# Buttons
+							'			<p>\n' +
 							get_button_str_all(i) + 
+							bibtex_button + '\n' +
+							'			</p>\n' +
+							'%s\n' % bibtex_box + 
 							'<br><br>\n')
 	f.write('		</div>\n')
 	f.write('	</div>\n')

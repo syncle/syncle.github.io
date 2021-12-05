@@ -7,7 +7,7 @@
                 "type": "conference",
                 "title": "Calibrating a Non-isotropic Near Point Light Source using a Plane", 
                 "author": ["Jaesik Park", "Sudipta N. Sinha", "Yasuyuki Matsushita", "Yu-Wing Tai", "In So Kweon"],
-                "venue": "CVPR, 2014",
+                "venue": "Conference on Computer Vision and Pattern Recognition (CVPR)",
                 "pdf": "publications/lightcalib/paper.pdf",
                 "supp": "publications/lightcalib/supp.pdf",
                 "bibtex": "publications/lightcalib/bibtex.txt",
