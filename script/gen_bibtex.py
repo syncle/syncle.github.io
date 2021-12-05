@@ -12,6 +12,8 @@ def authorlist_to_bibtex_style(author):
 def gen_nickname(i, year):
     first_author = remove_asterisks(i['author'][0]).split()
     first_author_last_name = first_author[-1]
+    # if i['title'] == 'Identigram/Watermark removal using cross-channel correlation':
+    #     import ipdb; ipdb.set_trace()
     first_word_in_title = remove_special_characters(i['title'].split()[0])
     venue = i['venue']
     venue_short = remove_html_bold(venue[venue.find("(")+1:venue.find(")")])

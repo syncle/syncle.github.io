@@ -7,7 +7,7 @@
                 "type": "conference",
                 "title": "Efficient and Robust Color Consistency for Community Photo Collections", 
                 "author": ["Jaesik Park", "Yu-Wing Tai", "Sudipta N. Sinha", "In So Kweon"],
-                "venue": "CVPR, 2016",
+                "venue": "Conference on Computer Vision and Pattern Recognition (CVPR)",
                 "pdf": "publications/photoconsistency/paper.pdf",
                 "supp": "publications/photoconsistency/supp.pdf",
                 "bibtex": "publications/photoconsistency/bibtex.txt",
