@@ -10,7 +10,6 @@
                 "venue": "Conference on Computer Vision and Pattern Recognition (CVPR)",
                 "pdf": "publications/photoconsistency/paper.pdf",
                 "supp": "publications/photoconsistency/supp.pdf",
-                "bibtex": "publications/photoconsistency/bibtex.txt",
                 "code": "https://github.com/syncle/photo_consistency"
             }
         ]

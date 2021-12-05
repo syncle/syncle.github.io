@@ -30,8 +30,6 @@ def get_button_str_all(record):
 		button += get_button_str(record['data'], 'Data')
 	if 'video' in record:
 		button += get_button_str(record['video'], 'Video')
-	# if 'bibtex' in record:
-	# 	button += get_button_str(record['bibtex'], 'Bibtex')
 	if 'tutorial' in record:
 		button += get_button_str(record['tutorial'], 'Tutorial')
 	return button

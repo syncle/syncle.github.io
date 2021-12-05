@@ -767,7 +767,6 @@
                 "venue": "IEEE Transaction on Image Processing (<b>TIP</b>)",
                 "image": "publications/data/16_tip.jpg",                
                 "pdf": "publications/data/16_tip.pdf",
-                "bibtex": "publications/data/16_tip.txt",
                 "volume": "25",
                 "number": "8",
                 "pages": "3639-3654"
@@ -808,8 +807,7 @@
                 "author": ["Hyowon Ha", "Jaesik Park", "In So Kweon"],
                 "venue": "International Conference on 3D Vision (<b>3DV</b>)",
                 "image": "publications/data/15_3dv.jpg",
-                "pdf": "publications/data/15_3dv.pdf",
-                "bibtex": "publications/data/15_3dv.txt"
+                "pdf": "publications/data/15_3dv.pdf"
             },
             {
                 "language": "international",
@@ -862,8 +860,7 @@
                 "author": ["Byungtae Ahn", "Jaesik Park", "In So Kweon"],
                 "venue": "Asian Conference on Computer Vision (<b>ACCV</b>)",
                 "image": "publications/data/14_accv.jpg",
-                "pdf": "publications/data/14_accv.pdf",
-                "bibtex": "publications/data/14_accv.txt"
+                "pdf": "publications/data/14_accv.pdf"
             },
             {
                 "language": "international",
@@ -872,8 +869,7 @@
                 "author": ["Jinsoo Choi", "Byungtae Ahn", "Jaesik Park", "In So Kweon"],
                 "venue": "International Conference on Image Processing (<b>ICIP</b>)",
                 "image": "publications/data/14_icip.jpg",
-                "pdf": "publications/data/14_icip.pdf",
-                "bibtex": "publications/data/14_icip.txt"
+                "pdf": "publications/data/14_icip.pdf"
             },
             {
                 "language": "international",
@@ -991,7 +987,6 @@
                 "author": ["Jaesik Park", "Tae Hyun Oh", "Jiyoung Jung", "Yu-Wing Tai", "In So Kweon"],
                 "venue": "European Conference on Computer Vision (<b>ECCV</b>)",
                 "image": "publications/data/12_eccv.jpg",
-                "bibtex": "publications/data/12_eccv.txt",
                 "pdf": "publications/data/12_eccv.pdf",
                 "supp": "publications/data/12_eccv_poster.pdf"
             },
@@ -1002,7 +997,6 @@
                 "author": ["Jaesik Park", "Joon-Young Lee", "Yu-Wing Tai", "In So Kweon"],
                 "venue": "International Conference on Image Processing (<b>ICIP</b>)",
                 "image": "publications/data/12_icip.jpg",
-                "bibtex": "publications/data/12_icip.txt",
                 "pdf": "publications/data/12_icip.pdf",
                 "supp": "publications/data/12_icip_poster.pdf"
             },
