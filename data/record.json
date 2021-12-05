@@ -832,7 +832,7 @@
                 "author": ["Jaesik Park", "Hyeongwoo Kim", "Yu-Wing Tai", "Michael S. Brown", "In-So Kweon"],
                 "venue": "IEEE Transaction on Image Processing (<b>TIP</b>)",
                 "image": "publications/data/14_tip.jpg",
-                "web_inplace": "web_inplace=publications/depthups/index.html"
+                "web_inplace": "publications/depthups/index.html"
             },
             {
                 "language": "international",
@@ -871,7 +871,7 @@
                 "author": ["Jaesik Park", "Sudipta N. Sinha", "Yasuyuki Matsushita", "Yu-Wing Tai", "In So Kweon"],
                 "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/14_cvpr_cal.jpg",
-                "web_inplace": "web_inplace=publications/lightcalib/index.html"
+                "web_inplace": "publications/lightcalib/index.html"
             },
             {
                 "language": "domestic",
