@@ -1,6 +1,0 @@
-@inproceedings{PKTBK11ICCV,
- author = {J. Park and H. Kim and Y.-W. Tai and M.S. Brown and I. Kweon},
- title = {High Quality Depth Map Upsampling for 3D-TOF Cameras},
- booktitle = {ICCV},
- year = {2011},
- }

@@ -1,6 +1,0 @@
-@inproceedings{Park16cvpr,
- author = {Jaesik Park, Yu-Wing Tai, Sudipta N. Sinha, and In So Kweon},
- title = {Efficient and Robust Color Consistency for Community Photo Collections},
- booktitle = {CVPR},
- year = {2016},
- }

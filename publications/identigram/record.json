@@ -10,7 +10,6 @@
                 "venue": "Conference on Computer Vision and Pattern Recognition (CVPR)",
                 "pdf": "publications/identigram/paper.pdf",
                 "supp": "publications/identigram/supp.pdf",
-                "bibtex": "publications/identigram/bibtex.txt",
                 "executable": "publications/identigram/executable.zip",
                 "poster": "publications/identigram/poster.pdf"
             }

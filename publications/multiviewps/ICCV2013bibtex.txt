@@ -1,6 +1,0 @@
-@inproceedings{Park13ICCV,
- author = {J. Park and S.N. Sinha and Y. Matsushita and Y.-W. Tai and I.S. Kweon},
- title = {Multiview Photometric Stereo using Planar Mesh Parameterization},
- booktitle = {ICCV},
- year = {2013},
- }

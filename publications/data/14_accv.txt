@@ -1,6 +1,0 @@
-@inproceedings{Ahn14accv,
- author = {Byungtae Ahn and Jaesik Park and In So Kweon},
- title = {Real-time Head Orientation from a Monocular Camera using Deep Neural Network},
- booktitle = {ACCV},
- year = {2014},
- }
