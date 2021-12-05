@@ -1,6 +1,6 @@
 
 from gen_button import get_button_str_all
-from util import authorlist_to_text
+from util import authorlist_to_html_text
 
 def append_button_html(path, data):
 	f = open(path, "a")
@@ -17,7 +17,7 @@ def append_button_html(path, data):
 						f.write(
 							# Paper information
 							'			<h4>%s</h4>\n' % i['title'] +
-							'			<p>%s<br>\n' % authorlist_to_text(i['author']) +
+							'			<p>%s<br>\n' % authorlist_to_html_text(i['author']) +
 							'			%s<br>\n' % i['venue'] +
 							'			%s</p>\n' % (i['comment'] if 'comment' in i else '') +
 							# Buttons

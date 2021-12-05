@@ -1,5 +1,5 @@
 import json
-from util import authorlist_to_text
+from util import authorlist_to_html_text
 from gen_button import get_button_str_all
 
 def write_html(file, data):
@@ -49,7 +49,7 @@ def write_html(file, data):
 				# Paper information
 				'			<h4>%s</h4>\n' % i['title'] +
 				'			<p class="text-muted">\n' +
-				'				%s.\n' % authorlist_to_text(i['author']) +
+				'				%s.\n' % authorlist_to_html_text(i['author']) +
 				'				<em>%s</em>\n' % (i['venue'] + ", " + year) +
 				'%s' % ('				<br>' + i['comment'] + '\n' if 'comment' in i else '') +
 				'%s' % ('				<br>' + i['github'] + '\n' if 'github' in i else '') +

@@ -3,7 +3,7 @@ from gen_button import get_button_str_all
 from util import *
 
 def get_venue(i, year):
-	v = change_bold(i['venue']) 
+	v = change_html_bold_to_latex_bold(i['venue']) 
 	v += ', '
 	v += (number_to_month(i['month']) + ' ' if 'month' in i else '')
 	v += year
@@ -21,10 +21,10 @@ def write_latex_publication(file, data):
 				for i in items:
 					if i['language'] == 'international':
 						f.write('    \publicationItem' + \
-						'{' + change_bold(authorlist_to_text(i['author'])) + '}' + \
+						'{' + change_html_bold_to_latex_bold(authorlist_to_html_text(i['author'])) + '}' + \
 						'{' + i['title'] + '}' + \
 						'{' + get_venue(i, year) + '}' + \
-						'{' + (change_percent(change_bold(i['comment'])) if 'comment' in i else '') + '}\n')
+						'{' + (change_percent(change_html_bold_to_latex_bold(i['comment'])) if 'comment' in i else '') + '}\n')
 	f.write('\\resumePublicationListEnd\n\n\n\n')
 	# domestic
 	f.write('Domestic\n')
@@ -35,10 +35,10 @@ def write_latex_publication(file, data):
 				for i in items:
 					if i['language'] == 'domestic':
 						f.write('    \publicationItem' + \
-						'{' + change_bold(authorlist_to_text(i['author'])) + '}' + \
+						'{' + change_html_bold_to_latex_bold(authorlist_to_html_text(i['author'])) + '}' + \
 						'{' + i['title'] + '}' + \
 						'{' + get_venue(i, year) + '}' + \
-						'{' + (change_percent(change_bold(i['comment'])) if 'comment' in i else '') + '}\n')
+						'{' + (change_percent(change_html_bold_to_latex_bold(i['comment'])) if 'comment' in i else '') + '}\n')
 	f.write('\\resumePublicationListEnd\n\n\n\n')
 	f.close()
 
@@ -53,7 +53,7 @@ def write_latex_awards(file, data):
 				for i in items:
 					if not 'hide' in i:
 						f.write('    \\resumeItem' + \
-						'{' + change_bold(i['title']) + ', ' \
+						'{' + change_html_bold_to_latex_bold(i['title']) + ', ' \
 							+ i['awardee'] + ', ' \
 							+ (change_emph(i['comment'])  + ', ' if 'comment' in i else '') \
 							+ number_to_month(i['month']) + ' ' + year + '}\n')
@@ -107,7 +107,7 @@ def write_latex_teaching(file, data):
 					if not 'hide' in i:
 						f.write('    \\resumeItem' + \
 						'{' + i['title'] + ', ' \
-							+ (change_bold(i['comment'])  + ', ' if 'comment' in i else '') \
+							+ (change_html_bold_to_latex_bold(i['comment'])  + ', ' if 'comment' in i else '') \
 							+ i['semester'] + ', ' + ' ' + year + '}\n')
 	f.write('\\resumeItemListEnd\n\n\n\n')
 	f.close()
@@ -123,12 +123,12 @@ def write_latex_program_committe(file, data):
 				for i in items:
 					if not 'hide' in i:
 						f.write('    \\resumeItem' + \
-						'{' + change_bold(i['title']) + ', ' \
-							+ change_bold(i['venue']) + ', ' \
+						'{' + change_html_bold_to_latex_bold(i['title']) + ', ' \
+							+ change_html_bold_to_latex_bold(i['venue']) + ', ' \
 							+ (i['comment']  + ', ' if 'comment' in i else '') \
 							+ ' ' + year + '}\n')
-	f.write(change_bold('\\resumeItem{Have been served as a reviewer for international conferences, such as <b>CVPR</b>, <b>ICCV</b>, <b>ECCV</b>, <b>ICLR</b>, <b>NeurIPS</b>, <b>AAAI</b>, <b>ICRA</b>, <b>IROS</b>, <b>SIGGRAPH</b>, <b>SIGGRAPH Asia</b>, BMVC, 3DV, ACCV, WACV, and so on.}\n'))
-	f.write(change_bold('\\resumeItem{Have been served as a reviewer for international journals, such as <b>TPAMI</b>, <b>TIP</b>, <b>TVCG</b>, <b>TRO</b>, <b>IJCV</b>, CVIU, SPL, IVC, Neurocomputing, and so on.}\n'))
+	f.write(change_html_bold_to_latex_bold('\\resumeItem{Have been served as a reviewer for international conferences, such as <b>CVPR</b>, <b>ICCV</b>, <b>ECCV</b>, <b>ICLR</b>, <b>NeurIPS</b>, <b>AAAI</b>, <b>ICRA</b>, <b>IROS</b>, <b>SIGGRAPH</b>, <b>SIGGRAPH Asia</b>, BMVC, 3DV, ACCV, WACV, and so on.}\n'))
+	f.write(change_html_bold_to_latex_bold('\\resumeItem{Have been served as a reviewer for international journals, such as <b>TPAMI</b>, <b>TIP</b>, <b>TVCG</b>, <b>TRO</b>, <b>IJCV</b>, CVIU, SPL, IVC, Neurocomputing, and so on.}\n'))
 	f.write('\\resumeItemListEnd\n\n\n\n')
 	f.close()
 

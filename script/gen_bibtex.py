@@ -1,79 +1,67 @@
 import json
-from util import authorlist_to_text
-from gen_button import get_button_str_all
+from util import remove_asterisks, remove_html_bold
 
-def gen_bibtex_style_author_list(i):
-    author_list = ''
-    return author_list
+def authorlist_to_bibtex_style(author):
+    s = ''
+    for a in author[:-1]:
+        a = remove_asterisks(a)
+        s += (a + ' and ')
+    s += author[-1]
+    return s
 
-def gen_nickname(i):
-    nickname = ''
+def gen_nickname(i, year):
+    first_author = remove_asterisks(i['author'][0]).split()
+    first_author_last_name = first_author[-1]
+    venue = i['venue']
+    venue_short = remove_html_bold(venue[venue.find("(")+1:venue.find(")")])
+    venue_short = venue_short.replace(' ', '_')
+    nickname = first_author_last_name + '_' + venue_short + '_' + year
     return nickname
 
-# @inproceedings{arandjelovic2013vlad,
-#   Title={All about VLAD},
-#   Author={Arandjelovic, Relja and Andrew Zisserman},
-#   Booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
-#   Year={2013}
-# }
-def get_bibtex_proceedings(i):
-    import ipdb; ipdb.set_trace()
-    bibitem = ''
-    bibitem = '@inproceedings{%s,' % gen_nickname(i) + \
-        '   Title={%s},' % i['title'] + \
-        '   Author={%s},' % gen_bibtex_style_author_list(i['author']) + \
-        '   Booktitle={%s},' % i['venue'] + \
-        '   Year={%s}' % i['year'] + \
-        '}'
+def get_bibtex_proceedings(i, year):
+    bibitem = '@inproceedings{%s,' % gen_nickname(i, year) + \
+        '\n   Title={%s},' % i['title'] + \
+        '\n   Author={%s},' % authorlist_to_bibtex_style(i['author']) + \
+        '\n   Booktitle={Proceedings of the %s},' % remove_html_bold(i['venue']) + \
+        '\n   Year={%s}' % year + \
+        '\n}\n'
+    print(bibitem)
     return bibitem
 
-# @article{maddern2017RobotCar,
-#   Title = {{1 Year, 1000km: The Oxford RobotCar Dataset}},
-#   Author = {Will Maddern and Geoff Pascoe and Chris Linegar and Paul Newman},
-#   Journal = {The International Journal of Robotics Research (IJRR)},
-#   Volume = {36},
-#   Number = {1},
-#   Pages = {3-15},
-#   Year = {2017},
-# }
-def get_bibtex_article(i):
-    bibitem = ''
-    bibitem = '@article{%s,' % gen_nickname(i) + \
-        '   Title={%s},' % i['title'] + \
-        '   Author={%s},' % gen_bibtex_style_author_list(i['author']) + \
-        '   Journal={%s},' % i['venue'] + \
-        '   Volume={%s},' % i['volume'] + \
-        '   Number={%s},' % i['number'] + \
-        '   Pages={%s},' % i['pages'] + \
-        '   Year={%s}' % i['year'] + \
-        '}'
+def get_bibtex_article(i, year):
+    bibitem = '@article{%s,' % gen_nickname(i, year) + \
+        '\n   Title={%s},' % i['title'] + \
+        '\n   Author={%s},' % authorlist_to_bibtex_style(i['author']) + \
+        '\n   Journal={%s},' % remove_html_bold(i['venue']) + \
+        ('\n   Volume={%s},' % i['volume'] if 'volume' in i else '') + \
+        ('\n   Number={%s},' % i['number'] if 'number' in i else '') + \
+        ('\n   Pages={%s},' % i['pages'] if 'pages' in i else '') + \
+        '\n}\n'
+    print(bibitem)
     return bibitem
 
-def get_bibtex_str(i):
+def get_bibtex_str(i, year):
     if i['type'] == 'conference':
-        return get_bibtex_proceedings(i)
+        return get_bibtex_proceedings(i, year)
     elif i['type'] == 'journal':
-        return get_bibtex_article(i)
+        return get_bibtex_article(i, year)
     else:
         assert 'Wrong paper types'
 
 
 def test(data):
-    for idx, year in enumerate(data):
-        # list up international
+    for year in data:
         items_international = []
         for category, items in data[year].items():
             if category == 'papers':
                 for i in items:
-                    if i['type'] == 'international':
+                    if i['language'] == 'international':
                         items_international.append(i)
-        # import ipdb; ipdb.set_trace()
         for i in items_international:
-            print(i)
-            print(get_bibtex_str(i))
+            get_bibtex_str(i, year)
 
 if __name__ == "__main__":
     with open('../data/record.json') as f:
         data = json.load(f)
-    
+    # todo: producing txt files?
     test(data)
