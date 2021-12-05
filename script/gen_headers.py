@@ -28,7 +28,7 @@ def write_header_html(file, type):
 		header_str = \
 			'<header class="masthead bg-primary text-white text-start">\n'+\
 			'	<div class="container d-flex align-items-left flex-column">\n'+\
-			'		<h1 class="text-uppercase mb-0">%s</h1>\n' % type+\
+			'		<h1 class="text-uppercase mt-3">%s</h1>\n' % type+\
 			'	</div>\n'+\
 			'</header>\n'+\
 			'\n'
@@ -38,7 +38,7 @@ def write_header_html(file, type):
 			'	<div class="container">\n'+\
 			'		<div class="row">\n'+\
 			'			<div class="col-lg-6 text-start">\n'+\
-			'				<h1 class="text-uppercase mb-0">%s</h1>\n' % type +\
+			'				<h1 class="text-uppercase mt-3">%s</h1>\n' % type +\
 			'			</div>\n'+\
 			'			<div class="col-lg-6 text-end">\n'+\
 			'				<a href="https://scholar.google.com/citations?user=_3q6KBIAAAAJ&hl=en" target="_blank" class="btn btn-secondary" role="button">\n' +\
