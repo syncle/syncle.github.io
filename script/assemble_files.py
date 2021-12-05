@@ -32,12 +32,12 @@ def gen_page(page, type):
 		os.remove('../source/html/%s.html' % page)
 
 if __name__ == "__main__":
-	# gen_page('index', 'Index')
-	# gen_page('about_me', 'About me')
-	# gen_page('academic_activities', 'Academic activities')
+	gen_page('index', 'Index')
+	gen_page('about_me', 'About me')
+	gen_page('academic_activities', 'Academic activities')
 
-	# # publications
-	# gen_page('publications', 'Publications')	
+	# publications
+	gen_page('publications', 'Publications')	
 	gen_project_page('publications/identigram/', 'Identigram/Watermark Removal')
 	gen_project_page('publications/lightcalib/', 'Calibrating a Non-isotropic Near Point Light Source')
 	gen_project_page('publications/photoconsistency/', 'Color Consistency for Community Photo Collections')
