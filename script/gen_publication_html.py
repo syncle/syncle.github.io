@@ -1,6 +1,7 @@
 import json
 from util import authorlist_to_html_text
 from gen_button import get_button_str_all
+from gen_bibtex import get_collapsed_bibtex_html
 
 def write_html(file, data):
 	f = open(file, "w")
@@ -39,9 +40,10 @@ def write_html(file, data):
 			continue
 		# adding elements
 		f.write('<div class="container">\n'+
-				'	<div class="row gx-5 gy-5">\n')
-		# a paper
+				'	<div class="row gx-5 gy-4">\n')
 		for i in items_international:
+			bibtex_button, bibtex_box = get_collapsed_bibtex_html(i, year)
+			# write a html for a paper
 			f.write(
 				'		<div class="col-lg-4 text-center">\n' +				
 				# Thumbnail image
@@ -55,8 +57,13 @@ def write_html(file, data):
 				'%s' % ('				<br>' + i['github'] + '\n' if 'github' in i else '') +
 				'			</p>\n' +
 				# Buttons
+				'			<p>\n' +
 				get_button_str_all(i) +	
+				bibtex_button + '\n' +
+				'			</p>\n' +
+				'%s\n' % bibtex_box + 
 				'		</div>\n')
+		# finish writing papers
 		f.write(
 			'	</div>\n'+
 			'</div>\n\n')

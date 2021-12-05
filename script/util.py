@@ -51,9 +51,21 @@ def remove_html_bold(text):
 	text = text.replace('</b>', '')
 	return text
 
+def remove_special_characters(text):
+	text = ''.join(e for e in text if e.isalnum())
+	return text
+
 def clear_file(file):
 	f = open(file, "w")
 	f.close()
+
+def indent_multiline_texts(text, tabs):
+	s = text.split('\n')
+	n = ''
+	for i in s[:-1]:
+		n += ("	" * tabs) + i + '\n'
+	n += ("	" * tabs) + s[-1]
+	return n
 
 def include_file(output_file, include_file):
 	f = open(include_file, "r")
