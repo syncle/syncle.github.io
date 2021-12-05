@@ -9,7 +9,6 @@ path_header = '../source/html/header.html'
 path_footer = '../source/html/footer.html'
 
 def gen_project_page(path, title):
-	# import ipdb; ipdb.set_trace()
 	clear_file('../' + path + 'index.html')
 	include_file('../' + path + 'index.html', path_header)
 	write_header_html('../' + path + 'content_header.html', title)

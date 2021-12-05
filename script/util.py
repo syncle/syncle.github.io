@@ -16,8 +16,8 @@ def number_to_month(m):
     return switcher.get(m, "Invalid")
 
 
-def authorlist_to_text(author):
-	# adding special action for my name?
+def authorlist_to_html_text(author):
+	# bold my name
 	for idx, a in enumerate(author):
 		author[idx] = a.replace('Jaesik Park', '<b>Jaesik Park</b>')
 
@@ -30,9 +30,7 @@ def authorlist_to_text(author):
 		s += 'and ' + author[-1]
 		return s
 
-def change_bold(text):
-	# adding special action for my name?
-	# import ipdb; ipdb.set_trace()
+def change_html_bold_to_latex_bold(text):
 	text = text.replace('<b>', '\\textbf{')
 	text = text.replace('</b>', '}')
 	return text
@@ -42,6 +40,15 @@ def change_emph(text):
 
 def change_percent(text):
 	text = text.replace('%', '\%')
+	return text
+
+def remove_asterisks(text):
+	text = text.replace('*', '')
+	return text
+
+def remove_html_bold(text):
+	text = text.replace('<b>', '')
+	text = text.replace('</b>', '')
 	return text
 
 def clear_file(file):

@@ -7,7 +7,7 @@
                 "type": "conference",
                 "title": "Instance-wise Occlusion and Depth Orders in Natural Scenes", 
                 "author": ["Hyunmin Lee", "Jaesik Park"],
-                "venue": "arXiv:2111.14562",
+                "venue": "2111.14562 (arXiv)",
                 "image": "publications/data/21_arxiv2.jpg",
                 "pdf": "https://arxiv.org/abs/2111.14562"
             },
@@ -16,7 +16,7 @@
                 "type": "conference",
                 "title": "Fast Point Transformer", 
                 "author": ["Chunghyun Park", "Yoonwoo Jeong", "Minsu Cho", "Jaesik Park"],
-                "venue": "arXiv:TBA",
+                "venue": "TBA (arXiv)",
                 "image": "publications/data/21_arxiv4.jpg",
                 "pdf": ""
             },
@@ -25,7 +25,7 @@
                 "type": "conference",
                 "title": "Putting 3D Spatially Sparse Networks on a Diet", 
                 "author": ["Junha Lee", "Christopher Choy", "Jaesik Park"],
-                "venue": "arXiv:2112.01316",
+                "venue": "2112.01316 (arXiv)",
                 "image": "publications/data/21_arxiv5.jpg",
                 "pdf": "https://arxiv.org/abs/2112.01316"
             },
@@ -34,7 +34,7 @@
                 "type": "conference",
                 "title": "PointMixer: MLP-Mixer for Point Cloud Understanding", 
                 "author": ["Jaesung Choe*", "Chunghyun Park*", "Francois Rameau", "Jaesik Park", "In So Kweon"],
-                "venue": "arXiv:2111.11187",
+                "venue": "2111.11187 (arXiv)",
                 "image": "publications/data/21_arxiv3.jpg",
                 "pdf": "https://arxiv.org/abs/2111.11187",
                 "comment": "(*Equal contribution)"
@@ -44,7 +44,7 @@
                 "type": "conference",
                 "title": "Deep Point Cloud Reconstruction", 
                 "author": ["Jaesung Choe", "Byeongin Joung", "Francois Rameau", "Jaesik Park", "In So Kweon"],
-                "venue": "arXiv:2111.11704",
+                "venue": "2111.11704 (arXiv)",
                 "image": "publications/data/21_arxiv.jpg",
                 "pdf": "https://arxiv.org/abs/2111.11704"
             },
@@ -53,7 +53,7 @@
                 "type": "conference",
                 "title": "Real-time Registration and Reconstruction with Cylindrical LiDAR Images", 
                 "author": ["Wei Dong*", "Kwonyoung Ryu*", "Michael Kaess", "Jaesik Park"],
-                "venue": "arXiv:TBA",
+                "venue": "TBA (arXiv)",
                 "image": "publications/data/21_arxiv6.jpg",
                 "pdf": ""
             },
@@ -68,7 +68,7 @@
             },
             {
                 "language": "international",
-                "type": "conference",
+                "type": "journal",
                 "title": "TextureMe: High-quality Textured Scene Reconstruction in Real-time", 
                 "author": ["Jungeon Kim", "Hyomin Kim", "Hyeonseo Nam", "Jaesik Park", "Seungyong Lee"],
                 "venue": "ACM Transactions on Graphics (<b>ToG</b>)",
@@ -144,10 +144,12 @@
                 "type": "journal",
                 "title": "Accelerated Crystal Structure Prediction of Multi-elements Random Alloy using Expandable Features", 
                 "author": ["Taewon Jin", "Taesoo Park", "Ina Park", "Jaesik Park*", "Ji Hoon Shim*"],
-                "venue": "<b>Scientific Reports</b> published by Nature Research",
+                "venue": "published by Nature Research (<b>Scientific Reports</b>)",
                 "image": "publications/data/21_scientific_reports.jpg",
                 "comment": "(*Joint corrresponding authors)",
-                "pdf": "https://www.nature.com/articles/s41598-021-84544-8"
+                "pdf": "https://www.nature.com/articles/s41598-021-84544-8",
+                "number": "11",
+                "volume": "5194"
             },
             {
                 "language": "international",
@@ -334,7 +336,7 @@
                 "type": "conference",
                 "title": "Combinatorial 3D Shape Generation via Sequential Assembly", 
                 "author": ["Jungtaek Kim", "Hyunsoo Chung", "Minsu Cho", "Jaesik Park"],
-                "venue": "Machine Learning for Engineering Modeling, Simulation, and Design (ML4Eng, <b>NeurIPS workshop</b>)",
+                "venue": "Machine Learning for Engineering Modeling, Simulation, and Design (ML4Eng), <b>NeurIPS workshop</b>",
                 "image": "publications/data/20_arxiv.jpg",
                 "pdf": "https://arxiv.org/abs/2004.07414",
                 "code": "https://github.com/POSTECH-CVLab/Combinatorial-3D-Shape-Generation"
@@ -344,7 +346,7 @@
                 "type": "conference",
                 "title": "Fragment Relation Networks for Geometric Shape Assembly", 
                 "author": ["Jinhwi Lee*", "Jungtaek Kim*", "Hyunsoo Chung", "Jaesik Park", "Minsu Cho"],
-                "venue": "Learning Meets Combinatorial Algorithms (LMCA, <b>NeurIPS workshop</b>)",
+                "venue": "Learning Meets Combinatorial Algorithms (LMCA), <b>NeurIPS workshop</b>",
                 "image": "publications/data/20_lmca.jpg",
                 "pdf": "https://openreview.net/pdf?id=05KxJSXwPl",
                 "comment": "(*Equal contribution)"
@@ -485,7 +487,11 @@
                 "author": ["Jungeon Kim", "Hyomin Kim", "Jaesik Park", "Seungyong Lee"],
                 "venue": "Pacific Graphics (<b>PG</b>)",
                 "image": "publications/data/19_pg.jpg",
-                "pdf": "http://cg.postech.ac.kr/papers/2019_PG_Kim.pdf"
+                "pdf": "http://cg.postech.ac.kr/papers/2019_PG_Kim.pdf",
+                "volume": "38",
+                "number": "7",
+                "pages": "697-705"
+
             },
             {
                 "language": "international",
@@ -499,12 +505,15 @@
             },
             {
                 "language": "international",
-                "type": "conference",
+                "type": "journal",
                 "title": "Depth from a Light Field Image with Learning-based Matching Costs", 
                 "author": ["Hae-Gon Jeon", "Jaesik Park", "Gyeongmin Choe", "Jinsun Park", "Yunsu Bok", "Yu-Wing Tai", "In So Kweon"],
                 "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>)",
                 "image": "publications/data/18_pami.jpg",
-                "pdf": "http://ieeexplore.ieee.org/document/8263242/"
+                "pdf": "http://ieeexplore.ieee.org/document/8263242/",
+                "number": "2",
+                "volume": "41",
+                "pages": "297-310"
             },
             {
                 "language": "domestic",
@@ -591,7 +600,7 @@
                 "type": "conference",
                 "title": "Open3D: A Modern Library For 3D Data Processing", 
                 "author": ["Qian-Yi Zhou", "Jaesik Park", "Vladlen Koltun"],
-                "venue": "Technical Report, arXiv:1801.09847",
+                "venue": "1801.09847 (arXiv)",
                 "image": "publications/data/18_arxiv.jpg",
                 "pdf": "http://www.open3d.org/paper.pdf",
                 "web": "http://www.open3d.org",
@@ -651,13 +660,25 @@
                 "type": "conference",
                 "title": "Tanks and Temples: Benchmarking Large-Scale Scene Reconstruction", 
                 "author": ["Arno Knapitsch", "Jaesik Park", "Qian-Yi Zhou", "Vladlen Koltun"],
-                "venue": "ACM Transactions on Graphics (Proc. <b>SIGGRAPH</b>)",
+                "venue": "ACM Transactions on Graphics (<b>SIGGRAPH</b>)",
                 "image": "publications/data/17_siggraph.jpg",
                 "pdf": "publications/data/17_siggraph.pdf",
                 "web": "https://www.tanksandtemples.org/",
                 "code": "https://github.com/intel-isl/TanksAndTemples",
                 "data": "https://www.tanksandtemples.org/download/",
                 "video": "https://www.youtube.com/watch?v=DJnrp05g7vg"
+            },
+            {
+                "language": "international",
+                "type": "journal",
+                "title": "Refining Geometry from Depth Sensors using IR Shading Images", 
+                "author": ["Gyeongmin Choe", "Jaesik Park", "Yu-Wing Tai", "In So Kweon"],
+                "venue": "International Journal of Computer Vision (<b>IJCV</b>)",
+                "image": "publications/data/16_ijcv.jpg",
+                "number": "1",
+                "volume": "122",
+                "pdf": "https://drive.google.com/file/d/1LsgtzkOt-z8W6iX8tHHV8H_XTqTOg-_q/view",
+                "pages": "1-16"
             },
             {
                 "language": "international",
@@ -682,12 +703,15 @@
         "papers": [
             {
                 "language": "international",
-                "type": "conference",
+                "type": "journal",
                 "title": "Robust Multiview Photometric Stereo using Planar Mesh Parameterization", 
                 "author": ["Jaesik Park", "Sudipta N. Sinha", "Yasuyuki Matsushita", "Yu-Wing Tai", "In So Kweon"],
                 "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>)",
                 "image": "publications/data/16_pami.jpg",
-                "web_inplace": "publications/multiviewps/index.html"
+                "web_inplace": "publications/multiviewps/index.html",
+                "volume": "39",
+                "number": "8",
+                "pages": "1591-1604"
             },
             {
                 "language": "international",
@@ -700,15 +724,6 @@
                 "pdf": "publications/data/17_siggraph.pdf",
                 "web": "http://vladlen.info/publications/fast-global-registration/",
                 "code": "https://github.com/IntelVCL/FastGlobalRegistration"
-            },
-            {
-                "language": "international",
-                "type": "conference",
-                "title": "Refining Geometry from Depth Sensors using IR Shading Images", 
-                "author": ["Gyeongmin Choe", "Jaesik Park", "Yu-Wing Tai", "In So Kweon"],
-                "venue": "International Journal of Computer Vision (<b>IJCV</b>)",
-                "image": "publications/data/16_ijcv.jpg",
-                "pdf": "https://drive.google.com/file/d/1LsgtzkOt-z8W6iX8tHHV8H_XTqTOg-_q/view"
             },
             {
                 "language": "international",
@@ -746,13 +761,16 @@
             },
             {
                 "language": "international",
-                "type": "conference",
+                "type": "journal",
                 "title": "Multi-view Object Extraction with Fractional Boundaries", 
                 "author": ["Seong-Heum Kim", "Yu-Wing Tai", "Jaesik Park", "In So Kweon"],
                 "venue": "IEEE Transaction on Image Processing (<b>TIP</b>)",
                 "image": "publications/data/16_tip.jpg",                
                 "pdf": "publications/data/16_tip.pdf",
-                "bibtex": "publications/data/16_tip.txt"
+                "bibtex": "publications/data/16_tip.txt",
+                "volume": "25",
+                "number": "8",
+                "pages": "3639-3654"
             }
         ],
         "awards": [
@@ -832,7 +850,10 @@
                 "author": ["Jaesik Park", "Hyeongwoo Kim", "Yu-Wing Tai", "Michael S. Brown", "In-So Kweon"],
                 "venue": "IEEE Transaction on Image Processing (<b>TIP</b>)",
                 "image": "publications/data/14_tip.jpg",
-                "web_inplace": "publications/depthups/index.html"
+                "web_inplace": "publications/depthups/index.html",
+                "number": "12",
+                "volume": "23",
+                "pages": "5559-5572"
             },
             {
                 "language": "international",
