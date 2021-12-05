@@ -3,7 +3,8 @@
     {
         "papers": [
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Identigram/Watermark removal using cross-channel correlation", 
                 "author": ["Jaesik Park", "Yu-Wing Tai", "In-So Kweon"],
                 "venue": "CVPR, 2012",

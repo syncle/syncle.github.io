@@ -3,7 +3,8 @@
     {
         "papers": [
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Instance-wise Occlusion and Depth Orders in Natural Scenes", 
                 "author": ["Hyunmin Lee", "Jaesik Park"],
                 "venue": "arXiv:2111.14562",
@@ -11,7 +12,8 @@
                 "pdf": "https://arxiv.org/abs/2111.14562"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Fast Point Transformer", 
                 "author": ["Chunghyun Park", "Yoonwoo Jeong", "Minsu Cho", "Jaesik Park"],
                 "venue": "arXiv:TBA",
@@ -19,7 +21,8 @@
                 "pdf": ""
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Putting 3D Spatially Sparse Networks on a Diet", 
                 "author": ["Junha Lee", "Christopher Choy", "Jaesik Park"],
                 "venue": "arXiv:2112.01316",
@@ -27,7 +30,8 @@
                 "pdf": "https://arxiv.org/abs/2112.01316"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "PointMixer: MLP-Mixer for Point Cloud Understanding", 
                 "author": ["Jaesung Choe*", "Chunghyun Park*", "Francois Rameau", "Jaesik Park", "In So Kweon"],
                 "venue": "arXiv:2111.11187",
@@ -36,7 +40,8 @@
                 "comment": "(*Equal contribution)"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Deep Point Cloud Reconstruction", 
                 "author": ["Jaesung Choe", "Byeongin Joung", "Francois Rameau", "Jaesik Park", "In So Kweon"],
                 "venue": "arXiv:2111.11704",
@@ -44,7 +49,8 @@
                 "pdf": "https://arxiv.org/abs/2111.11704"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Real-time Registration and Reconstruction with Cylindrical LiDAR Images", 
                 "author": ["Wei Dong*", "Kwonyoung Ryu*", "Michael Kaess", "Jaesik Park"],
                 "venue": "arXiv:TBA",
@@ -52,7 +58,8 @@
                 "pdf": ""
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Self-Supervised Real-time Video Stabilization", 
                 "author": ["Jinsoo Choi", "Jaesik Park", "In So Kweon"],
                 "venue": "The British Machine Vision Conference (<b>BMVC</b>)",
@@ -60,14 +67,16 @@
                 "pdf": "https://arxiv.org/abs/2111.05980"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "TextureMe: High-quality Textured Scene Reconstruction in Real-time", 
                 "author": ["Jungeon Kim", "Hyomin Kim", "Hyeonseo Nam", "Jaesik Park", "Seungyong Lee"],
                 "venue": "ACM Transactions on Graphics (<b>ToG</b>)",
                 "image": "publications/data/21_tog.jpg"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Rebooting ACGAN: Auxiliary Classifier GANs with Stable Training", 
                 "author": ["Minguk Kang", "Woohyeon Shim", "Minsu Cho", "Jaesik Park"],
                 "venue": "Conference on Neural Information Processing Systems (<b>NeurIPS</b>)",
@@ -77,7 +86,8 @@
                 "github": "<a class=\"github-button\" href=\"https:\/\/github.com\/POSTECH-CVLab\/PyTorch-StudioGAN\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star POSTECH-CVLab\/PyTorch-StudioGAN on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/POSTECH-CVLab\/PyTorch-StudioGAN\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork POSTECH-CVLab\/PyTorch-StudioGAN on GitHub\">Fork<\/a>"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Brick-by-Brick: Combinatorial Construction with Deep Reinforcement Learning", 
                 "author": ["Hyunsoo Chung", "Jungtaek Kim", "Boris Knyazev", "Jinhwi Lee", "Graham W. Taylor", "Jaesik Park", "Minsu Cho"],
                 "venue": "Conference on Neural Information Processing Systems (<b>NeurIPS</b>)",
@@ -85,7 +95,8 @@
                 "pdf": "https://arxiv.org/abs/2110.15481"
             },            
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Self-Calibrating Neural Radiance Fields", 
                 "author": ["Yoonwoo Jeong", "Seokjun Ahn", "Christopher Choy", "Animashree Anandkumar", "Minsu Cho", "Jaesik Park"],
                 "venue": "International Conference on Computer Vision (<b>ICCV</b>)",
@@ -96,7 +107,8 @@
                 "github": "<a class=\"github-button\" href=\"https:\/\/github.com\/POSTECH-CVLab\/SCNeRF\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star POSTECH-CVLab\/SCNeRF on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/POSTECH-CVLab\/SCNeRF\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork POSTECH-CVLab\/SCNeRF on GitHub\">Fork<\/a>"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Deep Hough Voting for Robust Global Registration", 
                 "author": ["Junha Lee", "Seungwook Kim", "Minsu Cho", "Jaesik Park"],
                 "venue": "International Conference on Computer Vision (<b>ICCV</b>)",
@@ -107,7 +119,8 @@
                 "web": "http://cvlab.postech.ac.kr/research/DHVR/"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Deep Virtual Markers for Articulated 3D Shapes", 
                 "author": ["Hyomin Kim", "Jungeon Kim", "Jaewon Kam", "Jaesik Park*", "Seungyong Lee*"],
                 "venue": "International Conference on Computer Vision (<b>ICCV</b>)",
@@ -117,7 +130,8 @@
                 "pdf": "publications/data/21_iccv3.pdf"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "STAD: Stable Video Depth Estimation", 
                 "author": ["Hyunmin Lee", "Jaesik Park"],
                 "venue": "IEEE International Conference on Image Processing (<b>ICIP</b>)",
@@ -126,7 +140,8 @@
                 "pdf": "https://ieeexplore.ieee.org/document/9506521"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "journal",
                 "title": "Accelerated Crystal Structure Prediction of Multi-elements Random Alloy using Expandable Features", 
                 "author": ["Taewon Jin", "Taesoo Park", "Ina Park", "Jaesik Park*", "Ji Hoon Shim*"],
                 "venue": "<b>Scientific Reports</b> published by Nature Research",
@@ -135,7 +150,8 @@
                 "pdf": "https://www.nature.com/articles/s41598-021-84544-8"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Spatiotemporal Texture Reconstruction for Dynamic Objects Using a Single RGB-D Camera", 
                 "author": ["Hyomin Kim", "Jungeon Kim", "Hyeonseo Nam", "Jaesik Park", "Seungyong Lee"],
                 "venue": "42nd Annual Conference of the European Association for Computer Graphics (<b>EuroGraphics</b>)",
@@ -143,7 +159,8 @@
                 "pdf": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.142652"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "High-quality Frame Interpolation via Tridirectional Inference", 
                 "author": ["Jinsoo Choi", "Jaesik Park", "In So Kweon"],
                 "venue": "Winter Conference on Applications of Computer Vision (<b>WACV</b>)",
@@ -152,7 +169,7 @@
                 "code": "https://github.com/POSTECH-CVLab/HighQualityFrameInterpolation"
             },
             {
-                "type": "domestic",
+                "language": "domestic",
                 "title": "계층적 허프 변환을 통한 포인트 클라우드 정합", 
                 "author": ["Junha Lee", "Seungwook Kim", "Minsu Cho", "Jaesik Park"],
                 "venue": "제 33회 영상처리 및 이해에 관한 워크샵 (IPIU)",
@@ -160,7 +177,7 @@
                 "month": 2
             },
             {
-                "type": "domestic",
+                "language": "domestic",
                 "title": "일관된 비디오 뎁스 맵 추정을 위한 시간 어텐션 모듈", 
                 "author": ["Hyunmin Lee", "Jaesik Park"],
                 "venue": "제 33회 영상처리 및 이해에 관한 워크샵 (IPIU)",
@@ -168,7 +185,7 @@
                 "month": 2
             },
             {
-                "type": "domestic",
+                "language": "domestic",
                 "title": "강화학습을 이용한 그래프 표현 기반의 3차원 물체 생성", 
                 "author": ["Hyunsoo Chung", "Jungtaek Kim", "Jinhwi Lee", "Jaesik Park", "Minsu Cho"],
                 "venue": "제 33회 영상처리 및 이해에 관한 워크샵 (IPIU)",
@@ -303,7 +320,8 @@
     {
         "papers": [
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "ContraGAN: Contrastive Learning for Conditional Image Generation", 
                 "author": ["Minguk Kang", "Jaesik Park"],
                 "venue": "Conference on Neural Information Processing Systems (<b>NeurIPS</b>)",
@@ -312,7 +330,8 @@
                 "code": "https://github.com/POSTECH-CVLab/PyTorch-StudioGAN"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Combinatorial 3D Shape Generation via Sequential Assembly", 
                 "author": ["Jungtaek Kim", "Hyunsoo Chung", "Minsu Cho", "Jaesik Park"],
                 "venue": "Machine Learning for Engineering Modeling, Simulation, and Design (ML4Eng, <b>NeurIPS workshop</b>)",
@@ -321,7 +340,8 @@
                 "code": "https://github.com/POSTECH-CVLab/Combinatorial-3D-Shape-Generation"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Fragment Relation Networks for Geometric Shape Assembly", 
                 "author": ["Jinhwi Lee*", "Jungtaek Kim*", "Hyunsoo Chung", "Jaesik Park", "Minsu Cho"],
                 "venue": "Learning Meets Combinatorial Algorithms (LMCA, <b>NeurIPS workshop</b>)",
@@ -330,7 +350,8 @@
                 "comment": "(*Equal contribution)"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "HUMBI: A Large Multiview Dataset of Human Body Expressions", 
                 "author": ["Zhixuan Yu", "Jaeshin Yoon", "Inkyu Lee", "Prashanth Venkatesh", "Jaesik Park", "Jihun Yu", "Hyunsoo Park"],
                 "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
@@ -340,7 +361,8 @@
                 "pdf": "publications/data/20_cvpr_humbi.pdf"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "High-Dimensional Convolutional Networks for Geometric Pattern Recognition", 
                 "author": ["Christopher Choy", "Junha Lee", "Rene Ranftl", "Jaesik Park", "Vladlen Koltun"],
                 "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
@@ -351,7 +373,8 @@
                 "code": "https://github.com/chrischoy/HighDimConvNets"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Future Video Synthesis with Object Motion Predictions", 
                 "author": ["Yue Wu", "Rongrong Gao", "Jaesik Park", "Qifeng Chen"],
                 "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
@@ -362,7 +385,7 @@
                 "code": "https://github.com/YueWuHKUST/FutureVideoSynthesis"
             },
             {
-                "type": "domestic",
+                "language": "domestic",
                 "title": "동적 객체에 대한 전역 텍스쳐 맵 생성", 
                 "author": ["Jungeon Kim", "Hyomin Kim", "Jaesik Park", "Seungyong Lee"],
                 "venue": "제 32회 영상처리 및 이해에 관한 워크샵 (IPIU)",
@@ -445,7 +468,8 @@
     {
         "papers": [
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Fully Convolutional Geometric Features", 
                 "author": ["Christopher Choy*", "Jaesik Park*", "Vladlen Koltun"],
                 "venue": "International Conference on Computer Vision (<b>ICCV</b>)",
@@ -455,7 +479,8 @@
                 "comment": "(*Equal contribution)"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "journal",
                 "title": "Global Texture Mapping for Dynamic Objects", 
                 "author": ["Jungeon Kim", "Hyomin Kim", "Jaesik Park", "Seungyong Lee"],
                 "venue": "Pacific Graphics (<b>PG</b>)",
@@ -463,7 +488,8 @@
                 "pdf": "http://cg.postech.ac.kr/papers/2019_PG_Kim.pdf"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "GPU Accelerated Robust Scene Reconstruction", 
                 "author": ["Wei Dong", "Jaesik Park", "Yi Yang", "Michael Kaess"],
                 "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>)",
@@ -472,7 +498,8 @@
                 "video": "https://www.youtube.com/watch?v=rrkiG4IF1ws"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Depth from a Light Field Image with Learning-based Matching Costs", 
                 "author": ["Hae-Gon Jeon", "Jaesik Park", "Gyeongmin Choe", "Jinsun Park", "Yunsu Bok", "Yu-Wing Tai", "In So Kweon"],
                 "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>)",
@@ -480,7 +507,7 @@
                 "pdf": "http://ieeexplore.ieee.org/document/8263242/"
             },
             {
-                "type": "domestic",
+                "language": "domestic",
                 "title": "메시 피라미드를 활용한 3차원 비강체 모델 텍스쳐 맵 생성", 
                 "author": ["Jungeon Kim", "Hyomin Kim", "Jaesik Park", "Seungyong Lee"],
                 "venue": "한국컴퓨터그래픽스학회",
@@ -548,7 +575,8 @@
     {
         "papers": [
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Tangent Convolutions for Dense Prediction in 3D", 
                 "author": ["Maxim Tatarchenko*", "Jaesik Park*", "Vladlen Koltun", "Qian-Yi Zhou"],
                 "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
@@ -559,7 +587,8 @@
                 "comment": "(*Equal contribution. <b>Spotlight Oral</b> Presentation)"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Open3D: A Modern Library For 3D Data Processing", 
                 "author": ["Qian-Yi Zhou", "Jaesik Park", "Vladlen Koltun"],
                 "venue": "Technical Report, arXiv:1801.09847",
@@ -572,7 +601,8 @@
                 "github": "<a class=\"github-button\" href=\"https:\/\/github.com\/intel-isl\/open3d\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star intel-isl\/open3d on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/intel-isl\/open3d\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork intel-isl\/open3d on GitHub\">Fork<\/a>"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Real-time Head Pose Estimation using Multi-task Deep Neural Network", 
                 "author": ["Byungtae Ahn", "Dong-Geol Choi", "Jaesik Park", "In So Kweon"],
                 "venue": "Robotics and Autonomous Systems (<b>RAS</b>)",
@@ -605,7 +635,8 @@
     {
         "papers": [
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Colored Point Cloud Registration Revisited", 
                 "author": ["Jaesik Park", "Qian-Yi Zhou", "Vladlen Koltun"],
                 "venue": "International Conference on Computer Vision (<b>ICCV</b>)",
@@ -616,7 +647,8 @@
                 "code": "http://redwood-data.org/indoor_lidar_rgbd/code.html"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Tanks and Temples: Benchmarking Large-Scale Scene Reconstruction", 
                 "author": ["Arno Knapitsch", "Jaesik Park", "Qian-Yi Zhou", "Vladlen Koltun"],
                 "venue": "ACM Transactions on Graphics (Proc. <b>SIGGRAPH</b>)",
@@ -628,7 +660,8 @@
                 "video": "https://www.youtube.com/watch?v=DJnrp05g7vg"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Category Specific Salient View Selection via Deep Convolutional Neural Networks", 
                 "author": ["Seong heum Kim", "Yu Wing Tai", "Joon Young Lee", "Jaesik Park", "In So Kweon"],
                 "venue": "Computer Graphics Forum (<b>CGF</b>)",
@@ -648,7 +681,8 @@
     {
         "papers": [
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Robust Multiview Photometric Stereo using Planar Mesh Parameterization", 
                 "author": ["Jaesik Park", "Sudipta N. Sinha", "Yasuyuki Matsushita", "Yu-Wing Tai", "In So Kweon"],
                 "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>)",
@@ -656,7 +690,8 @@
                 "web_inplace": "publications/multiviewps/index.html"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Fast Global Registration", 
                 "author": ["Qian-Yi Zhou", "Jaesik Park", "Vladlen Koltun"],
                 "venue": "European Conference on Computer Vision (<b>ECCV</b>)",
@@ -667,7 +702,8 @@
                 "code": "https://github.com/IntelVCL/FastGlobalRegistration"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Refining Geometry from Depth Sensors using IR Shading Images", 
                 "author": ["Gyeongmin Choe", "Jaesik Park", "Yu-Wing Tai", "In So Kweon"],
                 "venue": "International Journal of Computer Vision (<b>IJCV</b>)",
@@ -675,7 +711,8 @@
                 "pdf": "https://drive.google.com/file/d/1LsgtzkOt-z8W6iX8tHHV8H_XTqTOg-_q/view"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Efficient and Robust Color Consistency for Community Photo Collections", 
                 "author": ["Jaesik Park", "Yu-Wing Tai", "Sudipta N. Sinha", "In So Kweon"],
                 "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
@@ -684,7 +721,8 @@
                 "code": "https://github.com/syncle/photo_consistency"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "High-quality Depth from Uncalibrated Small Motion Clip", 
                 "author": ["Hyowon Ha", "Sunghoon Im", "Jaesik Park", "Hae-Gon Jeon", "In So Kweon"],
                 "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
@@ -694,7 +732,8 @@
                 "code": "https://github.com/hyowonha/DfUSMC"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Vision System and Depth Processing for DRC-HUBO+", 
                 "author": ["Inwook Shim", "Seunghak Shin", "Yunsu Bok", "Kyungdon Joo", "Dong-Geol Choi", "Joon-Young Lee", "Jaesik Park", "Jun Ho Oh", "In So Kweon"],
                 "venue": "IEEE International Conference on Robotics and Automation (<b>ICRA</b>)",
@@ -706,7 +745,8 @@
                 "data": "https://sites.google.com/site/kaistdrcdata/"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Multi-view Object Extraction with Fractional Boundaries", 
                 "author": ["Seong-Heum Kim", "Yu-Wing Tai", "Jaesik Park", "In So Kweon"],
                 "venue": "IEEE Transaction on Image Processing (<b>TIP</b>)",
@@ -744,7 +784,8 @@
     {
         "papers": [
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Dense Depth and Albedo from a Single-shot Structured Light", 
                 "author": ["Hyowon Ha", "Jaesik Park", "In So Kweon"],
                 "venue": "International Conference on 3D Vision (<b>3DV</b>)",
@@ -753,7 +794,8 @@
                 "bibtex": "publications/data/15_3dv.txt"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Accurate Depth Map Estimation from a Lenslet Light Field Camera", 
                 "author": ["Hae-Gon Jeon", "Jaesik Park", "Gyeongmin Choe", "Jinsun Park", "Yunsu Bok", "Yu-Wing Tai", "In So Kweon"],
                 "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
@@ -762,7 +804,8 @@
                 "code": "https://drive.google.com/open?id=0B2553ggh3QTcS01zU0RjOG5FTjQ"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Multi-modal Pedestrian Detection: Benchmark Dataset and Baselines", 
                 "author": ["SoonMin Hwang", "Jaesik Park", "Namil Kim", "Yukyung Choi", "In So Kweon"],
                 "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
@@ -783,7 +826,8 @@
     {
         "papers": [
             {
-                "type": "international",
+                "language": "international",
+                "type": "journal",
                 "title": "High Quality Depth Map Upsampling and Completion for RGB-D Cameras", 
                 "author": ["Jaesik Park", "Hyeongwoo Kim", "Yu-Wing Tai", "Michael S. Brown", "In-So Kweon"],
                 "venue": "IEEE Transaction on Image Processing (<b>TIP</b>)",
@@ -791,7 +835,8 @@
                 "web_inplace": "web_inplace=publications/depthups/index.html"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Real-time Head Orientation from a Monocular Camera using Deep Neural Network", 
                 "author": ["Byungtae Ahn", "Jaesik Park", "In So Kweon"],
                 "venue": "Asian Conference on Computer Vision (<b>ACCV</b>)",
@@ -800,7 +845,8 @@
                 "bibtex": "publications/data/14_accv.txt"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "GMM-based Saliency Aggregation for Calibration-free Gaze Estimation", 
                 "author": ["Jinsoo Choi", "Byungtae Ahn", "Jaesik Park", "In So Kweon"],
                 "venue": "International Conference on Image Processing (<b>ICIP</b>)",
@@ -809,7 +855,8 @@
                 "bibtex": "publications/data/14_icip.txt"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Exploiting Shading Cues in Kinect IR Images for Geometry Refinement", 
                 "author": ["Gyeongmin Choe*", "Jaesik Park*", "Yu-Wing Tai", "In So Kweon"],
                 "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
@@ -818,7 +865,8 @@
                 "web": "https://sites.google.com/site/gmchoe1/kinir"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Calibrating a Non-isotropic Near Point Light Source using a Plane", 
                 "author": ["Jaesik Park", "Sudipta N. Sinha", "Yasuyuki Matsushita", "Yu-Wing Tai", "In So Kweon"],
                 "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
@@ -826,28 +874,28 @@
                 "web_inplace": "web_inplace=publications/lightcalib/index.html"
             },
             {
-                "type": "domestic",
+                "language": "domestic",
                 "title": "깊이 영상 처리를 위한 학습기반 신뢰도 추정 및 재질 분류",
                 "author": ["Min-Hyun Kim", "Jaesik Park", "In So Kweon"],
                 "venue": "제 27회 영상처리 및 이해에 관한 워크샵 (IPIU)",
                 "month": 2
             },
             {
-                "type": "domestic",
+                "language": "domestic",
                 "title": "시야 공유가 없는 다중 카메라를 이용한 사람 추적",
                 "author": ["Junsik Kim", "Kyungdon Joo", "Tae-Hyun Oh", "Jaesik Park", "In So Kweon"],
                 "venue": "제 27회 영상처리 및 이해에 관한 워크샵 (IPIU)",
                 "month": 2
             },
             {
-                "type": "domestic",
+                "language": "domestic",
                 "title": "컬러-열영상 퓨전을 통한 강인한 보행자 검출 기법",
                 "author": ["SoonMin Hwang", "Jaesik Park", "Namil Kim", "Yukyung Choi", "In So Kweon"],
                 "venue": "제 27회 영상처리 및 이해에 관한 워크샵 (IPIU)",
                 "month": 2
             },
             {
-                "type": "domestic",
+                "language": "domestic",
                 "title": "마이크로 렌즈 기반의 휴대용 라이트필드 카메라를 이용한 정확한 깊이 정보 추정방법",
                 "author": ["Hae-Gon Jeon", "Jaesik Park", "Gyeongmin Choe", "Jinsun Park", "Yunsu Bok", "Yu-Wing Tai", "In So Kweon"],
                 "venue": "한국멀티미디어학회 춘계학술발표대회",
@@ -888,7 +936,8 @@
     {
         "papers": [
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Multiview Photometric Stereo using Planar Mesh Parameterization", 
                 "author": ["Jaesik Park", "Sudipta N. Sinha", "Yasuyuki Matsushita", "Yu-Wing Tai", "In So Kweon"],
                 "venue": "International Conference on Computer Vision (<b>ICCV</b>)",
@@ -897,21 +946,21 @@
                 "web_inplace": "publications/multiviewps/index.html"
             },
             {
-                "type": "domestic",
+                "language": "domestic",
                 "title": "키넥트 깊이 정밀도 개선을 위한 적외선 패턴 영상의 스테레오 정합", 
                 "author": ["Gyeongmin Choe", "Jaesik Park", "Hyowon Ha", "In So Kweon"],
                 "venue": "2013년도 한국 멀티미디어 학회 춘계학술 발표대회 논문집 제 16권 1호",
                 "month": 5
             },
             {
-                "type": "domestic",
+                "language": "domestic",
                 "title": "다시점 영상기반 3차원 움직임 추정기법", 
                 "author": ["Jaesik Park", "Tae Hyun Oh", "Jiyoung Jung", "Yu-Wing Tai", "In So Kweon"],
                 "venue": "제 25회 영상처리 및 이해에 관한 워크샵 (IPIU)",
                 "month": 2
             },
             {
-                "type": "domestic",
+                "language": "domestic",
                 "title": "컬러 영상의 홀로그램 및 워터마크 제거 기법", 
                 "author": ["Jaesik Park", "Yu-Wing Tai", "In So Kweon"],
                 "venue": "제 25회 영상처리 및 이해에 관한 워크샵 (IPIU)",
@@ -936,7 +985,8 @@
     {
         "papers": [
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Tensor Voting Approach for Multi-View 3D Scene-flow Estimation and Refinement", 
                 "author": ["Jaesik Park", "Tae Hyun Oh", "Jiyoung Jung", "Yu-Wing Tai", "In So Kweon"],
                 "venue": "European Conference on Computer Vision (<b>ECCV</b>)",
@@ -946,7 +996,8 @@
                 "supp": "publications/data/12_eccv_poster.pdf"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Modeling Photo Composition and Its Application to Photo Re-arrangement", 
                 "author": ["Jaesik Park", "Joon-Young Lee", "Yu-Wing Tai", "In So Kweon"],
                 "venue": "International Conference on Image Processing (<b>ICIP</b>)",
@@ -956,7 +1007,8 @@
                 "supp": "publications/data/12_icip_poster.pdf"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Identigram/Watermark removal using cross-channel correlation", 
                 "author": ["Jaesik Park", "Yu-Wing Tai", "In-So Kweon"],
                 "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
@@ -981,7 +1033,8 @@
     {
         "papers": [
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "A Novel 2.5D Pattern for Extrinsic Calibration of ToF and Camera Fusion System", 
                 "author": ["Jiyoung Jung", "Yekeun Jeong", "Jaesik Park", "Hyowon Ha", "J. D. Kim", "In-So Kweon"],
                 "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>)",
@@ -989,7 +1042,8 @@
                 "pdf": "publications/data/11_iros.pdf"
             },
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "High Quality Depth Map Upsampling for 3D-TOF Cameras", 
                 "author": ["Jaesik Park*", "Hyeongwoo Kim*", "Yu-Wing Tai", "Michael S. Brown", "In-So Kweon"],
                 "venue": "International Conference on Computer Vision (<b>ICCV</b>)",

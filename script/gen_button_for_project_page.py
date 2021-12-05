@@ -5,22 +5,25 @@ from util import authorlist_to_text
 def append_button_html(path, data):
 	f = open(path, "a")
 	f.write(# Buttons
-			'<div class="col-lg-8 col-lg-offset-2">\n'+
-			'	<h2>Publication(s)</h2>\n')
+			'<div class="container">\n'+
+			'	<div class="row">\n'+
+			'		<div class="col-12">\n'+
+			'			<h2>Publication(s)</h2>\n')
 	for idx, year in enumerate(data):			
 		for category, items in data[year].items():
 			if category == 'papers':
 				for i in items:
-					if i['type'] == 'international':
+					if i['language'] == 'international':
 						f.write(
 							# Paper information
-							'		<h3>%s</h3>\n' % i['title'] +
-							'		<p>%s<br>\n' % authorlist_to_text(i['author']) +
-							'		%s<br>\n' % i['venue'] +
-							'		%s</p>\n' % (i['comment'] if 'comment' in i else '') +
+							'			<h4>%s</h4>\n' % i['title'] +
+							'			<p>%s<br>\n' % authorlist_to_text(i['author']) +
+							'			%s<br>\n' % i['venue'] +
+							'			%s</p>\n' % (i['comment'] if 'comment' in i else '') +
 							# Buttons
-							get_button_str_all(i) +
-							# Some stupid spacing
-							'		<p><br></p>\n')
-	f.write('</div>\n\n')
+							get_button_str_all(i) + 
+							'<br><br>\n')
+	f.write('		</div>\n')
+	f.write('	</div>\n')
+	f.write('</div>\n')
 	f.close()

@@ -3,7 +3,8 @@
     {
         "papers": [
             {
-                "type": "international",
+                "language": "international",
+                "type": "conference",
                 "title": "Efficient and Robust Color Consistency for Community Photo Collections", 
                 "author": ["Jaesik Park", "Yu-Wing Tai", "Sudipta N. Sinha", "In So Kweon"],
                 "venue": "CVPR, 2016",

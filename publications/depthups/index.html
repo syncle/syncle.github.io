@@ -17,97 +17,82 @@
 
 <body id="page-top" class="index">
 
-<!-- Navigation -->
-<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+<nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
 	<div class="container">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header page-scroll">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-			</button>
-			<a class="navbar-brand" href="http://jaesik.info/index.html">Jaesik Park</a>
-		</div>
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
-				<li class="hidden">
-					<a href="http://jaesik.info/index.html"></a>
-				</li>
-				<li >
-					<a href="http://jaesik.info/about_me.html">About me</a>
-				</li>
-				<li class="active">
-					<a href="http://jaesik.info/publications.html">Publications</a>
-				</li>
-				<li >
-					<a href="http://jaesik.info/academic_activities.html">Academic activities</a>
-				</li>
-				<li >
-					<a href="http://jaesik.info/contact.html">Contact</a>
-				</li>
+		<a class="navbar-brand" href="http://jaesik.info">Jaesik Park</a>
+		<button class="navbar-toggler font-weight-bold bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			Menu
+			<i class="fas fa-bars"></i>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ms-auto">
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3" href="http://jaesik.info"></a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link  py-3 px-0 px-lg-3" href="http://jaesik.info/about_me">About me</a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link  py-3 px-0 px-lg-3" href="http://jaesik.info/academic_activities">Academic activities</a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link active py-3 px-0 px-lg-3" href="http://jaesik.info/publications">Publications</a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link  py-3 px-0 px-lg-3" href="http://jaesik.info/lab">@POSTECH</a></li>
+				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link  py-3 px-0 px-lg-3" href="http://jaesik.info/contact">Contact</a></li>
 			</ul>
 		</div>
-		<!-- /.navbar-collapse -->
 	</div>
-<!-- /.container-fluid -->
 </nav>
 
-<!-- Header -->
-<header>
-	<div class="container" id="maincontent" tabindex="-1">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="intro-text">
-					<h1>High Quality Depth Map Upsampling</h1>
-				</div>
-			</div>
-		</div>
+<header class="masthead bg-primary text-white text-start">
+	<div class="container d-flex align-items-left flex-column">
+		<h1 class="text-uppercase mt-3">High Quality Depth Map Upsampling</h1>
 	</div>
 </header>
 
 
-<div class="container">
-<div class="col-lg-8 col-lg-offset-2">
-	<div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/y6ZYH6vxXNI" frameborder="0" allowfullscreen></iframe>
-  </div>
-</div>
-
-<div class="col-lg-8 col-lg-offset-2">
-	<h2>Abstract</h2>
-	<p> In this project, we propose an application framework to perform high quality upsampling and completion on noisy depth maps. Our framework targets a complementary system setup which consists of a depth camera coupled with an RGB camera. Inspired by a recent work that uses a nonlocal structure regularization, we regularize depth maps in order to maintain fine details and structures. We extend this regularization by combining the additional high-resolution RGB input when upsampling a lowresolution depth map together with a weighting scheme that favors structure details. Our technique is also able to repair large holes in a depth map with consideration of structures and discontinuities by utilizing edge information from the RGB input. Quantitative and qualitative results show that our method outperforms existing approaches for depth map upsampling and completion. We describe the complete process for this system, including device calibration, scene warping for input alignment, and even how our framework can be extended for video depthmap completion with consideration of temporal coherence.</p>
-</div>
-
-<div class = "col-lg-8 col-lg-offset-2">
-	<div class = "col-lg-12 alert alert-info">
-		<strong>Note</strong>
-		<p>In the following papers, we state that error measure is root mean square error, but it is not correct. 2 * mean absolute error is the number we had reported. You can find out these number by playing with <a href="file:///Users/jaesikpa/Research/syncle.github.io/publications/depthups/iccv11_dataset.zip">dataset example</a> of ICCV paper.</p>
-		<p> Actually many papers cites our result as mean absolute error,
-		and we appreciate Yuyuan Li for pointing out this mistake to us.</p>
+<div class="container mt-4">
+	<div class="row">
+		<div class="col-12 mb-4 text-center">
+			<div class="ratio ratio-16x9">
+				<iframe src="https://www.youtube.com/embed/y6ZYH6vxXNI" title="YouTube video" allowfullscreen></iframe>
+			</div>
+		</div>		
+		<div class="col-12">
+			<h2>Abstract</h2>
+			<p> In this project, we propose an application framework to perform high quality upsampling and completion on noisy depth maps. 
+				Our framework targets a complementary system setup which consists of a depth camera coupled with an RGB camera. 
+				Inspired by a recent work that uses a nonlocal structure regularization, we regularize depth maps in order to maintain fine details and structures. 
+				We extend this regularization by combining the additional high-resolution RGB input when upsampling a lowresolution depth map together 
+				with a weighting scheme that favors structure details. Our technique is also able to repair large holes in a depth map with consideration of 
+				structures and discontinuities by utilizing edge information from the RGB input. Quantitative and qualitative results show that our method 
+				outperforms existing approaches for depth map upsampling and completion. We describe the complete process for this system, including device calibration, 
+				scene warping for input alignment, and even how our framework can be extended for video depthmap completion with consideration of temporal coherence.</p>
+			<div class="alert alert-warning" role="alert">
+				In the following papers, we state that error measure is root mean square error, but it is not correct. 2 * mean absolute error is the number we had reported. You can find out these number by playing with <a href="file:///Users/jaesikpa/Research/syncle.github.io/publications/depthups/iccv11_dataset.zip">dataset example</a> of ICCV paper.
+				Many papers cites our result as mean absolute error, and we appreciate Yuyuan Li for pointing out this mistake to us.
+			</div>			
+		</div>
 	</div>
 </div>
-<div class="col-lg-8 col-lg-offset-2">
-	<h2>Publication(s)</h2>
-		<h3>High Quality Depth Map Upsampling and Completion for RGB-D Cameras</h3>
-		<p><b>Jaesik Park</b>, Hyeongwoo Kim, Yu-Wing Tai, Michael S. Brown, and In-So Kweon<br>
-		IEEE Transactions of Image Processing (TIP), 2014<br>
-		</p>
+<div class="container">
+	<div class="row">
+		<div class="col-12">
+			<h2>Publication(s)</h2>
+			<h4>High Quality Depth Map Upsampling and Completion for RGB-D Cameras</h4>
+			<p><b>Jaesik Park</b>, Hyeongwoo Kim, Yu-Wing Tai, Michael S. Brown, and In-So Kweon<br>
+			IEEE Transactions of Image Processing (TIP), 2014<br>
+			</p>
 			<a href="http://jaesik.info/publications/depthups/tip14_paper.pdf" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a>
 			<a href="http://jaesik.info/publications/depthups/tip14_bibtex.txt" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Bibtex</a>
-		<p><br></p>
-		<h3>High Quality Depth Map Upsampling for 3D-TOF Cameras</h3>
-		<p><b>Jaesik Park</b>, Hyeongwoo Kim*, Yu-Wing Tai, Michael S. Brown, and In-So Kweon<br>
-		The 13th International Conference on Computer Vision (ICCV), 2011<br>
-		*The firrst and the second authors provided equal contributions to this work.</p>
+<br><br>
+			<h4>High Quality Depth Map Upsampling for 3D-TOF Cameras</h4>
+			<p><b>Jaesik Park</b>, Hyeongwoo Kim*, Yu-Wing Tai, Michael S. Brown, and In-So Kweon<br>
+			The 13th International Conference on Computer Vision (ICCV), 2011<br>
+			*The firrst and the second authors provided equal contributions to this work.</p>
 			<a href="http://jaesik.info/publications/depthups/iccv11_paper.pdf" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Paper</a>
 			<a href="http://jaesik.info/publications/depthups/iccv11_supp.pdf" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Supplement</a>
 			<a href="http://jaesik.info/publications/depthups/iccv11_poster.pdf" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Poster</a>
 			<a href="http://jaesik.info/publications/depthups/iccv11_bibtex.txt" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Bibtex</a>
 			<a href="http://jaesik.info/publications/depthups/iccv11_executable.zip" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Executable</a>
 			<a href="http://jaesik.info/publications/depthups/iccv11_dataset.zip" target="_blank" class="btn btn-outline-secondary btn-sm" role="button"> Data</a>
-		<p><br></p>
+<br><br>
+		</div>
+	</div>
 </div>
-
 <!-- Footer -->
 <footer>
 		<div class="container">
