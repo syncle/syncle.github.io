@@ -53,9 +53,9 @@
                 "type": "arxiv",
                 "title": "Real-time Registration and Reconstruction with Cylindrical LiDAR Images", 
                 "author": ["Wei Dong*", "Kwonyoung Ryu*", "Michael Kaess", "Jaesik Park"],
-                "venue": "TBA (arXiv)",
+                "venue": "2112.02779 (arXiv)",
                 "image": "publications/data/21_arxiv6.jpg",
-                "pdf": ""
+                "pdf": "https://arxiv.org/abs/2112.02779"
             },
             {
                 "language": "international",
