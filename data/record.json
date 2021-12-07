@@ -55,7 +55,8 @@
                 "author": ["Wei Dong*", "Kwonyoung Ryu*", "Michael Kaess", "Jaesik Park"],
                 "venue": "2112.02779 (arXiv)",
                 "image": "publications/data/21_arxiv6.jpg",
-                "pdf": "https://arxiv.org/abs/2112.02779"
+                "pdf": "https://arxiv.org/abs/2112.02779",
+                "comment": "(*Equal contribution)"
             },
             {
                 "language": "international",
