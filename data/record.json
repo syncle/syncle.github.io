@@ -16,9 +16,9 @@
                 "type": "arxiv",
                 "title": "Fast Point Transformer", 
                 "author": ["Chunghyun Park", "Yoonwoo Jeong", "Minsu Cho", "Jaesik Park"],
-                "venue": "TBA (arXiv)",
+                "venue": "2112.04702 (arXiv)",
                 "image": "publications/data/21_arxiv4.jpg",
-                "pdf": ""
+                "pdf": "https://arxiv.org/abs/2112.04702"
             },
             {
                 "language": "international",
