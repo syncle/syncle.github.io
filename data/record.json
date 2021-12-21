@@ -4,6 +4,15 @@
         "papers": [
             {
                 "language": "international",
+                "type": "journal",
+                "title": "HUMBI: A Large Multiview Dataset of Human Body Expressions and Benchmark Challenge", 
+                "author": ["Jae Shin Yoon", "Zhixuan Yu", "Jaesik Park", "Hyun Soo Park"],
+                "venue": "Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>)",
+                "image": "publications/data/21_tpami.jpg",
+                "web": "https://www.humbi-data.net/"
+            },
+            {
+                "language": "international",
                 "type": "arxiv",
                 "title": "Instance-wise Occlusion and Depth Orders in Natural Scenes", 
                 "author": ["Hyunmin Lee", "Jaesik Park"],
