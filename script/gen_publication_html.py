@@ -49,7 +49,7 @@ def write_html(file, data):
 				# Thumbnail image
 				'			<img src="%s" class="img-fluid rounded float-center img-thumbnail shadow mb-3">\n' % i['image'] + 
 				# Paper information
-				'			<h4>%s</h4>\n' % i['title'] +
+				('			<h4>%s</h4>\n' % i['title'] if len(i['title']) <= 65 else '			<h4 class="em-tight">%s</h4>\n' % i['title']) +
 				'			<p class="text-muted">\n' +
 				'				%s.\n' % authorlist_to_html_text(i['author']) +
 				'				<em>%s</em>\n' % (i['venue'] + ", " + year) +
