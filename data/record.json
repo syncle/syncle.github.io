@@ -9,7 +9,8 @@
                 "author": ["Jae Shin Yoon", "Zhixuan Yu", "Jaesik Park", "Hyun Soo Park"],
                 "venue": "Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>)",
                 "image": "publications/data/21_tpami.jpg",
-                "web": "https://www.humbi-data.net/"
+                "web": "https://www.humbi-data.net/",
+                "pdf": "http://arxiv.org/abs/2110.00119"
             },
             {
                 "language": "international",
