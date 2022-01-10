@@ -256,6 +256,11 @@
         ],
         "talks": [
             {
+                "title": "Self-Calibrating Neural Radiance Fields",
+                "venue": "DGIST, Daegu, Republic of Korea",
+                "month": 8
+            },
+            {
                 "title": "Object Detection from Images or Point Clouds",
                 "venue": "LG Electronics, Seoul, Republic of Korea",
                 "month": 8
@@ -266,12 +271,12 @@
                 "month": 6
             },
             {
-                "title": "Mentor session: how to become a professor",
+                "title": "Mentor Session: How to Become a Professor",
                 "venue": "Conference on Computer Vision and Pattern Recognition (CVPR 2021), Virtual",
                 "month": 6
             },
             {
-                "title": "Recent work on Image Generation",
+                "title": "Recent Work on Image Generation",
                 "venue": "Gwangju Institute of Science and Technology (GIST), Virtual",
                 "month": 5
             },
