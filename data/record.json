@@ -1,4 +1,14 @@
 {
+    "2022": 
+    {
+        "talks": [
+            {
+                "title": "On overview of recent 3D vision methods",
+                "venue": "Harvard University, Boston, MA, USA (online)",
+                "month": 6
+            }
+        ]
+    },
     "2021": 
     {
         "papers": [
