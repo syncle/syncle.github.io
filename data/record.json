@@ -6,6 +6,11 @@
                 "title": "On overview of recent 3D vision methods",
                 "venue": "Harvard University, Boston, MA, USA (online)",
                 "month": 6
+            },
+            {
+                "title": "Self-Calibrating Neural Radiance Fields",
+                "venue": "Seoul National University, Seoul, Republic of Korea (online)",
+                "month": 2
             }
         ]
     },

@@ -88,7 +88,7 @@ def write_latex_talks(file, data):
 				for i in items:
 					if not 'hide' in i:
 						f.write('    \\resumeItem' + \
-						'{' + i['title'] + ', ' \
+						'{\\textit{' + i['title'] + '}, ' \
 							+ i['venue'] + ', ' \
 							+ (i['comment']  + ', ' if 'comment' in i else '') \
 							+ number_to_month(i['month']) + ' ' + year + '}\n')
