@@ -4,3 +4,5 @@ cv.aux
 cv.log
 cv.out
 cv.pdf
+cv.fdb_latexmk
+cv.fls
