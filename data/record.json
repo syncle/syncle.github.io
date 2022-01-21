@@ -1,6 +1,17 @@
 {
     "2022": 
     {
+        "papers": [
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "Deep Point Cloud Reconstruction", 
+                "author": ["Jaesung Choe", "Byeongin Joung", "Francois Rameau", "Jaesik Park", "In So Kweon"],
+                "venue": "International Conference on Learning Representations (<b>ICLR</b>)",
+                "image": "publications/data/21_arxiv.jpg",
+                "pdf": "https://arxiv.org/abs/2111.11704"
+            }
+        ],
         "talks": [
             {
                 "title": "On overview of recent 3D vision methods",
@@ -63,15 +74,6 @@
                 "image": "publications/data/21_arxiv3.jpg",
                 "pdf": "https://arxiv.org/abs/2111.11187",
                 "comment": "(*Equal contribution)"
-            },
-            {
-                "language": "international",
-                "type": "arxiv",
-                "title": "Deep Point Cloud Reconstruction", 
-                "author": ["Jaesung Choe", "Byeongin Joung", "Francois Rameau", "Jaesik Park", "In So Kweon"],
-                "venue": "2111.11704 (arXiv)",
-                "image": "publications/data/21_arxiv.jpg",
-                "pdf": "https://arxiv.org/abs/2111.11704"
             },
             {
                 "language": "international",
