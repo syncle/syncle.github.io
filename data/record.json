@@ -754,7 +754,7 @@
                 "venue": "European Conference on Computer Vision (<b>ECCV</b>)",
                 "comment": "(<b>Oral</b> Presentation, 1.8% acceptance rate)",
                 "image": "publications/data/16_eccv.jpg",
-                "pdf": "publications/data/17_siggraph.pdf",
+                "pdf": "http://vladlen.info/papers/fast-global-registration.pdf",
                 "web": "http://vladlen.info/publications/fast-global-registration/",
                 "code": "https://github.com/IntelVCL/FastGlobalRegistration"
             },
