@@ -23,6 +23,12 @@
                 "venue": "Seoul National University, Seoul, Republic of Korea (online)",
                 "month": 2
             }
+        ],
+        "program committee": [
+            {
+                "title": "<b>Area Chair</b>",
+                "venue": "European Conference on Computer Vision (<b>ECCV</b>)"
+            }
         ]
     },
     "2021": 
