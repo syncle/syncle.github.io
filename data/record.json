@@ -10,6 +10,27 @@
                 "venue": "International Conference on Learning Representations (<b>ICLR</b>)",
                 "image": "publications/data/21_arxiv.jpg",
                 "pdf": "https://arxiv.org/abs/2111.11704"
+            },
+            {
+                "language": "domestic",
+                "title": "탐색 알고리즘을 활용한 순차적 조각 조립", 
+                "author": ["Seokjun Ahn, Jinwhi Lee, Jungtaek Kim, Suhyeon Jeong, Seungwook Kim, Jaesik Park, Minsu Cho"],
+                "venue": "제 34회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
+            },
+            {
+                "language": "domestic",
+                "title": "실내 깊이 완성을 위한 3D 합성곱 기반의 절두체 합성곱", 
+                "author": ["Jaewon Kam, Jungeon Kim, Soongjin Kim, Jaesik Park, Seungyoung Lee"],
+                "venue": "제 34회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
+            },
+            {
+                "language": "domestic",
+                "title": "GC-NeRF: 형상 제약을 활용한 효율적인 NeRF 학습", 
+                "author": ["Wonjun Jin, Soongjin Kim, Jaesik Park, Seungyoung Lee, Sunghyun Cho"],
+                "venue": "제 34회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
             }
         ],
         "talks": [
