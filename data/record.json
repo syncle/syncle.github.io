@@ -12,6 +12,15 @@
                 "pdf": "https://arxiv.org/abs/2111.11704"
             },
             {
+                "language": "international",
+                "type": "journal",
+                "title": "TextureMe: High-quality Textured Scene Reconstruction in Real-time", 
+                "author": ["Jungeon Kim", "Hyomin Kim", "Hyeonseo Nam", "Jaesik Park", "Seungyong Lee"],
+                "venue": "ACM Transactions on Graphics (<b>ToG</b>)",
+                "comment": "(will be presented at <b>SIGGRAPH2022</b>)",
+                "image": "publications/data/21_tog.jpg"
+            },
+            {
                 "language": "domestic",
                 "title": "탐색 알고리즘을 활용한 순차적 조각 조립", 
                 "author": ["Seokjun Ahn, Jinwhi Lee, Jungtaek Kim, Suhyeon Jeong, Seungwook Kim, Jaesik Park, Minsu Cho"],
@@ -128,14 +137,6 @@
                 "venue": "British Machine Vision Conference (<b>BMVC</b>)",
                 "image": "publications/data/21_bmvc.jpg",
                 "pdf": "https://arxiv.org/abs/2111.05980"
-            },
-            {
-                "language": "international",
-                "type": "journal",
-                "title": "TextureMe: High-quality Textured Scene Reconstruction in Real-time", 
-                "author": ["Jungeon Kim", "Hyomin Kim", "Hyeonseo Nam", "Jaesik Park", "Seungyong Lee"],
-                "venue": "ACM Transactions on Graphics (<b>ToG</b>)",
-                "image": "publications/data/21_tog.jpg"
             },
             {
                 "language": "international",
