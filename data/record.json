@@ -28,6 +28,14 @@
             {
                 "title": "<b>Area Chair</b>",
                 "venue": "European Conference on Computer Vision (<b>ECCV</b>)"
+            },
+            {
+                "title": "<b>Associate Editor</b>",
+                "venue": "IEEE International Conference on Robotics and Automation (<b>ICRA</b>)"
+            },
+            {
+                "title": "Senior Program Committee",
+                "venue": "American Assoc. for Artificial Intelligence (<b>AAAI</b>)"
             }
         ]
     },
@@ -247,11 +255,7 @@
                 "comment": "<b>Awarded as the Best EduTech Class</b> by POSTECH"
             }
         ],
-        "program committee": [
-            {
-                "title": "<b>Associate Editor</b>",
-                "venue": "IEEE International Conference on Robotics and Automation (<b>ICRA</b>)"
-            },
+        "program committee": [            
             {
                 "title": "<b>Associate Editor</b>",
                 "venue": "IEEE/RSJ International Conference on Inteligent Robotics and Systems (<b>IROS</b>)"
@@ -271,10 +275,6 @@
             {
                 "title": "Senior Program Committee",
                 "venue": "Int. Joint Conf. on Artificial Intelligence (<b>IJCAI</b>)"
-            },
-            {
-                "title": "Senior Program Committee",
-                "venue": "American Assoc. for Artificial Intelligence (<b>AAAI</b>)"
             }
         ],
         "talks": [
@@ -454,6 +454,10 @@
             {
                 "title": "<b>Area Chair</b>",
                 "venue": "International Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)"
+            },
+            {
+                "title": "Senior Program Committee",
+                "venue": "Int. Joint Conf. on Artificial Intelligence (<b>IJCAI</b>)"
             }
         ],
         "teaching": [
