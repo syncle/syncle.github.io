@@ -335,7 +335,7 @@
             },
             {
                 "title": "Point Cloud Registration using Hierachical Hough Transform",
-                "venue": "33nd Workshop on Image Processing and Image Understanding (IPIU2021), Virtual",
+                "venue": "33rd Workshop on Image Processing and Image Understanding (IPIU2021), Virtual",
                 "month": 2
             },
             {
@@ -478,6 +478,11 @@
                 "title": "Object Detection from Images or Point Clouds",
                 "venue": "LG Electronics, Seoul, Republic of Korea",
                 "month": 8
+            },
+            {
+                "title": "Geometric Pattern Recognition",
+                "venue": "32nd Workshop on Image Processing and Image Understanding (IPIU2020)",
+                "month": 2
             }
         ],
         "program committee": [
