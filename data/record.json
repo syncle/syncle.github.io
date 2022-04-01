@@ -9,7 +9,8 @@
                 "author": ["Hyunmin Lee", "Jaesik Park"],
                 "venue": "International Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/22_cvpr1.jpg",
-                "pdf": "https://arxiv.org/abs/2111.14562"
+                "pdf": "https://arxiv.org/abs/2111.14562",
+                "code": "https://github.com/POSTECH-CVLab/InstaOrder"
             },
             {
                 "language": "international",
