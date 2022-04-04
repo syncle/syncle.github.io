@@ -116,6 +116,18 @@
                 "source": "Google LLC, USA",
                 "period": "2022.03-current"
             }
+        ],
+        "awards": [
+            {
+                "title": "<b>Google Cloud Platform Credit Award</b>",
+                "awardee": "Google LLC, USA",
+                "month": 3
+            },
+            {
+                "title": "<b>28th HumanTech Paper Award (Silver Prize)</b>",
+                "awardee": "Samsung Electronics Corp.",
+                "month": 2
+            }            
         ]
     },
     "2021": 
@@ -590,6 +602,11 @@
             {
                 "title": "<b>Qualcomm Gift Grant</b>",
                 "awardee": "Qualcomm Corporation",
+                "month": 12
+            },
+            {
+                "title": "<b>The 16th Samsung EM Paper Contest (Silver Prize)</b>",
+                "awardee": "Samsung Electro-Mechanics",
                 "month": 12
             },
             {
