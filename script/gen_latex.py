@@ -96,6 +96,23 @@ def write_latex_talks(file, data):
 	f.close()
 
 
+def write_latex_funding(file, data):
+	f = open(file, "w")
+	f.write('\\section{Funding}\n')
+	f.write('\\resumeItemListStart\n')
+	for year in data:
+		for category, items in data[year].items():
+			if category == 'funding':
+				for i in items:
+					f.write('    \\resumeItem' + \
+					'{\\textit{' + i['title'] + '}, ' \
+						+ i['source'] + ', ' \
+						+ i['period'] \
+						+ (',' + i['comment']  if 'comment' in i else '') + '}\n')
+	f.write('\\resumeItemListEnd\n\n\n\n')
+	f.close()
+
+
 def write_latex_teaching(file, data):
 	f = open(file, "w")
 	f.write('\\section{Teaching}\n')
@@ -141,6 +158,7 @@ if __name__ == "__main__":
 	write_latex_awards('../source/latex/awards.tex', data)
 	write_latex_patents('../source/latex/patents.tex', data)
 	write_latex_teaching('../source/latex/teaching.tex', data)
+	write_latex_funding('../source/latex/funding.tex', data)
 	write_latex_talks('../source/latex/talks.tex', data)
 	write_latex_program_committe('../source/latex/program_committe.tex', data)
 
@@ -152,5 +170,6 @@ if __name__ == "__main__":
 	include_file('../%s.tex' % page, '../source/latex/awards.tex')
 	include_file('../%s.tex' % page, '../source/latex/patents.tex')
 	include_file('../%s.tex' % page, '../source/latex/teaching.tex')
+	include_file('../%s.tex' % page, '../source/latex/funding.tex')
 	include_file('../%s.tex' % page, '../source/latex/talks.tex')
 	include_file('../%s.tex' % page, '../source/latex/footer.tex')
