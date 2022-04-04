@@ -50,28 +50,28 @@
             {
                 "language": "domestic",
                 "title": "탐색 알고리즘을 활용한 순차적 조각 조립", 
-                "author": ["Seokjun Ahn, Jinwhi Lee, Jungtaek Kim, Suhyeon Jeong, Seungwook Kim, Jaesik Park, Minsu Cho"],
+                "author": ["Seokjun Ahn", "Jinwhi Lee", "Jungtaek Kim", "Suhyeon Jeong", "Seungwook Kim", "Jaesik Park", "Minsu Cho"],
                 "venue": "제 34회 영상처리 및 이해에 관한 워크샵 (IPIU)",
                 "month": 2
             },
             {
                 "language": "domestic",
                 "title": "실내 깊이 완성을 위한 3D 합성곱 기반의 절두체 합성곱", 
-                "author": ["Jaewon Kam, Jungeon Kim, Soongjin Kim, Jaesik Park, Seungyoung Lee"],
+                "author": ["Jaewon Kam", "Jungeon Kim", "Soongjin Kim", "Jaesik Park", "Seungyoung Lee"],
                 "venue": "제 34회 영상처리 및 이해에 관한 워크샵 (IPIU)",
                 "month": 2
             },
             {
                 "language": "domestic",
                 "title": "GC-NeRF: 형상 제약을 활용한 효율적인 NeRF 학습", 
-                "author": ["Wonjun Jin, Soongjin Kim, Jaesik Park, Seungyoung Lee, Sunghyun Cho"],
+                "author": ["Wonjun Jin", "Soongjin Kim", "Jaesik Park", "Seungyoung Lee", "Sunghyun Cho"],
                 "venue": "제 34회 영상처리 및 이해에 관한 워크샵 (IPIU)",
                 "month": 2
             }
         ],
         "talks": [
             {
-                "title": "On overview of recent 3D vision methods",
+                "title": "Fast Point Transformer",
                 "venue": "Harvard University, Boston, MA, USA (online)",
                 "month": 6
             },
@@ -93,6 +93,28 @@
             {
                 "title": "Senior Program Committee",
                 "venue": "American Assoc. for Artificial Intelligence (<b>AAAI</b>)"
+            }
+        ],
+        "funding": [
+            {
+                "title": "3D reconstruction system",
+                "source": "Osstem Implant, Republic of Korea",
+                "period": "2022.03-2022.07"
+            },
+            {
+                "title": "Visual common sense (planned)",
+                "source": "Qualcomm, USA",
+                "period": "2022.03-2023.03"
+            },
+            {
+                "title": "High-fidelity 3D Reconstruction",
+                "source": "Intel Corp., USA",
+                "period": "2022.03-2023.03"
+            },
+            {
+                "title": "Google Cloud Platform Credit Award",
+                "source": "Google LLC, USA",
+                "period": "2022.03-current"
             }
         ]
     },
@@ -386,6 +408,43 @@
                 "awardee": "POSTECH",
                 "month": 7
             }
+        ],
+        "funding": [
+            {
+                "title": "과학기술정보통신부, 인공지능혁신허브 연구개발",
+                "source": "Ministry of Science and ICT, Republic of Korea",
+                "period": "2021.09-current"
+            },
+            {
+                "title": "High-quality 3D reconstruction",
+                "source": "Osstem Implant, Republic of Korea",
+                "period": "2021.07-2021.12"
+            },
+            {
+                "title": "문화체육관광부, 포스텍-한예종 문화기술선도대학원",
+                "source": "Ministry of Culture, Sports and Tourism, Republic of Korea",
+                "period": "2021.06-2023.12"
+            },
+            {
+                "title": "Camera localization",
+                "source": "Samsung Electronics Corp.",
+                "period": "2021.05-2022.05"
+            },
+            {
+                "title": "과학기술정보통신부, 시각적 상식에 기반한 영상 인페인팅",
+                "source": "Ministry of Science and ICT, Republic of Korea",
+                "period": "2021.05-2024.05"
+            },
+            {
+                "title": "LiDAR data augmentation",
+                "source": "Hyundai Motor Group",
+                "period": "2021.03-2021.09"
+            },
+            {
+                "title": "InstaOrder dataset collection",
+                "source": "Select Star, Republic of Korea",
+                "period": "2021.03-2021.11"
+            }                        
         ]
     },
     "2020":
@@ -543,6 +602,33 @@
                 "awardee": "Intel Corporation",
                 "month": 6
             }
+        ],
+        "funding": [
+            {
+                "title": "Team Open3D. Contributed Nearest Neighbor Module",
+                "source": "Intel Corp., USA",
+                "period": "2020.04-2022.02"
+            },
+            {
+                "title": "3D content creation",
+                "source": "Microsoft Reserach Asia, People's Republic of China",
+                "period": "2020.06-2021.06"
+            },
+            {
+                "title": "3D human capturing system",
+                "source": "ETRI, Republic of Korea",
+                "period": "2020.03-2020.10"
+            },
+            {
+                "title": "과학기술정보통신부 신진연구자 지원사업 + 신진연구 최초혁신실험실",
+                "source": "Ministry of Science and ICT, Republic of Korea",
+                "period": "2020.03-2023.03"
+            },
+            {
+                "title": "과학기술정보통신부, 인공지능대학원 지원사업 (POSTECH)",
+                "source": "Ministry of Science and ICT, Republic of Korea",
+                "period": "2020.02-current"
+            }
         ]
     },
     "2019":
@@ -656,6 +742,18 @@
                 "title": "<b>Qualcomm Gift Grant</b>",
                 "awardee": "Qualcomm Corporation",
                 "month": 9
+            }
+        ],
+        "funding": [            
+            {
+                "title": "Geometric perception from videos and images",
+                "source": "Qualcomm Corp., USA",
+                "period": "2019.10-2021.10"
+            },
+            {
+                "title": "포항공과대학교 신임교수 초기정착비",
+                "source": "POSTECH, Republic of Korea",
+                "period": "2019.04-2022.02"
             }
         ]
     },
