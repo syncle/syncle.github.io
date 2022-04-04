@@ -165,7 +165,7 @@
             {
                 "language": "international",
                 "type": "arxiv",
-                "title": "Real-time Registration and Reconstruction with Cylindrical LiDAR Images", 
+                "title": "Revisiting LiDAR Registration and Reconstruction: A Range Image Perspective", 
                 "author": ["Wei Dong*", "Kwonyoung Ryu*", "Michael Kaess", "Jaesik Park"],
                 "venue": "2112.02779 (arXiv)",
                 "image": "publications/data/21_arxiv6.jpg",
