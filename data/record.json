@@ -19,7 +19,8 @@
                 "author": ["Chunghyun Park", "Yoonwoo Jeong", "Minsu Cho", "Jaesik Park"],
                 "venue": "International Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/22_cvpr2.jpg",
-                "pdf": "https://arxiv.org/abs/2112.04702"
+                "pdf": "https://arxiv.org/abs/2112.04702",
+                "code": "https://github.com/POSTECH-CVLab/FastPointTransformer"
             },
             {
                 "language": "international",
