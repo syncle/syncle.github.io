@@ -20,7 +20,8 @@
                 "venue": "International Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/22_cvpr2.jpg",
                 "pdf": "https://arxiv.org/abs/2112.04702",
-                "code": "https://github.com/POSTECH-CVLab/FastPointTransformer"
+                "code": "https://github.com/POSTECH-CVLab/FastPointTransformer",
+                "web": "http://cvlab.postech.ac.kr/research/FPT/"
             },
             {
                 "language": "international",
