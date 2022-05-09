@@ -5,6 +5,14 @@
             {
                 "language": "international",
                 "type": "conference",
+                "title": "Learning to Assemble Geometric Shapes",
+                "author": ["Jinhwi Lee", "Jungtaek Kim", "Hyunsoo Chung", "Jaesik Park", "Minsu Cho"],
+                "venue": "International Joint Conference on Artificial Intelligence (<b>IJCAI</b>)",
+                "image": "publications/data/22_ijcai.jpg"
+            },
+            {
+                "language": "international",
+                "type": "conference",
                 "title": "Instance-wise Occlusion and Depth Orders in Natural Scenes", 
                 "author": ["Hyunmin Lee", "Jaesik Park"],
                 "venue": "International Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
@@ -120,6 +128,16 @@
             }
         ],
         "awards": [
+            {
+                "title": "<b>Representative ICT RnD Projects</b> in Recent Five Years (ICT RnD 사업 성과 중 우수과제)",
+                "awardee": "IITP (정보통신기획평가원), Republic of Korea",
+                "month": 5
+            },
+            {
+                "title": "<b>CSE Young Scholar</b>",
+                "awardee": "POSTECH Computer Science Engineering Department",
+                "month": 4
+            },
             {
                 "title": "<b>Google Cloud Platform Credit Award</b>",
                 "awardee": "Google LLC, USA",
