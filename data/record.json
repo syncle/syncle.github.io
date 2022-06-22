@@ -4,6 +4,17 @@
         "papers": [
             {
                 "language": "international",
+                "type": "arxiv",
+                "title": "StudioGAN: A Taxonomy and Benchmark of GANs for Image Synthesis",
+                "author": ["MinGuk Kang", "Joonghyuk Shin", "Jaesik Park"],
+                "venue": "2206.09479 (arXiv)",
+                "image": "publications/data/22_studio_gan.jpg",
+                "code": "https://github.com/POSTECH-CVLab/PyTorch-StudioGAN",
+                "github": "<a class=\"github-button\" href=\"https:\/\/github.com\/POSTECH-CVLab\/PyTorch-StudioGAN\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star POSTECH-CVLab\/PyTorch-StudioGAN on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/POSTECH-CVLab\/PyTorch-StudioGAN\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork POSTECH-CVLab\/PyTorch-StudioGAN on GitHub\">Fork<\/a>",
+                "pdf": "https://arxiv.org/abs/2206.09479"
+            },
+            {
+                "language": "international",
                 "type": "conference",
                 "title": "Learning to Assemble Geometric Shapes",
                 "author": ["Jinhwi Lee", "Jungtaek Kim", "Hyunsoo Chung", "Jaesik Park", "Minsu Cho"],
@@ -209,8 +220,7 @@
                 "venue": "Conference on Neural Information Processing Systems (<b>NeurIPS</b>)",
                 "image": "publications/data/21_neurips1.jpg",
                 "pdf": "https://arxiv.org/abs/2111.01118",
-                "code": "https://github.com/POSTECH-CVLab/PyTorch-StudioGAN",
-                "github": "<a class=\"github-button\" href=\"https:\/\/github.com\/POSTECH-CVLab\/PyTorch-StudioGAN\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star POSTECH-CVLab\/PyTorch-StudioGAN on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/POSTECH-CVLab\/PyTorch-StudioGAN\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork POSTECH-CVLab\/PyTorch-StudioGAN on GitHub\">Fork<\/a>"
+                "code": "https://github.com/POSTECH-CVLab/PyTorch-StudioGAN"
             },
             {
                 "language": "international",
