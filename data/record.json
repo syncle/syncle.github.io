@@ -4,6 +4,31 @@
         "papers": [
             {
                 "language": "international",
+                "type": "conference",
+                "title": "Style-Agnostic Reinforcement Learning",
+                "author": ["Juyong Lee", "Seokjun Ahn", "Jaesik Park"],
+                "venue": "European Conference on Computer Vision (<b>ECCV</b>)",
+                "image": "publications/data/22_eccv1.jpg"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "PointMixer: MLP-Mixer for Point Cloud Understanding",
+                "author": ["Jaesung Choe*", "Chunghyun Park*", "Francois Rameau", "Jaesik Park", "In So Kweon"],
+                "venue": "European Conference on Computer Vision (<b>ECCV</b>)",
+                "image": "publications/data/22_eccv2.jpg",
+                "comment": "(*Equal contribution)"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "CostDCNet: Cost Volume based Depth Completion of Single RGB-D Images",
+                "author": ["Jaewon Kam", "Jungeon Kim", "Soongjin Kim", "Jaesik Park", "Seungyong Lee"],
+                "venue": "European Conference on Computer Vision (<b>ECCV</b>)",
+                "image": "publications/data/22_eccv3.jpg"
+            },
+            {
+                "language": "international",
                 "type": "arxiv",
                 "title": "StudioGAN: A Taxonomy and Benchmark of GANs for Image Synthesis",
                 "author": ["MinGuk Kang", "Joonghyuk Shin", "Jaesik Park"],
@@ -182,16 +207,6 @@
                 "venue": "2112.01316 (arXiv)",
                 "image": "publications/data/21_arxiv5.jpg",
                 "pdf": "https://arxiv.org/abs/2112.01316"
-            },
-            {
-                "language": "international",
-                "type": "arxiv",
-                "title": "PointMixer: MLP-Mixer for Point Cloud Understanding", 
-                "author": ["Jaesung Choe*", "Chunghyun Park*", "Francois Rameau", "Jaesik Park", "In So Kweon"],
-                "venue": "2111.11187 (arXiv)",
-                "image": "publications/data/21_arxiv3.jpg",
-                "pdf": "https://arxiv.org/abs/2111.11187",
-                "comment": "(*Equal contribution)"
             },
             {
                 "language": "international",
