@@ -22,7 +22,7 @@
             {
                 "language": "international",
                 "type": "conference",
-                "title": "CostDCNet: Cost Volume based Depth Completion of Single RGB-D Images",
+                "title": "CostDCNet: Cost Volume based Depth Completion for a Single RGB-D Image",
                 "author": ["Jaewon Kam", "Jungeon Kim", "Soongjin Kim", "Jaesik Park", "Seungyong Lee"],
                 "venue": "European Conference on Computer Vision (<b>ECCV</b>)",
                 "image": "publications/data/22_eccv3.jpg"
@@ -73,7 +73,8 @@
                 "title": "3D Scene Painting via Semantic Image Synthesis", 
                 "author": ["Jaebong Jeong", "Janghun Jo", "Sunghyun Cho", "Jaesik Park"],
                 "venue": "International Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
-                "image": "publications/data/22_cvpr3.jpg"
+                "image": "publications/data/22_cvpr3.jpg",
+                "web": "http://cvlab.postech.ac.kr/research/3DScenePainting/"
             },
             {
                 "language": "international",
