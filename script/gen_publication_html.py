@@ -9,26 +9,7 @@ def write_html(file, data):
 	f.write('<script async defer src="https://buttons.github.io/buttons.js"></script>\n')
 	f.write('<div class="container"> <!-- begin of publication list -->\n\n')
 	for idx, year in enumerate(data):
-		print_year = False
-		for category, items in data[year].items():
-			if category == 'papers':
-				for i in items:
-					if i['language'] == 'international':
-						print_year = True
-		if print_year:
-			# adding horizontal line for every years except for the first appearing year
-			if idx != 0:
-				f.write('<div class="container mt-4">\n'+
-						'	<hr class="py-1">\n'+
-						'</div>\n\n')
-			# adding year
-			f.write('<div class="container mt-4">\n'+
-					'<div class="row">\n'+
-					'	<div class="col-lg-12 text-start">\n'+
-					'		<h2>%s</h2>\n' % year +
-					'	</div>\n'+
-					'</div>\n'+
-					'</div>\n\n')
+
 		# list up international
 		items_international = []
 		for category, items in data[year].items():
@@ -36,11 +17,24 @@ def write_html(file, data):
 				for i in items:
 					if i['language'] == 'international':
 						items_international.append(i)
+		
+		# skip the year if there is no international publication
 		if len(items_international) == 0:
 			continue
-		# adding elements
+		
+		# writing year
+		f.write('<div class="container mt-4">\n'+
+				'<div class="row">\n'+
+				'	<div class="col-lg-12 text-start">\n'+
+				'		<h2>%s</h2>\n' % year +
+				'	</div>\n'+
+				'</div>\n'+
+				'</div>\n\n')
+
+		# make a new container
 		f.write('<div class="container">\n'+
 				'	<div class="row gx-5 gy-4">\n')
+		# adding publication elements
 		for i in items_international:
 			bibtex_button, bibtex_box = get_collapsed_bibtex_html(i, year)
 			# write a html for a paper
@@ -63,13 +57,15 @@ def write_html(file, data):
 				'			</p>\n' +
 				'%s\n' % bibtex_box + 
 				'		</div>\n')
-		# finish writing papers
+		# finish making the container
 		f.write(
 			'	</div>\n'+
 			'</div>\n\n')
-	f.write('<div class="container mt-4">\n'+
-			'	<hr class="py-1">\n'+
-			'</div>\n\n')
+
+		# adding horizontal line
+		f.write('<div class="container mt-4">\n'+
+				'	<hr class="py-1">\n'+
+				'</div>\n\n')
 	f.write('</div>  <!-- end of publication list -->\n\n')
 	f.close()
 
