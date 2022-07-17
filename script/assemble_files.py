@@ -32,6 +32,7 @@ def gen_page(page, type):
 
 if __name__ == "__main__":
 	gen_page('index', 'Index')
+	os.remove('../source/html/index.html')
 	gen_page('about_me', 'About me')
 	gen_page('academic_activities', 'Academic activities')
 
