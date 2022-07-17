@@ -1,3 +1,30 @@
+from cgitb import html
+
+
+def dump_str_to_html_placeholder(input_path, output_path, placeholder_id, dump_str):	
+	with open(input_path, 'r') as f:
+		html_data = f.readlines()
+	# split data before and after the placeholder_id
+	split1 = []
+	split2 = []
+	found = False
+	for html_line in html_data:		
+		if placeholder_id in html_line:
+			found = True
+			continue
+		if not found:
+			split1.append(html_line)
+		else:
+			split2.append(html_line)
+	if not found:
+		return 1
+	# make new file
+	with open(output_path, 'w') as f:
+		f.writelines(split1)
+		f.writelines(dump_str)
+		f.writelines(split2)
+	return 0
+
 def number_to_month(m):
     switcher = {
         1: "Jan.",
