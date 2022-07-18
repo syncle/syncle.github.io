@@ -1,0 +1,190 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\usepackage{kotex}
+\usepackage{enumitem}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\lfoot{Last modified: \today}
+\cfoot{~~~~~~~~~~~~~~~~~~~~~~~\thepage\ of \pageref{LastPage}}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \small{
+  \item{#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\publicationItem}[4]{
+  \small{
+  \item{#1\\ \emph{#2}\\ #3\\ #4}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newcommand{\resumePublicationListStart}{\begin{enumerate}[leftmargin=0.5in, label={[\arabic*]}]}
+\newcommand{\resumePublicationListEnd}{\end{enumerate}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Jaesik Park} \\ \vspace{3pt}
+    \small \href{mailto:jaesik.park@postech.ac.kr}{\underline{jaesik.park@postech.ac.kr}} $|$ 
+    \href{http://jaesik.info}{\underline{jaesik.info}}\\
+    \footnotesize{Chungam-Ro 77, POSTECH, Pohang-Si, Republic of Korea (37673)}
+\end{center}
+
+\section{Working Experiences}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Assistant Professor}{Pohang, Republic of Korea}
+      {Pohang University of Science and Technology \textnormal{(\textbf{POSTECH})}}{April. 2019 -- Present}
+        \resumeItemListStart
+          \resumeItem{Co-principal investigator of Computer Vision Lab.}
+          \resumeItem{Advising about 20 masters and Ph.D. students}
+          \resumeItem{Selected as one of the \textbf{POSTECH's Representative Research Achievements} (2021)}
+          \resumeItem{Received \textbf{Outstanding Online Class award} (2020) and \textbf{the Best EduTech award} (2021)}
+          \resumeItem{3D scene reconstruction, understanding, and assembly projects}
+          \resumeItem{Proposed novel image generation pipelines: \textbf{StudioGAN} project (2.7k GitHub stars)}
+          \resumeItem{5.1k Google Scholar citations}
+        \resumeItemListEnd
+    \resumeSubheading
+      {Staff Research Scientist}{Santa Clara, CA, USA}
+      {Intelligent Systems Lab, Intel (Manager: Dr. Vladlen Koltun)}{Dec. 2015 -- March 2019}
+        \resumeItemListStart
+          \resumeItem{\textbf{Co-founder of Open3D}: open-sourced 3D vision library, built from scratch (7.0k GitHub stars)}
+          \resumeItem{Tanks and Temples: an online evaluation system for photogrametry methods}
+          \resumeItem{High quality 3D reconstruction approaches}
+          \resumeItem{Geometry understanding: tangent convolutions and fully convolutional geometric features}
+          \resumeItem{Advised intern students from Stanford University, U.C. Berkeley, and Carnegie Melon University}
+        \resumeItemListEnd
+    \resumeSubheading
+      {Post-Doc. Researcher}{Daejeon, Republic of Korea}
+      {KAIST. Developed color correction algorithms (Mentor: Prof. In So Kweon)}{Aug. 2015 -- Nov. 2015}
+    \resumeSubheading
+      {Research Intern}{Redmond, WA, USA}
+      {Microsoft Research. Developed a light calibration technique (Mentor: Dr. Sudipta N. Sinha)}{June 2013 -- Sep. 2013}
+    \resumeSubheading
+      {Research Intern}{Beijing, China}
+      {Microsoft Research Asia. Multiview photometric stereo system (Mentor: Prof. Y. Matsushita)}{April 2012 -- Oct. 2012}     
+  \resumeSubHeadingListEnd
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Ph.D. and M.S. in Electrical Eng.}{Daejeon, Republic of Korea}
+      {Korea Advanced Institute of Science and Technology \textnormal{(\textbf{KAIST})}}{Feb. 2009 -- Aug. 2015}
+        \resumeItemListStart
+        \resumeItem{Ph.D. thesis: Image-based 3D Modeling via Constrained Optimization (Advisor: Prof. In So Kweon, Co-advisor: Dr. Yu-Wing Tai)}
+        \resumeItem{Master's thesis: Upsampling Low-resolution Image using Heterogeneous High-resolution Image (Advisor: Prof. In So Kweon)}
+        \resumeItemListEnd
+    \resumeSubheading
+      {B.E. in Media Communication Eng.}{Seoul, Republic of Korea}
+      {Hanyang University (\textbf{Summa cum laude})}{March. 2005 -- Feb. 2009}
+  \resumeSubHeadingListEnd
+
+% ---- AutoGen::publication
+
+% ---- AutoGen::program_committe
+
+% ---- AutoGen::awards
+
+% ---- AutoGen::patents
+
+% ---- AutoGen::teaching
+
+% ---- AutoGen::funding
+
+% ---- AutoGen::talks
+
+\section{Reference}
+  \resumeItemListStart
+  \resumeItem{Up on request.}
+  \resumeItemListEnd
+  
+\end{document}
