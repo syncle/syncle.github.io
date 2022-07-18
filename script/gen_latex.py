@@ -1,4 +1,5 @@
 import json
+import os
 from gen_button import get_button_str_all
 from util import *
 
@@ -175,3 +176,14 @@ if __name__ == "__main__":
 	include_file('..%s/%s.tex' % (source_path, page), '..%s/funding.tex' % source_path)
 	include_file('..%s/%s.tex' % (source_path, page), '..%s/talks.tex' % source_path)
 	include_file('..%s/%s.tex' % (source_path, page), '..%s/footer.tex' % source_path)
+
+	os.remove('..%s/publication.tex' % source_path)
+	os.remove('..%s/awards.tex' % source_path)
+	os.remove('..%s/patents.tex' % source_path)
+	os.remove('..%s/teaching.tex' % source_path)
+	os.remove('..%s/funding.tex' % source_path)
+	os.remove('..%s/talks.tex' % source_path)
+	os.remove('..%s/program_committe.tex' % source_path)
+
+	if not os.path.exists('..%s/build' %  source_path):
+		os.mkdir('..%s/build' %  source_path)
