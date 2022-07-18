@@ -71,7 +71,7 @@
                 "author": ["Hyunmin Lee", "Jaesik Park"],
                 "venue": "International Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/22_cvpr1.jpg",
-                "pdf": "https://arxiv.org/abs/2111.14562",
+                "pdf": "https://openaccess.thecvf.com/content/CVPR2022/papers/Lee_Instance-Wise_Occlusion_and_Depth_Orders_in_Natural_Scenes_CVPR_2022_paper.pdf",
                 "code": "https://github.com/POSTECH-CVLab/InstaOrder"
             },
             {
@@ -81,7 +81,7 @@
                 "author": ["Chunghyun Park", "Yoonwoo Jeong", "Minsu Cho", "Jaesik Park"],
                 "venue": "International Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/22_cvpr2.jpg",
-                "pdf": "https://arxiv.org/abs/2112.04702",
+                "pdf": "https://openaccess.thecvf.com/content/CVPR2022/papers/Park_Fast_Point_Transformer_CVPR_2022_paper.pdf",
                 "code": "https://github.com/POSTECH-CVLab/FastPointTransformer",
                 "web": "http://cvlab.postech.ac.kr/research/FPT/"
             },
@@ -92,7 +92,8 @@
                 "author": ["Jaebong Jeong", "Janghun Jo", "Sunghyun Cho", "Jaesik Park"],
                 "venue": "International Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/22_cvpr3.jpg",
-                "web": "http://cvlab.postech.ac.kr/research/3DScenePainting/"
+                "web": "http://cvlab.postech.ac.kr/research/3DScenePainting/",
+                "pdf": "https://openaccess.thecvf.com/content/CVPR2022/papers/Jeong_3D_Scene_Painting_via_Semantic_Image_Synthesis_CVPR_2022_paper.pdf"
             },
             {
                 "language": "international",
