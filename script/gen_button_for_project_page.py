@@ -15,7 +15,7 @@ def append_button_html(path, data):
 			if category == 'papers':
 				for i in items:					
 					if i['language'] == 'international':
-						bibtex_button, bibtex_box = get_collapsed_bibtex_html(i, year)						
+						bibtex_button, bibtex_box, nickname = get_collapsed_bibtex_html(i, year)						
 						f.write(
 							# Paper information
 							'			<h4>%s</h4>\n' % i['title'] +

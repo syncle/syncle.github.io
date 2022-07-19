@@ -36,10 +36,10 @@ def write_html(file, data):
 				'	<div class="row gx-5 gy-4">\n')
 		# adding publication elements
 		for i in items_international:
-			bibtex_button, bibtex_box = get_collapsed_bibtex_html(i, year)
+			bibtex_button, bibtex_box, nickname = get_collapsed_bibtex_html(i, year)
 			# write a html for a paper
 			f.write(
-				'		<div class="col-lg-4 text-center">\n' +				
+				'		<div class="col-lg-4 text-center" id="%s">\n' % nickname +				
 				# Thumbnail image
 				'			<img src="%s" class="img-fluid rounded float-center img-thumbnail shadow mb-3">\n' % i['image'] + 
 				# Paper information

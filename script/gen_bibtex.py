@@ -58,11 +58,12 @@ def get_bibtex_str(i, year):
 
 def get_collapsed_bibtex_html(i, year):
     nickname = gen_nickname(i, year)
+    nickname_button = nickname + "_bibtex_button"
     bibtex = get_bibtex_str(i, year)
-    button = '<a class="btn btn-outline-secondary btn-sm" role="button" data-bs-toggle="collapse" data-bs-target="#%s" aria-expanded="false" aria-controls="%s">BibTeX</a>' % (nickname, nickname)
+    button = '<a class="btn btn-outline-secondary btn-sm" role="button" data-bs-toggle="collapse" data-bs-target="#%s" aria-expanded="false" aria-controls="%s">BibTeX</a>' % (nickname_button, nickname_button)
     button = indent_multiline_texts(button, 4)
     bibtex = indent_multiline_texts(bibtex, 4)
-    box = '<div class="collapse" id="%s">\n' % nickname + \
+    box = '<div class="collapse" id="%s_bibtex_button">\n' % nickname + \
             '	<div class="card">\n' + \
             '		<div class="card-body">\n' + \
             '			<p class="card-text text-start fw-lighter">\n' + \
@@ -72,7 +73,7 @@ def get_collapsed_bibtex_html(i, year):
             '	</div>\n' + \
             '</div>'
     box = indent_multiline_texts(box, 3)
-    return button, box
+    return button, box, nickname
 
 def test(data):
     for year in data:
