@@ -10,7 +10,15 @@
     },
     "2022": 
     {
-        "papers": [            
+        "papers": [
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "Learning Debiased Classifier with Biased Committee",
+                "author": ["Nayeong Kim", "Sehyun Hwang", "Sungsoo Ahn", "Jaesik Park", "Suha Kwak"],
+                "venue": "Workshop on Spurious Correlations, Invariance, and Stability (SCIS), <b>ICML workshop</b>",
+                "image": "publications/data/22_scis.jpg"                
+            },
             {
                 "language": "international",
                 "type": "arxiv",
@@ -18,7 +26,7 @@
                 "author": ["Kanghee Lee", "Junha Lee", "Jaesik Park"],
                 "venue": "2207.04221 (arXiv)",
                 "image": "publications/data/22_arxiv2.jpg",
-                "pdf": "https://arxiv.org/abs/2207.04221"                
+                "pdf": "https://arxiv.org/abs/2207.04221"
             },
             {
                 "language": "international",
