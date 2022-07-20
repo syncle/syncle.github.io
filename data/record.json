@@ -17,7 +17,7 @@
                 "title": "Learning Debiased Classifier with Biased Committee",
                 "author": ["Nayeong Kim", "Sehyun Hwang", "Sungsoo Ahn", "Jaesik Park", "Suha Kwak"],
                 "venue": "Workshop on Spurious Correlations, Invariance, and Stability (SCIS), <b>ICML workshop</b>",
-                "image": "publications/data/22_scis.jpg"                
+                "image": "publications/data/22_scis.jpg"
             },
             {
                 "language": "international",
@@ -32,9 +32,10 @@
                 "language": "international",
                 "type": "conference",
                 "title": "Style-Agnostic Reinforcement Learning",
-                "author": ["Juyong Lee", "Seokjun Ahn", "Jaesik Park"],
+                "author": ["Juyong Lee*", "Seokjun Ahn*", "Jaesik Park"],
                 "venue": "European Conference on Computer Vision (<b>ECCV</b>)",
                 "image": "publications/data/22_eccv1.jpg",
+                "comment": "(*Equal contribution)",
                 "code": "https://github.com/POSTECH-CVLab/style-agnostic-RL"
             },
             {
@@ -44,7 +45,8 @@
                 "author": ["Jaesung Choe*", "Chunghyun Park*", "Francois Rameau", "Jaesik Park", "In So Kweon"],
                 "venue": "European Conference on Computer Vision (<b>ECCV</b>)",
                 "image": "publications/data/22_eccv2.jpg",
-                "comment": "(*Equal contribution)"
+                "comment": "(*Equal contribution)",
+                "code": "https://github.com/LifeBeyondExpectations/ECCV22-PointMixer"
             },
             {
                 "language": "international",
