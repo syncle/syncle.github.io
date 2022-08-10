@@ -14,6 +14,15 @@
             {
                 "language": "international",
                 "type": "conference",
+                "title": "LaplacianFusion: Detailed 3D Clothed-Human Body Reconstruction",
+                "author": ["Hyomin Kim", "Hyeonseo Nam", "Jungeon Kim", "Jaesik Park", "Seungyong Lee"],
+                "venue": "ACM (<b>SIGGRAPH Asia</b>)",
+                "image": "publications/data/22_siggraph_asia.jpg",
+                "comment": "(Accepted as a journal track paper)"
+            },
+            {
+                "language": "international",
+                "type": "conference",
                 "title": "Learning Debiased Classifier with Biased Committee",
                 "author": ["Nayeong Kim", "Sehyun Hwang", "Sungsoo Ahn", "Jaesik Park", "Suha Kwak"],
                 "venue": "Workshop on Spurious Correlations, Invariance, and Stability (SCIS), <b>ICML workshop</b>",
