@@ -13,6 +13,18 @@
         "papers": [
             {
                 "language": "international",
+                "type": "arxiv",
+                "title": "PeRFception: Perception using Radiance Fields", 
+                "author": ["Yoonwoo Jeong*", "Seungjoo Shin*", "Junha Lee*", "Christopher Choy", "Animashree Anandkumar", "Minsu Cho", "Jaesik Park"],
+                "venue": "2208.11537 (arXiv)",
+                "image": "publications/data/22_perfception.jpg",
+                "pdf": "https://arxiv.org/abs/2208.11537",
+                "comment": "(*Equal contribution)",
+                "code": "https://github.com/POSTECH-CVLab/PeRFception",
+                "web": "https://postech-cvlab.github.io/PeRFception/"
+            },  
+            {
+                "language": "international",
                 "type": "conference",
                 "title": "Learning Debiased Classifier with Biased Committee",
                 "author": ["Nayeong Kim", "Sehyun Hwang", "Sungsoo Ahn", "Jaesik Park", "Suha Kwak"],
