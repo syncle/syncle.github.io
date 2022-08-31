@@ -7,8 +7,8 @@ def write_news(input_path, output_path, data):
 
 	dump_str = []
 
-	# recent items
-	K = 6
+	# K recent items would appear
+	K = 7
 	for record in data[:K]:
 		dump_str.append('				<li class="list-group-item">\n' +
 						'					%s\n' % record + 
