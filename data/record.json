@@ -48,6 +48,7 @@
                 "venue": "European Conference on Computer Vision (<b>ECCV</b>)",
                 "image": "publications/data/22_eccv1.jpg",
                 "comment": "(*Equal contribution)",
+                "pdf": "https://arxiv.org/abs/2208.14863",
                 "code": "https://github.com/POSTECH-CVLab/style-agnostic-RL"
             },
             {
