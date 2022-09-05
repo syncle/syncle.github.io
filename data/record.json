@@ -126,8 +126,9 @@
                 "title": "TextureMe: High-quality Textured Scene Reconstruction in Real-time", 
                 "author": ["Jungeon Kim", "Hyomin Kim", "Hyeonseo Nam", "Jaesik Park", "Seungyong Lee"],
                 "venue": "ACM Transactions on Graphics (<b>ToG</b>)",
-                "comment": "(will be presented at <b>SIGGRAPH2022</b>)",
-                "image": "publications/data/21_tog.jpg"
+                "comment": "(also presented at <b>SIGGRAPH2022</b>)",
+                "image": "publications/data/21_tog.jpg",
+                "pdf": "https://dl.acm.org/doi/full/10.1145/3503926"
             },
             {
                 "language": "international",
