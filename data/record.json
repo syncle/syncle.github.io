@@ -17,13 +17,14 @@
         "papers": [
             {
                 "language": "international",
-                "type": "arxiv",
+                "type": "conference",
                 "title": "PeRFception: Perception using Radiance Fields", 
                 "author": ["Yoonwoo Jeong*", "Seungjoo Shin*", "Junha Lee*", "Christopher Choy", "Animashree Anandkumar", "Minsu Cho", "Jaesik Park"],
-                "venue": "2208.11537 (arXiv)",
+                "venue": "Conference on Neural Information Processing Systems (<b>NeurIPS</b>) Datasets and Benchmarks Track",
                 "image": "publications/data/22_perfception.jpg",
                 "pdf": "https://arxiv.org/abs/2208.11537",
                 "comment": "(*Equal contribution)",
+                "github": "<a class=\"github-button\" href=\"https:\/\/github.com\/POSTECH-CVLab\/PeRFception\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star POSTECH-CVLab\/PeRFception on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/POSTECH-CVLab\/PeRFception\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork POSTECH-CVLab\/PeRFception on GitHub\">Fork<\/a>",
                 "code": "https://github.com/POSTECH-CVLab/PeRFception",
                 "web": "https://postech-cvlab.github.io/PeRFception/"
             },  
@@ -32,8 +33,16 @@
                 "type": "conference",
                 "title": "Learning Debiased Classifier with Biased Committee",
                 "author": ["Nayeong Kim", "Sehyun Hwang", "Sungsoo Ahn", "Jaesik Park", "Suha Kwak"],
-                "venue": "Workshop on Spurious Correlations, Invariance, and Stability (SCIS), <b>ICML workshop</b>",
+                "venue": "Conference on Neural Information Processing Systems (<b>NeurIPS</b>)",
                 "image": "publications/data/22_scis.jpg"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "A Roatated Hyperbolic Wrapped Normal Distribution for Hierarchical Representation Learning",
+                "author": ["Seunghyuk Cho", "Juyong Lee", "Jaesik Park", "Dongwoo Kim"],
+                "venue": "Conference on Neural Information Processing Systems (<b>NeurIPS</b>)",
+                "image": "publications/data/22_rown.jpg"
             },
             {
                 "language": "international",
@@ -112,6 +121,7 @@
                 "image": "publications/data/22_cvpr2.jpg",
                 "pdf": "https://openaccess.thecvf.com/content/CVPR2022/papers/Park_Fast_Point_Transformer_CVPR_2022_paper.pdf",
                 "code": "https://github.com/POSTECH-CVLab/FastPointTransformer",
+                "github": "<a class=\"github-button\" href=\"https:\/\/github.com\/POSTECH-CVLab\/FastPointTransformer\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star POSTECH-CVLab\/FastPointTransformer on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/POSTECH-CVLab\/FastPointTransformer\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork POSTECH-CVLab\/FastPointTransformer on GitHub\">Fork<\/a>",
                 "web": "http://cvlab.postech.ac.kr/research/FPT/"
             },
             {
