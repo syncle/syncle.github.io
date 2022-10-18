@@ -19,7 +19,7 @@
                 "language": "international",
                 "type": "arxiv",
                 "title": "Context-Aware Image Completion",
-                "author": ["Jinoh Cho", "Minguk Kang", "Jaesik Park"],
+                "author": ["Jinoh Cho", "Minguk Kang", "Vibhav Vineet", "Jaesik Park"],
                 "venue": "2210.xxxx (arXiv)",
                 "image": "publications/data/22_context.jpg",
                 "pdf": "https://arxiv.org/abs/2210.xxxx"
@@ -29,9 +29,9 @@
                 "type": "arxiv",
                 "title": "Substructure-Atom Cross Attention for Molecular Representation Learning",
                 "author": ["Jiye Kim", "Seungbeom Lee", "Dongwoo Kim", "Sungsoo Ahn", "Jaesik Park"],
-                "venue": "2210.xxxx (arXiv)",
+                "venue": "2210.08243 (arXiv)",
                 "image": "publications/data/22_molecular_learning.jpg",
-                "pdf": "https://arxiv.org/abs/2210.xxxx"
+                "pdf": "https://arxiv.org/abs/2210.08243"
             },
             {
                 "language": "international",
