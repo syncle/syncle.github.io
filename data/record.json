@@ -29,7 +29,7 @@
                 "type": "arxiv",
                 "title": "Substructure-Atom Cross Attention for Molecular Representation Learning",
                 "author": ["Jiye Kim", "Seungbeom Lee", "Dongwoo Kim", "Sungsoo Ahn", "Jaesik Park"],
-                "venue": "2210.08243 (arXiv)",
+                "venue": "AI for Science, <b>NeurIPS workshop</b>",
                 "image": "publications/data/22_molecular_learning.jpg",
                 "pdf": "https://arxiv.org/abs/2210.08243"
             },
