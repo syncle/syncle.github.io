@@ -27,15 +27,6 @@
             {
                 "language": "international",
                 "type": "arxiv",
-                "title": "Substructure-Atom Cross Attention for Molecular Representation Learning",
-                "author": ["Jiye Kim", "Seungbeom Lee", "Dongwoo Kim", "Sungsoo Ahn", "Jaesik Park"],
-                "venue": "AI for Science, <b>NeurIPS workshop</b>",
-                "image": "publications/data/22_molecular_learning.jpg",
-                "pdf": "https://arxiv.org/abs/2210.08243"
-            },
-            {
-                "language": "international",
-                "type": "arxiv",
                 "title": "Sequential Brick Assembly with Efficient Constraint Satisfaction",
                 "author": ["Seokjun Ahn", "Jungtaek Kim", "Minsu Cho", "Jaesik Park"],
                 "venue": "2210.01021 (arXiv)",
@@ -79,6 +70,23 @@
                 "author": ["Seunghyuk Cho", "Juyong Lee", "Jaesik Park", "Dongwoo Kim"],
                 "venue": "Conference on Neural Information Processing Systems (<b>NeurIPS</b>)",
                 "image": "publications/data/22_rown.jpg"
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
+                "title": "SeLCA: Self-Supervised Learning of Canonical Axis",
+                "author": ["Seungwook Kim", "Yoonwoo Jeong", "Chunghyun Park", "Jaesik Park", "Minsu Cho"],
+                "venue": "Symmetry and Geometry in Neural Representations (NeurReps), <b>NeurIPS workshop</b>",
+                "image": "publications/data/22_selca.jpg"
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
+                "title": "Substructure-Atom Cross Attention for Molecular Representation Learning",
+                "author": ["Jiye Kim", "Seungbeom Lee", "Dongwoo Kim", "Sungsoo Ahn", "Jaesik Park"],
+                "venue": "AI for Science, <b>NeurIPS workshop</b>",
+                "image": "publications/data/22_molecular_learning.jpg",
+                "pdf": "https://arxiv.org/abs/2210.08243"
             },
             {
                 "language": "international",
