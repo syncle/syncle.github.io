@@ -73,7 +73,7 @@
             },
             {
                 "language": "international",
-                "type": "arxiv",
+                "type": "conference",
                 "title": "SeLCA: Self-Supervised Learning of Canonical Axis",
                 "author": ["Seungwook Kim", "Yoonwoo Jeong", "Chunghyun Park", "Jaesik Park", "Minsu Cho"],
                 "venue": "Symmetry and Geometry in Neural Representations (NeurReps), <b>NeurIPS workshop</b>",
@@ -81,10 +81,10 @@
             },
             {
                 "language": "international",
-                "type": "arxiv",
+                "type": "conference",
                 "title": "Substructure-Atom Cross Attention for Molecular Representation Learning",
                 "author": ["Jiye Kim", "Seungbeom Lee", "Dongwoo Kim", "Sungsoo Ahn", "Jaesik Park"],
-                "venue": "AI for Science, <b>NeurIPS workshop</b>",
+                "venue": "AI for Science: Progress and Promises (AI4Science) <b>NeurIPS workshop</b>",
                 "image": "publications/data/22_molecular_learning.jpg",
                 "pdf": "https://arxiv.org/abs/2210.08243"
             },
