@@ -221,6 +221,11 @@
         ],
         "talks": [
             {
+                "title": "3D Vison and Open3D",
+                "venue": "Seoul National University, Seoul, Republic of Korea (hybrid)",
+                "month": 10
+            },
+            {
                 "title": "Fast Point Transformer",
                 "venue": "Harvard University, Boston, MA, USA (online)",
                 "month": 6
