@@ -18,15 +18,6 @@
             {
                 "language": "international",
                 "type": "arxiv",
-                "title": "Context-Aware Image Completion",
-                "author": ["Jinoh Cho", "Minguk Kang", "Vibhav Vineet", "Jaesik Park"],
-                "venue": "2210.xxxx (arXiv)",
-                "image": "publications/data/22_context.jpg",
-                "pdf": "https://arxiv.org/abs/2210.xxxx"
-            },
-            {
-                "language": "international",
-                "type": "arxiv",
                 "title": "Sequential Brick Assembly with Efficient Constraint Satisfaction",
                 "author": ["Seokjun Ahn", "Jungtaek Kim", "Minsu Cho", "Jaesik Park"],
                 "venue": "2210.01021 (arXiv)",
@@ -1430,7 +1421,7 @@
             {
                 "title": "<b>Summa Cum Laude</b>",
                 "awardee": "Hanyang University",
-                "comment": "GPA 4.32/4.5",
+                "comment": "GPA 4.31/4.5",
                 "month": 2
             }
         ]
