@@ -270,12 +270,27 @@
         ],
         "funding": [
             {
-                "title": "3D reconstruction system",
-                "source": "Osstem Implant, Republic of Korea",
-                "period": "2022.03-2022.07"
+                "title": "Efficient Neural Radiance Field",
+                "source": "Samsung Advanced Institute of Technology",
+                "period": "2022.12-2023.11 (Planned)"
             },
             {
-                "title": "Visual common sense (planned)",
+                "title": "3D Perception for Intelligent Robots",
+                "source": "LG Electronics",
+                "period": "2022.06-2022.12"
+            },
+            {
+                "title": "Multi-layered Visual Common Sense",
+                "source": "IITP (정보통신기획평가원), Republic of Korea",
+                "period": "2022.04-2026.12"
+            },
+            {
+                "title": "3D reconstruction system",
+                "source": "Osstem Implant, Republic of Korea",
+                "period": "2022.07-2023.06"
+            },
+            {
+                "title": "Discovering Visual Common Sense",
                 "source": "Qualcomm, USA",
                 "period": "2022.03-2023.03"
             },
