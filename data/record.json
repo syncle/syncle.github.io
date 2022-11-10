@@ -105,7 +105,7 @@
                 "venue": "European Conference on Computer Vision (<b>ECCV</b>)",
                 "image": "publications/data/22_eccv1.jpg",
                 "comment": "(*Equal contribution)",
-                "pdf": "https://arxiv.org/abs/2208.14863",
+                "pdf": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136990596.pdf",
                 "code": "https://github.com/POSTECH-CVLab/style-agnostic-RL"
             },
             {
@@ -116,6 +116,7 @@
                 "venue": "European Conference on Computer Vision (<b>ECCV</b>)",
                 "image": "publications/data/22_eccv2.jpg",
                 "comment": "(*Equal contribution)",
+                "pdf": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136870611.pdf",
                 "code": "https://github.com/LifeBeyondExpectations/ECCV22-PointMixer"
             },
             {
@@ -125,6 +126,7 @@
                 "author": ["Jaewon Kam", "Jungeon Kim", "Soongjin Kim", "Jaesik Park", "Seungyong Lee"],
                 "venue": "European Conference on Computer Vision (<b>ECCV</b>)",
                 "image": "publications/data/22_eccv3.jpg",
+                "pdf": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136620248.pdf",
                 "code": "https://github.com/kamse/CostDCNet"
             },
             {
