@@ -146,7 +146,8 @@
                 "title": "Learning to Assemble Geometric Shapes",
                 "author": ["Jinhwi Lee", "Jungtaek Kim", "Hyunsoo Chung", "Jaesik Park", "Minsu Cho"],
                 "venue": "International Joint Conference on Artificial Intelligence (<b>IJCAI</b>)",
-                "image": "publications/data/22_ijcai.jpg"
+                "image": "publications/data/22_ijcai.jpg",
+                "pdf": "https://www.ijcai.org/proceedings/2022/0146.pdf"
             },
             {
                 "language": "international",
