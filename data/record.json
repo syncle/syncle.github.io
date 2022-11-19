@@ -219,6 +219,24 @@
                 "month": 2
             }
         ],
+        "teaching": [
+            {
+                "title": "CSED703F Topics in AI: 3D Vision",
+                "semester": "Fall"
+            },
+            {
+                "title": "AIGS101 Artifical Intelligence Basis II",
+                "semester": "Fall"
+            },
+            {
+                "title": "CSED233 Data Structure",
+                "semester": "Spring"
+            },
+            {
+                "title": "AIGS101 Artifical Intelligence Basis I",
+                "semester": "Spring"
+            }
+        ],
         "talks": [
             {
                 "title": "3D Vison and Open3D",
