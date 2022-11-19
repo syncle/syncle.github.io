@@ -105,7 +105,7 @@
                 "venue": "European Conference on Computer Vision (<b>ECCV</b>)",
                 "image": "publications/data/22_eccv1.jpg",
                 "comment": "(*Equal contribution)",
-                "pdf": "https://arxiv.org/abs/2208.14863",
+                "pdf": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136990596.pdf",
                 "code": "https://github.com/POSTECH-CVLab/style-agnostic-RL"
             },
             {
@@ -116,6 +116,7 @@
                 "venue": "European Conference on Computer Vision (<b>ECCV</b>)",
                 "image": "publications/data/22_eccv2.jpg",
                 "comment": "(*Equal contribution)",
+                "pdf": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136870611.pdf",
                 "code": "https://github.com/LifeBeyondExpectations/ECCV22-PointMixer"
             },
             {
@@ -125,6 +126,7 @@
                 "author": ["Jaewon Kam", "Jungeon Kim", "Soongjin Kim", "Jaesik Park", "Seungyong Lee"],
                 "venue": "European Conference on Computer Vision (<b>ECCV</b>)",
                 "image": "publications/data/22_eccv3.jpg",
+                "pdf": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136620248.pdf",
                 "code": "https://github.com/kamse/CostDCNet"
             },
             {
@@ -144,7 +146,8 @@
                 "title": "Learning to Assemble Geometric Shapes",
                 "author": ["Jinhwi Lee", "Jungtaek Kim", "Hyunsoo Chung", "Jaesik Park", "Minsu Cho"],
                 "venue": "International Joint Conference on Artificial Intelligence (<b>IJCAI</b>)",
-                "image": "publications/data/22_ijcai.jpg"
+                "image": "publications/data/22_ijcai.jpg",
+                "pdf": "https://www.ijcai.org/proceedings/2022/0146.pdf"
             },
             {
                 "language": "international",
@@ -270,12 +273,27 @@
         ],
         "funding": [
             {
-                "title": "3D reconstruction system",
-                "source": "Osstem Implant, Republic of Korea",
-                "period": "2022.03-2022.07"
+                "title": "Efficient Neural Radiance Field",
+                "source": "Samsung Advanced Institute of Technology",
+                "period": "2022.12-2023.11 (Planned)"
             },
             {
-                "title": "Visual common sense (planned)",
+                "title": "3D Perception for Intelligent Robots",
+                "source": "LG Electronics",
+                "period": "2022.06-2022.12"
+            },
+            {
+                "title": "Multi-layered Visual Common Sense",
+                "source": "IITP (정보통신기획평가원), Republic of Korea",
+                "period": "2022.04-2026.12"
+            },
+            {
+                "title": "3D reconstruction system",
+                "source": "Osstem Implant, Republic of Korea",
+                "period": "2022.07-2023.06"
+            },
+            {
+                "title": "Discovering Visual Common Sense",
                 "source": "Qualcomm, USA",
                 "period": "2022.03-2023.03"
             },
