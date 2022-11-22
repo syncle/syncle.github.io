@@ -91,7 +91,7 @@ def get_latex_talks(data):
 					if not 'hide' in i:
 						dump_str.append('    \\resumeItem' + \
 						'{\\textit{' + i['title'] + '}, ' \
-							+ i['venue'] + ', ' \
+							+ change_html_bold_to_latex_bold(i['venue']) + ', ' \
 							+ (i['comment']  + ', ' if 'comment' in i else '') \
 							+ number_to_month(i['month']) + ' ' + year + '}\n')
 	dump_str.append('\\resumeItemListEnd\n\n\n\n')
