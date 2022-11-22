@@ -243,17 +243,22 @@
         "talks": [
             {
                 "title": "3D Vison and Open3D",
-                "venue": "Seoul National University, Seoul, Republic of Korea (hybrid)",
+                "venue": "<b>Seoul National University</b>, Seoul, Republic of Korea (offline+online)",
                 "month": 10
             },
             {
+                "title": "Object Detection from Images or Point Clouds",
+                "venue": "<b>LG Electronics</b>, Seoul (online), Republic of Korea",
+                "month": 8
+            },
+            {
                 "title": "Fast Point Transformer",
-                "venue": "Harvard University, Boston, MA, USA (online)",
+                "venue": "<b>Harvard University</b>, Boston, MA, USA (online)",
                 "month": 6
             },
             {
                 "title": "Self-Calibrating Neural Radiance Fields",
-                "venue": "Seoul National University, Seoul, Republic of Korea (online)",
+                "venue": "<b>Seoul National University</b>, Seoul, Republic of Korea (online)",
                 "month": 2
             }
         ],
@@ -535,27 +540,27 @@
         "talks": [
             {
                 "title": "Self-Calibrating Neural Radiance Fields",
-                "venue": "DGIST, Daegu, Republic of Korea",
+                "venue": "<b>DGIST</b>, Daegu, Republic of Korea (online)",
                 "month": 8
             },
             {
                 "title": "Object Detection from Images or Point Clouds",
-                "venue": "LG Electronics, Seoul, Republic of Korea",
+                "venue": "<b>LG Electronics</b>, Seoul, Republic of Korea",
                 "month": 8
             },
             {
                 "title": "Self-Calibrating Neural Radiance Fields",
-                "venue": "Korea Institute of Science and Technology (KIST), Virtual",
+                "venue": "Korea Institute of Science and Technology (<b>KIST</b>), Virtual",
                 "month": 6
             },
             {
                 "title": "Mentor Session: How to Become a Professor",
-                "venue": "Conference on Computer Vision and Pattern Recognition (CVPR 2021), Virtual",
+                "venue": "Conference on Computer Vision and Pattern Recognition (<b>CVPR 2021</b>), Virtual",
                 "month": 6
             },
             {
                 "title": "Recent Work on Image Generation",
-                "venue": "Gwangju Institute of Science and Technology (GIST), Virtual",
+                "venue": "<b>GIST</b>, Gwangju, Republic of Korea (online)",
                 "month": 5
             },
             {
@@ -728,22 +733,22 @@
         "talks": [
             {
                 "title": "Introduction to Computer Vision",
-                "venue": "Kyungbuk Science High School, Pohang, Republic of Korea",
+                "venue": "<b>Kyungbuk Science High School</b>, Pohang, Republic of Korea",
                 "month": 8
             },
             {
                 "title": "High-Dimensional Convolutional Networks for Geometric Pattern Recognition",
-                "venue": "KCCV 2020, Seoul, Republic of Korea",
+                "venue": "<b>KCCV 2020</b>, Seoul, Republic of Korea",
                 "month": 8
             },
             {
                 "title": "Object Detection from Images or Point Clouds",
-                "venue": "LG Electronics, Seoul, Republic of Korea",
+                "venue": "<b>LG Electronics</b>, Seoul, Republic of Korea",
                 "month": 8
             },
             {
                 "title": "Geometric Pattern Recognition",
-                "venue": "32nd Workshop on Image Processing and Image Understanding (IPIU2020)",
+                "venue": "32nd Workshop on Image Processing and Image Understanding (<b>IPIU2020</b>)",
                 "month": 2
             }
         ],
@@ -903,22 +908,22 @@
             },
             {
                 "title": "Open3D Tutorial and Fully Convolutional Geometric Features", 
-                "venue": "Korea Electronics Technology Institute, Seongnam, Republic of Korea", 
+                "venue": "Korea Electronics Technology Institute (<b>KETI</b>), Seongnam, Republic of Korea", 
                 "month": 11
             },
             {
                 "title": "Introduction to Computer Vision and Deep Learning",
-                "venue": "Daegu Science High School, Daegu, Republic of Korea",
+                "venue": "<b>Daegu Science High School</b>, Daegu, Republic of Korea",
                 "month": 8
             },
             {
                 "title": "3D Computer Vision and Open3D", 
-                "venue": "International Conference on Machine Vision Applications, Tokyo, Japan", 
+                "venue": "International Conference on Machine Vision Applications (<b>MVA</b>), Tokyo, Japan", 
                 "month": 5
             },
             {
                 "title": "3D Computer Vision and Open3D", 
-                "venue": "Qualcomm Head Quater, San Diego, USA", 
+                "venue": "<b>Qualcomm Head Quater</b>, San Diego, USA", 
                 "month": 6
             }
         ],
@@ -1006,13 +1011,13 @@
         "talks": [
             {
                 "title": "3D reconstruction using Open3D",
-                "venue": "Minneapolis, University of Minnesota",
+                "venue": "Minneapolis, <b>University of Minnesota</b>",
                 "comment": "invited lecture for Multiview 3D Geometry in Computer Vision (CSCI 5980) Class",
                 "month": 4
             },
             {
                 "title": "3D reconstruction using Open3D", 
-                "venue": "Forma Technology (a startup company at Bay Area), San Francisco, USA", 
+                "venue": "<b>Forma Technology</b> (now acquired by <b>Snap Inc.</b>), San Francisco, USA", 
                 "month": 3
             }
         ],
