@@ -3,6 +3,10 @@
     {
         "program committee": [
             {
+                "title": "<b>Area Chair</b>",
+                "venue": "International Conference on Computer Vision (<b>ICCV</b>)"
+            },
+            {
                 "title": "<b>Associate Editor</b>",
                 "venue": "International Conference on Robotics and Automation (<b>ICRA</b>)"
             },
