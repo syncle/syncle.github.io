@@ -203,7 +203,28 @@
                 "venue": "International Conference on Learning Representations (<b>ICLR</b>)",
                 "image": "publications/data/21_arxiv.jpg",
                 "pdf": "https://arxiv.org/abs/2111.11704"
-            },            
+            }, 
+            {
+                "language": "domestic",
+                "title": "분자 표현학습을 위한 하부구조 인식 그래프 트랜스포머", 
+                "author": ["Jiye Kim", "Seungbeom Lee", "Dongwoo Kim", "Sungsoo Ahn", "Jaesik Park"],
+                "venue": "한국멀티미디어학회 추계학술대회",
+                "month": 11
+            },
+            {
+                "language": "domestic",
+                "title": "비균등 점군집 정합을 위한 계층적인 매칭 모듈", 
+                "author": ["Kanghee Lee", "Junha Lee", "Jaesik Park"],
+                "venue": "한국멀티미디어학회 추계학술대회",
+                "month": 11
+            },
+            {
+                "language": "domestic",
+                "title": "맥락에 부합하는 영상 완성 기법", 
+                "author": ["Jinoh Cho", "Minguk Kang", "Jaesik Park"],
+                "venue": "한국멀티미디어학회 추계학술대회",
+                "month": 11
+            },
             {
                 "language": "domestic",
                 "title": "탐색 알고리즘을 활용한 순차적 조각 조립", 
