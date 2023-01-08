@@ -44,7 +44,8 @@
                 "author": ["Hyomin Kim", "Hyeonseo Nam", "Jungeon Kim", "Jaesik Park", "Seungyong Lee"],
                 "venue": "ACM (<b>SIGGRAPH Asia</b>)",
                 "image": "publications/data/22_siggraph_asia.jpg",
-                "comment": "(Accepted as a journal track paper)"
+                "comment": "(Accepted as a journal track paper)",
+                "pdf": "https://dl.acm.org/doi/abs/10.1145/3550454.3555511"
             },
             {
                 "language": "international",
@@ -65,15 +66,17 @@
                 "title": "Learning Debiased Classifier with Biased Committee",
                 "author": ["Nayeong Kim", "Sehyun Hwang", "Sungsoo Ahn", "Jaesik Park", "Suha Kwak"],
                 "venue": "Conference on Neural Information Processing Systems (<b>NeurIPS</b>)",
-                "image": "publications/data/22_scis.jpg"
+                "image": "publications/data/22_scis.jpg",
+                "pdf": "https://arxiv.org/abs/2206.10843"
             },
             {
                 "language": "international",
                 "type": "conference",
-                "title": "A Roatated Hyperbolic Wrapped Normal Distribution for Hierarchical Representation Learning",
+                "title": "A Rotated Hyperbolic Wrapped Normal Distribution for Hierarchical Representation Learning",
                 "author": ["Seunghyuk Cho", "Juyong Lee", "Jaesik Park", "Dongwoo Kim"],
                 "venue": "Conference on Neural Information Processing Systems (<b>NeurIPS</b>)",
-                "image": "publications/data/22_rown.jpg"
+                "image": "publications/data/22_rown.jpg",
+                "pdf": "https://arxiv.org/abs/2205.13371"
             },
             {
                 "language": "international",
