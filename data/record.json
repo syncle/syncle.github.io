@@ -1,6 +1,25 @@
 {
     "2023":
     {
+        "papers": [
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "Scene-level Point Cloud Colorization with Semantic-and-Geometric-aware Networks",
+                "author": ["Rongrong Gao", "Tian-Zhu Xiang", "Chenyang Lei", "Jaesik Park", "Qifeng Chen"],
+                "venue": "IEEE International Conference on Robotics and Automation (<b>ICRA</b>)",
+                "image": "publications/data/23_icra.jpg"
+            },
+            {
+                "language": "international",
+                "type": "journal",
+                "title": "Deep 3D Reconstruction of Synchrotron X-ray Computed Tomography for Intact Lungs",
+                "author": ["Seungjoo Shin*", "Min Woo Kim*", "Kyong Hwan Jin", "Kwang Moo Yi", "Yoshiki Kohmura", "Tetsuya Ishikawa", "Jung Ho Je", "Jaesik Park"],
+                "venue": "published by Nature Research (<b>Scientific Reports</b>)",
+                "image": "publications/data/23_scientific_reports.jpg",
+                "comment": "(*Equal contribution)"
+            }
+        ],
         "program committee": [
             {
                 "title": "<b>Area Chair</b>",
