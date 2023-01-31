@@ -17,7 +17,8 @@
                 "author": ["Seungjoo Shin*", "Min Woo Kim*", "Kyong Hwan Jin", "Kwang Moo Yi", "Yoshiki Kohmura", "Tetsuya Ishikawa", "Jung Ho Je", "Jaesik Park"],
                 "venue": "published by Nature Research (<b>Scientific Reports</b>)",
                 "image": "publications/data/23_scientific_reports.jpg",
-                "comment": "(*Equal contribution)"
+                "comment": "(*Equal contribution)",
+                "pdf": "https://www.nature.com/articles/s41598-023-27627-y"
             }
         ],
         "program committee": [
