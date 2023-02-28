@@ -5,6 +5,23 @@
             {
                 "language": "international",
                 "type": "conference",
+                "title": "Scaling up GANs for Text-to-Image Synthesis",
+                "author": ["Minguk Kang*", "Taesung Park*", "Jun-Yan Zhu", "Richard Zhang", "Jaesik Park", "Eli Shechtman", "Sylvain Paris"],
+                "venue": "International Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
+                "comment": "(*Equal contribution)",
+                "image": "publications/data/23_cvpr1.jpg"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "Instant Domain Augmentation for LiDAR Semantic Segmentation",
+                "author": ["Kwonyoung Ryu", "Soonmin Hwang", "Jaesik Park"],
+                "venue": "International Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
+                "image": "publications/data/23_cvpr2.jpg"
+            },
+            {
+                "language": "international",
+                "type": "conference",
                 "title": "Scene-level Point Cloud Colorization with Semantic-and-Geometric-aware Networks",
                 "author": ["Rongrong Gao", "Tian-Zhu Xiang", "Chenyang Lei", "Jaesik Park", "Qifeng Chen"],
                 "venue": "IEEE International Conference on Robotics and Automation (<b>ICRA</b>)",
