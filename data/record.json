@@ -6,9 +6,8 @@
                 "language": "international",
                 "type": "conference",
                 "title": "Scaling up GANs for Text-to-Image Synthesis",
-                "author": ["Minguk Kang*", "Taesung Park*", "Jun-Yan Zhu", "Richard Zhang", "Jaesik Park", "Eli Shechtman", "Sylvain Paris"],
+                "author": ["Minguk Kang", "Jun-Yan Zhu", "Richard Zhang", "Jaesik Park", "Eli Shechtman", "Sylvain Paris", "Taesung Park"],
                 "venue": "International Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
-                "comment": "(*Equal contribution)",
                 "image": "publications/data/23_cvpr1.jpg"
             },
             {
