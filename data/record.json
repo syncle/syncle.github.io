@@ -40,6 +40,10 @@
         "program committee": [
             {
                 "title": "<b>Area Chair</b>",
+                "venue": "Conference on Neural Information Processing Systems (<b>NeurIPS</b>)"
+            },
+            {
+                "title": "<b>Area Chair</b>",
                 "venue": "International Conference on Computer Vision (<b>ICCV</b>)"
             },
             {
@@ -49,6 +53,25 @@
             {
                 "title": "<b>Area Chair</b>",
                 "venue": "International Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)"
+            }
+        ],
+        "funding": [
+            {
+                "title": "과학기술정보통신부 중견연구자 지원사업",
+                "source": "Ministry of Science and ICT, Republic of Korea",
+                "period": "2023.03-2026.02"
+            }
+        ],
+        "talks": [
+            {
+                "title": "컴퓨터 비전을 위한 딥러닝 프로그래밍",
+                "venue": "사단법인 한국컴퓨터비전학회, Online Lecture",
+                "month": 2
+            },
+            {
+                "title": "전자공학회 영상이해 연구회 겨울학교",
+                "venue": "대한전자공학회, Hoengseong, Republic of Korea",
+                "month": 1
             }
         ]
     },
@@ -344,7 +367,7 @@
             {
                 "title": "Efficient Neural Radiance Field",
                 "source": "Samsung Advanced Institute of Technology",
-                "period": "2022.12-2023.11 (Planned)"
+                "period": "2022.12-2023.11"
             },
             {
                 "title": "3D Perception for Intelligent Robots",
