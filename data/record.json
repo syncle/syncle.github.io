@@ -85,7 +85,7 @@
             {
                 "language": "international",
                 "type": "arxiv",
-                "title": "Context-Aware Image Completion",
+                "title": "Instance-Aware Image Completion",
                 "author": ["Jinoh Cho", "Minguk Kang", "Vibhav Vineet", "Jaesik Park"],
                 "venue": "2210.12350 (arXiv)",
                 "image": "publications/data/22_context.jpg",
