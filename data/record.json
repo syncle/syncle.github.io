@@ -361,10 +361,6 @@
             {
                 "title": "<b>Associate Editor</b>",
                 "venue": "IEEE Int. Conf. on Robotics and Automation (<b>ICRA</b>)"
-            },
-            {
-                "title": "Senior Program Committee",
-                "venue": "Assoc. for the Advancement of Artificial Intelligence (<b>AAAI</b>)"
             }
         ],
         "funding": [
@@ -626,6 +622,10 @@
             {
                 "title": "Senior Program Committee",
                 "venue": "Int. Joint Conf. on Artificial Intelligence (<b>IJCAI</b>)"
+            },
+            {
+                "title": "Senior Program Committee",
+                "venue": "Assoc. for the Advancement of Artificial Intelligence (<b>AAAI</b>)"
             }
         ],
         "talks": [
