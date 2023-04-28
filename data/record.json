@@ -32,6 +32,15 @@
             },
             {
                 "language": "international",
+                "type": "arxiv",
+                "title": "Learning to Register Unbalanced Point Pairs",
+                "author": ["Kanghee Lee", "Junha Lee", "Jaesik Park"],
+                "venue": "3D Vision and Robotics <b>CVPR workshop</b>",
+                "image": "publications/data/22_arxiv2.jpg",
+                "pdf": "https://arxiv.org/abs/2207.04221"
+            },
+            {
+                "language": "international",
                 "type": "conference",
                 "title": "Scene-level Point Cloud Colorization with Semantic-and-Geometric-aware Networks",
                 "author": ["Rongrong Gao", "Tian-Zhu Xiang", "Chenyang Lei", "Jaesik Park", "Qifeng Chen"],
@@ -165,15 +174,6 @@
                 "venue": "AI for Science: Progress and Promises (AI4Science) <b>NeurIPS workshop</b>",
                 "image": "publications/data/22_molecular_learning.jpg",
                 "pdf": "https://arxiv.org/abs/2210.08243"
-            },
-            {
-                "language": "international",
-                "type": "arxiv",
-                "title": "Learning to Register Unbalanced Point Pairs",
-                "author": ["Kanghee Lee", "Junha Lee", "Jaesik Park"],
-                "venue": "2207.04221 (arXiv)",
-                "image": "publications/data/22_arxiv2.jpg",
-                "pdf": "https://arxiv.org/abs/2207.04221"
             },
             {
                 "language": "international",
