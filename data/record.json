@@ -44,7 +44,7 @@
                 "type": "conference",
                 "title": "Instance-Aware Image Completion",
                 "author": ["Jinoh Cho", "Minguk Kang", "Vibhav Vineet", "Jaesik Park"],
-                "venue": "AI for Content Creation Workshop (AI4CC) <b>CVPR workshop</b>",
+                "venue": "AI for Content Creation (AI4CC) <b>CVPR workshop</b>",
                 "image": "publications/data/22_context.jpg",
                 "pdf": "http://arxiv.org/abs/2210.12350"
             },
