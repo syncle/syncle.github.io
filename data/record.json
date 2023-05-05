@@ -32,12 +32,21 @@
             },
             {
                 "language": "international",
-                "type": "arxiv",
+                "type": "conference",
                 "title": "Learning to Register Unbalanced Point Pairs",
                 "author": ["Kanghee Lee", "Junha Lee", "Jaesik Park"],
                 "venue": "3D Vision and Robotics <b>CVPR workshop</b>",
                 "image": "publications/data/22_arxiv2.jpg",
                 "pdf": "https://arxiv.org/abs/2207.04221"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "Instance-Aware Image Completion",
+                "author": ["Jinoh Cho", "Minguk Kang", "Vibhav Vineet", "Jaesik Park"],
+                "venue": "AI for Content Creation Workshop (AI4CC) <b>CVPR workshop</b>",
+                "image": "publications/data/22_context.jpg",
+                "pdf": "http://arxiv.org/abs/2210.12350"
             },
             {
                 "language": "international",
@@ -99,15 +108,6 @@
     "2022": 
     {
         "papers": [
-            {
-                "language": "international",
-                "type": "arxiv",
-                "title": "Instance-Aware Image Completion",
-                "author": ["Jinoh Cho", "Minguk Kang", "Vibhav Vineet", "Jaesik Park"],
-                "venue": "2210.12350 (arXiv)",
-                "image": "publications/data/22_context.jpg",
-                "pdf": "http://arxiv.org/abs/2210.12350"
-            },
             {
                 "language": "international",
                 "type": "arxiv",
