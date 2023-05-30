@@ -69,6 +69,10 @@
         ],
         "program committee": [
             {
+                "title": "<b>Technical Papers Committee</b>",
+                "venue": "ACM (<b>SIGGRAPH Asia</b>)"
+            },
+            {
                 "title": "<b>Area Chair</b>",
                 "venue": "Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)"
             },
