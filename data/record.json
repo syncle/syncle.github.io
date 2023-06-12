@@ -4,6 +4,33 @@
         "papers": [
             {
                 "language": "international",
+                "type": "arxiv",
+                "title": "Fill-Up: Balancing Long-Tailed Data with Generative Models",
+                "author": ["Joonghyuk Shin", "Minguk Kang", "Jaesik Park"],
+                "venue": "xxxx.xxxxx (arXiv)",
+                "image": "publications/data/23_arxiv1.jpg",
+                "pdf": ""
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
+                "title": "Binary Radiance Fields",
+                "author": ["Seungjoo Shin", "Jaesik Park"],
+                "venue": "xxxx.xxxxx (arXiv)",
+                "image": "publications/data/23_arxiv2.jpg",
+                "pdf": ""
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
+                "title": "RISCLIP: Referring Image Segmentation Framework using CLIP",
+                "author": ["Seoyeon Kim", "Minguk Kang", "Jaesik Park"],
+                "venue": "xxxx.xxxxx (arXiv)",
+                "image": "publications/data/23_arxiv3.jpg",
+                "pdf": ""
+            },
+            {
+                "language": "international",
                 "type": "conference",
                 "title": "Stable and Consistent Prediction of 3D Characteristic Orientation via Invariant Residual Learning",
                 "author": ["Seungwook Kim", "Chunghyun Park", "Yoonwoo Jeong", "Jaesik Park", "Minsu Cho"],
