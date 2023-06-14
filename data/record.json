@@ -7,18 +7,18 @@
                 "type": "arxiv",
                 "title": "Fill-Up: Balancing Long-Tailed Data with Generative Models",
                 "author": ["Joonghyuk Shin", "Minguk Kang", "Jaesik Park"],
-                "venue": "xxxx.xxxxx (arXiv)",
+                "venue": "2306.07200 (arXiv)",
                 "image": "publications/data/23_arxiv1.jpg",
-                "pdf": ""
+                "pdf": "https://arxiv.org/abs/2306.07200"
             },
             {
                 "language": "international",
                 "type": "arxiv",
                 "title": "Binary Radiance Fields",
                 "author": ["Seungjoo Shin", "Jaesik Park"],
-                "venue": "xxxx.xxxxx (arXiv)",
+                "venue": "2306.07581 (arXiv)",
                 "image": "publications/data/23_arxiv2.jpg",
-                "pdf": ""
+                "pdf": "https://arxiv.org/abs/2306.07581"
             },
             {
                 "language": "international",
