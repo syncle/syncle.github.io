@@ -95,6 +95,16 @@
                 "pdf": "https://www.nature.com/articles/s41598-023-27627-y"
             }
         ],
+        "teaching": [
+            {
+                "title": "CSED233 Data Structure",
+                "semester": "Spring"
+            },
+            {
+                "title": "AIGS537 Artificial Intelligence & Data Science",
+                "semester": "Spring"
+            }
+        ],
         "program committee": [
             {
                 "title": "<b>Technical Papers Committee</b>",
