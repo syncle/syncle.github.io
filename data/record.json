@@ -146,6 +146,11 @@
         ],
         "talks": [
             {
+                "title": "Social Speed Mentoring",
+                "venue": "CVPR 2023, Vancouver, Canada",
+                "month": 6
+            },
+            {
                 "title": "Generative AI가 산업에 미치는 영향과 성장 전략 - 패널토론",
                 "venue": "인공지능 혁신 허브 콜로키엄, Jeju, Republic of Korea",
                 "month": 5
