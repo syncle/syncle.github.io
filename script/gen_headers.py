@@ -3,17 +3,11 @@ from domain import get_domain
 
 def write_header_html(file, type):
 	active_index = ''
-	active_about_me = ''
 	active_publications = ''
-	active_academic_activities = ''
 	active_contact = ''
 	active_lab = ''
-	if type == 'About me':
-		active_about_me = 'active'
-	elif type == 'Publications':
+	if type == 'Publications':
 		active_publications = 'active'
-	elif type == 'Academic activities':
-		active_academic_activities = 'active'
 	elif type == '@POSTECH':
 		active_lab = 'active'
 	elif type == 'Contact':
@@ -65,8 +59,6 @@ def write_header_html(file, type):
 		'		<div class="collapse navbar-collapse" id="navbarResponsive">\n' +
 		'			<ul class="navbar-nav ms-auto">\n' +
 		'				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3" href="%s"></a></li>\n' % get_domain()+
-		'				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link %s py-3 px-0 px-lg-3" href="%s/about_me">About me</a></li>\n' % (active_about_me, get_domain())+
-		'				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link %s py-3 px-0 px-lg-3" href="%s/academic_activities">Academic activities</a></li>\n' % (active_academic_activities, get_domain())+
 		'				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link %s py-3 px-0 px-lg-3" href="%s/publications">Publications</a></li>\n' % (active_publications, get_domain())+
 		'				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link %s py-3 px-0 px-lg-3" href="%s/lab">@POSTECH</a></li>\n' % (active_lab, get_domain())+
 		'				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link %s py-3 px-0 px-lg-3" href="%s/contact">Contact</a></li>\n' % (active_contact, get_domain())+
