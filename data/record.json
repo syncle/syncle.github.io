@@ -45,7 +45,8 @@
                 "title": "Stable and Consistent Prediction of 3D Characteristic Orientation via Invariant Residual Learning",
                 "author": ["Seungwook Kim", "Chunghyun Park", "Yoonwoo Jeong", "Jaesik Park", "Minsu Cho"],
                 "venue": "Int. Conf. on Machine Learning (<b>ICML</b>)",
-                "image": "publications/data/23_icml.jpg"
+                "image": "publications/data/23_icml.jpg",
+                "pdf": "https://arxiv.org/abs/2306.11406"
             },
             {
                 "language": "international",
