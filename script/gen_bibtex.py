@@ -36,6 +36,7 @@ def get_bibtex_article(i, year):
         ('\nVolume={%s},<br>' % i['volume'] if 'volume' in i else '') + \
         ('\nNumber={%s},<br>' % i['number'] if 'number' in i else '') + \
         ('\nPages={%s},<br>' % i['pages'] if 'pages' in i else '') + \
+        '\nYear={%s}<br>' % year + \
         '\n}'
     return bibitem
 
