@@ -13,6 +13,15 @@
         "papers": [
             {
                 "language": "international",
+                "type": "journal",
+                "title": "High-Speed Stereo Visual SLAM For Low-Powered Computing Devices",
+                "author": ["Ashish Kumar", "Jaesik Park", "Laxmidhar Behera"],
+                "venue": "IEEE Robotics and Automation Letters (<b>RA-L</b>)",
+                "image": "publications/data/23_ral.jpg",
+                "code": "https://github.com/ashishkumar822/Jetson-SLAM"
+            },
+            {
+                "language": "international",
                 "type": "arxiv",
                 "title": "Fill-Up: Balancing Long-Tailed Data with Generative Models",
                 "author": ["Joonghyuk Shin", "Minguk Kang", "Jaesik Park"],
