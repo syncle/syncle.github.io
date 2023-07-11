@@ -165,8 +165,13 @@
         ],
         "talks": [
             {
+                "title": "Storage Efficient Radiance Fields",
+                "venue": "Electronics and Telecommunications Research Institute (<b>ETRI</b>), Daejeon, Republic of Korea",
+                "month": 7
+            },
+            {
                 "title": "Social Speed Mentoring",
-                "venue": "CVPR 2023, Vancouver, Canada",
+                "venue": "<b>CVPR 2023</b>, Vancouver, Canada",
                 "month": 6
             },
             {
