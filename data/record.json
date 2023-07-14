@@ -13,6 +13,14 @@
         "papers": [
             {
                 "language": "international",
+                "type": "conference",
+                "title": "Spacetime Surface Regularization for Neural Scene Reconstruction",
+                "author": ["Jaesung Choe", "Christopher Choy", "Jaesik Park", "In So Kweon", "Animashree Anandkumar"],
+                "venue": "Int. Conf. on Computer Vision (<b>ICCV</b>)",
+                "image": "publications/data/23_iccv.jpg"
+            },
+            {
+                "language": "international",
                 "type": "journal",
                 "title": "High-Speed Stereo Visual SLAM For Low-Powered Computing Devices",
                 "author": ["Ashish Kumar", "Jaesik Park", "Laxmidhar Behera"],
