@@ -42,5 +42,5 @@ if __name__ == "__main__":
 	gen_project_page('publications/depthups/', 'High Quality Depth Map Upsampling')
 	gen_project_page('publications/multiviewps/', 'Multiview Photometric Stereo')
 
-	gen_page('lab', "@POSTECH")
+	gen_page('lab', "Lab")
 	gen_page('contact', 'Contact')

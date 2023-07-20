@@ -60,7 +60,7 @@ def write_header_html(file, type):
 		'			<ul class="navbar-nav ms-auto">\n' +
 		'				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3" href="%s"></a></li>\n' % get_domain()+
 		'				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link %s py-3 px-0 px-lg-3" href="%s/publications">Publications</a></li>\n' % (active_publications, get_domain())+
-		'				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link %s py-3 px-0 px-lg-3" href="%s/lab">@POSTECH</a></li>\n' % (active_lab, get_domain())+
+		'				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link %s py-3 px-0 px-lg-3" href="%s/lab">Lab</a></li>\n' % (active_lab, get_domain())+
 		'				<li class="nav-item mx-0 mx-lg-1"><a class="nav-link %s py-3 px-0 px-lg-3" href="%s/contact">Contact</a></li>\n' % (active_contact, get_domain())+
 		'			</ul>\n' +
 		'		</div>\n' +
