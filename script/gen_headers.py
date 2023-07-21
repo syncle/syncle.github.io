@@ -8,7 +8,7 @@ def write_header_html(file, type):
 	active_lab = ''
 	if type == 'Publications':
 		active_publications = 'active'
-	elif type == '@POSTECH':
+	elif type == 'Lab':
 		active_lab = 'active'
 	elif type == 'Contact':
 		active_contact = 'active'
