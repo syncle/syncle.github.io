@@ -13,6 +13,17 @@
         "papers": [
             {
                 "language": "international",
+                "type": "journal",
+                "title": "StudioGAN: A Taxonomy and Benchmark of GANs for Image Synthesis",
+                "author": ["MinGuk Kang", "Joonghyuk Shin", "Jaesik Park"],
+                "venue": "Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>)",
+                "image": "publications/data/22_studio_gan.jpg",
+                "code": "https://github.com/POSTECH-CVLab/PyTorch-StudioGAN",
+                "github": "<a class=\"github-button\" href=\"https:\/\/github.com\/POSTECH-CVLab\/PyTorch-StudioGAN\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star POSTECH-CVLab\/PyTorch-StudioGAN on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/POSTECH-CVLab\/PyTorch-StudioGAN\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork POSTECH-CVLab\/PyTorch-StudioGAN on GitHub\">Fork<\/a>",
+                "pdf": "https://arxiv.org/abs/2206.09479"
+            },
+            {
+                "language": "international",
                 "type": "conference",
                 "title": "Spacetime Surface Regularization for Neural Scene Reconstruction",
                 "author": ["Jaesung Choe", "Christopher Choy", "Jaesik Park", "In So Kweon", "Animashree Anandkumar"],
@@ -305,17 +316,6 @@
                 "image": "publications/data/22_eccv3.jpg",
                 "pdf": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136620248.pdf",
                 "code": "https://github.com/kamse/CostDCNet"
-            },
-            {
-                "language": "international",
-                "type": "arxiv",
-                "title": "StudioGAN: A Taxonomy and Benchmark of GANs for Image Synthesis",
-                "author": ["MinGuk Kang", "Joonghyuk Shin", "Jaesik Park"],
-                "venue": "2206.09479 (arXiv)",
-                "image": "publications/data/22_studio_gan.jpg",
-                "code": "https://github.com/POSTECH-CVLab/PyTorch-StudioGAN",
-                "github": "<a class=\"github-button\" href=\"https:\/\/github.com\/POSTECH-CVLab\/PyTorch-StudioGAN\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star POSTECH-CVLab\/PyTorch-StudioGAN on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/POSTECH-CVLab\/PyTorch-StudioGAN\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork POSTECH-CVLab\/PyTorch-StudioGAN on GitHub\">Fork<\/a>",
-                "pdf": "https://arxiv.org/abs/2206.09479"
             },
             {
                 "language": "international",
