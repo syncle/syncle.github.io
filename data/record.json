@@ -179,6 +179,11 @@
         ],
         "talks": [
             {
+                "title": "Towards NeRF at scale",
+                "venue": "Seoul National University, Seoul, Republic of Korea",
+                "month": 8
+            },
+            {
                 "title": "Storage Efficient Radiance Fields",
                 "venue": "Electronics and Telecommunications Research Institute (<b>ETRI</b>), Daejeon, Republic of Korea",
                 "month": 7
