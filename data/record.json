@@ -3,8 +3,8 @@
     {
         "program committee": [
             {
-                "title": "<b>Area Chair</b>",
-                "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)"
+                "title": "<b>Associate Editor</b>",
+                "venue": "Int. Conf. on Robotics and Automation (<b>ICRA</b>)"
             },
             {
                 "title": "<b>Area Chair</b>",
@@ -162,14 +162,14 @@
         ],
         "funding": [
             {
-                "title": "Few-shot image synthesis",
+                "title": "Few-shot 3D shape reconstruction",
                 "source": "Hyundai Motor Group",
-                "period": "2023.09-2026.08"
+                "period": "2023.09-2024.08"
             },
             {
-                "title": "3D LiDAR detection",
+                "title": "Robust 3D LiDAR perception",
                 "source": "Hyundai Motor Group",
-                "period": "2023.06-2026.06"
+                "period": "2023.06-2024.05"
             },
             {
                 "title": "과학기술정보통신부 중견연구자 지원사업",
@@ -504,7 +504,7 @@
             {
                 "title": "Google Cloud Platform Credit Award",
                 "source": "Google LLC, USA",
-                "period": "2022.03-current"
+                "period": "2022.03"
             }
         ],
         "awards": [
