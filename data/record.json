@@ -17,6 +17,15 @@
         "papers": [
             {
                 "language": "international",
+                "type": "conference",
+                "title": "Binary Radiance Fields",
+                "author": ["Seungjoo Shin", "Jaesik Park"],
+                "venue": "Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
+                "image": "publications/data/23_neurips.jpg",
+                "pdf": "https://arxiv.org/abs/2306.07581"
+            },
+            {
+                "language": "international",
                 "type": "journal",
                 "title": "StudioGAN: A Taxonomy and Benchmark of GANs for Image Synthesis",
                 "author": ["MinGuk Kang", "Joonghyuk Shin", "Jaesik Park"],
@@ -43,15 +52,6 @@
                 "image": "publications/data/23_arxiv1.jpg",
                 "pdf": "https://arxiv.org/abs/2306.07200",
                 "web": "https://alex4727.github.io/Fill-Up"
-            },
-            {
-                "language": "international",
-                "type": "arxiv",
-                "title": "Binary Radiance Fields",
-                "author": ["Seungjoo Shin", "Jaesik Park"],
-                "venue": "2306.07581 (arXiv)",
-                "image": "publications/data/23_arxiv2.jpg",
-                "pdf": "https://arxiv.org/abs/2306.07581"
             },
             {
                 "language": "international",
