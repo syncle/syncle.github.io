@@ -41,7 +41,8 @@
                 "title": "Spacetime Surface Regularization for Neural Dynamic Scene Reconstruction",
                 "author": ["Jaesung Choe", "Christopher Choy", "Jaesik Park", "In So Kweon", "Animashree Anandkumar"],
                 "venue": "Int. Conf. on Computer Vision (<b>ICCV</b>)",
-                "image": "publications/data/23_iccv.jpg"
+                "image": "publications/data/23_iccv.jpg",
+                "pdf": "https://openaccess.thecvf.com/content/ICCV2023/papers/Choe_Spacetime_Surface_Regularization_for_Neural_Dynamic_Scene_Reconstruction_ICCV_2023_paper.pdf"
             },
             {
                 "language": "international",
