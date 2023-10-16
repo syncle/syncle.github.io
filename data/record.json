@@ -17,6 +17,14 @@
         "papers": [
             {
                 "language": "international",
+                "type": "journal",
+                "title": "High-Speed Stereo Visual SLAM for Low-Powered Computing Devices",
+                "author": ["Ashish Kumar", "Jaesik Park", "Laxmidhar Behera"],
+                "venue": "IEEE Robotics and Automation Letters (<b>RAL</b>)",
+                "image": "publications/data/23_ral.jpg"
+            },
+            {
+                "language": "international",
                 "type": "conference",
                 "title": "Binary Radiance Fields",
                 "author": ["Seungjoo Shin", "Jaesik Park"],
