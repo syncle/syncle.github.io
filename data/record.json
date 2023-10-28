@@ -139,6 +139,10 @@
         ],
         "teaching": [
             {
+                "title": "Topics in Machine Learning: Basics and Applications on Generative AI",
+                "semester": "Fall"
+            },
+            {
                 "title": "CSED233 Data Structure",
                 "semester": "Spring"
             },
@@ -188,8 +192,13 @@
         ],
         "talks": [
             {
-                "title": "Towards NeRF at scale",
-                "venue": "Seoul National University, Seoul, Republic of Korea",
+                "title": "Learning to Understand 3D Point Clouds",
+                "venue": "2023 Fall Workshop on Algorithms and Computation, POSTECH, Pohang, Republic of Korea",
+                "month": 10
+            },
+            {
+                "title": "Towards NeRF at Scale",
+                "venue": "Computing Frontier Summer School, Seoul National University, Seoul, Republic of Korea",
                 "month": 8
             },
             {
