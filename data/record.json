@@ -3,6 +3,10 @@
     {
         "program committee": [
             {
+                "title": "<b>Area Chair</b>",
+                "venue": "European Conf. on Computer Vision (<b>ECCV</b>)"
+            },
+            {
                 "title": "<b>Associate Editor</b>",
                 "venue": "Int. Conf. on Robotics and Automation (<b>ICRA</b>)"
             },
@@ -136,6 +140,14 @@
                 "image": "publications/data/23_scientific_reports.jpg",
                 "comment": "(*Equal contribution)",
                 "pdf": "https://www.nature.com/articles/s41598-023-27627-y"
+            },
+            {
+                "language": "domestic",
+                "type": "journal",
+                "title": "Multi-way 3D Registration using a Transformer Network",
+                "author": ["Dongmin You", "Kanghee Lee", "Jaesik Park"],
+                "venue": "한국인공지능학회 추계학술대회",
+                "month": 11
             }
         ],
         "teaching": [
