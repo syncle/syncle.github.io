@@ -35,7 +35,8 @@
                 "author": ["Seungjoo Shin", "Jaesik Park"],
                 "venue": "Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
                 "image": "publications/data/23_neurips.jpg",
-                "pdf": "https://arxiv.org/abs/2306.07581"
+                "pdf": "https://arxiv.org/abs/2306.07581",
+                "web": "https://seungjooshin.github.io/BiRF"
             },
             {
                 "language": "international",
