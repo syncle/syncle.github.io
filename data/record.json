@@ -36,7 +36,8 @@
                 "venue": "Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
                 "image": "publications/data/23_neurips.jpg",
                 "pdf": "https://arxiv.org/abs/2306.07581",
-                "web": "https://seungjooshin.github.io/BiRF"
+                "web": "https://seungjooshin.github.io/BiRF",
+                "code": "https://github.com/SAITPublic/BiRF"
             },
             {
                 "language": "international",
