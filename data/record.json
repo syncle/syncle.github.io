@@ -33,7 +33,8 @@
                 "author": ["Ashish Kumar", "Jaesik Park", "Laxmidhar Behera"],
                 "venue": "IEEE Robotics and Automation Letters (<b>RAL</b>)",
                 "image": "publications/data/23_ral.jpg",
-                "pdf": "https://ieeexplore.ieee.org/document/10305271"
+                "pdf": "https://ieeexplore.ieee.org/document/10305271",
+                "comment": "(accepted for the <b>ICRA2024 oral</b> presentation)"
             },
             {
                 "language": "international",
