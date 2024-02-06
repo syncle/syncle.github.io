@@ -39,6 +39,16 @@
                 "awardee": "Samsung Electronics Corp.",          
                 "month": 2
             }
+        ],
+        "teaching": [
+            {
+                "title": "4190.407 Algorithm",
+                "semester": "Spring"
+            },
+            {
+                "title": "M2177.008600 Introduction to AI",
+                "semester": "Spring"
+            }
         ]
     },
     "2023":
@@ -181,7 +191,7 @@
         ],
         "teaching": [
             {
-                "title": "Topics in Machine Learning: Basics and Applications on Generative AI",
+                "title": "M3309.001800 Topics in Machine Learning: Basics and Applications on Generative AI",
                 "semester": "Fall"
             },
             {
