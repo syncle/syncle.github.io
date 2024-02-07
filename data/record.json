@@ -1,6 +1,17 @@
 {
     "2024":
     {
+        "papers": [
+            {
+                "language": "international",
+                "type": "arxiv",
+                "title": "3Doodle: Compact Abstraction of Objects with 3D Strokes",
+                "author": ["Changwoon Choi", "Jaeah Lee", "Jaesik Park", "Young Min Kim"],
+                "venue": "2402.03690 (arXiv)",
+                "image": "publications/data/24_arxiv1.jpg",
+                "pdf": "http://arxiv.org/abs/2402.03690"
+            }
+        ],
         "program committee": [
             {
                 "title": "<b>Area Chair</b>",
