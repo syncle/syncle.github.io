@@ -1,6 +1,24 @@
 {
     "2024":
     {
+        "papers": [
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "Pick-or-Mix: Dynamic Channel Sampling for ConvNets",
+                "author": ["Ashish Kumar", "Daneul Kim", "Jaesik Park", "Laxmidhar Behera"],
+                "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
+                "image": "publications/data/24_cvpr1.jpg"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "Learning SO(3)-Invariant Semantic Correspondence via Local Shape Transform",
+                "author": ["Chunghyun Park", "Seungwook Kim", "Jaesik Park", "Minsu Cho"],
+                "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
+                "image": "publications/data/24_cvpr2.jpg"
+            }
+        ],
         "program committee": [
             {
                 "title": "<b>Area Chair</b>",
