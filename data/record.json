@@ -17,11 +17,21 @@
                 "author": ["Chunghyun Park", "Seungwook Kim", "Jaesik Park", "Minsu Cho"],
                 "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/24_cvpr2.jpg"
+            },
+            {
+                "language": "international",
+                "type": "journal",
+                "title": "High-Speed Stereo Visual SLAM for Low-Powered Computing Devices",
+                "author": ["Ashish Kumar", "Jaesik Park", "Laxmidhar Behera"],
+                "venue": "IEEE Robotics and Automation Letters (<b>RAL</b>), vol. 9, issue 1",
+                "image": "publications/data/23_ral.jpg",
+                "pdf": "https://ieeexplore.ieee.org/document/10305271",
+                "comment": "(accepted for the <b>ICRA2024 oral</b> presentation)"
             }
         ],
         "program committee": [
             {
-                "title": "<b>Area Chair</b>",
+                "title": "<b>Lead Area Chair</b>",
                 "venue": "European Conf. on Computer Vision (<b>ECCV</b>)"
             },
             {
@@ -54,16 +64,6 @@
     "2023":
     {
         "papers": [
-            {
-                "language": "international",
-                "type": "journal",
-                "title": "High-Speed Stereo Visual SLAM for Low-Powered Computing Devices",
-                "author": ["Ashish Kumar", "Jaesik Park", "Laxmidhar Behera"],
-                "venue": "IEEE Robotics and Automation Letters (<b>RAL</b>)",
-                "image": "publications/data/23_ral.jpg",
-                "pdf": "https://ieeexplore.ieee.org/document/10305271",
-                "comment": "(accepted for the <b>ICRA2024 oral</b> presentation)"
-            },
             {
                 "language": "international",
                 "type": "conference",
