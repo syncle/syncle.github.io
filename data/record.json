@@ -5,6 +5,14 @@
             {
                 "language": "international",
                 "type": "conference",
+                "title": "Extending CLIP's Image-Text Alignment to Referring Image Segmentation",
+                "author": ["Seoyeon Kim", "Minguk Kang", "Dongwon Kim", "Jaesik Park", "Suha Kwak"],
+                "venue": "Annual Conf. of the North American Chapter of the Assoc. for Computational Linguistics (<b>NAACL</b>)",
+                "image": "publications/data/24_cvpr1.jpg"
+            },
+            {
+                "language": "international",
+                "type": "conference",
                 "title": "Pick-or-Mix: Dynamic Channel Sampling for ConvNets",
                 "author": ["Ashish Kumar", "Daneul Kim", "Jaesik Park", "Laxmidhar Behera"],
                 "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
