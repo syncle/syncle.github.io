@@ -9,7 +9,8 @@
                 "author": ["Changwoon Choi","Jaeah Lee","Jaesik Park","Young Min Kim"],
                 "venue": "ACM Special Interest Group on Graphics and Interactive Techniques (<b>SIGGRAPH</b>)",
                 "comment": "(Accepted as a journal track paper)",
-                "image": "publications/data/24_siggraph.jpg"
+                "image": "publications/data/24_siggraph.jpg",
+                "pdf": "https://arxiv.org/abs/2402.03690"
             },
             {
                 "language": "international",
