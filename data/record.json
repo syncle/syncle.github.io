@@ -5,6 +5,14 @@
             {
                 "language": "international",
                 "type": "conference",
+                "title": "3Doodle: Compact Abstraction of Objects with 3D Strokes",
+                "author": ["Changwoon Choi","Jaeah Lee","Jaesik Park","Young Min Kim"],
+                "venue": "ACM <b>SIGGRAPH</b> (Journal Track Acceptance)",
+                "image": "publications/data/24_siggraph.jpg"
+            },
+            {
+                "language": "international",
+                "type": "conference",
                 "title": "Extending CLIP's Image-Text Alignment to Referring Image Segmentation",
                 "author": ["Seoyeon Kim", "Minguk Kang", "Dongwon Kim", "Jaesik Park", "Suha Kwak"],
                 "venue": "Annual Conf. of the North American Chapter of the Assoc. for Computational Linguistics (<b>NAACL</b>)",
