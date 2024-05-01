@@ -7,7 +7,8 @@
                 "type": "conference",
                 "title": "3Doodle: Compact Abstraction of Objects with 3D Strokes",
                 "author": ["Changwoon Choi","Jaeah Lee","Jaesik Park","Young Min Kim"],
-                "venue": "ACM <b>SIGGRAPH</b> (Journal Track Acceptance)",
+                "venue": "ACM Special Interest Group on Graphics and Interactive Techniques (<b>SIGGRAPH</b>)",
+                "comment": "(Accepted as a journal track paper)",
                 "image": "publications/data/24_siggraph.jpg"
             },
             {
@@ -328,7 +329,7 @@
                 "type": "conference",
                 "title": "LaplacianFusion: Detailed 3D Clothed-Human Body Reconstruction",
                 "author": ["Hyomin Kim", "Hyeonseo Nam", "Jungeon Kim", "Jaesik Park", "Seungyong Lee"],
-                "venue": "ACM (<b>SIGGRAPH Asia</b>)",
+                "venue": "ACM Special Interest Group on Graphics and Interactive Techniques (<b>SIGGRAPH Asia</b>)",
                 "image": "publications/data/22_siggraph_asia.jpg",
                 "comment": "(Accepted as a journal track paper)",
                 "pdf": "https://dl.acm.org/doi/abs/10.1145/3550454.3555511"
@@ -1343,7 +1344,7 @@
                 "type": "conference",
                 "title": "Tanks and Temples: Benchmarking Large-Scale Scene Reconstruction", 
                 "author": ["Arno Knapitsch", "Jaesik Park", "Qian-Yi Zhou", "Vladlen Koltun"],
-                "venue": "ACM Transactions on Graphics (<b>SIGGRAPH</b>)",
+                "venue": "ACM Special Interest Group on Graphics and Interactive Techniques (<b>SIGGRAPH</b>)",
                 "image": "publications/data/17_siggraph.jpg",
                 "pdf": "publications/data/17_siggraph.pdf",
                 "web": "https://www.tanksandtemples.org/",
