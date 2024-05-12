@@ -66,6 +66,10 @@
         ],
         "program committee": [
             {
+                "title": "<b>Area Chair</b>",
+                "venue": "Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)"
+            },
+            {
                 "title": "<b>Lead Area Chair</b>",
                 "venue": "European Conf. on Computer Vision (<b>ECCV</b>)"
             },
