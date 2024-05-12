@@ -4,6 +4,15 @@
         "papers": [
             {
                 "language": "international",
+                "type": "arxiv",
+                "title": "Distilling Diffusion Models into Conditional GANs",
+                "author": ["Minguk Kang", "Richard Zhang", "Connelly Barnes", "Sylvain Paris", "Suha Kwak", "Jaesik Park", "Eli Shechtman", "Jun-Yan Zhu", "Taesung Park"],
+                "venue": "2405.05967 (arXiv)",
+                "image": "publications/data/24_arxiv2.jpg",
+                "pdf": "https://arxiv.org/abs/2405.05967"
+            },
+            {
+                "language": "international",
                 "type": "conference",
                 "title": "3D Geometric Shape Assembly via Efficient Point Cloud Matching",
                 "author": ["Nahyuk Lee", "Juhong Min", "Junha Lee", "Seungwook Kim", "Kanghee Lee", "Jaesik Park", "Minsu Cho"],
