@@ -35,7 +35,8 @@
                 "title": "Extending CLIP's Image-Text Alignment to Referring Image Segmentation",
                 "author": ["Seoyeon Kim", "Minguk Kang", "Dongwon Kim", "Jaesik Park", "Suha Kwak"],
                 "venue": "Annual Conf. of the North American Chapter of the Assoc. for Computational Linguistics (<b>NAACL</b>)",
-                "image": "publications/data/24_naacl.jpg"
+                "image": "publications/data/24_naacl.jpg",
+                "pdf": "https://arxiv.org/abs/2306.08498"
             },
             {
                 "language": "international",
