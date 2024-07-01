@@ -4,12 +4,20 @@
         "papers": [
             {
                 "language": "international",
-                "type": "arxiv",
+                "type": "conference",
                 "title": "Distilling Diffusion Models into Conditional GANs",
                 "author": ["Minguk Kang", "Richard Zhang", "Connelly Barnes", "Sylvain Paris", "Suha Kwak", "Jaesik Park", "Eli Shechtman", "Jun-Yan Zhu", "Taesung Park"],
-                "venue": "2405.05967 (arXiv)",
+                "venue": "European Conf. on Computer Vision (<b>ECCV</b>)",
                 "image": "publications/data/24_arxiv2.jpg",
                 "pdf": "https://arxiv.org/abs/2405.05967"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "Deep Cost Ray Fusion for Sparse Depth Video Completion",
+                "author": ["Jungeon Kim", "Soongjin Kim", "Jaesik Park", "Seungyong Lee"],
+                "venue": "European Conf. on Computer Vision (<b>ECCV</b>)",
+                "image": "publications/data/24_eccv2.jpg"
             },
             {
                 "language": "international",
