@@ -25,7 +25,9 @@
                 "title": "3D Geometric Shape Assembly via Efficient Point Cloud Matching",
                 "author": ["Nahyuk Lee", "Juhong Min", "Junha Lee", "Seungwook Kim", "Kanghee Lee", "Jaesik Park", "Minsu Cho"],
                 "venue": "Int. Conf. on Machine Learning (<b>ICML</b>)",
-                "image": "publications/data/24_icml.jpg"
+                "image": "publications/data/24_icml.jpg",
+                "web": "https://nahyuklee.github.io/pmtr/",
+                "code": "https://github.com/NahyukLEE/pmtr"
             },
             {
                 "language": "international",
@@ -52,7 +54,8 @@
                 "title": "Pick-or-Mix: Dynamic Channel Sampling for ConvNets",
                 "author": ["Ashish Kumar", "Daneul Kim", "Jaesik Park", "Laxmidhar Behera"],
                 "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
-                "image": "publications/data/24_cvpr1.jpg"
+                "image": "publications/data/24_cvpr1.jpg",
+                "pdf": "https://openaccess.thecvf.com/content/CVPR2024/papers/Kumar_Pick-or-Mix_Dynamic_Channel_Sampling_for_ConvNets_CVPR_2024_paper.pdf"
             },
             {
                 "language": "international",
@@ -60,7 +63,8 @@
                 "title": "Learning SO(3)-Invariant Semantic Correspondence via Local Shape Transform",
                 "author": ["Chunghyun Park", "Seungwook Kim", "Jaesik Park", "Minsu Cho"],
                 "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
-                "image": "publications/data/24_cvpr2.jpg"
+                "image": "publications/data/24_cvpr2.jpg",
+                "pdf": "https://openaccess.thecvf.com/content/CVPR2024/papers/Park_Learning_SO3-Invariant_Semantic_Correspondence_via_Local_Shape_Transform_CVPR_2024_paper.pdf"
             },
             {
                 "language": "international",
