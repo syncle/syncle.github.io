@@ -9,7 +9,8 @@
                 "author": ["Minguk Kang", "Richard Zhang", "Connelly Barnes", "Sylvain Paris", "Suha Kwak", "Jaesik Park", "Eli Shechtman", "Jun-Yan Zhu", "Taesung Park"],
                 "venue": "European Conf. on Computer Vision (<b>ECCV</b>)",
                 "image": "publications/data/24_arxiv2.jpg",
-                "pdf": "https://arxiv.org/abs/2405.05967"
+                "pdf": "https://arxiv.org/abs/2405.05967",
+                "web": "https://mingukkang.github.io/Diffusion2GAN/"
             },
             {
                 "language": "international",
