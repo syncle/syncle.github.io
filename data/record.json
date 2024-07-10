@@ -76,6 +76,41 @@
                 "image": "publications/data/23_ral.jpg",
                 "pdf": "https://ieeexplore.ieee.org/document/10305271",
                 "comment": "(invited to the <b>ICRA2024 oral</b> presentation)"
+            },
+            {
+                "language": "domestic",
+                "title": "3차원 기하학적 조립을 위한 효율적인 점 구름 매칭", 
+                "author": ["Nahyuk Lee", "Juhong Min", "Junha Lee", "Seungwook Kim", "Kanghee Lee", "Jaesik Park", "Minsu Cho"],
+                "venue": "제 36회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
+            },
+            {
+                "language": "domestic",
+                "title": "생성모델을 활용한 데이터 불균형 문제의 완화 기법", 
+                "author": ["Joonghyuk Shin", "MinGuk Kang", "Jaesik Park"],
+                "venue": "제 36회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
+            },
+            {
+                "language": "domestic",
+                "title": "비디오로부터 효율적인 래디언스 필드 기반의 사람 아바타 복원", 
+                "author": ["Seunguk Do", "Gu Lee", "Jaesik Park"],
+                "venue": "제 36회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
+            },
+            {
+                "language": "domestic",
+                "title": "다시점 이미지와 회전형 라이다를 활용한 열린 어휘집합의 CLIP 특징점 생성과 3차원 의미론적 물체분할", 
+                "author": ["Kwonyoung Ryu", "Jinmo Kim", "Soonmin Hwang", "Jaesik Park"],
+                "venue": "제 36회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
+            },
+            {
+                "language": "domestic",
+                "title": "점 군집 정합을 위한 특이대응점 기반 구조적 매칭 기법", 
+                "author": ["Kanghee Lee", "Jaesik Park"],
+                "venue": "제 36회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
             }
         ],
         "program committee": [
@@ -111,6 +146,30 @@
             {
                 "title": "M2177.008600 Introduction to AI",
                 "semester": "Spring"
+            }
+        ],
+        "talks": [
+            {
+                "title": "Recent Trends in Radiance Field Reconstruction Methods",
+                "venue": "한국컴퓨터그래픽스학회 2024 학술대회 여름학교, Kyeongju, Republic of Korea",
+                "month": 7
+            },
+            {
+                "title": "3D Scene Understanding",
+                "venue": "삼성전자 DS사업부 특강, Seoul, Republic of Korea",
+                "month": 6
+            },
+            {
+                "title": "3D Scene Reconstruction, Representation, and Understanding",
+                "venue": "KAIST 초세대연구실 개소 기념 특별 심포지엄, Daejeon, Republic of Korea",
+                "month": 2
+            }
+        ],
+        "funding": [
+            {
+                "title": "Compositional Video Synthesis from 4D layout guidance with LLM",
+                "source": "Microsoft Research Asia, IITP",
+                "period": "2024.05-2025.04"
             }
         ]
     },
@@ -301,6 +360,11 @@
             }
         ],
         "talks": [
+            {
+                "title": "Pleasure of Open-Sourcing Projects",
+                "venue": "META-HyFlex Class, Soongsil University, Seoul, Republic of Korea",
+                "month": 11
+            },
             {
                 "title": "Learning to Understand 3D Point Clouds",
                 "venue": "2023 Fall Workshop on Algorithms and Computation, POSTECH, Pohang, Republic of Korea",
