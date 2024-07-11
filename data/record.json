@@ -150,6 +150,11 @@
         ],
         "talks": [
             {
+                "title": "3D Gaussian Splatting (3DGS) 기법의 발전 현황",
+                "venue": "공간컴퓨팅을 위한 지능형 XR 기술 및 응용 워크숍, Seoul, Republic of Korea",
+                "month": 7
+            },
+            {
                 "title": "Recent Trends in Radiance Field Reconstruction Methods",
                 "venue": "한국컴퓨터그래픽스학회 2024 학술대회 여름학교, Kyeongju, Republic of Korea",
                 "month": 7
