@@ -75,7 +75,8 @@
                 "venue": "IEEE Robotics and Automation Letters (<b>RAL</b>), vol. 9, issue 1",
                 "image": "publications/data/23_ral.jpg",
                 "pdf": "https://ieeexplore.ieee.org/document/10305271",
-                "comment": "(invited to the <b>ICRA2024 oral</b> presentation)"
+                "comment": "(invited to the <b>ICRA2024 oral</b> presentation)",
+                "code": "https://github.com/ashishkumar822/Jetson-SLAM"
             },
             {
                 "language": "domestic",
