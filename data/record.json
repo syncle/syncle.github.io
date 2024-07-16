@@ -28,7 +28,9 @@
                 "venue": "Int. Conf. on Machine Learning (<b>ICML</b>)",
                 "image": "publications/data/24_icml.jpg",
                 "web": "https://nahyuklee.github.io/pmtr/",
-                "code": "https://github.com/NahyukLEE/pmtr"
+                "code": "https://github.com/NahyukLEE/pmtr",
+                "pdf": "https://arxiv.org/abs/2407.10542"
+                
             },
             {
                 "language": "international",
