@@ -40,7 +40,9 @@
                 "venue": "ACM Special Interest Group on Graphics and Interactive Techniques (<b>SIGGRAPH</b>)",
                 "comment": "(Accepted as a journal track paper)",
                 "image": "publications/data/24_siggraph.jpg",
-                "pdf": "https://arxiv.org/abs/2402.03690"
+                "pdf": "https://arxiv.org/abs/2402.03690",
+                "web": "https://changwoonchoi.github.io/3Doodle/",
+                "code": "https://github.com/changwoonchoi/3Doodle"
             },
             {
                 "language": "international",
