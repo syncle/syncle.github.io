@@ -10,7 +10,8 @@
                 "venue": "European Conf. on Computer Vision (<b>ECCV</b>)",
                 "image": "publications/data/24_arxiv2.jpg",
                 "pdf": "https://arxiv.org/abs/2405.05967",
-                "web": "https://mingukkang.github.io/Diffusion2GAN/"
+                "web": "https://mingukkang.github.io/Diffusion2GAN/",
+                "code": "https://github.com/SNU-VGILab/e-latentlpips"
             },
             {
                 "language": "international",
