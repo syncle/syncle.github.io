@@ -156,19 +156,34 @@
         ],
         "talks": [
             {
-                "title": "3D Gaussian Splatting (3DGS) 기법의 발전 현황",
-                "venue": "공간컴퓨팅을 위한 지능형 XR 기술 및 응용 워크숍, Seoul, Republic of Korea",
-                "month": 7
+                "title": "Social Speed Mentoring",
+                "venue": "<b>ECCV 2024</b>, Milano, Italy",
+                "month": 9
             },
             {
-                "title": "Recent Trends in Radiance Field Reconstruction Methods",
-                "venue": "한국컴퓨터그래픽스학회 2024 학술대회 여름학교, Kyeongju, Republic of Korea",
+                "title": "Radiance Field Reconstruction",
+                "venue": "<b>KIA</b> motor company, Gwangmyeong, Republic of Korea",
+                "month": 8
+            },
+            {
+                "title": "Radiance Field Reconstruction",
+                "venue": "Koh Young Technology, Yongin, Republic of Korea",
+                "month": 8
+            },
+            {
+                "title": "가우시안 스플래팅 기법의 발전 현황",
+                "venue": "공간컴퓨팅을 위한 지능형 XR 기술 및 응용 워크숍, Seoul, RoK",
                 "month": 7
             },
             {
                 "title": "3D Scene Understanding",
                 "venue": "삼성전자 DS사업부 특강, Seoul, Republic of Korea",
                 "month": 6
+            },
+            {
+                "title": "Tutorials on Radiance Field Reconstruction",
+                "venue": "한국컴퓨터그래픽스학회, Gyeongju, Republic of Korea",
+                "month": 2
             },
             {
                 "title": "3D Scene Reconstruction, Representation, and Understanding",
@@ -181,6 +196,38 @@
                 "title": "Compositional Video Synthesis from 4D layout guidance with LLM",
                 "source": "Microsoft Research Asia, IITP",
                 "period": "2024.05-2025.04"
+            }
+        ],
+        "talks": [
+            {
+                "title": "Social Speed Mentoring",
+                "venue": "<b>ECCV 2024</b>, Milano, Italy",
+                "month": 9
+            },
+            {
+                "title": "Radiance Field Reconstruction",
+                "venue": "<b>KIA</b> motor company, Gwangmyeong, Republic of Korea",
+                "month": 8
+            },
+            {
+                "title": "Radiance Field Reconstruction",
+                "venue": "Koh Young Technology, Yongin, Republic of Korea",
+                "month": 8
+            },
+            {
+                "title": "가우시안 스플래팅 기법의 발전 현황",
+                "venue": "공간컴퓨팅을 위한 지능형 XR 기술 및 응용 워크숍, Seoul, RoK",
+                "month": 7
+            },
+            {
+                "title": "Tutorials on Radiance Field Reconstruction",
+                "venue": "한국컴퓨터그래픽스학회, Gyeongju, Republic of Korea",
+                "month": 2
+            },
+            {
+                "title": "3D Scene Reconstruction, Representation, and Understanding",
+                "venue": "초세대연구실 개소 기념 특별 심포지엄, <b>KAIST</b>, Daejeon, Republic of Korea",
+                "month": 2
             }
         ]
     },
@@ -372,23 +419,18 @@
         ],
         "talks": [
             {
-                "title": "Pleasure of Open-Sourcing Projects",
-                "venue": "META-HyFlex Class, Soongsil University, Seoul, Republic of Korea",
-                "month": 11
-            },
-            {
                 "title": "Learning to Understand 3D Point Clouds",
-                "venue": "2023 Fall Workshop on Algorithms and Computation, POSTECH, Pohang, Republic of Korea",
+                "venue": "2023 Fall Workshop on Algorithms and Computation, <b>POSTECH</b>, Pohang, Republic of Korea",
                 "month": 10
             },
             {
                 "title": "Towards NeRF at Scale",
-                "venue": "Computing Frontier Summer School, Seoul National University, Seoul, Republic of Korea",
+                "venue": "Computing Frontier Summer School, <b>Seoul Nat. Univ.</b>, Republic of Korea",
                 "month": 8
             },
             {
                 "title": "Storage Efficient Radiance Fields",
-                "venue": "Electronics and Telecommunications Research Institute (<b>ETRI</b>), Daejeon, Republic of Korea",
+                "venue": "<b>ETRI</b>, Daejeon, Republic of Korea",
                 "month": 7
             },
             {
@@ -397,8 +439,8 @@
                 "month": 6
             },
             {
-                "title": "Generative AI가 산업에 미치는 영향과 성장 전략 - 패널토론",
-                "venue": "인공지능 혁신 허브 콜로키엄, Jeju, Republic of Korea",
+                "title": "Generative AI가 산업에 미치는 영향과 성장 전략 (패널)",
+                "venue": "AI혁신허브콜로키엄, Jeju, Republic of Korea",
                 "month": 5
             },
             {
@@ -961,7 +1003,7 @@
             },
             {
                 "title": "Mentor Session: How to Become a Professor",
-                "venue": "Conf. on Computer Vision and Pattern Recognition (<b>CVPR 2021</b>), Virtual",
+                "venue": "<b>CVPR 2021</b>, Virtual",
                 "month": 6
             },
             {
@@ -971,7 +1013,7 @@
             },
             {
                 "title": "Point Cloud Registration using Hierachical Hough Transform",
-                "venue": "33rd Workshop on Image Processing and Image Understanding (IPIU2021), Virtual",
+                "venue": "33rd Workshop on Image Processing and Image Understanding (<b>IPIU 2021</b>), Virtual",
                 "month": 2
             },
             {
@@ -1144,7 +1186,7 @@
             },
             {
                 "title": "High-Dimensional Convolutional Networks for Geometric Pattern Recognition",
-                "venue": "<b>KCCV 2020</b>, Seoul, Republic of Korea",
+                "venue": "<b>KCCV 2020</b>, Seoul",
                 "month": 8
             },
             {
@@ -1154,7 +1196,7 @@
             },
             {
                 "title": "Geometric Pattern Recognition",
-                "venue": "32nd Workshop on Image Processing and Image Understanding (<b>IPIU2020</b>)",
+                "venue": "32nd Workshop on Image Proc. and Image Understanding (<b>IPIU 2020</b>)",
                 "month": 2
             }
         ],
@@ -1314,12 +1356,12 @@
             },
             {
                 "title": "Open3D Tutorial and Fully Convolutional Geometric Features", 
-                "venue": "Korea Electronics Technology Institute (<b>KETI</b>), Seongnam, Republic of Korea", 
+                "venue": "<b>KETI</b>, Seongnam, Republic of Korea", 
                 "month": 11
             },
             {
                 "title": "Introduction to Computer Vision and Deep Learning",
-                "venue": "<b>Daegu Science High School</b>, Daegu, Republic of Korea",
+                "venue": "<b>Daegu Science High School</b>",
                 "month": 8
             },
             {
@@ -1329,7 +1371,7 @@
             },
             {
                 "title": "3D Computer Vision and Open3D", 
-                "venue": "<b>Qualcomm Head Quater</b>, San Diego, USA", 
+                "venue": "<b>Qualcomm</b>, San Diego, USA", 
                 "month": 6
             }
         ],
@@ -1423,7 +1465,7 @@
             },
             {
                 "title": "3D reconstruction using Open3D", 
-                "venue": "<b>Forma Technology</b> (now acquired by <b>Snap Inc.</b>), San Francisco, USA", 
+                "venue": "<b>Forma Technology</b> (acquired by <b>Snap Inc.</b>), San Francisco, USA", 
                 "month": 3
             }
         ],
