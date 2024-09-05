@@ -4,6 +4,22 @@
         "papers": [
             {
                 "language": "international",
+                "type": "journal",
+                "title": "Budget-Aware Sequential Brick Assembly with Efficient Constraint Satisfaction",
+                "author": ["Seokjun Ahn", "Jungtaek Kim", "Minsu Cho", "Jaesik Park"],
+                "venue": "Transactions on Machine Learning Research (<b>TMLR</b>)",
+                "image": "publications/data/24_tmlr.jpg"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "InstantDrag: Improving Interactivity in Drag-based Image Editing",
+                "author": ["Joonghyuk Shin", "Daehyeon Choi", "Jaesik Park"],
+                "venue": "ACM Special Interest Group on Graphics and Interactive Techniques (<b>SIGGRAPH Asia</b>)",
+                "image": "publications/data/24_siggraph_asia.jpg"
+            },
+            {
+                "language": "international",
                 "type": "conference",
                 "title": "Distilling Diffusion Models into Conditional GANs",
                 "author": ["Minguk Kang", "Richard Zhang", "Connelly Barnes", "Sylvain Paris", "Suha Kwak", "Jaesik Park", "Eli Shechtman", "Jun-Yan Zhu", "Taesung Park"],
