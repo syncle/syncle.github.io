@@ -30,7 +30,9 @@
                 "title": "InstantDrag: Improving Interactivity in Drag-based Image Editing",
                 "author": ["Joonghyuk Shin", "Daehyeon Choi", "Jaesik Park"],
                 "venue": "ACM Special Interest Group on Graphics and Interactive Techniques (<b>SIGGRAPH Asia</b>)",
-                "image": "publications/data/24_siggraph_asia.jpg"
+                "image": "publications/data/24_siggraph_asia.jpg",
+                "web": "https://joonghyuk.com/instantdrag-web/",
+                "code": "https://github.com/SNU-VGILab/InstantDrag"
             },
             {
                 "language": "international",
