@@ -52,3 +52,41 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+
+//
+// isotope.js
+//
+// Initialize the isotope plugin and retrigger the layout when images load
+// init Isotope
+
+var $grid = $('.isotope').each(function (index, element) {
+    $(element).isotope({
+      itemSelector: '.grid-item',
+      layoutMode: 'masonry',
+      filter: $(element).attr('data-default-filter')
+    });
+  }); // layout Isotope after each image loads
+  
+  $grid.imagesLoaded().progress(function () {
+    $grid.isotope('layout');
+  }); // filtering
+  
+  $('[data-isotope-filter]').on('click', function (e) {
+    e.preventDefault();
+    var isotopeId = ".isotope[data-isotope-id=\"" + $(e.target).closest('[data-isotope-id]').attr('data-isotope-id') + "\"]";
+    var filterValue = $(e.target).attr('data-isotope-filter');
+    $(isotopeId).isotope({
+      filter: filterValue
+    }).find('[data-flickity]').each(function (index, instance) {
+      var $instance = $(instance);
+  
+      if ($instance.data().flickity.isInitActivated) {
+        $instance.flickity('resize');
+      }
+    }).end().isotope({
+      filter: filterValue
+    });
+    $(e.target).siblings().removeClass('active');
+    $(e.target).addClass('active');
+  }); //
