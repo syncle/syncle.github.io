@@ -103,7 +103,8 @@
                 "author": ["Ashish Kumar", "Daneul Kim", "Jaesik Park", "Laxmidhar Behera"],
                 "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/24_cvpr1.jpg",
-                "pdf": "https://openaccess.thecvf.com/content/CVPR2024/papers/Kumar_Pick-or-Mix_Dynamic_Channel_Sampling_for_ConvNets_CVPR_2024_paper.pdf"
+                "pdf": "https://openaccess.thecvf.com/content/CVPR2024/papers/Kumar_Pick-or-Mix_Dynamic_Channel_Sampling_for_ConvNets_CVPR_2024_paper.pdf",
+                "code": "https://github.com/ashishkumar822/PiX"
             },
             {
                 "language": "international",
