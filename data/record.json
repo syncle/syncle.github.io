@@ -23,7 +23,8 @@
                 "venue": "2409.15615 (arXiv)",
                 "image": "publications/data/24_arxiv3.jpg",
                 "pdf": "https://arxiv.org/abs/2409.15615",
-                "code": "https://github.com/MIT-SPARK/KISS-Matcher"
+                "code": "https://github.com/MIT-SPARK/KISS-Matcher",
+                "github": "<a class=\"github-button\" href=\"https:\/\/github.com\/MIT-SPARK\/KISS-Matcher\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star MIT-SPARK\/KISS-Matcher on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/MIT-SPARK\/KISS-Matcher\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork MIT-SPARK\/KISS-Matcher on GitHub\">Fork<\/a>"
             },
             {
                 "language": "international",
@@ -42,7 +43,8 @@
                 "venue": "ACM Special Interest Group on Graphics and Interactive Techniques (<b>SIGGRAPH Asia</b>)",
                 "image": "publications/data/24_siggraph_asia.jpg",
                 "web": "https://joonghyuk.com/instantdrag-web/",
-                "code": "https://github.com/SNU-VGILab/InstantDrag"
+                "code": "https://github.com/SNU-VGILab/InstantDrag",
+                "github": "<a class=\"github-button\" href=\"https:\/\/github.com\/SNU-VGILab\/InstantDrag\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star SNU-VGILab\/InstantDrag on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/SNU-VGILab\/InstantDrag\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork SNU-VGILab\/InstantDrag on GitHub\">Fork<\/a>"
             },
             {
                 "language": "international",
