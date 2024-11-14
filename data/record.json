@@ -3,6 +3,10 @@
     {
         "program committee": [
             {
+                "title": "<b>Action Editor</b>",
+                "venue": "Transactions on Machine Learning Research (<b>TMLR</b>)"
+            },
+            {
                 "title": "<b>Area Chair</b>",
                 "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)"
             },
