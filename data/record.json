@@ -3,6 +3,10 @@
     {
         "program committee": [
             {
+                "title": "<b>Area Chair</b>",
+                "venue": "Int. Conf. on Computer Vision (<b>ICCV</b>)"
+            },
+            {
                 "title": "<b>Action Editor</b>",
                 "venue": "Transactions on Machine Learning Research (<b>TMLR</b>)"
             },
