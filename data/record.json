@@ -4,6 +4,10 @@
         "program committee": [
             {
                 "title": "<b>Area Chair</b>",
+                "venue": "Int. Conf. on Machine Learning (<b>ICML</b>)"
+            },
+            {
+                "title": "<b>Area Chair</b>",
                 "venue": "Int. Conf. on Computer Vision (<b>ICCV</b>)"
             },
             {
