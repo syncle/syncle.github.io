@@ -279,6 +279,16 @@
         ],
         "funding": [
             {
+                "title": "지속가능한 생성형 인공지능 플랫폼",
+                "source": "글로벌 기초연구실, IITP",
+                "period": "2024.08-2027.04"
+            },
+            {
+                "title": "2024 글로벌 AI 프론티어랩",
+                "source": "SW컴퓨팅산업원천기술개발사업, IITP",
+                "period": "2024.08-2026.12"
+            },
+            {
                 "title": "Compositional Video Synthesis from 4D layout guidance with LLM",
                 "source": "Microsoft Research Asia, IITP",
                 "period": "2024.05-2025.04"
