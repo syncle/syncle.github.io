@@ -293,38 +293,6 @@
                 "source": "Microsoft Research Asia, IITP",
                 "period": "2024.05-2025.04"
             }
-        ],
-        "talks": [
-            {
-                "title": "Social Speed Mentoring",
-                "venue": "<b>ECCV 2024</b>, Milano, Italy",
-                "month": 9
-            },
-            {
-                "title": "Radiance Field Reconstruction",
-                "venue": "<b>KIA</b> motor company, Gwangmyeong, Republic of Korea",
-                "month": 8
-            },
-            {
-                "title": "Radiance Field Reconstruction",
-                "venue": "Koh Young Technology, Yongin, Republic of Korea",
-                "month": 8
-            },
-            {
-                "title": "가우시안 스플래팅 기법의 발전 현황",
-                "venue": "공간컴퓨팅을 위한 지능형 XR 기술 및 응용 워크숍, Seoul, RoK",
-                "month": 7
-            },
-            {
-                "title": "Tutorials on Radiance Field Reconstruction",
-                "venue": "한국컴퓨터그래픽스학회, Gyeongju, Republic of Korea",
-                "month": 2
-            },
-            {
-                "title": "3D Scene Reconstruction, Representation, and Understanding",
-                "venue": "초세대연구실 개소 기념 특별 심포지엄, <b>KAIST</b>, Daejeon, Republic of Korea",
-                "month": 2
-            }
         ]
     },
     "2023":
