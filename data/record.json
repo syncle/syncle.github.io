@@ -33,6 +33,13 @@
                 "title": "<b>Area Chair</b>",
                 "venue": "Int. Conf. on Learning Representations (<b>ICLR</b>)"
             }
+        ],
+        "talks": [
+            {
+                "title": "제한된 관측으로부터 3차원 복원하기",
+                "venue": "IEIE 영상이해연구회 겨울학교, Hongchun, Republic of Korea",
+                "month": 1
+            }
         ]
     },
     "2024":
@@ -262,14 +269,14 @@
                 "month": 7
             },
             {
+                "title": "Recent Trends in Radiance Field Reconstruction Methods",
+                "venue": "한국컴퓨터그래픽스학회, Gyeongju, Republic of Korea",
+                "month": 7
+            },
+            {
                 "title": "3D Scene Understanding",
                 "venue": "삼성전자 DS사업부 특강, Seoul, Republic of Korea",
                 "month": 6
-            },
-            {
-                "title": "Tutorials on Radiance Field Reconstruction",
-                "venue": "한국컴퓨터그래픽스학회, Gyeongju, Republic of Korea",
-                "month": 2
             },
             {
                 "title": "3D Scene Reconstruction, Representation, and Understanding",
