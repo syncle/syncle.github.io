@@ -41,6 +41,24 @@
             {
                 "language": "international",
                 "type": "arxiv",
+                "title": "Cross Resolution Encoding-Decoding For Detection Transformers",
+                "author": ["Ashish Kumar", "Jaesik Park"],
+                "venue": "2410.04088 (arXiv)",
+                "image": "publications/data/24_arxiv5.jpg",
+                "pdf": "https://arxiv.org/abs/2410.04088"
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
+                "title": "Designing Concise ConvNets with Columnar Stages",
+                "author": ["Ashish Kumar", "Jaesik Park"],
+                "venue": "2410.04089 (arXiv)",
+                "image": "publications/data/24_arxiv4.jpg",
+                "pdf": "https://arxiv.org/abs/2410.04089"
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
                 "title": "KISS-Matcher: Fast and Robust Point Cloud Registration Revisited",
                 "author": ["Hyungtae Lim", "Daebeom Kim", "Gunhee Shin", "Jingnan Shi", "Ignacio Vizzo", "Hyun Myung", "Jaesik Park", "Luca Carlone"],
                 "venue": "2409.15615 (arXiv)",
