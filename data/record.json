@@ -1,6 +1,17 @@
 {
     "2025":
     {
+        "papers": [
+            {
+                "language": "international",
+                "type": "arxiv",
+                "title": "Locality-aware Gaussian Compression for Fast and High-quality Rendering",
+                "author": ["Seungjoo Shin", "Jaesik Park", "Sunghyun Cho"],
+                "venue": "2501.05757 (arXiv)",
+                "image": "publications/data/25_arxiv1.jpg",
+                "pdf": "https://arxiv.org/abs/2501.05757"
+            }
+        ],
         "program committee": [
             {
                 "title": "<b>Area Chair</b>",
