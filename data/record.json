@@ -19,6 +19,90 @@
                 "venue": "Int. Conf. on Learning Representations (<b>ICLR</b>)",
                 "image": "publications/data/24_arxiv4.jpg",
                 "pdf": "https://arxiv.org/abs/2410.04089"
+            },
+            {
+                "language": "domestic",
+                "title": "엔터테인먼트 영상의 시공간적 복원", 
+                "author": ["Sang Min Kim", "Seunguk Do", "Jaesik Park"],
+                "venue": "제 37회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
+            },
+            {
+                "language": "domestic",
+                "title": "정렬되지 않은 이미지 쌍을 이용한 2D 가우시안 스플래팅", 
+                "author": ["Namtae Kim", "HyunJoon Lee", "Haebeom Jung", "Jaesik Park"],
+                "venue": "제 37회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
+            },
+            {
+                "language": "domestic",
+                "title": "멀티모달 디퓨전 트랜스포머를 활용한 텍스트 조건 기반 정밀 이미지 편집 기법", 
+                "author": ["Joonghyuk Shin", "Alchan Hwang", "Yujin Lee", "Daneul Kim", "Jaesik Park"],
+                "venue": "제 37회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
+            },
+            {
+                "language": "domestic",
+                "title": "3차원 가우시안 스플래팅을 활용한 미지의 다중 객체 정합", 
+                "author": ["HyunJoon Lee", "Junkyu Min", "Jaesik Park"],
+                "venue": "제 37회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
+            },
+            {
+                "language": "domestic",
+                "title": "움직임의 추상화를 위한 3차원 스케치 재건", 
+                "author": ["Jaeah Lee", "Changwoon Choi", "Youngmin Kim", "Jaesik Park"],
+                "venue": "제 37회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
+            },
+            {
+                "language": "domestic",
+                "title": "효율적인 다중 작업 실행 평가를 위한 시간 제약 지시 수행 벤치마크", 
+                "author": ["Cheolhong Min", "HyunJoon Lee", "Meikel Kokowski", "Dahoon Kim", "Jaesik Park"],
+                "venue": "제 37회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
+            },
+            {
+                "language": "domestic",
+                "title": "End-to-end Occlusion and Depth Order Prediction with Transformers", 
+                "author": ["Pierre Musacchio", "Jaesik Park"],
+                "venue": "제 37회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
+            },
+            {
+                "language": "domestic",
+                "title": "열린 어휘집합 기반 3차원 객체 검출을 위한 자동 라벨링 기술 개발", 
+                "author": ["In-Jae Lee", "Moonkyum Kim", "Kwonyoung Ryu", "Jaesik Park"],
+                "venue": "제 37회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
+            },
+            {
+                "language": "domestic",
+                "title": "광학 손실을 통한 부정확한 카메라 포즈 최적화", 
+                "author": ["Haebeom Jung", "Jungwoo Kim", "Jaesik Park"],
+                "venue": "제 37회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
+            },
+            {
+                "language": "domestic",
+                "title": "가려진 형상의 복원을 위한 Masked Multi-view Transformer", 
+                "author": ["Jinmo Kim", "Namtae Kim", "HyunJoon Lee", "Jaesik Park"],
+                "venue": "제 37회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
+            },
+            {
+                "language": "domestic",
+                "title": "층위별 메모리를 활용한 이미지 편집 개선 기법", 
+                "author": ["Daneul Kim", "Jaeah Lee", "Jaesik Park"],
+                "venue": "제 37회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
+            },
+            {
+                "language": "domestic",
+                "title": "3D 자세 추정 없는 단일 시점 3D 아바타 모양 복원", 
+                "author": ["Seunguk Do", "Joonghyuk Shin", "Jaesik Park"],
+                "venue": "제 37회 영상처리 및 이해에 관한 워크샵 (IPIU)",
+                "month": 2
             }
         ],
         "program committee": [
@@ -91,6 +175,7 @@
                 "author": ["Seokjun Ahn*", "Jungtaek Kim*", "Minsu Cho", "Jaesik Park"],
                 "venue": "Transactions on Machine Learning Research (<b>TMLR</b>)",
                 "comment": "(*Joint first authors)",
+                "pdf": "https://openreview.net/pdf?id=0mRfQOnkqk",
                 "image": "publications/data/24_tmlr.jpg"
             },
             {

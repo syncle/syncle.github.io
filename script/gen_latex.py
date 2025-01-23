@@ -36,9 +36,9 @@ def get_latex_publication(data):
 			if category == 'papers':
 				for i in items:
 					if i['language'] == 'domestic':
-						dump_str.append('    \publicationItem' + \
+						dump_str.append('    \publicationItemDomestic' + \
 						'{' + change_html_bold_to_latex_bold(authorlist_to_html_text(i['author'])) + '}' + \
-						'{' + i['title'] + '}' + \
+						'{' +  i['title'] + '}' + \
 						'{' + get_venue(i, year) + '}' + \
 						'{' + (change_percent(change_html_bold_to_latex_bold(i['comment'])) if 'comment' in i else '') + '}\n')
 	dump_str.append('\\resumePublicationListEnd\n\n\n\n')
