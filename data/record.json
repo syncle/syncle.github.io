@@ -4,12 +4,21 @@
         "papers": [
             {
                 "language": "international",
-                "type": "arxiv",
+                "type": "conference",
                 "title": "Locality-aware Gaussian Compression for Fast and High-quality Rendering",
                 "author": ["Seungjoo Shin", "Jaesik Park", "Sunghyun Cho"],
-                "venue": "2501.05757 (arXiv)",
+                "venue": "Int. Conf. on Learning Representations (<b>ICLR</b>)",
                 "image": "publications/data/25_arxiv1.jpg",
                 "pdf": "https://arxiv.org/abs/2501.05757"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "Designing Concise ConvNets with Columnar Stages",
+                "author": ["Ashish Kumar", "Jaesik Park"],
+                "venue": "Int. Conf. on Learning Representations (<b>ICLR</b>)",
+                "image": "publications/data/24_arxiv4.jpg",
+                "pdf": "https://arxiv.org/abs/2410.04089"
             }
         ],
         "program committee": [
@@ -63,15 +72,6 @@
                 "venue": "2410.04088 (arXiv)",
                 "image": "publications/data/24_arxiv5.jpg",
                 "pdf": "https://arxiv.org/abs/2410.04088"
-            },
-            {
-                "language": "international",
-                "type": "arxiv",
-                "title": "Designing Concise ConvNets with Columnar Stages",
-                "author": ["Ashish Kumar", "Jaesik Park"],
-                "venue": "2410.04089 (arXiv)",
-                "image": "publications/data/24_arxiv4.jpg",
-                "pdf": "https://arxiv.org/abs/2410.04089"
             },
             {
                 "language": "international",
