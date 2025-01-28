@@ -5,6 +5,17 @@
             {
                 "language": "international",
                 "type": "conference",
+                "title": "KISS-Matcher: Fast and Robust Point Cloud Registration Revisited",
+                "author": ["Hyungtae Lim", "Daebeom Kim", "Gunhee Shin", "Jingnan Shi", "Ignacio Vizzo", "Hyun Myung", "Jaesik Park", "Luca Carlone"],
+                "venue": "Int. Conf. on Robotics and Automation (<b>ICRA</b>)",
+                "image": "publications/data/24_arxiv3.jpg",
+                "pdf": "https://arxiv.org/abs/2409.15615",
+                "code": "https://github.com/MIT-SPARK/KISS-Matcher",
+                "github": "<a class=\"github-button\" href=\"https:\/\/github.com\/MIT-SPARK\/KISS-Matcher\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star MIT-SPARK\/KISS-Matcher on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/MIT-SPARK\/KISS-Matcher\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork MIT-SPARK\/KISS-Matcher on GitHub\">Fork<\/a>"
+            },
+            {
+                "language": "international",
+                "type": "conference",
                 "title": "Locality-aware Gaussian Compression for Fast and High-quality Rendering",
                 "author": ["Seungjoo Shin", "Jaesik Park", "Sunghyun Cho"],
                 "venue": "Int. Conf. on Learning Representations (<b>ICLR</b>)",
@@ -156,17 +167,6 @@
                 "venue": "2410.04088 (arXiv)",
                 "image": "publications/data/24_arxiv5.jpg",
                 "pdf": "https://arxiv.org/abs/2410.04088"
-            },
-            {
-                "language": "international",
-                "type": "arxiv",
-                "title": "KISS-Matcher: Fast and Robust Point Cloud Registration Revisited",
-                "author": ["Hyungtae Lim", "Daebeom Kim", "Gunhee Shin", "Jingnan Shi", "Ignacio Vizzo", "Hyun Myung", "Jaesik Park", "Luca Carlone"],
-                "venue": "2409.15615 (arXiv)",
-                "image": "publications/data/24_arxiv3.jpg",
-                "pdf": "https://arxiv.org/abs/2409.15615",
-                "code": "https://github.com/MIT-SPARK/KISS-Matcher",
-                "github": "<a class=\"github-button\" href=\"https:\/\/github.com\/MIT-SPARK\/KISS-Matcher\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star MIT-SPARK\/KISS-Matcher on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/MIT-SPARK\/KISS-Matcher\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork MIT-SPARK\/KISS-Matcher on GitHub\">Fork<\/a>"
             },
             {
                 "language": "international",
