@@ -140,6 +140,11 @@
         ],
         "talks": [
             {
+                "title": "영상기반 3차원 복원과 AI 응용",
+                "venue": "한국인공지능학회 인공지능 동계 단기강좌, Seoul, Republic of Korea",
+                "month": 2
+            },
+            {
                 "title": "제한된 관측으로부터 3차원 복원하기",
                 "venue": "IEIE 영상이해연구회 겨울학교, Hongchun, Republic of Korea",
                 "month": 1
@@ -310,7 +315,7 @@
         "program committee": [
             {
                 "title": "<b>Area Chair</b>",
-                "venue": "Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)"
+                "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)"
             },
             {
                 "title": "<b>Lead Area Chair</b>",
@@ -414,7 +419,7 @@
                 "type": "conference",
                 "title": "Binary Radiance Fields",
                 "author": ["Seungjoo Shin", "Jaesik Park"],
-                "venue": "Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
+                "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
                 "image": "publications/data/23_neurips.jpg",
                 "pdf": "https://arxiv.org/abs/2306.07581",
                 "web": "https://seungjooshin.github.io/BiRF",
@@ -555,7 +560,7 @@
             },
             {
                 "title": "<b>Area Chair</b>",
-                "venue": "Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)"
+                "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)"
             },
             {
                 "title": "<b>Area Chair</b>",
@@ -672,7 +677,7 @@
                 "type": "conference",
                 "title": "PeRFception: Perception using Radiance Fields", 
                 "author": ["Yoonwoo Jeong*", "Seungjoo Shin*", "Junha Lee*", "Christopher Choy", "Animashree Anandkumar", "Minsu Cho", "Jaesik Park"],
-                "venue": "Conf. on Neural Information Processing Systems (<b>NeurIPS</b>) Datasets and Benchmarks Track",
+                "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>) Datasets and Benchmarks Track",
                 "image": "publications/data/22_perfception.jpg",
                 "pdf": "https://arxiv.org/abs/2208.11537",
                 "comment": "(*Equal contribution)",
@@ -685,7 +690,7 @@
                 "type": "conference",
                 "title": "Learning Debiased Classifier with Biased Committee",
                 "author": ["Nayeong Kim", "Sehyun Hwang", "Sungsoo Ahn", "Jaesik Park", "Suha Kwak"],
-                "venue": "Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
+                "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
                 "image": "publications/data/22_scis.jpg",
                 "pdf": "https://arxiv.org/abs/2206.10843"
             },
@@ -694,7 +699,7 @@
                 "type": "conference",
                 "title": "A Rotated Hyperbolic Wrapped Normal Distribution for Hierarchical Representation Learning",
                 "author": ["Seunghyuk Cho", "Juyong Lee", "Jaesik Park", "Dongwoo Kim"],
-                "venue": "Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
+                "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
                 "image": "publications/data/22_rown.jpg",
                 "pdf": "https://arxiv.org/abs/2205.13371"
             },
@@ -1006,7 +1011,7 @@
                 "type": "conference",
                 "title": "Rebooting ACGAN: Auxiliary Classifier GANs with Stable Training", 
                 "author": ["Minguk Kang", "Woohyeon Shim", "Minsu Cho", "Jaesik Park"],
-                "venue": "Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
+                "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
                 "image": "publications/data/21_neurips1.jpg",
                 "pdf": "https://arxiv.org/abs/2111.01118",
                 "code": "https://github.com/POSTECH-CVLab/PyTorch-StudioGAN"
@@ -1016,7 +1021,7 @@
                 "type": "conference",
                 "title": "Brick-by-Brick: Combinatorial Construction with Deep Reinforcement Learning", 
                 "author": ["Hyunsoo Chung", "Jungtaek Kim", "Boris Knyazev", "Jinhwi Lee", "Graham W. Taylor", "Jaesik Park", "Minsu Cho"],
-                "venue": "Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
+                "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
                 "image": "publications/data/21_neurips2.jpg",
                 "pdf": "https://arxiv.org/abs/2110.15481"
             },            
@@ -1292,7 +1297,7 @@
                 "type": "conference",
                 "title": "ContraGAN: Contrastive Learning for Conditional Image Generation", 
                 "author": ["Minguk Kang", "Jaesik Park"],
-                "venue": "Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
+                "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
                 "image": "publications/data/20_neurips.jpg",
                 "pdf": "https://papers.nips.cc/paper/2020/file/f490c742cd8318b8ee6dca10af2a163f-Paper.pdf",
                 "code": "https://github.com/POSTECH-CVLab/PyTorch-StudioGAN"
@@ -1322,7 +1327,7 @@
                 "type": "conference",
                 "title": "HUMBI: A Large Multiview Dataset of Human Body Expressions", 
                 "author": ["Zhixuan Yu", "Jaeshin Yoon", "Inkyu Lee", "Prashanth Venkatesh", "Jaesik Park", "Jihun Yu", "Hyunsoo Park"],
-                "venue": "Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
+                "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/18_arxiv2.jpg",
                 "web": "https://humbi-data.net",
                 "video": "https://www.youtube.com/watch?v=1iVjFgYq8ZU",
@@ -1333,7 +1338,7 @@
                 "type": "conference",
                 "title": "High-Dimensional Convolutional Networks for Geometric Pattern Recognition", 
                 "author": ["Christopher Choy", "Junha Lee", "Rene Ranftl", "Jaesik Park", "Vladlen Koltun"],
-                "venue": "Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
+                "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/20_cvpr2.jpg",
                 "pdf": "publications/data/20_cvpr_highconv.pdf",
                 "supp": "publications/data/20_cvpr_highconv_supp.pdf",
@@ -1345,7 +1350,7 @@
                 "type": "conference",
                 "title": "Future Video Synthesis with Object Motion Predictions", 
                 "author": ["Yue Wu", "Rongrong Gao", "Jaesik Park", "Qifeng Chen"],
-                "venue": "Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
+                "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/20_cvpr1.jpg",
                 "pdf": "publications/data/20_cvpr_future.pdf",
                 "supp": "publications/data/20_cvpr_highconv_supp.pdf",
@@ -1611,7 +1616,7 @@
                 "type": "conference",
                 "title": "Tangent Convolutions for Dense Prediction in 3D", 
                 "author": ["Maxim Tatarchenko*", "Jaesik Park*", "Vladlen Koltun", "Qian-Yi Zhou"],
-                "venue": "Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
+                "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/18_cvpr.jpg",
                 "web": "http://vladlen.info/publications/tangent-convolutions-dense-prediction-3d/",
                 "pdf": "publications/data/18_cvpr.pdf",
@@ -1754,7 +1759,7 @@
                 "type": "conference",
                 "title": "Efficient and Robust Color Consistency for Community Photo Collections", 
                 "author": ["Jaesik Park", "Yu-Wing Tai", "Sudipta N. Sinha", "In So Kweon"],
-                "venue": "Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
+                "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/16_cvpr_color.jpg",
                 "web_inplace": "publications/photoconsistency/index.html",
                 "code": "https://github.com/syncle/photo_consistency"
@@ -1764,7 +1769,7 @@
                 "type": "conference",
                 "title": "High-quality Depth from Uncalibrated Small Motion Clip", 
                 "author": ["Hyowon Ha", "Sunghoon Im", "Jaesik Park", "Hae-Gon Jeon", "In So Kweon"],
-                "venue": "Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
+                "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/16_cvpr_sm.jpg",
                 "comment": "(<b>Oral</b> Presentation, 3.9% acceptance rate)",
                 "web": "https://sites.google.com/site/hyowoncv/ha_cvpr16",
@@ -1838,7 +1843,7 @@
                 "type": "conference",
                 "title": "Accurate Depth Map Estimation from a Lenslet Light Field Camera", 
                 "author": ["Hae-Gon Jeon", "Jaesik Park", "Gyeongmin Choe", "Jinsun Park", "Yunsu Bok", "Yu-Wing Tai", "In So Kweon"],
-                "venue": "Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
+                "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/15_cvpr_lf.jpg",
                 "pdf": "https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Jeon_Accurate_Depth_Map_2015_CVPR_paper.pdf",
                 "code": "https://drive.google.com/open?id=0B2553ggh3QTcS01zU0RjOG5FTjQ"
@@ -1848,7 +1853,7 @@
                 "type": "conference",
                 "title": "Multi-modal Pedestrian Detection: Benchmark Dataset and Baselines", 
                 "author": ["SoonMin Hwang", "Jaesik Park", "Namil Kim", "Yukyung Choi", "In So Kweon"],
-                "venue": "Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
+                "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/15_cvpr_pd.jpg",
                 "web": "https://sites.google.com/site/pedestrianbenchmark/"
             }
@@ -1900,7 +1905,7 @@
                 "type": "conference",
                 "title": "Exploiting Shading Cues in Kinect IR Images for Geometry Refinement", 
                 "author": ["Gyeongmin Choe*", "Jaesik Park*", "Yu-Wing Tai", "In So Kweon"],
-                "venue": "Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
+                "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/14_cvpr_gm.jpg",
                 "comment": "(*Equal contributions. Received 20th <b>HumanTech Paper Award (Silver Prize)</b>, Samsung Electronics Corp.)",
                 "web": "https://sites.google.com/site/gmchoe1/kinir"
@@ -1910,7 +1915,7 @@
                 "type": "conference",
                 "title": "Calibrating a Non-isotropic Near Point Light Source using a Plane", 
                 "author": ["Jaesik Park", "Sudipta N. Sinha", "Yasuyuki Matsushita", "Yu-Wing Tai", "In So Kweon"],
-                "venue": "Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
+                "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/14_cvpr_cal.jpg",
                 "web_inplace": "publications/lightcalib/index.html"
             },
@@ -2050,7 +2055,7 @@
                 "type": "conference",
                 "title": "Identigram/Watermark removal using cross-channel correlation", 
                 "author": ["Jaesik Park", "Yu-Wing Tai", "In-So Kweon"],
-                "venue": "Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
+                "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/12_cvpr.jpg",
                 "web_inplace": "publications/identigram/index.html"
             }
@@ -2075,7 +2080,7 @@
                 "language": "international",
                 "type": "conference",
                 "title": "A Novel 2.5D Pattern for Extrinsic Calibration of ToF and Camera Fusion System", 
-                "author": ["Jiyoung Jung", "Yekeun Jeong", "Jaesik Park", "Hyowon Ha", "J. D. Kim", "In-So Kweon"],
+                "author": ["Jiyoung Jung", "Yekeun Jeong", "Jaesik Park", "Hyowon Ha", "James Dokyoon Kim", "In-So Kweon"],
                 "venue": "IEEE/RSJ Int. Conf. on Intelligent Robots and Systems (<b>IROS</b>)",
                 "image": "publications/data/11_iros.jpg",
                 "pdf": "publications/data/11_iros.pdf"
