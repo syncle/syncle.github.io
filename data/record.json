@@ -119,6 +119,10 @@
         "program committee": [
             {
                 "title": "<b>Area Chair</b>",
+                "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)"
+            },
+            {
+                "title": "<b>Area Chair</b>",
                 "venue": "Int. Conf. on Machine Learning (<b>ICML</b>)"
             },
             {
