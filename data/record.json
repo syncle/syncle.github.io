@@ -5,6 +5,30 @@
             {
                 "language": "international",
                 "type": "conference",
+                "title": "VirtualPCR: Compositional TV Show Reconstruction",
+                "author": ["Sangmin Kim", "Seunguk Do", "Jaesik Park"],
+                "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
+                "image": "publications/data/25_cvpr1.jpg"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "LiveStroke: Abstracting 3D Motion from Videos",
+                "author": ["Jaeah Lee", "Changwoon Choi", "Young Min Kim", "Jaesik Park"],
+                "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
+                "image": "publications/data/25_cvpr2.jpg"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "Improving Editability in Image Generation with Layer-wise Memory",
+                "author": ["Daneul Kim", "Jaeah Lee", "Jaesik Park"],
+                "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
+                "image": "publications/data/25_cvpr3.jpg"
+            },
+            {
+                "language": "international",
+                "type": "conference",
                 "title": "KISS-Matcher: Fast and Robust Point Cloud Registration Revisited",
                 "author": ["Hyungtae Lim", "Daebeom Kim", "Gunhee Shin", "Jingnan Shi", "Ignacio Vizzo", "Hyun Myung", "Jaesik Park", "Luca Carlone"],
                 "venue": "Int. Conf. on Robotics and Automation (<b>ICRA</b>)",
