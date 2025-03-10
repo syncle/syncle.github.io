@@ -4,6 +4,16 @@
         "papers": [
             {
                 "language": "international",
+                "type": "arxiv",
+                "title": "BUFFER-X: Towards Zero-Shot Point Cloud Registration in Diverse Scenes",
+                "author": ["Minkyun Seo*", "Hyungtae Lim*", "Kanghee Lee", "Luca Carlone", "Jaesik Park"],
+                "venue": "XXXX.XXXXX (arXiv)",
+                "image": "publications/data/25_arxiv2.jpg",
+                "pdf": "https://arxiv.org/abs/2410.04088",
+                "note": "Joint first authors"
+            },
+            {
+                "language": "international",
                 "type": "conference",
                 "title": "ShowMak3r: Compositional TV Show Reconstruction",
                 "author": ["Sangmin Kim", "Seunguk Do", "Jaesik Park"],
