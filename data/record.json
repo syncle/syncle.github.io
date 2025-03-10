@@ -5,7 +5,7 @@
             {
                 "language": "international",
                 "type": "conference",
-                "title": "VirtualPCR: Compositional TV Show Reconstruction",
+                "title": "ShowMak3r: Compositional TV Show Reconstruction",
                 "author": ["Sangmin Kim", "Seunguk Do", "Jaesik Park"],
                 "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/25_cvpr1.jpg"
