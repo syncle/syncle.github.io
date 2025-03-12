@@ -7,9 +7,9 @@
                 "type": "arxiv",
                 "title": "BUFFER-X: Towards Zero-Shot Point Cloud Registration in Diverse Scenes",
                 "author": ["Minkyun Seo*", "Hyungtae Lim*", "Kanghee Lee", "Luca Carlone", "Jaesik Park"],
-                "venue": "XXXX.XXXXX (arXiv)",
+                "venue": "2503.07940 (arXiv)",
                 "image": "publications/data/25_arxiv2.jpg",
-                "pdf": "https://arxiv.org/abs/2410.04088",
+                "pdf": "https://arxiv.org/abs/2503.07940",
                 "note": "Joint first authors"
             },
             {
