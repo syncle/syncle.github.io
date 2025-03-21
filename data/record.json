@@ -187,6 +187,11 @@
         ],
         "talks": [
             {
+                "title": "공간표현과 공간지능 최신동향",
+                "venue": "과실연 AI 미래 포럼, Youtube Live",
+                "month": 3
+            },
+            {
                 "title": "영상기반 3차원 복원과 AI 응용",
                 "venue": "한국인공지능학회 인공지능 동계 단기강좌, Seoul, Republic of Korea",
                 "month": 2
