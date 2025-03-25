@@ -18,7 +18,8 @@
                 "title": "ShowMak3r: Compositional TV Show Reconstruction",
                 "author": ["Sangmin Kim", "Seunguk Do", "Jaesik Park"],
                 "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
-                "image": "publications/data/25_cvpr1.jpg"
+                "image": "publications/data/25_cvpr1.jpg",
+                "web": "https://nstar1125.github.io/showmak3r"
             },
             {
                 "language": "international",
