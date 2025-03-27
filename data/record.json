@@ -188,6 +188,11 @@
         ],
         "talks": [
             {
+                "title": "3D Vision Research from SNU VGI Lab",
+                "venue": "<b>Naver Labs</b>, Seongnam, Republic of Korea",
+                "month": 3
+            },
+            {
                 "title": "공간표현과 공간지능 최신동향",
                 "venue": "과실연 AI 미래 포럼, Youtube Live",
                 "month": 3
@@ -437,7 +442,7 @@
             },
             {
                 "title": "3D Scene Reconstruction, Representation, and Understanding",
-                "venue": "KAIST 초세대연구실 개소 기념 특별 심포지엄, Daejeon, Republic of Korea",
+                "venue": "<b>KAIST</b> 초세대연구실 개소 기념 특별 심포지엄, Daejeon, Republic of Korea",
                 "month": 2
             }
         ],
