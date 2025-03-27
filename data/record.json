@@ -27,7 +27,9 @@
                 "title": "Recovering Dynamic 3D Sketches from Videos",
                 "author": ["Jaeah Lee", "Changwoon Choi", "Young Min Kim", "Jaesik Park"],
                 "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
-                "image": "publications/data/25_cvpr2.jpg"
+                "image": "publications/data/25_cvpr2.jpg",
+                "web": "https://jaeah.me/liv3stroke_web",
+                "pdf": "https://arxiv.org/abs/2503.20321"
             },
             {
                 "language": "international",
