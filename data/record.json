@@ -390,6 +390,11 @@
         ],
         "awards": [
             {
+                "title": "Gift Grant",
+                "awardee": "Microsoft Corp.",          
+                "month": 9
+            },
+            {
                 "title": "<b>30th HumanTech Paper Award (Silver Prize)</b>",
                 "awardee": "Samsung Electronics Corp.",          
                 "month": 2
