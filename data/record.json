@@ -5,6 +5,16 @@
             {
                 "language": "international",
                 "type": "arxiv",
+                "title": "Targetless LiDAR-Camera Calibration with Anchored 3D Gaussians",
+                "author": ["Haebeom Jung", "Namtae Kim", "Jungwoo Kim", "Jaesik Park"],
+                "venue": "XXXX.XXXXX (arXiv)",
+                "image": "publications/data/25_arxiv4.jpg",
+                "web": "https://zang09.github.io/tlc-calib-site",
+                "pdf": "#"
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
                 "title": "BUFFER-X: Towards Zero-Shot Point Cloud Registration in Diverse Scenes",
                 "author": ["Minkyun Seo*", "Hyungtae Lim*", "Kanghee Lee", "Luca Carlone", "Jaesik Park"],
                 "venue": "2503.07940 (arXiv)",
