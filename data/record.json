@@ -174,6 +174,10 @@
         ],
         "program committee": [
             {
+                "title": "Conflict-of-Interest (<b>CoI</b>) <b>Coordinator</b> for the Technical Papers Program",
+                "venue": "ACM <b>SIGGRAPH Asia</b>"
+            },
+            {
                 "title": "<b>Area Chair</b>",
                 "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)"
             },
@@ -631,7 +635,7 @@
         "program committee": [
             {
                 "title": "<b>Technical Papers Committee</b>",
-                "venue": "ACM (<b>SIGGRAPH Asia</b>)"
+                "venue": "ACM <b>SIGGRAPH Asia</b>"
             },
             {
                 "title": "<b>Area Chair</b>",
