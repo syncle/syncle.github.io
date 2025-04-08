@@ -7,10 +7,10 @@
                 "type": "arxiv",
                 "title": "Targetless LiDAR-Camera Calibration with Anchored 3D Gaussians",
                 "author": ["Haebeom Jung", "Namtae Kim", "Jungwoo Kim", "Jaesik Park"],
-                "venue": "XXXX.XXXXX (arXiv)",
+                "venue": "2504.04597 (arXiv)",
                 "image": "publications/data/25_arxiv4.jpg",
                 "web": "https://zang09.github.io/tlc-calib-site",
-                "pdf": "#"
+                "pdf": "https://arxiv.org/abs/2504.04597"
             },
             {
                 "language": "international",
