@@ -47,7 +47,8 @@
                 "title": "Improving Editability in Image Generation with Layer-wise Memory",
                 "author": ["Daneul Kim", "Jaeah Lee", "Jaesik Park"],
                 "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
-                "image": "publications/data/25_cvpr3.jpg"
+                "image": "publications/data/25_cvpr3.jpg",
+                "web": "https://carpedkm.github.io/projects/improving_edit/index.html"
             },
             {
                 "language": "international",
