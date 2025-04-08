@@ -67,7 +67,8 @@
                 "author": ["Seungjoo Shin", "Jaesik Park", "Sunghyun Cho"],
                 "venue": "Int. Conf. on Learning Representations (<b>ICLR</b>)",
                 "image": "publications/data/25_arxiv1.jpg",
-                "pdf": "https://arxiv.org/abs/2501.05757"
+                "pdf": "https://arxiv.org/abs/2501.05757",
+                "web": "https://seungjooshin.github.io/LocoGS"
             },
             {
                 "language": "international",
