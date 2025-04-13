@@ -10,7 +10,7 @@ def resize_and_pad(img, size, padColor=255):
 	if h > sh or w > sw: # shrinking image
 		interp = cv2.INTER_AREA
 	else: # stretching image
-		interp = cv2.INTER_CUBIC
+		interp = cv2.INTER_LANCZOS4
 
 	# compute scaling
 	if w > sw and h > sh:
@@ -67,9 +67,10 @@ def resize_and_pad(img, size, padColor=255):
 
 # reference: https://stackoverflow.com/questions/44720580/resize-image-canvas-to-maintain-square-aspect-ratio-in-python-opencv
 def resize_and_crop(img, size, padColor=255):
+	# import pdb; pdb.set_trace()
 	h, w = img.shape[:2]
 	sh, sw = size
-
+	
 	# interpolation method
 	if h > sh or w > sw: # shrinking image
 		interp = cv2.INTER_AREA
@@ -113,13 +114,17 @@ def resize_and_crop(img, size, padColor=255):
 
 	return scaled_img
 
-if __name__ == "__main__":
-	for file in os.listdir("../publications/data/raw_images/"):
-		if file.endswith(".png") or file.endswith(".jpg"):
-			file_path = os.path.join("../publications/data/raw_images/", file)
+def run_folder(source_folder, target_folder, imgsize):
+	for file in os.listdir(source_folder):
+		if file.endswith(".png") or file.endswith(".jpg") or file.endswith(".jpeg"):
+			file_path = os.path.join(source_folder, file)
 			file_name = os.path.splitext(os.path.basename(file))[0]
 			#print("processing %s" % file_name)
 			img = cv2.imread(file_path)
-			img_scale = resize_and_pad(img, [400,750], padColor=255)
+			img_scale = resize_and_pad(img, imgsize, padColor=255)
 			# os.remove(file_path)
-			cv2.imwrite("../publications/data/" + file_name + '.jpg', img_scale)
+			cv2.imwrite(target_folder + file_name + '.jpg', img_scale)
+
+if __name__ == "__main__":
+	run_folder("../publications/data/raw_images/", "../publications/data/", [400,750])
+	run_folder("../source/lab_pics/raw_images/", "../source/lab_pics/", [2000,3600])
