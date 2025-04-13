@@ -1,276 +1,235 @@
 {
-	"Daeun Lee": [
-		{
-			"ms_start": "2025 Spring",
-			"ms_end": "current",
-			"ms_comment": "Master's student",
-			"photo": "source/members/daeun.jpeg"
-		}
-	],
-	"YoungJoong Kim": [
-		{
-			"ms_start": "2025 Spring",
-			"ms_end": "current",
-			"ms_comment": "Master's student",
-			"photo": "source/members/youngjoong.jpg",
-			"web": "https://revsic.github.io/"
-		}
-	],
-	"Milo Deroussi": [
-		{
-			"visit_start": "2024 Fall",
-			"visit_end": "2025 Fall",
-			"visit_comment": "Exchange master's student",
-			"job": "Télécom SudParis",
-			"photo": "source/members/milo.jpg",
-			"web": "https://github.com/MiloDeroussi"
-		}
-	],
-	"Namtae Kim": [
-		{
-			"integrated_start": "2024 Fall",
-			"integrated_end": "current",
-			"integrated_comment": "Integrated Ph.D. student",
-			"photo": "source/members/namtae.jpg"
-		}
-	],
-	"Jaeah Lee": [
-		{
-			"ms_start": "2024 Spring",
-			"ms_end": "current",
-			"ms_comment": "Master's student",
-			"web": "https://jaeah.me/",
-			"photo": "source/members/jaeah.jpeg"
-		}
-	],
-	"Sang Min Kim": [
-		{
-			"integrated_start": "2024 Spring",
-			"integrated_end": "current",
-			"integrated_comment": "Integrated Ph.D. student",
-			"web": "https://nstar1125.github.io/",
-			"photo": "source/members/sangmin.jpg"
-		}
-	],
-	"HyunJoon Lee": [
-		{
-			"integrated_start": "2024 Spring",
-			"integrated_end": "current",
-			"integrated_comment": "Master's student",
-			"web": "https://github.com/JJoonII",
-			"photo": "source/members/hyunjoon.jpg"
-		}
-	],
-	"Daneul Kim": [
-		{
-			"ms_start": "2023 Fall",
-			"ms_end": "current",
-			"ms_comment": "Master's student",
-			"web": "https://carpedkm.github.io/",
-			"photo": "source/members/daneul.jpeg"
-		}
-	],
-	"Haebeom Jung": [
-		{
-			"integrated_start": "2023 Fall",
-			"integrated_end": "current",
-			"integrated_comment": "Integrated Ph.D. student",
-			"web": "https://github.com/zang09",
-			"photo": "source/members/haebeom.jpg"
-		}
-	],
-	"Jinmo Kim": [
-		{
-			"integrated_start": "2023 Fall",
-			"integrated_end": "current",
-			"integrated_comment": "Integrated Ph.D. student",
-			"web": "https://jinmo.kim/",
-			"photo": "source/members/jinmo.jpg"
-		}
-	],
-	"Joonghyuk Shin": [
-		{
-			"integrated_start": "2023 Fall",
-			"integrated_end": "current",
-			"integrated_comment": "Integrated Ph.D. student",
-			"web": "https://joonghyuk.com/",
-			"photo": "source/members/joonghyuk.jpg"
-		}
-	],
-	"Pierre E. Musacchio": [
-		{
-			"integrated_start": "2023 Fall",
-			"integrated_end": "current",
-			"integrated_comment": "Integrated Ph.D. student",
-			"web": "https://www.linkedin.com/in/pierre-musacchio-605092217",
-			"photo": "source/members/pierre.jpg"
-		}
-	],
-	"Cheolhong Min": [
-		{
-			"phd_start": "2024 Fall",
-			"phd_end": "current",
-			"phd_comment": "Ph.D. student",
-			"web": "https://cheolhong0916.github.io/",
-			"photo": "source/members/cheolhong.jpeg"
-		}
-	],
-	"In-Jae Lee": [
-		{
-			"phd_start": "2024 Fall",
-			"phd_end": "current",
-			"phd_comment": "Ph.D. student",
-			"web": "https://scholar.google.com/citations?user=Nc1XmU8AAAAJ",
-			"photo": "source/members/injae.jpg"
-		}
-	],
-	"Seunguk Do": [
-		{
-			"phd_start": "2023 Fall",
-			"phd_end": "current",
-			"phd_comment": "Ph.D. student",
-			"web": "https://www.linkedin.com/in/seunguk-do-9b42251a9",
-			"photo": "source/members/seunguk.jpg"
-		}
-	],
-	"Kanghee Lee": [
-		{
-			"phd_start": "2023 Fall",
-			"phd_end": "current",
-			"phd_comment": "Ph.D. student",
-			"web": "https://scholar.google.com/citations?user=s-haNkwAAAAJ",
-			"photo": "source/members/ganghee.jpeg"
-		}
-	],
-	"Dongmin You": [
-		{
-			"ms_start": "2022 Spring",
-			"ms_end": "2023 Fall",
-			"ms_comment": "MS degree (POSTECH)",
-			"job": "MS degree (POSTECH)",
-			"web": "https://www.linkedin.com/in/you-dongmin-28297012b",
-			"photo": "source/members/dongmin.jpg"
-		}
-	],
-	"Jaesung Choe": [
-		{
-			"visit_start": "2023 Summer",
-			"visit_comment": "Post Doc. Researcher",
-			"job": "NVIDIA",
-			"web": "https://jaesung-choe.github.io/",
-			"photo": "source/members/jaesung.jpg"
-		}
-	],
-	"Seoyeon Kim": [
-		{
-			"ms_start": "2022 Fall",
-			"ms_end": "2024 Spring",
-			"ms_comment": "MS degree (POSTECH)",
-			"web": "https://yeon07.github.io/",
-			"photo": "source/members/seoyeon.jpg"
-		}
-	],
-	"Seungjoo Shin": [
-		{
-			"ms_start": "2021 Fall",
-			"ms_end": "2023 Spring",
-			"ms_comment": "MS degree (POSTECH)",
-			"phd_start": "2023 Fall",
-			"phd_end": "current",
-			"phd_comment": "Ph.D. student (POSTECH)",
-			"web": "https://seungjooshin.github.io",
-			"photo": "source/members/seungju.jpeg"
-		}
-	],
-	"Kwonyoung Ryu": [
-		{
-			"phd_start": "2021 Spring",
-			"phd_end": "current",
-			"phd_comment": "Ph.D. student",
-			"web": "https://scholar.google.com/citations?user=ZqM8_24AAAAJ",
-			"photo": "source/members/kwon-young.jpg"
-		}
-	],
-	"Jiye Kim": [
-		{
-			"ms_start": "2021 Spring",
-			"ms_end": "2022 Fall",
-			"ms_comment": "MS degree (POSTECH)",
-			"job": "LG AI Research",
-			"web": "https://www.linkedin.com/in/jk3472",
-			"photo": "source/members/jiye.jpeg"
-		}
-	],
-	"Jinoh Cho": [
-		{
-			"ms_start": "2020 Fall",
-			"ms_end": "2022 Fall",
-			"ms_comment": "MS degree (POSTECH)",
-			"job": "Pursuing Ph.D.",
-			"web": "https://jinoh-cho.github.io/",
-			"photo": "source/members/jinoh.jpg"
-		}
-	], 
-	"Seokjun Ahn": [
-		{
-			"ms_start": "2020 Fall",
-			"ms_end": "2022 Fall",
-			"ms_comment": "MS degree (POSTECH)",
-			"job": "Qualcomm Korea",
-			"web": "https://www.linkedin.com/in/seokjoon-ahn-36414b118",
-			"photo": "source/members/seokjun.jpg"
-		}
-	],
-	"Chunghyun Park": [
-		{
-			"ms_start": "2020 Spring",
-			"ms_end": "2021 Fall",
-			"ms_comment": "MS degree (POSTECH)",
-			"phd_start": "2022 Spring",
-			"phd_end": "current",
-			"phd_comment": "Ph.D. student (POSTECH)",
-			"web": "https://chrockey.github.io/",
-			"photo": "source/members/chunghyun.jpg"
-		}
-	],
-	"MinGuk Kang": [
-		{
-			"integrated_start": "2020 Spring",
-			"integrated_end": "current",
-			"integrated_comment": "Integrated Ph.D. student",
-			"web": "https://mingukkang.github.io/",
-			"photo": "source/members/minguk.jpg"
-		}
-	],
-	"Jaebong Jeong": [
-		{
-			"ms_start": "2019 Fall",
-			"ms_end": "2021 Fall",
-			"ms_comment": "MS degree (POSTECH)",
-			"web": "https://www.linkedin.com/in/jaebong-jeong-66265015b",
-			"photo": "source/members/jaebong.jpg"
-		}
-	],
-	"Hyunmin Lee": [
-		{
-			"ms_start": "2019 Fall",
-			"ms_end": "2021 Spring",
-			"ms_comment": "MS degree (POSTECH)",
-			"job": "LG AI Research",
-			"web": "https://scholar.google.com/citations?user=aKVfs4QAAAAJ&hl=ko",
-			"photo": "source/members/hyunmin.jpg"
-		}
-	],
-	"Junha Lee": [
-		{
-			"ms_start": "2019 Fall",
-			"ms_end": "2021 Spring",
-			"ms_comment": "MS degree (POSTECH)",
-			"phd_start": "2021 Fall",
-			"phd_end": "current",
-			"phd_comment": "Ph.D. student (POSTECH)",
-			"web": "https://junha-l.github.io/",
-			"photo": "source/members/junha.jpeg"
-		}
-	]
+	"Daeun Lee": {
+		"ms_start": "2025 Spring",
+		"ms_end": "current",
+		"ms_comment": "Master's student",
+		"photo": "source/members/daeun.jpeg",
+        "member_now": "yes"
+	},
+	"YoungJoong Kim": {
+		"ms_start": "2025 Spring",
+		"ms_end": "current",
+		"ms_comment": "Master's student",
+		"photo": "source/members/youngjoong.jpg",
+		"web": "https://revsic.github.io/",
+        "member_now": "yes"
+	},
+	"Milo Deroussi": {
+		"ms_start": "2024 Fall",
+		"ms_end": "current",
+		"ms_comment": "Exchange master's student",
+		"job": "Télécom SudParis",
+		"photo": "source/members/milo.jpg",
+		"web": "https://github.com/MiloDeroussi",
+        "member_now": "yes"
+	},
+	"Namtae Kim": {
+		"int_start": "2024 Fall",
+		"int_end": "current",
+		"int_comment": "Integrated Ph.D. student",
+		"photo": "source/members/namtae.jpg",
+        "member_now": "yes"
+	},
+	"Jaeah Lee": {
+		"ms_start": "2024 Spring",
+		"ms_end": "current",
+		"ms_comment": "Master's student",
+		"web": "https://jaeah.me/",
+		"photo": "source/members/jaeah.jpeg",
+        "member_now": "yes"
+	},
+	"Sangmin Kim": {
+		"int_start": "2024 Spring",
+		"int_end": "current",
+		"int_comment": "Integrated Ph.D. student",
+		"web": "https://nstar1125.github.io/",
+		"photo": "source/members/sangmin.jpg",
+        "member_now": "yes"
+	},
+	"HyunJoon Lee": {
+		"int_start": "2024 Spring",
+		"int_end": "current",
+		"int_comment": "Integrated Ph.D. student",
+		"web": "https://github.com/JJoonII",
+		"photo": "source/members/hyunjoon.jpg",
+        "member_now": "yes"
+	},
+	"Daneul Kim": {
+		"ms_start": "2023 Fall",
+		"ms_end": "current",
+		"ms_comment": "Master's student",
+		"web": "https://carpedkm.github.io/",
+		"photo": "source/members/daneul.jpeg",
+        "member_now": "yes"
+	},
+	"Haebeom Jung": {
+		"int_start": "2023 Fall",
+		"int_end": "current",
+		"int_comment": "Integrated Ph.D. student",
+		"web": "https://github.com/zang09",
+		"photo": "source/members/haebeom.jpg",
+        "member_now": "yes"
+	},
+	"Jinmo Kim": {
+		"int_start": "2023 Fall",
+		"int_end": "current",
+		"int_comment": "Integrated Ph.D. student",
+		"web": "https://jinmo.kim/",
+		"photo": "source/members/jinmo.jpg",
+        "member_now": "yes"
+	},
+	"Joonghyuk Shin": {
+		"int_start": "2023 Fall",
+		"int_end": "current",
+		"int_comment": "Integrated Ph.D. student",
+		"web": "https://joonghyuk.com/",
+		"photo": "source/members/joonghyuk.jpg",
+        "member_now": "yes"
+	},
+	"Pierre E. Musacchio": {
+		"int_start": "2023 Fall",
+		"int_end": "current",
+		"int_comment": "Integrated Ph.D. student",
+		"web": "https://www.linkedin.com/in/pierre-musacchio-605092217",
+		"photo": "source/members/pierre.jpg",
+        "member_now": "yes"
+	},
+	"Cheolhong Min": {
+		"phd_start": "2024 Fall",
+		"phd_end": "current",
+		"phd_comment": "Ph.D. student",
+		"web": "https://cheolhong0916.github.io/",
+		"photo": "source/members/cheolhong.jpeg",
+        "member_now": "yes"
+	},
+	"In-Jae Lee": {
+		"phd_start": "2024 Fall",
+		"phd_end": "current",
+		"phd_comment": "Ph.D. student",
+		"web": "https://scholar.google.com/citations?user=Nc1XmU8AAAAJ",
+		"photo": "source/members/injae.jpg",
+        "member_now": "yes"
+	},
+	"Seunguk Do": {
+		"phd_start": "2023 Fall",
+		"phd_end": "current",
+		"phd_comment": "Ph.D. student",
+		"web": "https://www.linkedin.com/in/seunguk-do-9b42251a9",
+		"photo": "source/members/seunguk.jpg",
+        "member_now": "yes"
+	},
+	"Kanghee Lee": {
+		"phd_start": "2023 Fall",
+		"phd_end": "current",
+		"phd_comment": "Ph.D. student",
+		"web": "https://scholar.google.com/citations?user=s-haNkwAAAAJ",
+		"photo": "source/members/ganghee.jpeg",
+        "member_now": "yes"
+	},
+	"Dongmin You": {
+		"ms_start": "2022 Spring",
+		"ms_end": "2023 Fall",
+		"ms_comment": "MS degree (POSTECH)",
+		"job": "GenGenAI",
+		"web": "https://www.linkedin.com/in/you-dongmin-28297012b",
+		"photo": "source/members/dongmin.jpg"
+	},
+	"Jaesung Choe": {
+		"visit_period": "2023 Summer",
+        "visit_comment": "Post Doc. Researcher",
+		"job": "NVIDIA",
+		"web": "https://jaesung-choe.github.io/",
+		"photo": "source/members/jaesung.jpg"
+	},
+	"Seoyeon Kim": {
+		"ms_start": "2022 Fall",
+		"ms_end": "2024 Spring",
+		"ms_comment": "MS degree (POSTECH)",
+		"web": "https://yeon07.github.io/",
+		"photo": "source/members/seoyeon.jpg"
+	},
+	"Seungjoo Shin": {
+		"ms_start": "2021 Fall",
+		"ms_end": "2023 Spring",
+		"ms_comment": "MS degree (POSTECH)",
+		"phd_start": "2023 Fall",
+		"phd_end": "current",
+		"phd_comment": "Ph.D. student (POSTECH)",
+		"web": "https://seungjooshin.github.io",
+		"photo": "source/members/seungju.jpeg"
+	},
+	"Kwonyoung Ryu": {
+		"phd_start": "2021 Spring",
+		"phd_end": "current",
+		"phd_comment": "Ph.D. student",
+		"web": "https://scholar.google.com/citations?user=ZqM8_24AAAAJ",
+		"photo": "source/members/kwon-young.jpg",
+        "member_now": "yes"
+	},
+	"Jiye Kim": {
+		"ms_start": "2021 Spring",
+		"ms_end": "2022 Fall",
+		"ms_comment": "MS degree (POSTECH)",
+		"job": "LG AI Research",
+		"web": "https://www.linkedin.com/in/jk3472",
+		"photo": "source/members/jiye.jpeg"
+	},
+	"Jinoh Cho": {
+		"ms_start": "2020 Fall",
+		"ms_end": "2022 Fall",
+		"ms_comment": "MS degree (POSTECH)",
+		"job": "Pursuing Ph.D.",
+		"web": "https://jinoh-cho.github.io/",
+		"photo": "source/members/jinoh.jpg"
+	}, 
+	"Seokjun Ahn": {
+		"ms_start": "2020 Fall",
+		"ms_end": "2022 Fall",
+		"ms_comment": "MS degree (POSTECH)",
+		"job": "Qualcomm Korea",
+		"web": "https://www.linkedin.com/in/seokjoon-ahn-36414b118",
+		"photo": "source/members/seokjun.jpg"
+	},
+	"Chunghyun Park": {
+		"ms_start": "2020 Spring",
+		"ms_end": "2021 Fall",
+		"ms_comment": "MS degree (POSTECH)",
+		"phd_start": "2022 Spring",
+		"phd_end": "current",
+		"phd_comment": "Ph.D. student (POSTECH)",
+		"web": "https://chrockey.github.io/",
+		"photo": "source/members/chunghyun.jpg"
+	},
+	"Minguk Kang": {
+		"int_start": "2020 Spring",
+		"int_end": "current",
+		"int_comment": "Integrated Ph.D. student",
+		"web": "https://mingukkang.github.io/",
+		"photo": "source/members/minguk.jpg"
+	},
+	"Jaebong Jeong": {
+		"ms_start": "2019 Fall",
+		"ms_end": "2021 Fall",
+		"ms_comment": "MS degree (POSTECH)",
+		"web": "https://www.linkedin.com/in/jaebong-jeong-66265015b",
+		"photo": "source/members/jaebong.jpg"
+	},
+	"Hyunmin Lee": {
+		"ms_start": "2019 Fall",
+		"ms_end": "2021 Spring",
+		"ms_comment": "MS degree (POSTECH)",
+		"job": "LG AI Research",
+		"web": "https://scholar.google.com/citations?user=aKVfs4QAAAAJ&hl=ko",
+		"photo": "source/members/hyunmin.jpg"
+	},
+	"Junha Lee": {
+		"ms_start": "2019 Fall",
+		"ms_end": "2021 Spring",
+		"ms_comment": "MS degree (POSTECH)",
+		"phd_start": "2021 Fall",
+		"phd_end": "current",
+		"phd_comment": "Ph.D. student (POSTECH)",
+		"web": "https://junha-l.github.io/",
+		"photo": "source/members/junha.jpeg"
+	}
 }

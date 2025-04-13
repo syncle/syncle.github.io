@@ -1,7 +1,4 @@
-import json
 from util import authorlist_to_html_text, dump_str_to_html_placeholder
-from gen_button import get_button_str_all
-from gen_bibtex import get_collapsed_bibtex_html
 
 def write_bio(input_path, output_path, bio):
 	dump_str_to_html_placeholder(input_path, output_path, 'AUTOGEN::Bio', bio)

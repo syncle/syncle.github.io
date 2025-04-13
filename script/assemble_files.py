@@ -43,4 +43,5 @@ if __name__ == "__main__":
 	gen_project_page('publications/multiviewps/', 'Multiview Photometric Stereo')
 
 	gen_page('lab', "Lab")
+	os.remove('../source/html/lab.html')
 	gen_page('contact', 'Contact')
