@@ -4,7 +4,7 @@ from util import dump_str_to_html_placeholder
 def write_members(input_path, output_path, data):
 	dump_str = []
 	web = []
-	for idx, name in enumerate(data):
+	for idx, name in reversed(list(enumerate(data))):
 		i = data[name]
 		if ('member_now' in i and i['member_now'] == 'yes'):
 			dump_str.append('		<div class="col-md-3 text-center">\n' + 
