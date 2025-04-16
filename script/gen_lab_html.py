@@ -25,7 +25,7 @@ def write_members(input_path, output_path, data):
 		i = data[name]
 		if ('member_now' in i and i['member_now'] == 'yes'):
 			dump_str.append('		<div class="col-md-3 text-center">\n' + 
-							'			<img src="%s" class="rounded-circle img-thumbnail shadow mb-3">\n' % i['photo'])
+							'			<img src="%s" class="rounded-circle img-thumbnail shadow mb-3 d-none d-md-block">\n' % i['photo'])
 			dump_str.append(dump_other_info(i, name))
 	dump_str_to_html_placeholder(input_path, output_path, 'AUTOGEN::Members', dump_str)
 
@@ -36,7 +36,7 @@ def write_past_members(input_path, output_path, data):
 		i = data[name]
 		if ('member_now' not in i or i['member_now'] != 'yes'):
 			dump_str.append('		<div class="col-md-2 text-center">\n' + 
-							'			<img src="%s" class="rounded-circle img-thumbnail shadow mb-2">\n' % i['photo'])
+							'			<img src="%s" class="rounded-circle img-thumbnail shadow mb-2 d-none d-md-block">\n' % i['photo'])
 			dump_str.append(dump_other_info(i, name))
 	dump_str_to_html_placeholder(input_path, output_path, 'AUTOGEN::PastMembers', dump_str)
 
