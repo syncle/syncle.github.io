@@ -5,6 +5,15 @@
             {
                 "language": "international",
                 "type": "arxiv",
+                "title": "Subject-driven Video Generation via Disentangled Identity and Motion",
+                "author": ["Daneul Kim", "Jingxu Zhang", "Wonjoon Jin", "Sunghyun Cho", "Qi Dai", "Jaesik Park", "Chong Luo"],
+                "venue": "XXXX.XXXX (arXiv)",
+                "image": "publications/data/25_arxiv5.jpg",
+                "pdf": "#"
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
                 "title": "Targetless LiDAR-Camera Calibration with Anchored 3D Gaussians",
                 "author": ["Haebeom Jung", "Namtae Kim", "Jungwoo Kim", "Jaesik Park"],
                 "venue": "2504.04597 (arXiv)",
