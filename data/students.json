@@ -1,4 +1,11 @@
 {
+	"Jaeyun Jung": {
+		"int_start": "2025 Fall",
+		"int_end": "current",
+		"int_comment": "Integrated Ph.D. student",
+		"photo": "source/members/jaeyun.jpg",
+        "member_now": "yes"
+	},
 	"Minkyun Seo": {
 		"int_start": "2025 Fall",
 		"int_end": "current",
