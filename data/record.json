@@ -58,7 +58,8 @@
                 "author": ["Daneul Kim", "Jaeah Lee", "Jaesik Park"],
                 "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/25_cvpr3.jpg",
-                "web": "https://carpedkm.github.io/projects/improving_edit/index.html"
+                "web": "https://carpedkm.github.io/projects/improving_edit/index.html",
+                "pdf": "https://arxiv.org/abs/2505.01079"
             },
             {
                 "language": "international",
