@@ -39,7 +39,8 @@
                 "author": ["Sangmin Kim", "Seunguk Do", "Jaesik Park"],
                 "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/25_cvpr1.jpg",
-                "web": "https://nstar1125.github.io/showmak3r"
+                "web": "https://nstar1125.github.io/showmak3r",
+                "pdf": "https://arxiv.org/pdf/2504.19584"
             },
             {
                 "language": "international",
