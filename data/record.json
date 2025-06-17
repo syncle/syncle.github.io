@@ -5,6 +5,16 @@
             {
                 "language": "international",
                 "type": "arxiv",
+                "title": "Metropolis-Hastings Sampling for 3D Gaussian Reconstruction",
+                "author": ["Hyunjin Kim", "Haebeom Jung", "Jaesik Park"],
+                "venue": "2506.12945 (arXiv)",
+                "image": "publications/data/25_arxiv6.jpg",
+                "web": "https://hjhyunjinkim.github.io/MH-3DGS",
+                "pdf": "https://arxiv.org/abs/2506.12945"
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
                 "title": "Subject-driven Video Generation via Disentangled Identity and Motion",
                 "author": ["Daneul Kim", "Jingxu Zhang", "Wonjoon Jin", "Sunghyun Cho", "Qi Dai", "Jaesik Park", "Chong Luo"],
                 "venue": "2504.17816 (arXiv)",
