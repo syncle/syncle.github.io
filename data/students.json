@@ -28,15 +28,6 @@
 		"web": "https://revsic.github.io/",
         "member_now": "yes"
 	},
-	"Milo Deroussi": {
-		"ms_start": "2024 Fall",
-		"ms_end": "current",
-		"ms_comment": "Exchange master's student",
-		"job": "Télécom SudParis",
-		"photo": "source/members/milo.jpg",
-		"web": "https://github.com/MiloDeroussi",
-        "member_now": "yes"
-	},
 	"Namtae Kim": {
 		"int_start": "2024 Fall",
 		"int_end": "current",
@@ -71,7 +62,10 @@
 	"Daneul Kim": {
 		"ms_start": "2023 Fall",
 		"ms_end": "current",
-		"ms_comment": "Master's student",
+		"phd_start": "2025 Fall",
+		"phd_end": "current",
+		"ms_comment": "MS degree",
+		"phd_comment": "Ph.D. student",
 		"web": "https://carpedkm.github.io/",
 		"photo": "source/members/daneul.jpeg",
         "member_now": "yes"
@@ -159,6 +153,7 @@
 		"ms_start": "2022 Fall",
 		"ms_end": "2024 Spring",
 		"ms_comment": "MS degree (POSTECH)",
+		"job": "Pursuing Ph.D.",
 		"web": "https://yeon07.github.io/",
 		"photo": "source/members/seoyeon.jpg"
 	},
