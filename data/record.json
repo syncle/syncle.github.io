@@ -4,6 +4,14 @@
         "papers": [
             {
                 "language": "international",
+                "type": "conference",
+                "title": "Leveraging Learned Image Prior for 3D Gaussian Compression",
+                "author": ["Seungjoo Shin", "Jaesik Park", "Sunghyun Cho"],
+                "venue": "Workshop on Efficient Computing under Limited Resources <b>ICCV workshop</b>",
+                "image": "publications/data/25_arxiv6.jpg"
+            },
+            {
+                "language": "international",
                 "type": "arxiv",
                 "title": "Metropolis-Hastings Sampling for 3D Gaussian Reconstruction",
                 "author": ["Hyunjin Kim", "Haebeom Jung", "Jaesik Park"],
