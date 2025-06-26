@@ -5,10 +5,36 @@
             {
                 "language": "international",
                 "type": "conference",
+                "title": "CF3: Compact and Fast 3D Feature Fields",
+                "author": ["Hyunjoon Lee", "Joonkyu Min", "Jaesik Park"],
+                "venue": "Int. Conf. on Computer Vision (<b>ICCV</b>)",
+                "image": "publications/data/25_iccv1.jpg"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "BUFFER-X: Towards Zero-Shot Point Cloud Registration in Diverse Scenes",
+                "author": ["Minkyun Seo*", "Hyungtae Lim*", "Kanghee Lee", "Luca Carlone", "Jaesik Park"],
+                "venue": "Int. Conf. on Computer Vision (<b>ICCV</b>)",
+                "image": "publications/data/25_arxiv2.jpg",
+                "pdf": "https://arxiv.org/abs/2503.07940",
+                "comment": "(*Joint first authors)"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "Exploring Multimodal Diffusion Transformers for Enhanced Prompt-based Image Editing",
+                "author": ["Joonghyuk Shin", "Alchan Hwang", "Yujin Kim", "Daneul Kim", "Jaesik Park"],
+                "venue": "Int. Conf. on Computer Vision (<b>ICCV</b>)",
+                "image": "publications/data/25_iccv2.jpg"
+            },
+            {
+                "language": "international",
+                "type": "conference",
                 "title": "Leveraging Learned Image Prior for 3D Gaussian Compression",
                 "author": ["Seungjoo Shin", "Jaesik Park", "Sunghyun Cho"],
-                "venue": "Workshop on Efficient Computing under Limited Resources <b>ICCV workshop</b>",
-                "image": "publications/data/25_arxiv6.jpg"
+                "venue": "Workshop on Efficient Computing under Limited Resources (ECLR) <b>ICCV workshop</b>",
+                "image": "publications/data/25_iccvws1.jpg"
             },
             {
                 "language": "international",
@@ -39,16 +65,6 @@
                 "image": "publications/data/25_arxiv4.jpg",
                 "web": "https://zang09.github.io/tlc-calib-site",
                 "pdf": "https://arxiv.org/abs/2504.04597"
-            },
-            {
-                "language": "international",
-                "type": "arxiv",
-                "title": "BUFFER-X: Towards Zero-Shot Point Cloud Registration in Diverse Scenes",
-                "author": ["Minkyun Seo*", "Hyungtae Lim*", "Kanghee Lee", "Luca Carlone", "Jaesik Park"],
-                "venue": "2503.07940 (arXiv)",
-                "image": "publications/data/25_arxiv2.jpg",
-                "pdf": "https://arxiv.org/abs/2503.07940",
-                "comment": "(*Joint first authors)"
             },
             {
                 "language": "international",
