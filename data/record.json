@@ -4,6 +4,16 @@
         "papers": [
             {
                 "language": "international",
+                "type": "arxiv",
+                "title": "JAM-Flow: Joint Audio-Motion Synthesis with Flow Matching",
+                "author": ["Mingi Kwon", "Joonghyuk Shin", "Jaeseok Jung", "Jaesik Park", "Youngjung Uh"],
+                "venue": "2506.23552 (arXiv)",
+                "image": "publications/data/25_arxiv7.jpg",
+                "pdf": "https://arxiv.org/abs/2506.23552",
+                "web": "https://joonghyuk.com/jamflow-web/"
+            },
+            {
+                "language": "international",
                 "type": "conference",
                 "title": "CF3: Compact and Fast 3D Feature Fields",
                 "author": ["Hyunjoon Lee", "Joonkyu Min", "Jaesik Park"],
@@ -54,7 +64,8 @@
                 "venue": "2504.17816 (arXiv)",
                 "image": "publications/data/25_arxiv5.jpg",
                 "web": "https://carpedkm.github.io/projects/disentangled_sub",
-                "pdf": "https://arxiv.org/abs/2504.17816"
+                "pdf": "https://arxiv.org/abs/2504.17816",
+                "hide": "true"
             },
             {
                 "language": "international",

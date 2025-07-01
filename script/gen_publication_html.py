@@ -36,6 +36,10 @@ def write_html(file, data):
 				'	<div class="row gx-5 gy-4">\n')
 		# adding publication elements
 		for i in items_international:
+			# skip hiding objects
+			if 'hide' in i:
+				if  i['hide'] == "true":
+					continue
 			bibtex_button, bibtex_box, nickname = get_collapsed_bibtex_html(i, year)
 			# write a html for a paper
 			f.write(
