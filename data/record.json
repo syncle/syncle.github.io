@@ -6,11 +6,12 @@
                 "language": "international",
                 "type": "arxiv",
                 "title": "JAM-Flow: Joint Audio-Motion Synthesis with Flow Matching",
-                "author": ["Mingi Kwon", "Joonghyuk Shin", "Jaeseok Jung", "Jaesik Park", "Youngjung Uh"],
+                "author": ["Mingi Kwon*", "Joonghyuk Shin*", "Jaeseok Jung", "Jaesik Park†", "Youngjung Uh†"],
                 "venue": "2506.23552 (arXiv)",
                 "image": "publications/data/25_arxiv7.jpg",
                 "pdf": "https://arxiv.org/abs/2506.23552",
-                "web": "https://joonghyuk.com/jamflow-web/"
+                "web": "https://joonghyuk.com/jamflow-web/",
+                "comment": "(*Equal Contribution, †Equal Advising)"
             },
             {
                 "language": "international",
