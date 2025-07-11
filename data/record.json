@@ -29,6 +29,7 @@
                 "venue": "Int. Conf. on Computer Vision (<b>ICCV</b>)",
                 "image": "publications/data/25_arxiv2.jpg",
                 "pdf": "https://arxiv.org/abs/2503.07940",
+                "code": "https://github.com/MIT-SPARK/BUFFER-X",
                 "comment": "(*Joint first authors)"
             },
             {
