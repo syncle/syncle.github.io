@@ -39,7 +39,7 @@
                 "image": "publications/data/25_arxiv2.jpg",
                 "pdf": "https://arxiv.org/abs/2503.07940",
                 "code": "https://github.com/MIT-SPARK/BUFFER-X",
-                "comment": "(*Joint first authors)"
+                "comment": "(Accepted as a <b>highlight paper</b>, *Joint first authors)"
             },
             {
                 "language": "international",
@@ -632,7 +632,7 @@
                 "image": "publications/data/23_cvpr1.jpg",
                 "web": "https://mingukkang.github.io/GigaGAN/",
                 "pdf": "https://openaccess.thecvf.com/content/CVPR2023/papers/Kang_Scaling_Up_GANs_for_Text-to-Image_Synthesis_CVPR_2023_paper.pdf",
-                "comment": "(Accepted as a highlight paper (review score 5,5,5) - top 2.5% among 9,155 submissions)"
+                "comment": "(Accepted as a <b>highlight paper</b> (review score 5,5,5) - top 2.5% among 9,155 submissions)"
             },
             {
                 "language": "international",
