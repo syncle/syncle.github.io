@@ -39,7 +39,8 @@
                 "image": "publications/data/25_arxiv2.jpg",
                 "pdf": "https://arxiv.org/abs/2503.07940",
                 "code": "https://github.com/MIT-SPARK/BUFFER-X",
-                "comment": "(Accepted as a <b>highlight paper</b>, *Joint first authors)"
+                "comment": "(Accepted as a <b>highlight paper</b>, *Joint first authors)",
+                "github": "<a class=\"github-button\" href=\"https:\/\/github.com\/MIT-SPARK\/BUFFER-X\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star MIT-SPARK\/BUFFER-X on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/MIT-SPARK\/BUFFER-X\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork MIT-SPARK\/BUFFER-X on GitHub\">Fork<\/a>"
             },
             {
                 "language": "international",
