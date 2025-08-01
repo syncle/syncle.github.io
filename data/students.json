@@ -168,6 +168,14 @@
 		"web": "https://seungjooshin.github.io",
 		"photo": "source/members/seungju.jpeg"
 	},
+	"Minji Seo": {
+		"ms_start": "2021 Fall",
+		"ms_end": "current",
+		"ms_comment": "Ph.D. student",
+		"photo": "source/members/minji.jpg",
+        "member_now": "yes",
+		"web": "https://scholar.google.com/citations?user=DsPmRBwAAAAJ&hl=ko"
+	},
 	"Kwonyoung Ryu": {
 		"phd_start": "2021 Spring",
 		"phd_end": "current",
