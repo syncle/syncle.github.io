@@ -4,6 +4,7 @@
 		"ms_end": "current",
 		"ms_comment": "Master's student",
 		"photo": "source/members/jaeyun.jpg",
+		"web": "https://cubec.link/",
         "member_now": "yes"
 	},
 	"Minkyun Seo": {
@@ -169,7 +170,7 @@
 		"photo": "source/members/seungju.jpeg"
 	},
 	"Minji Seo": {
-		"ms_start": "2021 Fall",
+		"ms_start": "2025 Fall",
 		"ms_end": "current",
 		"ms_comment": "Ph.D. student",
 		"photo": "source/members/minji.jpg",
