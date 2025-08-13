@@ -41,7 +41,8 @@
                 "author": ["Hyunjoon Lee", "Joonkyu Min", "Jaesik Park"],
                 "venue": "Int. Conf. on Computer Vision (<b>ICCV</b>)",
                 "image": "publications/data/25_iccv1.jpg",
-                "pdf": "https://www.arxiv.org/abs/2508.05254"
+                "pdf": "https://www.arxiv.org/abs/2508.05254",
+                "web": "https://jjoonii.github.io/cf3-website/"
             },
             {
                 "language": "international",
@@ -78,8 +79,7 @@
                 "venue": "2504.17816 (arXiv)",
                 "image": "publications/data/25_arxiv5.jpg",
                 "web": "https://carpedkm.github.io/projects/disentangled_sub",
-                "pdf": "https://arxiv.org/abs/2504.17816",
-                "hide": "true"
+                "pdf": "https://arxiv.org/abs/2504.17816"
             },
             {
                 "language": "international",
