@@ -40,7 +40,8 @@
                 "title": "CF3: Compact and Fast 3D Feature Fields",
                 "author": ["Hyunjoon Lee", "Joonkyu Min", "Jaesik Park"],
                 "venue": "Int. Conf. on Computer Vision (<b>ICCV</b>)",
-                "image": "publications/data/25_iccv1.jpg"
+                "image": "publications/data/25_iccv1.jpg",
+                "pdf": "https://www.arxiv.org/abs/2508.05254"
             },
             {
                 "language": "international",
@@ -48,7 +49,8 @@
                 "title": "Exploring Multimodal Diffusion Transformers for Enhanced Prompt-based Image Editing",
                 "author": ["Joonghyuk Shin", "Alchan Hwang", "Yujin Kim", "Daneul Kim", "Jaesik Park"],
                 "venue": "Int. Conf. on Computer Vision (<b>ICCV</b>)",
-                "image": "publications/data/25_iccv2.jpg"
+                "image": "publications/data/25_iccv2.jpg",
+                "pdf": "https://arxiv.org/abs/2508.07519"
             },
             {
                 "language": "international",
