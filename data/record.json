@@ -3,6 +3,14 @@
     {
         "program committee": [
             {
+                "title": "<b>Area Chair</b>",
+                "venue": "Int. Conf. on Learning Representations (<b>ICLR</b>)"
+            },
+            {
+                "title": "<b>Area Chair</b>",
+                "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)"
+            },
+            {
                 "title": "<b>Publication Chair</b>",
                 "venue": "Asian Conference on Computer Vision <b>ACCV</b>"
             }
