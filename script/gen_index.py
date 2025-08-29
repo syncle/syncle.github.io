@@ -10,8 +10,8 @@ def write_news(input_path, output_path, data):
 	# K recent items would appear
 	K = 7
 	for record in data[:K]:
-		dump_str.append('				<li class="list-group-item">\n' +
-						'					%s\n' % record + 
+		dump_str.append('				<li class="list-group-item%s">\n' % (' active' if '[banner]' in record else '') +
+						'					%s\n' % (record[9:] if '[banner]' in record else record) + 
 						'				</li>\n')
 	dump_str_to_html_placeholder(input_path, output_path, 'AUTOGEN::Recent', dump_str)
 
