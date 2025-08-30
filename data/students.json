@@ -185,6 +185,14 @@
 		"photo": "source/members/kwon-young.jpg",
         "member_now": "yes"
 	},
+	"Eun Sun Lee": {
+		"ms_start": "2025 Fall",
+		"ms_end": "current",
+		"ms_comment": "Post. Doc. Researcher",
+		"photo": "source/members/eunsun.jpg",
+		"web": "https://eunsunlee.github.io/",
+        "member_now": "yes"
+	},
 	"Jiye Kim": {
 		"ms_start": "2021 Spring",
 		"ms_end": "2022 Fall",
