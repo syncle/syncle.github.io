@@ -766,18 +766,15 @@
             {
                 "title": "Learning to Understand 3D Point Clouds",
                 "venue": "2023 Fall Workshop on Algorithms and Computation, <b>POSTECH</b>, Pohang, Republic of Korea",
-                "venue": "2023 Fall Workshop on Algorithms and Computation, <b>POSTECH</b>, Pohang, Republic of Korea",
                 "month": 10
             },
             {
                 "title": "Towards NeRF at Scale",
                 "venue": "Computing Frontier Summer School, <b>Seoul Nat. Univ.</b>, Republic of Korea",
-                "venue": "Computing Frontier Summer School, <b>Seoul Nat. Univ.</b>, Republic of Korea",
                 "month": 8
             },
             {
                 "title": "Storage Efficient Radiance Fields",
-                "venue": "<b>ETRI</b>, Daejeon, Republic of Korea",
                 "venue": "<b>ETRI</b>, Daejeon, Republic of Korea",
                 "month": 7
             },
@@ -787,8 +784,6 @@
                 "month": 6
             },
             {
-                "title": "Generative AI가 산업에 미치는 영향과 성장 전략 (패널)",
-                "venue": "AI혁신허브콜로키엄, Jeju, Republic of Korea",
                 "title": "Generative AI가 산업에 미치는 영향과 성장 전략 (패널)",
                 "venue": "AI혁신허브콜로키엄, Jeju, Republic of Korea",
                 "month": 5
@@ -1350,7 +1345,6 @@
             {
                 "title": "Mentor Session: How to Become a Professor",
                 "venue": "<b>CVPR 2021</b>, Virtual",
-                "venue": "<b>CVPR 2021</b>, Virtual",
                 "month": 6
             },
             {
@@ -1360,7 +1354,6 @@
             },
             {
                 "title": "Point Cloud Registration using Hierachical Hough Transform",
-                "venue": "33rd Workshop on Image Processing and Image Understanding (<b>IPIU 2021</b>), Virtual",
                 "venue": "33rd Workshop on Image Processing and Image Understanding (<b>IPIU 2021</b>), Virtual",
                 "month": 2
             },
@@ -1545,7 +1538,6 @@
             {
                 "title": "Geometric Pattern Recognition",
                 "venue": "32nd Workshop on Image Proc. and Image Understanding (<b>IPIU 2020</b>)",
-                "venue": "32nd Workshop on Image Proc. and Image Understanding (<b>IPIU 2020</b>)",
                 "month": 2
             }
         ],
@@ -1706,12 +1698,10 @@
             {
                 "title": "Open3D Tutorial and Fully Convolutional Geometric Features", 
                 "venue": "<b>KETI</b>, Seongnam, Republic of Korea", 
-                "venue": "<b>KETI</b>, Seongnam, Republic of Korea", 
                 "month": 11
             },
             {
                 "title": "Introduction to Computer Vision and Deep Learning",
-                "venue": "<b>Daegu Science High School</b>",
                 "venue": "<b>Daegu Science High School</b>",
                 "month": 8
             },
@@ -1722,7 +1712,6 @@
             },
             {
                 "title": "3D Computer Vision and Open3D", 
-                "venue": "<b>Qualcomm</b>, San Diego, USA", 
                 "venue": "<b>Qualcomm</b>, San Diego, USA", 
                 "month": 6
             }
@@ -1817,7 +1806,6 @@
             },
             {
                 "title": "3D reconstruction using Open3D", 
-                "venue": "<b>Forma Technology</b> (acquired by <b>Snap Inc.</b>), San Francisco, USA", 
                 "venue": "<b>Forma Technology</b> (acquired by <b>Snap Inc.</b>), San Francisco, USA", 
                 "month": 3
             }
