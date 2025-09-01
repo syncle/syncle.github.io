@@ -22,6 +22,16 @@
             {
                 "language": "international",
                 "type": "arxiv",
+                "title": "Tree-guided Diffusion Planner",
+                "author": ["Hyeonseong Jeon", "Cheolhong Min", "Jaesik Park"],
+                "venue": "2508.21800 (arXiv)",
+                "image": "publications/data/25_arxiv8.jpg",
+                "pdf": "https://arxiv.org/abs/2508.21800",
+                "web": "https://tree-diffusion-planner.github.io"
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
                 "title": "JAM-Flow: Joint Audio-Motion Synthesis with Flow Matching",
                 "author": ["Mingi Kwon*", "Joonghyuk Shin*", "Jaeseok Jung", "Jaesik Park†", "Youngjung Uh†"],
                 "venue": "2506.23552 (arXiv)",
