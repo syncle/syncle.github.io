@@ -60,7 +60,8 @@
                 "venue": "Int. Conf. on Computer Vision (<b>ICCV</b>)",
                 "image": "publications/data/25_iccv1.jpg",
                 "pdf": "https://www.arxiv.org/abs/2508.05254",
-                "web": "https://jjoonii.github.io/cf3-website/"
+                "web": "https://jjoonii.github.io/cf3-website/",
+                "comment": "(Also presented at ICCV 2025 Demonstrations track)"
             },
             {
                 "language": "international",
