@@ -1,4 +1,11 @@
 {
+	"Jiwon Yu": {
+		"ms_start": "2025 Fall",
+		"ms_end": "current",
+		"ms_comment": "Robot",
+		"photo": "source/members/g1.jpg",
+        "member_now": "yes"
+	},
 	"Jaeyun Jung": {
 		"ms_start": "2025 Fall",
 		"ms_end": "current",
@@ -20,6 +27,7 @@
 		"ms_end": "current",
 		"ms_comment": "Master's student",
 		"photo": "source/members/daeun.jpg",
+		"web": "https://www.linkedin.com/in/da-eun-lee-9a369427b",
         "member_now": "yes"
 	},
 	"YoungJoong Kim": {
