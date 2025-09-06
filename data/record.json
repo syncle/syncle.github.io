@@ -22,6 +22,15 @@
             {
                 "language": "international",
                 "type": "arxiv",
+                "title": "One-Cycle Structured Pruning via Stability-Driven Subnetwork Search",
+                "author": ["Deepak Ghimire", "Dayoung Kil", "Seonghwan Jeong", "Jaesik Park", "Seong-Heum Kim"],
+                "venue": "Winter Conf. on Applications of Computer Vision (<b>WACV</b>)",
+                "image": "publications/data/25_arxiv3.jpg",
+                "pdf": "https://arxiv.org/abs/2501.13439"
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
                 "title": "Tree-Guided Diffusion Planner",
                 "author": ["Hyeonseong Jeon", "Cheolhong Min", "Jaesik Park"],
                 "venue": "2508.21800 (arXiv)",
@@ -253,15 +262,6 @@
                 "author": ["Seunguk Do", "Joonghyuk Shin", "Jaesik Park"],
                 "venue": "제 37회 영상처리 및 이해에 관한 워크샵 (IPIU)",
                 "month": 2
-            },
-            {
-                "language": "international",
-                "type": "arxiv",
-                "title": "One-cycle Structured Pruning with Stability Driven Structure Search",
-                "author": ["Deepak Ghimire", "Dayoung Kil", "Seonghwan Jeong", "Jaesik Park", "Seong-Heum Kim"],
-                "venue": "2501.13439 (arXiv)",
-                "image": "publications/data/25_arxiv3.jpg",
-                "pdf": "https://arxiv.org/abs/2501.13439"
             }
         ],
         "program committee": [
