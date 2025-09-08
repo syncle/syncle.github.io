@@ -2011,7 +2011,7 @@
             {
                 "language": "international",
                 "type": "conference",
-                "title": "Multi-modal Pedestrian Detection: Benchmark Dataset and Baselines", 
+                "title": "Multispectral Pedestrian Detection: Benchmark Dataset and Baselines", 
                 "author": ["SoonMin Hwang", "Jaesik Park", "Namil Kim", "Yukyung Choi", "In So Kweon"],
                 "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/15_cvpr_pd.jpg",
