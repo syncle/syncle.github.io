@@ -115,7 +115,7 @@ def resize_and_crop(img, size, padColor=255):
 	return scaled_img
 
 def run_folder(source_folder, target_folder, imgsize):
-	for file in os.listdir(source_folder):
+	for file in sorted(os.listdir(source_folder)):
 		if file.endswith(".png") or file.endswith(".jpg") or file.endswith(".jpeg"):
 			file_path = os.path.join(source_folder, file)
 			file_name = os.path.splitext(os.path.basename(file))[0]
