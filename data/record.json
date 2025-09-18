@@ -21,22 +21,48 @@
         "papers": [
             {
                 "language": "international",
-                "type": "arxiv",
+                "type": "conference",
+                "title": "OpenBox: Annotate Any Bounding Boxes in 3D",
+                "author": ["In-Jae Lee", "Mungyeom Kim", "Kwonyoung Ryu", "Pierre Musacchio", "Jaesik Park"],
+                "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
+                "image": "publications/data/25_neurips1.jpg"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "Tree-Guided Diffusion Planner",
+                "author": ["Hyeonseong Jeon", "Cheolhong Min", "Jaesik Park"],
+                "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
+                "image": "publications/data/25_arxiv8.jpg",
+                "pdf": "https://arxiv.org/abs/2508.21800",
+                "web": "https://tree-diffusion-planner.github.io"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "Holistic Order Prediction in Natural Scenes",
+                "author": ["Pierre Musacchio", "Hyunmin Lee", "Jaesik Park"],
+                "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
+                "image": "publications/data/25_neurips2.jpg"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "Metropolis-Hastings Sampling for 3D Gaussian Reconstruction",
+                "author": ["Hyunjin Kim", "Haebeom Jung", "Jaesik Park"],
+                "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
+                "image": "publications/data/25_arxiv6.jpg",
+                "web": "https://hjhyunjinkim.github.io/MH-3DGS",
+                "pdf": "https://arxiv.org/abs/2506.12945"
+            },
+            {
+                "language": "international",
+                "type": "conference",
                 "title": "One-Cycle Structured Pruning via Stability-Driven Subnetwork Search",
                 "author": ["Deepak Ghimire", "Dayoung Kil", "Seonghwan Jeong", "Jaesik Park", "Seong-Heum Kim"],
                 "venue": "Winter Conf. on Applications of Computer Vision (<b>WACV</b>)",
                 "image": "publications/data/25_arxiv3.jpg",
                 "pdf": "https://arxiv.org/abs/2501.13439"
-            },
-            {
-                "language": "international",
-                "type": "arxiv",
-                "title": "Tree-Guided Diffusion Planner",
-                "author": ["Hyeonseong Jeon", "Cheolhong Min", "Jaesik Park"],
-                "venue": "2508.21800 (arXiv)",
-                "image": "publications/data/25_arxiv8.jpg",
-                "pdf": "https://arxiv.org/abs/2508.21800",
-                "web": "https://tree-diffusion-planner.github.io"
             },
             {
                 "language": "international",
@@ -88,16 +114,6 @@
                 "author": ["Seungjoo Shin", "Jaesik Park", "Sunghyun Cho"],
                 "venue": "Workshop on Efficient Computing under Limited Resources (ECLR) <b>ICCV workshop</b>",
                 "image": "publications/data/25_iccvws1.jpg"
-            },
-            {
-                "language": "international",
-                "type": "arxiv",
-                "title": "Metropolis-Hastings Sampling for 3D Gaussian Reconstruction",
-                "author": ["Hyunjin Kim", "Haebeom Jung", "Jaesik Park"],
-                "venue": "2506.12945 (arXiv)",
-                "image": "publications/data/25_arxiv6.jpg",
-                "web": "https://hjhyunjinkim.github.io/MH-3DGS",
-                "pdf": "https://arxiv.org/abs/2506.12945"
             },
             {
                 "language": "international",
