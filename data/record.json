@@ -25,7 +25,8 @@
                 "title": "OpenBox: Annotate Any Bounding Boxes in 3D",
                 "author": ["In-Jae Lee", "Mungyeom Kim", "Kwonyoung Ryu", "Pierre Musacchio", "Jaesik Park"],
                 "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
-                "image": "publications/data/25_neurips1.jpg"
+                "image": "publications/data/25_neurips1.jpg",
+                "comment": "(Accepted as a <b>spotlight</b> paper)"
             },
             {
                 "language": "international",
