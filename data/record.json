@@ -333,6 +333,13 @@
                 "month": 1
             }
         ],
+        "awards": [
+            {
+                "title": "<b>Academic Grant Program</b>",
+                "awardee": "NVIDIA Corp.",          
+                "month": 9
+            }
+        ],
         "teaching": [
             {
                 "title": "4190.428 Introduction to Machine Learning",
@@ -515,7 +522,7 @@
         ],
         "awards": [
             {
-                "title": "Gift Grant",
+                "title": "<b>Gift Grant</b>",
                 "awardee": "Microsoft Corp.",          
                 "month": 9
             },
