@@ -1,5 +1,3 @@
-from cgitb import html
-
 def dump_str_to_html_placeholder(input_path, output_path, placeholder_id, dump_str):	
 	with open(input_path, 'r') as f:
 		html_data = f.readlines()
