@@ -2133,24 +2133,10 @@
                 "month": 5
             }
         ],
-        "talks": [
-            {
-                "title": "Introduction to Computer Vision",
-                "venue": "Kyungbuk Science High School, Pohang, Republic of Korea",
-                "month": 8
-            }            
-        ],
         "program committee": [
             {
                 "title": "Area Chair",
                 "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
-            }
-        ],
-        "teaching": [
-            {
-                "type": "visible",
-                "title": "CSED703F, 3D Vision",
-                "semester": "Fall"
             }
         ],
         "awards": [
