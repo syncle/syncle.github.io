@@ -44,7 +44,8 @@
                 "title": "Holistic Order Prediction in Natural Scenes",
                 "author": ["Pierre Musacchio", "Hyunmin Lee", "Jaesik Park"],
                 "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
-                "image": "publications/data/25_neurips2.jpg"
+                "image": "publications/data/25_neurips2.jpg",
+                "code": "https://github.com/SNU-VGILab/InstaOrder"
             },
             {
                 "language": "international",
