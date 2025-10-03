@@ -201,6 +201,12 @@
 		"web": "https://eunsunlee.github.io/",
         "member_now": "yes"
 	},
+	"Bohwa Jeon": {
+		"ms_start": "jeon1015[at]snu.ac.kr",
+		"ms_comment": "Administrative Officer",
+		"photo": "source/members/admin.jpg",
+        "member_now": "yes"
+	},
 	"Jiye Kim": {
 		"ms_start": "2021 Spring",
 		"ms_end": "2022 Fall",
