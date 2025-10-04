@@ -21,6 +21,15 @@
         "papers": [
             {
                 "language": "international",
+                "type": "arxiv",
+                "title": "Optimzied Minimal 4D Gaussian Splatting",
+                "author": ["Minseo Lee", "Byeonghyeon Lee", "Lucas Yunkyu Lee", "Eunsoo Lee", "Sangmin Kim", "Seunghyeon Song", "Joo Chan Lee", "Jong Hwan Ko", "Jaesik Park", "Eunbyung Park"],
+                "venue": "2510.XXXXX (arXiv)",
+                "image": "publications/data/25_arxiv9.jpg",
+                "web": "https://minshirley.github.io/OMG4"
+            },
+            {
+                "language": "international",
                 "type": "conference",
                 "title": "OpenBox: Annotate Any Bounding Boxes in 3D",
                 "author": ["In-Jae Lee", "Mungyeom Kim", "Kwonyoung Ryu", "Pierre Musacchio", "Jaesik Park"],
