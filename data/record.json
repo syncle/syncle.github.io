@@ -54,6 +54,7 @@
                 "author": ["Pierre Musacchio", "Hyunmin Lee", "Jaesik Park"],
                 "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
                 "image": "publications/data/25_neurips2.jpg",
+                "pdf": "https://arxiv.org/abs/2510.01704",
                 "code": "https://github.com/SNU-VGILab/InstaOrder"
             },
             {
