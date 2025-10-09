@@ -24,9 +24,11 @@
                 "type": "arxiv",
                 "title": "Optimzied Minimal 4D Gaussian Splatting",
                 "author": ["Minseo Lee", "Byeonghyeon Lee", "Lucas Yunkyu Lee", "Eunsoo Lee", "Sangmin Kim", "Seunghyeon Song", "Joo Chan Lee", "Jong Hwan Ko", "Jaesik Park", "Eunbyung Park"],
-                "venue": "2510.XXXXX (arXiv)",
+                "venue": "2510.03857 (arXiv)",
                 "image": "publications/data/25_arxiv9.jpg",
-                "web": "https://minshirley.github.io/OMG4"
+                "web": "https://minshirley.github.io/OMG4",
+                "code": "https://github.com/MinShirley/OMG4",
+                "pdf": "https://arxiv.org/abs/2510.03857"
             },
             {
                 "language": "international",
