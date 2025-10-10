@@ -22,6 +22,16 @@
             {
                 "language": "international",
                 "type": "arxiv",
+                "title": "Targetless LiDAR-Camera Calibration with Neural Gaussian Splatting",
+                "author": ["Haebeom Jung", "Namtae Kim", "Jungwoo Kim", "Jaesik Park"],
+                "venue": "2504.04597 (arXiv)",
+                "image": "publications/data/25_arxiv4.jpg",
+                "web": "https://zang09.github.io/tlc-calib-site",
+                "pdf": "https://arxiv.org/abs/2504.04597"
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
                 "title": "Optimzied Minimal 4D Gaussian Splatting",
                 "author": ["Minseo Lee", "Byeonghyeon Lee", "Lucas Yunkyu Lee", "Eunsoo Lee", "Sangmin Kim", "Seunghyeon Song", "Joo Chan Lee", "Jong Hwan Ko", "Jaesik Park", "Eunbyung Park"],
                 "venue": "2510.03857 (arXiv)",
@@ -138,16 +148,6 @@
                 "image": "publications/data/25_arxiv5.jpg",
                 "web": "https://carpedkm.github.io/projects/disentangled_sub",
                 "pdf": "https://arxiv.org/abs/2504.17816"
-            },
-            {
-                "language": "international",
-                "type": "arxiv",
-                "title": "Targetless LiDAR-Camera Calibration with Anchored 3D Gaussians",
-                "author": ["Haebeom Jung", "Namtae Kim", "Jungwoo Kim", "Jaesik Park"],
-                "venue": "2504.04597 (arXiv)",
-                "image": "publications/data/25_arxiv4.jpg",
-                "web": "https://zang09.github.io/tlc-calib-site",
-                "pdf": "https://arxiv.org/abs/2504.04597"
             },
             {
                 "language": "international",
