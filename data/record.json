@@ -406,7 +406,8 @@
                 "image": "publications/data/24_arxiv2.jpg",
                 "pdf": "https://arxiv.org/abs/2405.05967",
                 "web": "https://mingukkang.github.io/Diffusion2GAN/",
-                "code": "https://github.com/SNU-VGILab/e-latentlpips"
+                "code": "https://github.com/mingukkang/elatentlpips",
+                "github": "<a class=\"github-button\" href=\"https:\/\/github.com\/mingukkang\/elatentlpips\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star mingukkang\/elatentlpips on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/mingukkang\/elatentlpips\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork mingukkang\/elatentlpips on GitHub\">Fork<\/a>"
             },
             {
                 "language": "international",
