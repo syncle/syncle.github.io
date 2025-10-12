@@ -395,7 +395,8 @@
                 "image": "publications/data/24_siggraph_asia.jpg",
                 "web": "https://joonghyuk.com/instantdrag-web/",
                 "code": "https://github.com/SNU-VGILab/InstantDrag",
-                "github": "<a class=\"github-button\" href=\"https:\/\/github.com\/SNU-VGILab\/InstantDrag\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star SNU-VGILab\/InstantDrag on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/SNU-VGILab\/InstantDrag\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork SNU-VGILab\/InstantDrag on GitHub\">Fork<\/a>"
+                "github": "<a class=\"github-button\" href=\"https:\/\/github.com\/SNU-VGILab\/InstantDrag\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star SNU-VGILab\/InstantDrag on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/SNU-VGILab\/InstantDrag\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork SNU-VGILab\/InstantDrag on GitHub\">Fork<\/a>",
+                "pdf": "https://arxiv.org/abs/2409.08857"
             },
             {
                 "language": "international",
@@ -415,7 +416,8 @@
                 "title": "Deep Cost Ray Fusion for Sparse Depth Video Completion",
                 "author": ["Jungeon Kim", "Soongjin Kim", "Jaesik Park", "Seungyong Lee"],
                 "venue": "European Conf. on Computer Vision (<b>ECCV</b>)",
-                "image": "publications/data/24_eccv2.jpg"
+                "image": "publications/data/24_eccv2.jpg",
+                "pdf": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03794.pdf"
             },
             {
                 "language": "international",
