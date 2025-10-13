@@ -120,7 +120,8 @@
                 "image": "publications/data/25_iccv1.jpg",
                 "pdf": "https://www.arxiv.org/abs/2508.05254",
                 "web": "https://jjoonii.github.io/cf3-website/",
-                "comment": "(Also accepted at <b>ICCV 2025 demonstrations track</b>)"
+                "comment": "(Also accepted at <b>ICCV 2025 demonstrations track</b>)",
+                "code": "https://github.com/SNU-VGILab/CF3"
             },
             {
                 "language": "international",
