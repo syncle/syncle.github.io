@@ -32,7 +32,7 @@
             {
                 "language": "international",
                 "type": "arxiv",
-                "title": "Optimzied Minimal 4D Gaussian Splatting",
+                "title": "Optimized Minimal 4D Gaussian Splatting",
                 "author": ["Minseo Lee", "Byeonghyeon Lee", "Lucas Yunkyu Lee", "Eunsoo Lee", "Sangmin Kim", "Seunghyeon Song", "Joo Chan Lee", "Jong Hwan Ko", "Jaesik Park", "Eunbyung Park"],
                 "venue": "2510.03857 (arXiv)",
                 "image": "publications/data/25_arxiv9.jpg",
