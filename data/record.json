@@ -3,6 +3,10 @@
     {
         "program committee": [
             {
+                "title": "<b>Associate Editor</b>",
+                "venue": "Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>)"
+            },
+            {
                 "title": "<b>Area Chair</b>",
                 "venue": "Int. Conf. on Learning Representations (<b>ICLR</b>)"
             },
@@ -2148,12 +2152,6 @@
                 "venue": "한국멀티미디어학회 춘계학술발표대회",
                 "comment": "(<b>Received the Best Paper Award</b>)",
                 "month": 5
-            }
-        ],
-        "program committee": [
-            {
-                "title": "Area Chair",
-                "venue": "International Conference on Computer Vision and Pattern Recognition (CVPR)"
             }
         ],
         "awards": [
