@@ -134,7 +134,8 @@
                 "author": ["Joonghyuk Shin", "Alchan Hwang", "Yujin Kim", "Daneul Kim", "Jaesik Park"],
                 "venue": "Int. Conf. on Computer Vision (<b>ICCV</b>)",
                 "image": "publications/data/25_iccv2.jpg",
-                "pdf": "https://arxiv.org/abs/2508.07519"
+                "pdf": "https://arxiv.org/abs/2508.07519",
+                "code": "https://github.com/SNU-VGILab/exploring-mmdit"
             },
             {
                 "language": "international",
