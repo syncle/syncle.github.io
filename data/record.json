@@ -61,6 +61,7 @@
                 "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
                 "image": "publications/data/25_arxiv8.jpg",
                 "pdf": "https://arxiv.org/abs/2508.21800",
+                "code": "https://github.com/SNU-VGILab/TDP",
                 "web": "https://tree-diffusion-planner.github.io"
             },
             {
