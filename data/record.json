@@ -26,6 +26,16 @@
             {
                 "language": "international",
                 "type": "arxiv",
+                "title": "MotionStream: Real-Time Video Generation with Interactive Motion Controls",
+                "author": ["Joonghyuk Shin", "Zhengqi Li", "Richard Zhang", "Jun-Yan Zhu", "Jaesik Park", "Eli Schechtman", "Xun Huang"],
+                "venue": "2511.01266 (arXiv)",
+                "image": "publications/data/25_arxiv10.jpg",
+                "web": "https://joonghyuk.com/motionstream-web/",
+                "pdf": "https://arxiv.org/abs/2511.01266"
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
                 "title": "Targetless LiDAR-Camera Calibration with Neural Gaussian Splatting",
                 "author": ["Haebeom Jung", "Namtae Kim", "Jungwoo Kim", "Jaesik Park"],
                 "venue": "2504.04597 (arXiv)",
