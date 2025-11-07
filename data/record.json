@@ -26,6 +26,15 @@
             {
                 "language": "international",
                 "type": "arxiv",
+                "title": "TRACE: Your Diffusion Model is Secretly an Instance Edge Detector",
+                "author": ["Sanghyun Jo", "Ziseok Lee", "Wooyeol Lee", "Jonghyun Choi", "Jaesik Park", "Kyungsu Kim"],
+                "venue": "2503.07982 (arXiv)",
+                "image": "publications/data/25_arxiv11.jpg",
+                "pdf": "https://arxiv.org/abs/2503.07982"
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
                 "title": "MotionStream: Real-Time Video Generation with Interactive Motion Controls",
                 "author": ["Joonghyuk Shin", "Zhengqi Li", "Richard Zhang", "Jun-Yan Zhu", "Jaesik Park", "Eli Schechtman", "Xun Huang"],
                 "venue": "2511.01266 (arXiv)",
