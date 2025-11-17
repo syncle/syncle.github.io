@@ -26,6 +26,14 @@
             {
                 "language": "international",
                 "type": "arxiv",
+                "title": "SVRecon: Sparse Voxel Rasterization for Surface Reconstruction",
+                "author": ["Seunghun Oh", "Jaesung Choe", "Dongjae Lee", "Daeun Lee", "Seunghoon Jeong", "Yu-Chiang Frank Wang", "Jaesik Park"],
+                "venue": "2511.XXXXX (arXiv)",
+                "image": "publications/data/25_arxiv12.jpg"
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
                 "title": "MotionStream: Real-Time Video Generation with Interactive Motion Controls",
                 "author": ["Joonghyuk Shin", "Zhengqi Li", "Richard Zhang", "Jun-Yan Zhu", "Jaesik Park", "Eli Schechtman", "Xun Huang"],
                 "venue": "2511.01266 (arXiv)",
