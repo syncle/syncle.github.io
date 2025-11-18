@@ -516,7 +516,8 @@
                 "image": "publications/data/23_ral.jpg",
                 "pdf": "https://ieeexplore.ieee.org/document/10305271",
                 "comment": "(invited to the <b>ICRA2024 oral</b> presentation)",
-                "code": "https://github.com/ashishkumar822/Jetson-SLAM"
+                "code": "https://github.com/ashishkumar822/Jetson-SLAM",
+                "github": "<a class=\"github-button\" href=\"https:\/\/github.com\/ashishkumar822\/Jetson-SLAM\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star ashishkumar822\/Jetson-SLAM on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/ashishkumar822\/Jetson-SLAM\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork ashishkumar822\/Jetson-SLAM on GitHub\">Fork<\/a>"
             },
             {
                 "language": "domestic",
