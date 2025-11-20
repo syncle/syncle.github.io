@@ -3,6 +3,10 @@
     {
         "program committee": [
             {
+                "title": "<b>Area Chair</b>",
+                "venue": "Int. Conf. on Machine Learning (<b>ICML</b>)"
+            },
+            {
                 "title": "<b>Associate Editor</b>",
                 "venue": "Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>)"
             },
