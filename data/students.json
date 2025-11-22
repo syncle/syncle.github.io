@@ -6,6 +6,13 @@
 		"photo": "source/members/soonho.jpg",
         "member_now": "yes"
 	},
+	"Eunsung Cha": {
+		"ms_start": "2026 Spring",
+		"ms_end": "current",
+		"ms_comment": "Integrated Ph.D. student",
+		"photo": "source/members/eunsung.jpg",
+        "member_now": "yes"
+	},
 	"Jiwon Yu": {
 		"ms_start": "2025 Fall",
 		"ms_end": "current",
