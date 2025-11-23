@@ -1,9 +1,17 @@
 {
+	"Sunghyun Choi": {
+		"ms_start": "2026 Spring",
+		"ms_end": "current",
+		"ms_comment": "Master's student",
+		"photo": "source/members/sunghyun.jpg",
+        "member_now": "yes"
+	},
 	"Soonho Kim": {
 		"ms_start": "2026 Spring",
 		"ms_end": "current",
 		"ms_comment": "Integrated Ph.D. student",
 		"photo": "source/members/soonho.jpg",
+		"web": "https://www.linkedin.com/in/soonho-kim",
         "member_now": "yes"
 	},
 	"Eunsung Cha": {
