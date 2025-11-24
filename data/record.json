@@ -32,8 +32,9 @@
                 "type": "arxiv",
                 "title": "SVRecon: Sparse Voxel Rasterization for Surface Reconstruction",
                 "author": ["Seunghun Oh", "Jaesung Choe", "Dongjae Lee", "Daeun Lee", "Seunghoon Jeong", "Yu-Chiang Frank Wang", "Jaesik Park"],
-                "venue": "2511.XXXXX (arXiv)",
-                "image": "publications/data/25_arxiv12.jpg"
+                "venue": "2511.17364 (arXiv)",
+                "image": "publications/data/25_arxiv12.jpg",
+                "pdf": "http://arxiv.org/abs/2511.17364"
             },
             {
                 "language": "international",
