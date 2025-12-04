@@ -1,4 +1,11 @@
 {
+	"Jiwon Yu": {
+		"ms_start": "2026 Spring",
+		"ms_end": "current",
+		"ms_comment": "A humanoid with tactile hands",
+		"photo": "source/members/g1.jpg",
+        "member_now": "yes"
+	},
 	"Sunghyun Choi": {
 		"ms_start": "2026 Spring",
 		"ms_end": "current",
@@ -26,13 +33,6 @@
 		"ms_end": "current",
 		"ms_comment": "Integrated Ph.D. student",
 		"photo": "source/members/eunsung.jpg",
-        "member_now": "yes"
-	},
-	"Jiwon Yu": {
-		"ms_start": "2025 Fall",
-		"ms_end": "current",
-		"ms_comment": "A humanoid with tactile hands",
-		"photo": "source/members/g1.jpg",
         "member_now": "yes"
 	},
 	"Jaeyun Jung": {
