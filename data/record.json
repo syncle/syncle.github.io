@@ -372,6 +372,71 @@
         ],
         "talks": [
             {
+                "title": "이미지 생성에서 로봇 컨트롤까지",
+                "venue": "한양대학교 미래자동차공학과 세미나",
+                "month": 10
+            },
+            {
+                "title": "3차원 복원과 실환경 시뮬레이션 & 이미지 생성에서 로봇 컨트롤까지",
+                "venue": "숭실대학교 AI융합학부 콜로퀴움",
+                "month": 12
+            },
+            {
+                "title": "AI for Geometric Shape Assembly",
+                "venue": "삼성미래기술캠퍼스",
+                "month": 12
+            },
+            {
+                "title": "Vision-driven Actions and Planning",
+                "venue": "서울대학교 기계공학부 세미나",
+                "month": 11
+            },
+            {
+                "title": "Realistic 3D Reconsturction and Rendering for Real-World Simulations",
+                "venue": "한국자동차공학회 융합S/W 및 AI부분 워크숍",
+                "month": 10
+            },
+            {
+                "title": "Realistic 3D Reconsturction and Rendering for Real-World Simulations",
+                "venue": "서울대학교 2기 빅데이터 AI CEO과정",
+                "month": 10
+            },
+            {
+                "title": "Holistic Order Prediction in Natural Scenes",
+                "venue": "Global AI Frontier Lab",
+                "month": 10
+            },
+            {
+                "title": "이미지 생성부터 로봇 컨트롤까지",
+                "venue": "서울대학교 공과대학 미래융합기술 최고위과정 (FIP)",
+                "month": 10
+            },
+            {
+                "title": "3차원 및 4차원 장면 복원 및 압축 기법 동향",
+                "venue": "방송미디어공학회 실감미디어 심층기술 워크숍",
+                "month": 9
+            },
+            {
+                "title": "3D Vision Research from SNU VGI Lab",
+                "venue": "POSCO DX",
+                "month": 9
+            },
+            {
+                "title": "Dynamic GS의 복원과 효율적인 저장 기법 탐구",
+                "venue": "한국 방송 및 미디어공학회 춘계 실감미디어 워크숍",
+                "month": 5
+            },
+            {
+                "title": "현대 AI 빅데이터 응용 사례",
+                "venue": "서울대학교 빅데이터 AI CEO과정",
+                "month": 5
+            },
+            {
+                "title": "Dynamic GS의 복원과 효율적인 저장 기법 탐구",
+                "venue": "한국 방송 및 미디어공학회 춘계 실감미디어 워크숍",
+                "month": 4
+            },
+            {
                 "title": "3D Vision Research from SNU VGI Lab",
                 "venue": "<b>Naver Labs</b>, Seongnam, Republic of Korea",
                 "month": 3
