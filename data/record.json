@@ -3,6 +3,10 @@
     {
         "program committee": [
             {
+                "title": "Conflict-of-Interest (<b>CoI</b>) <b>Coordinator</b> for the Technical Papers Program",
+                "venue": "ACM <b>SIGGRAPH</b>"
+            },
+            {
                 "title": "<b>Area Chair</b>",
                 "venue": "Int. Conf. on Machine Learning (<b>ICML</b>)"
             },
