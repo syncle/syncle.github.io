@@ -1,6 +1,17 @@
 {
     "2026":
     {
+        "papers": [
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "One-Cycle Structured Pruning via Stability-Driven Subnetwork Search",
+                "author": ["Deepak Ghimire", "Dayoung Kil", "Seonghwan Jeong", "Jaesik Park", "Seong-Heum Kim"],
+                "venue": "Winter Conf. on Applications of Computer Vision (<b>WACV</b>)",
+                "image": "publications/data/25_arxiv3.jpg",
+                "pdf": "https://arxiv.org/abs/2501.13439"
+            }
+        ],
         "program committee": [
             {
                 "title": "Conflict-of-Interest (<b>CoI</b>) <b>Coordinator</b> for the Technical Papers Program",
@@ -121,15 +132,6 @@
                 "web": "https://hjhyunjinkim.github.io/MH-3DGS",
                 "pdf": "https://arxiv.org/abs/2506.12945",
                 "code": "https://github.com/SNU-VGILab/MH-3DGS"
-            },
-            {
-                "language": "international",
-                "type": "conference",
-                "title": "One-Cycle Structured Pruning via Stability-Driven Subnetwork Search",
-                "author": ["Deepak Ghimire", "Dayoung Kil", "Seonghwan Jeong", "Jaesik Park", "Seong-Heum Kim"],
-                "venue": "Winter Conf. on Applications of Computer Vision (<b>WACV</b>)",
-                "image": "publications/data/25_arxiv3.jpg",
-                "pdf": "https://arxiv.org/abs/2501.13439"
             },
             {
                 "language": "international",
