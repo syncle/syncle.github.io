@@ -4,6 +4,15 @@
         "papers": [
             {
                 "language": "international",
+                "type": "arxiv",
+                "title": "Towards Zero-Shot Point Cloud Registration Across Diverse Scales, Scenes, and Sensor Setups",
+                "author": ["Hyungtae Lim", "Minkyun Seo", "Luca Carlone", "Jaesik Park"],
+                "venue": "2601.02759 (arXiv)",
+                "image": "publications/data/26_arxiv1.jpg",
+                "pdf": "http://arxiv.org/abs/2601.02759"
+            },
+            {
+                "language": "international",
                 "type": "conference",
                 "title": "One-Cycle Structured Pruning via Stability-Driven Subnetwork Search",
                 "author": ["Deepak Ghimire", "Dayoung Kil", "Seonghwan Jeong", "Jaesik Park", "Seong-Heum Kim"],
