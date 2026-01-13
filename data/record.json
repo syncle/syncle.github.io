@@ -4,6 +4,16 @@
         "papers": [
             {
                 "language": "international",
+                "type": "journal",
+                "title": "Targetless LiDAR-Camera Calibration with Neural Gaussian Splatting",
+                "author": ["Haebeom Jung", "Namtae Kim", "Jungwoo Kim", "Jaesik Park"],
+                "venue": "IEEE Robotics and Automation Letters (<b>RAL</b>)",
+                "image": "publications/data/25_arxiv4.jpg",
+                "web": "https://zang09.github.io/tlc-calib-site",
+                "pdf": "https://arxiv.org/abs/2504.04597"
+            },
+            {
+                "language": "international",
                 "type": "arxiv",
                 "title": "Towards Zero-Shot Point Cloud Registration Across Diverse Scales, Scenes, and Sensor Setups",
                 "author": ["Hyungtae Lim", "Minkyun Seo", "Luca Carlone", "Jaesik Park"],
@@ -78,16 +88,6 @@
                 "venue": "2503.07982 (arXiv)",
                 "image": "publications/data/25_arxiv11.jpg",
                 "pdf": "https://arxiv.org/abs/2503.07982"
-            },
-            {
-                "language": "international",
-                "type": "arxiv",
-                "title": "Targetless LiDAR-Camera Calibration with Neural Gaussian Splatting",
-                "author": ["Haebeom Jung", "Namtae Kim", "Jungwoo Kim", "Jaesik Park"],
-                "venue": "2504.04597 (arXiv)",
-                "image": "publications/data/25_arxiv4.jpg",
-                "web": "https://zang09.github.io/tlc-calib-site",
-                "pdf": "https://arxiv.org/abs/2504.04597"
             },
             {
                 "language": "international",
