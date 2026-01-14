@@ -10,14 +10,16 @@
                 "venue": "IEEE Robotics and Automation Letters (<b>RAL</b>)",
                 "image": "publications/data/25_arxiv4.jpg",
                 "web": "https://zang09.github.io/tlc-calib-site",
-                "pdf": "https://arxiv.org/abs/2504.04597"
+                "pdf": "https://arxiv.org/abs/2504.04597",
+                "comment": "(Invited for an <b>oral</b> presentation at <b>ICRA 2026</b>)"
             },
             {
                 "language": "international",
                 "type": "arxiv",
                 "title": "Towards Zero-Shot Point Cloud Registration Across Diverse Scales, Scenes, and Sensor Setups",
-                "author": ["Hyungtae Lim", "Minkyun Seo", "Luca Carlone", "Jaesik Park"],
+                "author": ["Hyungtae Lim*", "Minkyun Seo*", "Luca Carlone", "Jaesik Park"],
                 "venue": "2601.02759 (arXiv)",
+                "comment": "(*Equal contribution)",
                 "image": "publications/data/26_arxiv1.jpg",
                 "pdf": "http://arxiv.org/abs/2601.02759"
             },
@@ -601,7 +603,7 @@
                 "venue": "IEEE Robotics and Automation Letters (<b>RAL</b>), vol. 9, issue 1",
                 "image": "publications/data/23_ral.jpg",
                 "pdf": "https://ieeexplore.ieee.org/document/10305271",
-                "comment": "(invited to the <b>ICRA2024 oral</b> presentation)",
+                "comment": "(Invited for an <b>oral</b> presentation at <b>ICRA 2024</b>)",
                 "code": "https://github.com/ashishkumar822/Jetson-SLAM",
                 "github": "<a class=\"github-button\" href=\"https:\/\/github.com\/ashishkumar822\/Jetson-SLAM\" data-icon=\"octicon-star\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Star ashishkumar822\/Jetson-SLAM on GitHub\">Star<\/a><a class=\"github-button\" href=\"https:\/\/github.com\/ashishkumar822\/Jetson-SLAM\/fork\" data-icon=\"octicon-repo-forked\" data-size=\"large\" data-show-count=\"true\" aria-label=\"Fork ashishkumar822\/Jetson-SLAM on GitHub\">Fork<\/a>"
             },
