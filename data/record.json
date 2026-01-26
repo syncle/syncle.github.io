@@ -4,6 +4,33 @@
         "papers": [
             {
                 "language": "international",
+                "type": "conference",
+                "title": "Direct Reward Fine-Tuning on Poses for Single Image to 3D Human in the Wild",
+                "author": ["Seunguk Do", "Minwoo Huh", "Joonghyuk Shin", "Jaesik Park"],
+                "venue": "Int. Conf. on Learning Representations (<b>ICLR</b>)",
+                "image": "publications/data/26_iclr1.jpg"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "TRACE: Your Diffusion Model is Secretly an Instance Edge Detector",
+                "author": ["Sanghyun Jo", "Ziseok Lee", "Wooyeol Lee", "Jonghyun Choi", "Jaesik Park", "Kyungsu Kim"],
+                "venue": "Int. Conf. on Learning Representations (<b>ICLR</b>)",
+                "image": "publications/data/25_arxiv11.jpg",
+                "pdf": "https://arxiv.org/abs/2503.07982"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "MotionStream: Real-Time Video Generation with Interactive Motion Controls",
+                "author": ["Joonghyuk Shin", "Zhengqi Li", "Richard Zhang", "Jun-Yan Zhu", "Jaesik Park", "Eli Schechtman", "Xun Huang"],
+                "venue": "Int. Conf. on Learning Representations (<b>ICLR</b>)",
+                "image": "publications/data/25_arxiv10.jpg",
+                "web": "https://joonghyuk.com/motionstream-web/",
+                "pdf": "https://arxiv.org/abs/2511.01266"
+            },
+            {
+                "language": "international",
                 "type": "journal",
                 "title": "Targetless LiDAR-Camera Calibration with Neural Gaussian Splatting",
                 "author": ["Haebeom Jung", "Namtae Kim", "Jungwoo Kim", "Jaesik Park"],
@@ -71,25 +98,6 @@
                 "venue": "2511.17364 (arXiv)",
                 "image": "publications/data/25_arxiv12.jpg",
                 "pdf": "http://arxiv.org/abs/2511.17364"
-            },
-            {
-                "language": "international",
-                "type": "arxiv",
-                "title": "MotionStream: Real-Time Video Generation with Interactive Motion Controls",
-                "author": ["Joonghyuk Shin", "Zhengqi Li", "Richard Zhang", "Jun-Yan Zhu", "Jaesik Park", "Eli Schechtman", "Xun Huang"],
-                "venue": "2511.01266 (arXiv)",
-                "image": "publications/data/25_arxiv10.jpg",
-                "web": "https://joonghyuk.com/motionstream-web/",
-                "pdf": "https://arxiv.org/abs/2511.01266"
-            },
-            {
-                "language": "international",
-                "type": "arxiv",
-                "title": "TRACE: Your Diffusion Model is Secretly an Instance Edge Detector",
-                "author": ["Sanghyun Jo", "Ziseok Lee", "Wooyeol Lee", "Jonghyun Choi", "Jaesik Park", "Kyungsu Kim"],
-                "venue": "2503.07982 (arXiv)",
-                "image": "publications/data/25_arxiv11.jpg",
-                "pdf": "https://arxiv.org/abs/2503.07982"
             },
             {
                 "language": "international",
