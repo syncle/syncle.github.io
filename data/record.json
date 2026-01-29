@@ -93,6 +93,15 @@
             {
                 "language": "international",
                 "type": "arxiv",
+                "title": "SpatialMosaic: A Multiview VLM Dataset for Partial Visibility",
+                "author": ["Kanghee Lee", "Injae Lee", "Minseok Kwak", "Kwonyoung Ryu", "Jungi Hong", "Jaesik Park"],
+                "venue": "2512.23365 (arXiv)",
+                "image": "publications/data/25_arxiv13.jpg",
+                "pdf": "http://arxiv.org/abs/2512.23365"
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
                 "title": "SVRecon: Sparse Voxel Rasterization for Surface Reconstruction",
                 "author": ["Seunghun Oh", "Jaesung Choe", "Dongjae Lee", "Daeun Lee", "Seunghoon Jeong", "Yu-Chiang Frank Wang", "Jaesik Park"],
                 "venue": "2511.17364 (arXiv)",
