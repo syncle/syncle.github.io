@@ -23,7 +23,7 @@
                 "language": "international",
                 "type": "conference",
                 "title": "MotionStream: Real-Time Video Generation with Interactive Motion Controls",
-                "author": ["Joonghyuk Shin", "Zhengqi Li", "Richard Zhang", "Jun-Yan Zhu", "Jaesik Park", "Eli Schechtman", "Xun Huang"],
+                "author": ["Joonghyuk Shin", "Zhengqi Li", "Richard Zhang", "Jun-Yan Zhu", "Jaesik Park", "Eli Shechtman", "Xun Huang"],
                 "venue": "Int. Conf. on Learning Representations (<b>ICLR</b>)",
                 "image": "publications/data/25_arxiv10.jpg",
                 "web": "https://joonghyuk.com/motionstream-web/",
