@@ -4,6 +4,16 @@
         "papers": [
             {
                 "language": "international",
+                "type": "arxiv",
+                "title": "Stabilizing Consistency Training: A Flow Map Analysis and Self-Distillation",
+                "author": ["Youngjoong Kim", "Duhoe Kim", "Woosung Kim", "Jaesik Park"],
+                "venue": "2601.22679 (arXiv)",
+                "comment": "(*Equal contribution)",
+                "image": "publications/data/26_arxiv2.jpg",
+                "pdf": "http://arxiv.org/abs/2601.22679"
+            },
+            {
+                "language": "international",
                 "type": "conference",
                 "title": "Direct Reward Fine-Tuning on Poses for Single Image to 3D Human in the Wild",
                 "author": ["Seunguk Do", "Minwoo Huh", "Joonghyuk Shin", "Jaesik Park"],
