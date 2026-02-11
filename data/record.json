@@ -24,11 +24,11 @@
                 "language": "international",
                 "type": "conference",
                 "title": "TRACE: Your Diffusion Model is Secretly an Instance Edge Detector",
-                "author": ["Sanghyun Jo", "Ziseok Lee", "Wooyeol Lee", "Jonghyun Choi", "Jaesik Park", "Kyungsu Kim"],
+                "author": ["Sanghyun Jo*", "Ziseok Lee*", "Wooyeol Lee", "Jonghyun Choi", "Jaesik Park†", "Kyungsu Kim†"],
                 "venue": "Int. Conf. on Learning Representations (<b>ICLR</b>)",
                 "image": "publications/data/25_arxiv11.jpg",
                 "pdf": "https://arxiv.org/abs/2503.07982",
-                "comment": "(<b>Oral</b> presentation, 1.18% acceptance rate)"
+                "comment": "(*Equal contribution, †Corresponding authors, <b>Oral</b> presentation, 1.18% acceptance rate)"
             },
             {
                 "language": "international",
