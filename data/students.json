@@ -63,7 +63,7 @@
 		"ms_start": "2025 Spring",
 		"ms_end": "current",
 		"ms_comment": "Master's student",
-		"photo": "source/members/youngjoong.jpg",
+		"photo": "source/members/youngjoong_2026.jpg",
 		"web": "https://revsic.github.io/",
         "member_now": "yes"
 	},
@@ -87,7 +87,7 @@
 		"int_end": "current",
 		"int_comment": "Integrated Ph.D. student",
 		"web": "https://nstar1125.github.io/",
-		"photo": "source/members/sangmin.jpg",
+		"photo": "source/members/sangmin_2026.jpg",
         "member_now": "yes"
 	},
 	"HyunJoon Lee": {
@@ -130,7 +130,7 @@
 		"int_end": "current",
 		"int_comment": "Integrated Ph.D. student",
 		"web": "https://joonghyuk.com/",
-		"photo": "source/members/joonghyuk.jpg",
+		"photo": "source/members/joonghyuk_2026.jpg",
         "member_now": "yes"
 	},
 	"Pierre E. Musacchio": {
@@ -146,7 +146,7 @@
 		"phd_end": "current",
 		"phd_comment": "Ph.D. student",
 		"web": "https://cheolhong0916.github.io/",
-		"photo": "source/members/cheolhong.jpeg",
+		"photo": "source/members/cheolhong_2026.jpg",
         "member_now": "yes"
 	},
 	"In-Jae Lee": {
