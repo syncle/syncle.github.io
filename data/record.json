@@ -265,7 +265,8 @@
                 "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/25_cvpr3.jpg",
                 "web": "https://carpedkm.github.io/projects/improving_edit/index.html",
-                "pdf": "https://arxiv.org/abs/2505.01079"
+                "pdf": "https://arxiv.org/abs/2505.01079",
+                "code": "https://github.com/carpedkm/improving-editability"
             },
             {
                 "language": "international",
@@ -286,7 +287,8 @@
                 "venue": "Int. Conf. on Learning Representations (<b>ICLR</b>)",
                 "image": "publications/data/25_arxiv1.jpg",
                 "pdf": "https://arxiv.org/abs/2501.05757",
-                "web": "https://seungjooshin.github.io/LocoGS"
+                "web": "https://seungjooshin.github.io/LocoGS",
+                "code": "https://github.com/seungjooshin/LocoGS"
             },
             {
                 "language": "international",
