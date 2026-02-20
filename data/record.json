@@ -5,6 +5,15 @@
             {
                 "language": "international",
                 "type": "arxiv",
+                "title": "Taking Shortcuts for Binary VQA using Super Neurons",
+                "author": ["Pierre Musacchio", "Jaeyi Jeong", "Dahun Kim", "Jaesik Park"],
+                "venue": "2602.XXXXX (arXiv)",
+                "image": "publications/data/26_arxiv3.jpg",
+                "pdf": "http://arxiv.org/abs/2602.XXXXX"
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
                 "title": "Stabilizing Consistency Training: A Flow Map Analysis and Self-Distillation",
                 "author": ["Youngjoong Kim", "Duhoe Kim", "Woosung Kim", "Jaesik Park"],
                 "venue": "2601.22679 (arXiv)",
