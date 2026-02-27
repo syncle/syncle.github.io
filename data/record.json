@@ -835,15 +835,6 @@
             },
             {
                 "language": "international",
-                "type": "arxiv",
-                "title": "RISCLIP: Referring Image Segmentation Framework using CLIP",
-                "author": ["Seoyeon Kim", "Minguk Kang", "Jaesik Park"],
-                "venue": "2306.08498 (arXiv)",
-                "image": "publications/data/23_arxiv3.jpg",
-                "pdf": "https://arxiv.org/abs/2306.08498"
-            },
-            {
-                "language": "international",
                 "type": "conference",
                 "title": "Stable and Consistent Prediction of 3D Characteristic Orientation via Invariant Residual Learning",
                 "author": ["Seungwook Kim", "Chunghyun Park", "Yoonwoo Jeong", "Jaesik Park", "Minsu Cho"],
