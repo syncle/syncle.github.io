@@ -27,7 +27,8 @@
                 "title": "Direct Reward Fine-Tuning on Poses for Single Image to 3D Human in the Wild",
                 "author": ["Seunguk Do", "Minwoo Huh", "Joonghyuk Shin", "Jaesik Park"],
                 "venue": "Int. Conf. on Learning Representations (<b>ICLR</b>)",
-                "image": "publications/data/26_iclr1.jpg"
+                "image": "publications/data/26_iclr1.jpg",
+                "pdf": "http://arxiv.org/abs/2603.02619" 
             },
             {
                 "language": "international",
