@@ -173,6 +173,13 @@
 		"photo": "source/members/ganghee.jpeg",
         "member_now": "yes"
 	},
+	"Eun Sun Lee": {
+		"ms_start": "2025 Fall",
+		"ms_end": "2025 Winter",
+		"ms_comment": "Post. Doc. Researcher",
+		"photo": "source/members/eunsun.jpg",
+		"web": "https://eunsunlee.github.io/"
+	},
 	"Dongmin You": {
 		"ms_start": "2022 Spring",
 		"ms_end": "2023 Fall",
@@ -220,14 +227,6 @@
 		"phd_comment": "Ph.D. student",
 		"web": "https://scholar.google.com/citations?user=ZqM8_24AAAAJ",
 		"photo": "source/members/kwon-young.jpg",
-        "member_now": "yes"
-	},
-	"Eun Sun Lee": {
-		"ms_start": "2025 Fall",
-		"ms_end": "current",
-		"ms_comment": "Post. Doc. Researcher",
-		"photo": "source/members/eunsun.jpg",
-		"web": "https://eunsunlee.github.io/",
         "member_now": "yes"
 	},
 	"Bohwa Jeon": {
