@@ -5,6 +5,14 @@
             {
                 "language": "international",
                 "type": "arxiv",
+                "title": "Extend3D: Town-scale 3D Generation",
+                "author": ["Seungwoo Yoon", "Jinmo Kim", "Jaesik Park"],
+                "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
+                "image": "publications/data/26_cvpr1.jpg"
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
                 "title": "Taking Shortcuts for Binary VQA using Super Neurons",
                 "author": ["Pierre Musacchio", "Jaeyi Jeong", "Dahun Kim", "Jaesik Park"],
                 "venue": "2602.XXXXX (arXiv)",
