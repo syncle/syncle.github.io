@@ -13,7 +13,7 @@
             {
                 "language": "international",
                 "type": "arxiv",
-                "title": "Taking Shortcuts for Binary VQA using Super Neurons",
+                "title": "Taking Shortcuts for Categorical VQA using Super Neurons",
                 "author": ["Pierre Musacchio", "Jaeyi Jeong", "Dahun Kim", "Jaesik Park"],
                 "venue": "2602.XXXXX (arXiv)",
                 "image": "publications/data/26_arxiv3.jpg",
