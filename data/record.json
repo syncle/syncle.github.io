@@ -5,6 +5,14 @@
             {
                 "language": "international",
                 "type": "arxiv",
+                "title": "StudioRecon: Human-Scene Reconstruction from Sparse Captures",
+                "author": ["Minhyuk Hwang", "Sangmin Kim", "Seunguk Do", "Daneul Kim", "Jaesik Park"],
+                "venue": "ACM Special Interest Group on Graphics and Interactive Techniques (<b>SIGGRAPH</b>)",
+                "image": "publications/data/26_siggraph.jpg"
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
                 "title": "Coherent Human-Scene Reconstruction from Multi-Person Multi-View Video in a Single Pass",
                 "author": ["Sangmin Kim", "Minhyuk Hwang", "Geonho Cha", "Dongyoon Wee", "Jaesik Park"],
                 "venue": "2603.12789 (arXiv)",
@@ -15,7 +23,7 @@
             {
                 "language": "international",
                 "type": "arxiv",
-                "title": "Extend3D: Town-scale 3D Generation",
+                "title": "Extend3D: Town-Scale 3D Generation",
                 "author": ["Seungwoo Yoon", "Jinmo Kim", "Jaesik Park"],
                 "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/26_cvpr1.jpg"
