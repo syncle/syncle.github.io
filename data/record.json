@@ -23,7 +23,7 @@
             {
                 "language": "international",
                 "type": "arxiv",
-                "title": "Extend3D: Town-Scale 3D Generation",
+                "title": "Extend3D: Town-scale 3D Generation",
                 "author": ["Seungwoo Yoon", "Jinmo Kim", "Jaesik Park"],
                 "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
                 "image": "publications/data/26_cvpr1.jpg"
@@ -64,7 +64,7 @@
                 "venue": "Int. Conf. on Learning Representations (<b>ICLR</b>)",
                 "image": "publications/data/25_arxiv11.jpg",
                 "pdf": "https://arxiv.org/abs/2503.07982",
-                "comment": "(*Equal contribution, †Corresponding authors, <b>Oral</b> presentation, 1.18% acceptance rate)"
+                "comment": "(*Equal contribution, †Corresponding authors, <b>Oral</b> presentation, 1.13% acceptance rate)"
             },
             {
                 "language": "international",
@@ -75,7 +75,7 @@
                 "image": "publications/data/25_arxiv10.jpg",
                 "web": "https://joonghyuk.com/motionstream-web/",
                 "pdf": "https://arxiv.org/abs/2511.01266",
-                "comment": "(<b>Oral</b> presentation, 1.18% acceptance rate)"
+                "comment": "(<b>Oral</b> presentation, 1.13% acceptance rate)"
             },
             {
                 "language": "international",
