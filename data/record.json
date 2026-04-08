@@ -8,7 +8,8 @@
                 "title": "StudioRecon: Human-Scene Reconstruction from Sparse Captures",
                 "author": ["Minhyuk Hwang", "Sangmin Kim", "Seunguk Do", "Daneul Kim", "Jaesik Park"],
                 "venue": "ACM Special Interest Group on Graphics and Interactive Techniques (<b>SIGGRAPH</b>)",
-                "image": "publications/data/26_siggraph.jpg"
+                "image": "publications/data/26_siggraph.jpg",
+                "hide": "true"
             },
             {
                 "language": "international",
@@ -26,7 +27,9 @@
                 "title": "Extend3D: Town-scale 3D Generation",
                 "author": ["Seungwoo Yoon", "Jinmo Kim", "Jaesik Park"],
                 "venue": "Int. Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>)",
-                "image": "publications/data/26_cvpr1.jpg"
+                "image": "publications/data/26_cvpr1.jpg",
+                "web": "https://seungwoo-yoon.github.io/extend3d-page/",
+                "pdf": "https://arxiv.org/abs/2603.29387"
             },
             {
                 "language": "international",
