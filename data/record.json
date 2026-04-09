@@ -148,7 +148,8 @@
                 "author": ["Kanghee Lee", "Injae Lee", "Minseok Kwak", "Kwonyoung Ryu", "Jungi Hong", "Jaesik Park"],
                 "venue": "2512.23365 (arXiv)",
                 "image": "publications/data/25_arxiv13.jpg",
-                "pdf": "http://arxiv.org/abs/2512.23365"
+                "pdf": "http://arxiv.org/abs/2512.23365",
+                "web": "https://kanghee-lee.github.io/spatialmosaic.github.io/"
             },
             {
                 "language": "international",
