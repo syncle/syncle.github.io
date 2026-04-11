@@ -46,7 +46,6 @@
                 "title": "Stabilizing Consistency Training: A Flow Map Analysis and Self-Distillation",
                 "author": ["Youngjoong Kim", "Duhoe Kim", "Woosung Kim", "Jaesik Park"],
                 "venue": "2601.22679 (arXiv)",
-                "comment": "(*Equal contribution)",
                 "image": "publications/data/26_arxiv2.jpg",
                 "pdf": "http://arxiv.org/abs/2601.22679"
             },
