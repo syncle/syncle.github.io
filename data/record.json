@@ -6,9 +6,10 @@
                 "language": "international",
                 "type": "arxiv",
                 "title": "StudioRecon: 4D Human-Scene Reconstruction from Low-Overlap Captures",
-                "author": ["Minhyuk Hwang", "Sangmin Kim", "Seunguk Do", "Daneul Kim", "Jaesik Park"],
+                "author": ["Minhyuk Hwang*", "Sangmin Kim*", "Seunguk Do", "Daneul Kim", "Jaesik Park"],
                 "venue": "ACM Special Interest Group on Graphics and Interactive Techniques (<b>SIGGRAPH</b>)",
-                "image": "publications/data/26_siggraph.jpg"
+                "image": "publications/data/26_siggraph.jpg",
+                "comment": "(*Equal contribution)"
             },
             {
                 "language": "international",
