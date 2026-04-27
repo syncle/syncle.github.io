@@ -1,9 +1,17 @@
 {
-	"Jiwon Yu": {
+	"Woosung Kim": {
+		"ms_start": "2026 Fall",
+		"ms_end": "current",
+		"ms_comment": "Integrated Ph.D. student",
+		"photo": "source/members/woosung.jpg",
+		"web": "https://www.linkedin.com/in/woosung-kim-21958b17b/",
+        "member_now": "yes"
+	},
+	"OpenManipulator": {
 		"ms_start": "2026 Spring",
 		"ms_end": "current",
-		"ms_comment": "A humanoid with tactile hands",
-		"photo": "source/members/g1.jpg",
+		"ms_comment": "Robotic arm with a gripper",
+		"photo": "source/members/open_manipulator_y.jpg",
         "member_now": "yes"
 	},
 	"Sunghyun Choi": {
@@ -227,6 +235,14 @@
 		"phd_comment": "Ph.D. student",
 		"web": "https://scholar.google.com/citations?user=ZqM8_24AAAAJ",
 		"photo": "source/members/kwon-young.jpg",
+        "member_now": "yes"
+	},
+	"Hoyong Kim": {
+		"ms_start": "2026 Spring",
+		"ms_end": "current",
+		"ms_comment": "Post. Doc. Researcher",
+		"photo": "source/members/hoyong.jpg",
+		"web": "https://sites.google.com/view/hoyongkim",
         "member_now": "yes"
 	},
 	"Bohwa Jeon": {
