@@ -270,7 +270,7 @@
             {
                 "language": "international",
                 "type": "arxiv",
-                "title": "Learning Zero-Shot Subject-Driven Video Generation Using 1 Percent Compute",
+                "title": "Learning Zero-Shot Subject-Driven Video Generation Using 1% Compute",
                 "author": ["Daneul Kim", "Jingxu Zhang", "Wonjoon Jin", "Sunghyun Cho", "Qi Dai", "Jaesik Park", "Chong Luo"],
                 "venue": "2504.17816 (arXiv)",
                 "image": "publications/data/25_arxiv5.jpg",
