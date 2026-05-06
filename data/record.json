@@ -14,6 +14,15 @@
             {
                 "language": "international",
                 "type": "arxiv",
+                "title": "FreeTimeGS++: Secrets of Dynamic Gaussian Splatting and Their Principles",
+                "author": ["Lucas Yunkyu Lee", "Soonho Kim", "Youngwook Kim", "Sangmin Kim", "Jaesik Park"],
+                "venue": "2605.03337 (arXiv)",
+                "image": "publications/data/26_arxiv5.jpg",
+                "pdf": "http://arxiv.org/abs/2605.03337"
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
                 "title": "Coherent Human-Scene Reconstruction from Multi-Person Multi-View Video in a Single Pass",
                 "author": ["Sangmin Kim", "Minhyuk Hwang", "Geonho Cha", "Dongyoon Wee", "Jaesik Park"],
                 "venue": "2603.12789 (arXiv)",
