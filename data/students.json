@@ -1,17 +1,20 @@
 {
+	"Aria Gen2 Glasses": {
+		"ms_comment": "Real-time pose tracking and speech recognition",
+		"photo": "source/members/aria2.jpg",
+        "member_now": "yes"
+	},
+	"OpenManipulator": {
+		"ms_comment": "Robotic arm with a gripper",
+		"photo": "source/members/open_manipulator_y.jpg",
+        "member_now": "yes"
+	},
 	"Woosung Kim": {
 		"ms_start": "2026 Fall",
 		"ms_end": "current",
 		"ms_comment": "Integrated Ph.D. student",
 		"photo": "source/members/woosung.jpg",
 		"web": "https://www.linkedin.com/in/woosung-kim-21958b17b/",
-        "member_now": "yes"
-	},
-	"OpenManipulator": {
-		"ms_start": "2026 Spring",
-		"ms_end": "current",
-		"ms_comment": "Robotic arm with a gripper",
-		"photo": "source/members/open_manipulator_y.jpg",
         "member_now": "yes"
 	},
 	"Sunghyun Choi": {
