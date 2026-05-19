@@ -283,15 +283,17 @@
 		"ms_end": "2021 Fall",
 		"ms_comment": "MS degree (POSTECH)",
 		"phd_start": "2022 Spring",
-		"phd_end": "current",
-		"phd_comment": "Ph.D. student (POSTECH)",
+		"phd_end": "2026 Spring",
+		"phd_comment": "Ph.D. (POSTECH)",
+		"job": "Post Doc. at POSTECH",
 		"web": "https://chrockey.github.io/",
 		"photo": "source/members/chunghyun.jpg"
 	},
 	"Minguk Kang": {
 		"int_start": "2020 Spring",
-		"int_end": "current",
-		"int_comment": "Integrated Ph.D. student",
+		"int_end": "2026 Spring",
+		"int_comment": "Integrated Ph.D. (POSTECH)",
+		"job": "Pika",
 		"web": "https://mingukkang.github.io/",
 		"photo": "source/members/minguk.jpg"
 	},
@@ -316,8 +318,9 @@
 		"ms_end": "2021 Spring",
 		"ms_comment": "MS degree (POSTECH)",
 		"phd_start": "2021 Fall",
-		"phd_end": "current",
-		"phd_comment": "Ph.D. student (POSTECH)",
+		"phd_end": "2026 Spring",
+		"phd_comment": "Ph.D. (POSTECH)",
+		"job": "SqueezeBits",
 		"web": "https://junha-l.github.io/",
 		"photo": "source/members/junha.jpeg"
 	}
