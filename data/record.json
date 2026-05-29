@@ -5,6 +5,15 @@
             {
                 "language": "international",
                 "type": "arxiv",
+                "title": "Why Far Looks Up: Probing Spatial Representation in Vision-Language Models",
+                "author": ["Cheolhong Min", "Jaeyun Jung", "Daeun Lee", "Hyeonseong Jeon", "Yu Su", "Jonathan Tremblay", "Chan Hee Song", "Jaesik Park"],
+                "venue": "2605.30161 (arXiv)",
+                "image": "publications/data/26_arxiv6.jpg",
+                "pdf": "http://arxiv.org/abs/2605.30161"
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
                 "title": "4D Human-Scene Reconstruction from Low-Overlap Captures",
                 "author": ["Minhyuk Hwang*", "Sangmin Kim*", "Seunguk Do", "Daneul Kim", "Jaesik Park"],
                 "venue": "ACM Special Interest Group on Graphics and Interactive Techniques (<b>SIGGRAPH</b>)",
