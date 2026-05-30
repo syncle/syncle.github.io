@@ -33,6 +33,15 @@
             {
                 "language": "international",
                 "type": "arxiv",
+                "title": "TRiGS: Temporal Rigid-Body Motion for Scalable 4D Gaussian Splatting",
+                "author": ["Suwoong Yeom", "Joonsik Nam", "Seunggyu Choi", "Lucas Yunkyu Lee", "Sangmin Kim", "Jaesik Park", "Joonsoo Kim", "Kugjin Yun", "Kyeongbo Kong", "Sukju Kang"],
+                "venue": "2604.00538 (arXiv)",
+                "image": "publications/data/26_arxiv7.jpg",
+                "pdf": "http://arxiv.org/abs/2604.00538"
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
                 "title": "Coherent Human-Scene Reconstruction from Multi-Person Multi-View Video in a Single Pass",
                 "author": ["Sangmin Kim", "Minhyuk Hwang", "Geonho Cha", "Dongyoon Wee", "Jaesik Park"],
                 "venue": "2603.12789 (arXiv)",
