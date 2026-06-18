@@ -4,16 +4,78 @@
         "papers": [
             {
                 "language": "international",
-                "type": "arxiv",
+                "type": "conference",
                 "title": "Why Far Looks Up: Probing Spatial Representation in Vision-Language Models",
                 "author": ["Cheolhong Min", "Jaeyun Jung", "Daeun Lee", "Hyeonseong Jeon", "Yu Su", "Jonathan Tremblay", "Chan Hee Song", "Jaesik Park"],
-                "venue": "2605.30161 (arXiv)",
+                "venue": "European Conf. on Computer Vision (<b>ECCV</b>)",
                 "image": "publications/data/26_arxiv6.jpg",
                 "pdf": "http://arxiv.org/abs/2605.30161"
             },
             {
                 "language": "international",
-                "type": "arxiv",
+                "type": "conference",
+                "title": "Extending a Large View Synthesis Model for Multi-view Panoptic Segmentation",
+                "author": ["Kwonyoung Ryu", "In-Jae Lee", "Jonghyun Jin", "Hyunjee Lee", "Jongmin Lee", "Jaesik Park"],
+                "venue": "European Conf. on Computer Vision (<b>ECCV</b>)",
+                "image": "publications/data/26_eccv2.jpg"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "Articulated Object Reconstruction from Rest-State Observation",
+                "author": ["Daeun Lee", "Jaeah Lee", "Woosung Kim", "Haebeom Jung", "Jaesik Park"],
+                "venue": "European Conf. on Computer Vision (<b>ECCV</b>)",
+                "image": "publications/data/26_eccv3.jpg"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "Learning Zero-Shot Subject-Driven Video Generation Using 1% Compute",
+                "author": ["Daneul Kim", "Jingxu Zhang", "Wonjoon Jin", "Sunghyun Cho", "Qi Dai", "Jaesik Park", "Chong Luo"],
+                "venue": "European Conf. on Computer Vision (<b>ECCV</b>)",
+                "image": "publications/data/25_arxiv5.jpg",
+                "web": "https://carpedkm.github.io/projects/disentangled_sub",
+                "pdf": "https://arxiv.org/abs/2504.17816"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "Text-based Tactile Graphics Generation for the Visually Impaired",
+                "author": ["Ruihan Gao", "Joonghyuk Shin", "Ava Pun", "Jaesik Park", "Wenzhen Yuan", "Jun-Yan Zhu"],
+                "venue": "European Conf. on Computer Vision (<b>ECCV</b>)",
+                "image": "publications/data/26_eccv1.jpg"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "TRiGS: Temporal Rigid-Body Motion for Scalable 4D Gaussian Splatting",
+                "author": ["Suwoong Yeom", "Joonsik Nam", "Seunggyu Choi", "Lucas Yunkyu Lee", "Sangmin Kim", "Jaesik Park", "Joonsoo Kim", "Kugjin Yun", "Kyeongbo Kong", "Sukju Kang"],
+                "venue": "European Conf. on Computer Vision (<b>ECCV</b>)",
+                "image": "publications/data/26_arxiv7.jpg",
+                "pdf": "http://arxiv.org/abs/2604.00538"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "ISAC: Training-Free Instance-to-Semantic Attention Control for Multi-Instance Generation",
+                "author": ["Sanghyun Jo", "Wooyeol Lee", "Ziseok Lee", "Jonghyun Choi", "Jaesik Park", "Kyungsu Kim"],
+                "venue": "European Conf. on Computer Vision (<b>ECCV</b>)",
+                "image": "publications/data/26_eccv4.jpg"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "JAM-Flow: Joint Audio-Motion Synthesis with Flow Matching",
+                "author": ["Mingi Kwon*", "Joonghyuk Shin*", "Jaeseok Jung", "Jaesik Park†", "Youngjung Uh†"],
+                "venue": "European Conf. on Computer Vision (<b>ECCV</b>)",
+                "image": "publications/data/25_arxiv7.jpg",
+                "pdf": "https://arxiv.org/abs/2506.23552",
+                "web": "https://joonghyuk.com/jamflow-web/",
+                "comment": "(*Equal Contribution, †Equal Advising)"
+            },
+            {
+                "language": "international",
+                "type": "conference",
                 "title": "4D Human-Scene Reconstruction from Low-Overlap Captures",
                 "author": ["Minhyuk Hwang*", "Sangmin Kim*", "Seunguk Do", "Daneul Kim", "Jaesik Park"],
                 "venue": "ACM Special Interest Group on Graphics and Interactive Techniques (<b>SIGGRAPH</b>)",
@@ -29,15 +91,6 @@
                 "venue": "2605.03337 (arXiv)",
                 "image": "publications/data/26_arxiv5.jpg",
                 "pdf": "http://arxiv.org/abs/2605.03337"
-            },
-            {
-                "language": "international",
-                "type": "arxiv",
-                "title": "TRiGS: Temporal Rigid-Body Motion for Scalable 4D Gaussian Splatting",
-                "author": ["Suwoong Yeom", "Joonsik Nam", "Seunggyu Choi", "Lucas Yunkyu Lee", "Sangmin Kim", "Jaesik Park", "Joonsoo Kim", "Kugjin Yun", "Kyeongbo Kong", "Sukju Kang"],
-                "venue": "2604.00538 (arXiv)",
-                "image": "publications/data/26_arxiv7.jpg",
-                "pdf": "http://arxiv.org/abs/2604.00538"
             },
             {
                 "language": "international",
@@ -243,17 +296,6 @@
             },
             {
                 "language": "international",
-                "type": "arxiv",
-                "title": "JAM-Flow: Joint Audio-Motion Synthesis with Flow Matching",
-                "author": ["Mingi Kwon*", "Joonghyuk Shin*", "Jaeseok Jung", "Jaesik Park†", "Youngjung Uh†"],
-                "venue": "2506.23552 (arXiv)",
-                "image": "publications/data/25_arxiv7.jpg",
-                "pdf": "https://arxiv.org/abs/2506.23552",
-                "web": "https://joonghyuk.com/jamflow-web/",
-                "comment": "(*Equal Contribution, †Equal Advising)"
-            },
-            {
-                "language": "international",
                 "type": "conference",
                 "title": "BUFFER-X: Towards Zero-Shot Point Cloud Registration in Diverse Scenes",
                 "author": ["Minkyun Seo*", "Hyungtae Lim*", "Kanghee Lee", "Luca Carlone", "Jaesik Park"],
@@ -294,16 +336,6 @@
                 "venue": "Workshop on Efficient Computing under Limited Resources (ECLR) <b>ICCV workshop</b>",
                 "image": "publications/data/25_iccvws1.jpg",
                 "pdf": "https://arxiv.org/abs/2510.14705"
-            },
-            {
-                "language": "international",
-                "type": "arxiv",
-                "title": "Learning Zero-Shot Subject-Driven Video Generation Using 1% Compute",
-                "author": ["Daneul Kim", "Jingxu Zhang", "Wonjoon Jin", "Sunghyun Cho", "Qi Dai", "Jaesik Park", "Chong Luo"],
-                "venue": "2504.17816 (arXiv)",
-                "image": "publications/data/25_arxiv5.jpg",
-                "web": "https://carpedkm.github.io/projects/disentangled_sub",
-                "pdf": "https://arxiv.org/abs/2504.17816"
             },
             {
                 "language": "international",
