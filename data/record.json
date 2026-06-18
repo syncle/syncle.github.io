@@ -41,9 +41,11 @@
                 "language": "international",
                 "type": "conference",
                 "title": "Text-based Tactile Graphics Generation for the Visually Impaired",
-                "author": ["Ruihan Gao", "Joonghyuk Shin", "Ava Pun", "Jaesik Park", "Wenzhen Yuan", "Jun-Yan Zhu"],
+                "author": ["Ruihan Gao*", "Joonghyuk Shin*", "Ava Pun", "Jaesik Park", "Wenzhen Yuan", "Jun-Yan Zhu"],
                 "venue": "European Conf. on Computer Vision (<b>ECCV</b>)",
-                "image": "publications/data/26_eccv1.jpg"
+                "image": "publications/data/26_eccv1.jpg",
+                "web": "https://ruihangao.github.io/Text2TactileGraphics",
+                "comment": "(*Equal contribution)"
             },
             {
                 "language": "international",
