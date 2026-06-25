@@ -85,14 +85,6 @@
 		"photo": "source/members/namtae.jpg",
         "member_now": "yes"
 	},
-	"Jaeah Lee": {
-		"ms_start": "2024 Spring",
-		"ms_end": "current",
-		"ms_comment": "Master's student",
-		"web": "https://jaeah.me/",
-		"photo": "source/members/jaeah.jpeg",
-        "member_now": "yes"
-	},
 	"Sangmin Kim": {
 		"int_start": "2024 Spring",
 		"int_end": "current",
@@ -183,6 +175,14 @@
 		"web": "https://scholar.google.com/citations?user=s-haNkwAAAAJ",
 		"photo": "source/members/ganghee.jpeg",
         "member_now": "yes"
+	},
+	"Jaeah Lee": {
+		"ms_start": "2024 Spring",
+		"ms_end": "2026 Spring",
+		"ms_comment": "Master's student",
+		"web": "https://jaeah.me/",
+		"photo": "source/members/jaeah.jpeg",
+		"job": "Ph.D. student at Oxford VGG"
 	},
 	"Eun Sun Lee": {
 		"ms_start": "2025 Fall",
