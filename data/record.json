@@ -6,10 +6,11 @@
                 "language": "international",
                 "type": "conference",
                 "title": "Why Far Looks Up: Probing Spatial Representation in Vision-Language Models",
-                "author": ["Cheolhong Min", "Jaeyun Jung", "Daeun Lee", "Hyeonseong Jeon", "Yu Su", "Jonathan Tremblay", "Chan Hee Song", "Jaesik Park"],
+                "author": ["Cheolhong Min", "Jaeyun Jung", "Daeun Lee", "Hyeonseong Jeon", "Yu Su", "Jonathan Tremblay", "Chan Hee Song*", "Jaesik Park*"],
                 "venue": "European Conf. on Computer Vision (<b>ECCV</b>)",
                 "image": "publications/data/26_arxiv6.jpg",
-                "pdf": "http://arxiv.org/abs/2605.30161"
+                "pdf": "http://arxiv.org/abs/2605.30161",
+                "comment": "(*Joint corrresponding authors)"
             },
             {
                 "language": "international",
@@ -31,11 +32,12 @@
                 "language": "international",
                 "type": "conference",
                 "title": "Learning Zero-Shot Subject-Driven Video Generation Using 1% Compute",
-                "author": ["Daneul Kim", "Jingxu Zhang", "Wonjoon Jin", "Sunghyun Cho", "Qi Dai", "Jaesik Park", "Chong Luo"],
+                "author": ["Daneul Kim", "Jingxu Zhang", "Wonjoon Jin", "Sunghyun Cho", "Qi Dai", "Jaesik Park*", "Chong Luo*"],
                 "venue": "European Conf. on Computer Vision (<b>ECCV</b>)",
                 "image": "publications/data/25_arxiv5.jpg",
                 "web": "https://carpedkm.github.io/projects/disentangled_sub",
-                "pdf": "https://arxiv.org/abs/2504.17816"
+                "pdf": "https://arxiv.org/abs/2504.17816",
+                "comment": "(*Joint corrresponding authors)"
             },
             {
                 "language": "international",
@@ -74,7 +76,7 @@
                 "image": "publications/data/25_arxiv7.jpg",
                 "pdf": "https://arxiv.org/abs/2506.23552",
                 "web": "https://joonghyuk.com/jamflow-web/",
-                "comment": "(*Equal Contribution, †Equal Advising)"
+                "comment": "(*Equal contribution, †Joint corresponding authors)"
             },
             {
                 "language": "international",
