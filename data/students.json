@@ -85,6 +85,13 @@
 		"photo": "source/members/namtae.jpg",
         "member_now": "yes"
 	},
+	"Hyedo Kim": {
+		"int_start": "2026 Fall",
+		"int_end": "current",
+		"int_comment": "Ph.D. student",
+		"photo": "source/members/hyedo.jpg",
+        "member_now": "yes"
+	},
 	"Sangmin Kim": {
 		"int_start": "2024 Spring",
 		"int_end": "current",
