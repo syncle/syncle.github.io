@@ -28,7 +28,8 @@
                 "title": "Articulated Object Reconstruction from Rest-State Observation",
                 "author": ["Daeun Lee", "Jaeah Lee", "Woosung Kim", "Haebeom Jung", "Jaesik Park"],
                 "venue": "European Conf. on Computer Vision (<b>ECCV</b>)",
-                "image": "publications/data/26_eccv3.jpg"
+                "image": "publications/data/26_eccv3.jpg",
+                "pdf": "https://arxiv.org/abs/2607.27749"
             },
             {
                 "language": "international",
