@@ -4,6 +4,16 @@
         "papers": [
             {
                 "language": "international",
+                "type": "journal",
+                "title": "Towards Zero-Shot Point Cloud Registration Across Diverse Scales, Scenes, and Sensor Setups",
+                "author": ["Hyungtae Lim*", "Minkyun Seo*", "Luca Carlone", "Jaesik Park"],
+                "venue": "Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>)",
+                "comment": "(*Equal contribution)",
+                "image": "publications/data/26_arxiv1.jpg",
+                "pdf": "http://arxiv.org/abs/2601.02759"
+            },
+            {
+                "language": "international",
                 "type": "conference",
                 "title": "Why Far Looks Up: Probing Spatial Representation in Vision-Language Models",
                 "author": ["Cheolhong Min", "Jaeyun Jung", "Daeun Lee", "Hyeonseong Jeon", "Yu Su", "Jonathan Tremblay", "Chan Hee Song*", "Jaesik Park*"],
@@ -190,16 +200,6 @@
                 "web": "https://zang09.github.io/tlc-calib-site",
                 "pdf": "https://arxiv.org/abs/2504.04597",
                 "comment": "(Invited to present at <b>ICRA 2026</b>)"
-            },
-            {
-                "language": "international",
-                "type": "arxiv",
-                "title": "Towards Zero-Shot Point Cloud Registration Across Diverse Scales, Scenes, and Sensor Setups",
-                "author": ["Hyungtae Lim*", "Minkyun Seo*", "Luca Carlone", "Jaesik Park"],
-                "venue": "2601.02759 (arXiv)",
-                "comment": "(*Equal contribution)",
-                "image": "publications/data/26_arxiv1.jpg",
-                "pdf": "http://arxiv.org/abs/2601.02759"
             },
             {
                 "language": "international",
