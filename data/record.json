@@ -26,20 +26,21 @@
             {
                 "language": "international",
                 "type": "conference",
+                "title": "Articulated Object Reconstruction from Rest-State Observation",
+                "author": ["Daeun Lee", "Jaeah Lee", "Woosung Kim", "Haebeom Jung", "Jaesik Park"],
+                "venue": "European Conf. on Computer Vision (<b>ECCV</b>)",
+                "image": "publications/data/26_eccv3.jpg",
+                "web": "https://da-eun07.github.io/rest2art",
+                "pdf": "https://arxiv.org/abs/2607.27749"
+            },
+            {
+                "language": "international",
+                "type": "conference",
                 "title": "Extending a Large View Synthesis Model for Multi-view Panoptic Segmentation",
                 "author": ["Kwonyoung Ryu", "In-Jae Lee", "Jonghyun Jin", "Hyunjee Lee", "Jongmin Lee", "Jaesik Park"],
                 "venue": "European Conf. on Computer Vision (<b>ECCV</b>)",
                 "image": "publications/data/26_eccv2.jpg",
                 "pdf": "https://arxiv.org/abs/2607.19765"
-            },
-            {
-                "language": "international",
-                "type": "conference",
-                "title": "Articulated Object Reconstruction from Rest-State Observation",
-                "author": ["Daeun Lee", "Jaeah Lee", "Woosung Kim", "Haebeom Jung", "Jaesik Park"],
-                "venue": "European Conf. on Computer Vision (<b>ECCV</b>)",
-                "image": "publications/data/26_eccv3.jpg",
-                "pdf": "https://arxiv.org/abs/2607.27749"
             },
             {
                 "language": "international",
