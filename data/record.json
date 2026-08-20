@@ -40,7 +40,8 @@
                 "author": ["Kwonyoung Ryu", "In-Jae Lee", "Jonghyun Jin", "Hyunjee Lee", "Jongmin Lee", "Jaesik Park"],
                 "venue": "European Conf. on Computer Vision (<b>ECCV</b>)",
                 "image": "publications/data/26_eccv2.jpg",
-                "pdf": "https://arxiv.org/abs/2607.19765"
+                "pdf": "https://arxiv.org/abs/2607.19765",
+                "web": "https://kwonyoung9120.github.io/PanopticLVSM/"
             },
             {
                 "language": "international",
