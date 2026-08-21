@@ -27,7 +27,11 @@ def dump_hardware_info(i, name):
 def write_members(input_path, output_path, data, member_now='yes', autogen='AUTOGEN::Members'):
 	dump_str = []
 	web = []
-	for idx, name in reversed(list(enumerate(data))):
+	if autogen == 'AUTOGEN::Members':
+		data_enumerate = reversed(list(enumerate(data)))
+	else:
+		data_enumerate = list(enumerate(data))
+	for idx, name in data_enumerate:
 		i = data[name]
 		if ('member_now' in i and i['member_now'] == member_now):
 			dump_str.append('		<div class="col-md-2 text-center">\n' + 
