@@ -39,7 +39,7 @@ def write_members(input_path, output_path, data, member_now='yes', autogen='AUTO
 			dump_str.append(dump_member_info(i, name))
 	dump_str_to_html_placeholder(input_path, output_path, autogen, dump_str)
 
-def write_hardwares(input_path, output_path, data):
+def write_hardware(input_path, output_path, data):
 	dump_str = []
 	web = []
 	for idx, name in list(enumerate(data)):
@@ -48,14 +48,14 @@ def write_hardwares(input_path, output_path, data):
 			dump_str.append('		<div class="col-md-2 text-center">\n' + 
 							'			<img src="%s" class="rounded-circle img-thumbnail shadow mb-2 d-none d-md-block">\n' % i['photo'])
 			dump_str.append(dump_hardware_info(i, name))
-	dump_str_to_html_placeholder(input_path, output_path, 'AUTOGEN::Hardwares', dump_str)
+	dump_str_to_html_placeholder(input_path, output_path, 'AUTOGEN::Hardware', dump_str)
 
 if __name__ == "__main__":
 	with open('../data/students.json') as f:
 		data_students = json.load(f)
-	with open('../data/hardwares.json') as f:
-		data_hardwares = json.load(f)
+	with open('../data/hardware.json') as f:
+		data_hardware = json.load(f)
 	
 	write_members('../source/html/lab_skeleton.html', '../source/html/lab.html', data_students)
-	write_hardwares('../source/html/lab.html', '../source/html/lab.html', data_hardwares)
+	write_hardware('../source/html/lab.html', '../source/html/lab.html', data_hardware)
 	write_members('../source/html/lab.html', '../source/html/lab.html', data_students, 'no', 'AUTOGEN::PastMembers')
