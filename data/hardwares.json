@@ -1,0 +1,27 @@
+{
+	"Franka Panda": {
+		"comment": "A high-performance, 7-DOF robot, featuring precise torque sensors",
+		"photo": "source/members/franka.jpg",
+        "available_now": "yes"
+	},
+	"OpenManipulator": {
+		"comment": "Robotic arm with a gripper",
+		"photo": "source/members/open_manipulator_y.jpg",
+        "available_now": "yes"
+	},
+	"Galaxia R1 Pro": {
+		"comment": "26-DOF dual-arm wheeled humanoid robot",
+		"photo": "source/members/galaxia.jpg",
+        "available_now": "yes"
+	},
+	"XGRIDS Lixel L2 Pro": {
+		"comment": "Handheld SLAM LiDAR scanner",
+		"photo": "source/members/xgrid.jpg",
+        "available_now": "yes"
+	},
+	"Aria Gen2 Glasses": {
+		"comment": "Real-time pose tracking and speech recognition",
+		"photo": "source/members/aria2.jpg",
+        "available_now": "yes"
+	}
+}

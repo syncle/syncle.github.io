@@ -1,29 +1,4 @@
 {
-	"Franka Panda": {
-		"ms_comment": "A high-performance, 7-DOF robot, featuring precise torque sensors",
-		"photo": "source/members/franka.jpg",
-        "member_now": "yes"
-	},
-	"XGRIDS Lixel L2 Pro": {
-		"ms_comment": "Handheld SLAM LiDAR scanner",
-		"photo": "source/members/xgrid.jpg",
-        "member_now": "yes"
-	},
-	"Galaxia R1 Pro": {
-		"ms_comment": "26-DOF dual-arm wheeled humanoid robot",
-		"photo": "source/members/galaxia.jpg",
-        "member_now": "yes"
-	},
-	"Aria Gen2 Glasses": {
-		"ms_comment": "Real-time pose tracking and speech recognition",
-		"photo": "source/members/aria2.jpg",
-        "member_now": "yes"
-	},
-	"OpenManipulator": {
-		"ms_comment": "Robotic arm with a gripper",
-		"photo": "source/members/open_manipulator_y.jpg",
-        "member_now": "yes"
-	},
 	"Woosung Kim": {
 		"ms_start": "2026 Fall",
 		"ms_end": "current",
@@ -204,7 +179,8 @@
 		"ms_comment": "Master's student",
 		"web": "https://jaeah.me/",
 		"photo": "source/members/jaeah.jpeg",
-		"job": "Ph.D. student at Oxford VGG"
+		"job": "Ph.D. student at Oxford VGG",
+		"member_now": "no"
 	},
 	"Eun Sun Lee": {
 		"ms_start": "2025 Fall",
@@ -212,7 +188,8 @@
 		"ms_comment": "Post. Doc. Researcher",
 		"photo": "source/members/eunsun.jpg",
 		"web": "https://eunsunlee.github.io/",
-		"job": "Samsung Research"
+		"job": "Samsung Research",
+		"member_now": "no"
 	},
 	"Dongmin You": {
 		"ms_start": "2022 Spring",
@@ -220,14 +197,16 @@
 		"ms_comment": "MS degree (POSTECH)",
 		"job": "GenGenAI",
 		"web": "https://www.linkedin.com/in/you-dongmin-28297012b",
-		"photo": "source/members/dongmin.jpg"
+		"photo": "source/members/dongmin.jpg",
+		"member_now": "no"
 	},
 	"Jaesung Choe": {
 		"visit_period": "2023 Summer",
         "visit_comment": "Post Doc. Researcher",
 		"job": "NVIDIA",
 		"web": "https://jaesung-choe.github.io/",
-		"photo": "source/members/jaesung.jpg"
+		"photo": "source/members/jaesung.jpg",
+		"member_now": "no"
 	},
 	"Seoyeon Kim": {
 		"ms_start": "2022 Fall",
@@ -235,7 +214,8 @@
 		"ms_comment": "MS degree (POSTECH)",
 		"job": "Pursuing Ph.D.",
 		"web": "https://yeon07.github.io/",
-		"photo": "source/members/seoyeon.jpg"
+		"photo": "source/members/seoyeon.jpg",
+		"member_now": "no"
 	},
 	"Seungjoo Shin": {
 		"ms_start": "2021 Fall",
@@ -245,7 +225,8 @@
 		"phd_end": "current",
 		"phd_comment": "Ph.D. student (POSTECH)",
 		"web": "https://seungjooshin.github.io",
-		"photo": "source/members/seungju.jpeg"
+		"photo": "source/members/seungju.jpeg",
+		"member_now": "no"
 	},
 	"Minji Seo": {
 		"ms_start": "2021 Fall",
@@ -283,7 +264,8 @@
 		"ms_comment": "MS degree (POSTECH)",
 		"job": "LG AI Research",
 		"web": "https://www.linkedin.com/in/jk3472",
-		"photo": "source/members/jiye.jpeg"
+		"photo": "source/members/jiye.jpeg",
+		"member_now": "no"
 	},
 	"Jinoh Cho": {
 		"ms_start": "2020 Fall",
@@ -291,7 +273,8 @@
 		"ms_comment": "MS degree (POSTECH)",
 		"job": "Pursuing Ph.D.",
 		"web": "https://jinoh-cho.github.io/",
-		"photo": "source/members/jinoh.jpg"
+		"photo": "source/members/jinoh.jpg",
+		"member_now": "no"
 	}, 
 	"Seokjun Ahn": {
 		"ms_start": "2020 Fall",
@@ -299,7 +282,8 @@
 		"ms_comment": "MS degree (POSTECH)",
 		"job": "Qualcomm Korea",
 		"web": "https://www.linkedin.com/in/seokjoon-ahn-36414b118",
-		"photo": "source/members/seokjun.jpg"
+		"photo": "source/members/seokjun.jpg",
+		"member_now": "no"
 	},
 	"Chunghyun Park": {
 		"ms_start": "2020 Spring",
@@ -310,7 +294,8 @@
 		"phd_comment": "Ph.D. (POSTECH)",
 		"job": "Post Doc. at POSTECH",
 		"web": "https://chrockey.github.io/",
-		"photo": "source/members/chunghyun.jpg"
+		"photo": "source/members/chunghyun.jpg",
+		"member_now": "no"
 	},
 	"Minguk Kang": {
 		"int_start": "2020 Spring",
@@ -318,7 +303,8 @@
 		"int_comment": "Integrated Ph.D. (POSTECH)",
 		"job": "Pika",
 		"web": "https://mingukkang.github.io/",
-		"photo": "source/members/minguk.jpg"
+		"photo": "source/members/minguk.jpg",
+		"member_now": "no"
 	},
 	"Jaebong Jeong": {
 		"ms_start": "2019 Fall",
@@ -326,7 +312,8 @@
 		"ms_comment": "MS degree (POSTECH)",
 		"web": "https://www.linkedin.com/in/jaebong-jeong-66265015b",
 		"photo": "source/members/jaebong.jpg",
-        "job": "Playtag"
+        "job": "Playtag",
+		"member_now": "no"
 	},
 	"Hyunmin Lee": {
 		"ms_start": "2019 Fall",
@@ -334,7 +321,8 @@
 		"ms_comment": "MS degree (POSTECH)",
 		"job": "LG AI Research",
 		"web": "https://scholar.google.com/citations?user=aKVfs4QAAAAJ&hl=ko",
-		"photo": "source/members/hyunmin.jpg"
+		"photo": "source/members/hyunmin.jpg",
+		"member_now": "no"
 	},
 	"Junha Lee": {
 		"ms_start": "2019 Fall",
@@ -345,6 +333,7 @@
 		"phd_comment": "Ph.D. (POSTECH)",
 		"job": "SqueezeBits",
 		"web": "https://junha-l.github.io/",
-		"photo": "source/members/junha.jpeg"
+		"photo": "source/members/junha.jpeg",
+		"member_now": "no"
 	}
 }
