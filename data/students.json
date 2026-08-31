@@ -68,6 +68,14 @@
 		"web": "https://revsic.github.io/",
         "member_now": "yes"
 	},
+	"Bremt Zoomers": {
+		"ms_start": "2026 Fall",
+		"ms_end": "(Planned)",
+		"ms_comment": "Visiting Ph.D. student",
+		"photo": "source/members/brent.jpg",
+		"web": "https://brent-zoomers.github.io/",
+        "member_now": "yes"
+	},
 	"Namtae Kim": {
 		"int_start": "2024 Fall",
 		"int_end": "2026 Spring",
