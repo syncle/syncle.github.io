@@ -70,10 +70,10 @@
 	},
 	"Namtae Kim": {
 		"int_start": "2024 Fall",
-		"int_end": "current",
-		"int_comment": "Integrated Ph.D. student",
+		"int_end": "2026 Spring",
+		"int_comment": "Masters student",
 		"photo": "source/members/namtae.jpg",
-        "member_now": "yes"
+        "member_now": "no"
 	},
 	"Hyedo Kim": {
 		"int_start": "2026 Fall",
