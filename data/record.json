@@ -5,6 +5,14 @@
             {
                 "language": "international",
                 "type": "conference",
+                "title": "AmodalBox: Automated 3D Bounding Box Annotation under Partial Visibility",
+                "author": ["In-Jae Lee", "Namtae Kim", "Robert Exley", "Kwonyoung Ryu", "Jaesik Park"],
+                "venue": "The Conference on Robot Learning (<b>CoRL</b>)",
+                "image": "publications/data/26_corl.jpg"
+            },
+            {
+                "language": "international",
+                "type": "conference",
                 "title": "Can Video World Models Track Unobserved World States?",
                 "author": ["Joonghyuk Shin", "Yicong Hong", "Jaesik Park", "Xun Huang"],
                 "venue": "2608.30692 (arXiv)",
