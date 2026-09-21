@@ -4,6 +4,15 @@
         "papers": [
             {
                 "language": "international",
+                "type": "journal",
+                "title": "Stabilizing Consistency Training: A Flow Map Analysis and Self-Distillation",
+                "author": ["Youngjoong Kim", "Duhoe Kim", "Woosung Kim", "Jaesik Park"],
+                "venue": "Transactions on Machine Learning Research (<b>TMLR</b>)",
+                "image": "publications/data/26_arxiv2.jpg",
+                "pdf": "http://arxiv.org/abs/2601.22679"
+            },
+            {
+                "language": "international",
                 "type": "conference",
                 "title": "AmodalBox: Automated 3D Bounding Box Annotation under Partial Visibility",
                 "author": ["In-Jae Lee", "Namtae Kim", "Robert Exley", "Kwonyoung Ryu", "Jaesik Park"],
@@ -169,15 +178,6 @@
                 "venue": "2603.10781 (arXiv)",
                 "image": "publications/data/26_arxiv3.jpg",
                 "pdf": "http://arxiv.org/abs/2603.10781"
-            },
-            {
-                "language": "international",
-                "type": "arxiv",
-                "title": "Stabilizing Consistency Training: A Flow Map Analysis and Self-Distillation",
-                "author": ["Youngjoong Kim", "Duhoe Kim", "Woosung Kim", "Jaesik Park"],
-                "venue": "2601.22679 (arXiv)",
-                "image": "publications/data/26_arxiv2.jpg",
-                "pdf": "http://arxiv.org/abs/2601.22679"
             },
             {
                 "language": "international",
