@@ -4,6 +4,34 @@
         "papers": [
             {
                 "language": "international",
+                "type": "conference",
+                "title": "Distribution Matching Distillation without Fake Score Network",
+                "author": ["YoungJoong Kim", "Deokyeong Lee", "Jaesik Park"],
+                "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
+                "image": "publications/data/26_neurips2.jpg",
+                "pdf": "https://arxiv.org/abs/2605.19256"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "Optimized Minimal 4D Gaussian Splatting",
+                "author": ["Minseo Lee", "Byeonghyeon Lee", "Lucas Yunkyu Lee", "Eunsoo Lee", "Sangmin Kim", "Seunghyeon Song", "Joo Chan Lee", "Jong Hwan Ko", "Jaesik Park", "Eunbyung Park"],
+                "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
+                "image": "publications/data/25_arxiv9.jpg",
+                "web": "https://minshirley.github.io/OMG4",
+                "code": "https://github.com/MinShirley/OMG4",
+                "pdf": "https://arxiv.org/abs/2510.03857"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "Phase-DGS: Phase-Guided Dynamic Gaussian Splatting from Unsynchronized Multi-view Video",
+                "author": ["Hosung Jeon", "Jun Young Jeong", "Sangwoon Kwak", "Joonsoo Kim", "Sangmin Kim", "Jaesik Park", "Won-Sik Cheong", "Hyon-Gon Choo"],
+                "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
+                "image": "publications/data/26_neurips1.jpg"
+            },
+            {
+                "language": "international",
                 "type": "journal",
                 "title": "Stabilizing Consistency Training: A Flow Map Analysis and Self-Distillation",
                 "author": ["Youngjoong Kim", "Duhoe Kim", "Woosung Kim", "Jaesik Park"],
@@ -283,17 +311,6 @@
                 "image": "publications/data/25_arxiv12.jpg",
                 "pdf": "http://arxiv.org/abs/2511.17364",
                 "code": "https://github.com/alvin0808/SVRecon"
-            },
-            {
-                "language": "international",
-                "type": "arxiv",
-                "title": "Optimized Minimal 4D Gaussian Splatting",
-                "author": ["Minseo Lee", "Byeonghyeon Lee", "Lucas Yunkyu Lee", "Eunsoo Lee", "Sangmin Kim", "Seunghyeon Song", "Joo Chan Lee", "Jong Hwan Ko", "Jaesik Park", "Eunbyung Park"],
-                "venue": "2510.03857 (arXiv)",
-                "image": "publications/data/25_arxiv9.jpg",
-                "web": "https://minshirley.github.io/OMG4",
-                "code": "https://github.com/MinShirley/OMG4",
-                "pdf": "https://arxiv.org/abs/2510.03857"
             },
             {
                 "language": "international",
