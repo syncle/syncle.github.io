@@ -4,6 +4,16 @@
         "papers": [
             {
                 "language": "international",
+                "type": "arxiv",
+                "title": "Beyond the Current Scene: Event-Referential Grasping with Active View Selection",
+                "author": ["Hyunjoon Lee*", "Haebeom Jung*", "Eunsung Cha", "Daeun Lee", "Yu-Chiang Frank Wang", "Jaesung Choe", "Jaesik Park"],
+                "venue": "2609.39375 (arXiv)",
+                "image": "publications/data/26_arxiv10.jpg",
+                "pdf": "https://arxiv.org/abs/2609.39375",
+                "comment": "(*Equal contribution)"
+            },
+            {
+                "language": "international",
                 "type": "conference",
                 "title": "Distribution Matching Distillation without Fake Score Network",
                 "author": ["YoungJoong Kim", "Deokyeong Lee", "Jaesik Park"],
