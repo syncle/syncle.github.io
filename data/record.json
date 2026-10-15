@@ -1,4 +1,26 @@
 {
+    "2027":
+    {
+        "papers": [
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "Distractor-Aware COLMAP-Free 3D Gaussian Splatting",
+                "author": ["Namtae Kim", "Haebeom Jung", "Jaesik Park"],
+                "venue": "Winter Conf. on Applications of Computer Vision (<b>WACV</b>)",
+                "image": "publications/data/26_wacv1.jpg"
+            },
+            {
+                "language": "international",
+                "type": "conference",
+                "title": "Relation-Centric Open-Vocabulary 3D Gaussian Segmentation",
+                "author": ["Eunsung Cha", "Hyunjoon Lee", "Jaesik Park"],
+                "venue": "Winter Conf. on Applications of Computer Vision (<b>WACV</b>)",
+                "image": "publications/data/26_arxiv8.jpg",
+                "pdf": "http://arxiv.org/abs/2607.01140"
+            }
+        ]
+    },
     "2026":
     {
         "papers": [
