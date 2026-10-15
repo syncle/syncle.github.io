@@ -14,10 +14,11 @@
                 "language": "international",
                 "type": "conference",
                 "title": "Relation-Centric Open-Vocabulary 3D Gaussian Segmentation",
-                "author": ["Eunsung Cha", "Hyunjoon Lee", "Jaesik Park"],
+                "author": ["Eunsung Cha*", "Hyunjoon Lee*", "Jaesik Park"],
                 "venue": "Winter Conf. on Applications of Computer Vision (<b>WACV</b>)",
                 "image": "publications/data/26_arxiv8.jpg",
-                "pdf": "http://arxiv.org/abs/2607.01140"
+                "pdf": "http://arxiv.org/abs/2607.01140",
+                "comment": "(*Equal contribution)"
             }
         ]
     },
