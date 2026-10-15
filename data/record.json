@@ -61,7 +61,8 @@
                 "title": "Phase-DGS: Phase-Guided Dynamic Gaussian Splatting from Unsynchronized Multi-view Video",
                 "author": ["Hosung Jeon", "Jun Young Jeong", "Sangwoon Kwak", "Joonsoo Kim", "Sangmin Kim", "Jaesik Park", "Won-Sik Cheong", "Hyon-Gon Choo"],
                 "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
-                "image": "publications/data/26_neurips1.jpg"
+                "image": "publications/data/26_neurips1.jpg",
+                "web": "https://oc-dev74.github.io/Phase-DGS/"
             },
             {
                 "language": "international",
