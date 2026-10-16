@@ -18,7 +18,8 @@
                 "venue": "Winter Conf. on Applications of Computer Vision (<b>WACV</b>)",
                 "image": "publications/data/26_arxiv8.jpg",
                 "pdf": "http://arxiv.org/abs/2607.01140",
-                "comment": "(*Equal contribution)"
+                "comment": "(*Equal contribution)",
+                "web": "https://eunsungcha.github.io/PairGS-web"
             }
         ]
     },
