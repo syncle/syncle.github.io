@@ -216,11 +216,11 @@
             {
                 "language": "international",
                 "type": "arxiv",
-                "title": "Coherent Human-Scene Reconstruction from Multi-Person Multi-View Video in a Single Pass",
+                "title": "HARMONI: Aligning Human and Scene Priors for Multi-View 4D Reconstruction",
                 "author": ["Sangmin Kim", "Minhyuk Hwang", "Geonho Cha", "Dongyoon Wee", "Jaesik Park"],
                 "venue": "2603.12789 (arXiv)",
                 "image": "publications/data/26_arxiv4.jpg",
-                "web": "https://nstar1125.github.io/chromm",
+                "web": "https://nstar1125.github.io/harmoni/",
                 "pdf": "http://arxiv.org/abs/2603.12789"
             },
             {
