@@ -27,14 +27,16 @@
 		"ms_end": "current",
 		"ms_comment": "Integrated Ph.D. student",
 		"photo": "source/members/jungi.jpg",
-        "member_now": "yes"
+        "member_now": "yes",
+		"web": "https://scholar.google.com/citations?user=JFXTcfQAAAAJ&hl=ko"
 	},
 	"Eunsung Cha": {
 		"ms_start": "2026 Spring",
 		"ms_end": "current",
 		"ms_comment": "Integrated Ph.D. student",
 		"photo": "source/members/eunsung.jpg",
-        "member_now": "yes"
+        "member_now": "yes",
+		"web": "https://scholar.google.com/citations?user=n-Fp9ccAAAAJ&hl=en"
 	},
 	"Jaeyun Jung": {
 		"ms_start": "2025 Fall",
