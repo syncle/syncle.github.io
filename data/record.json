@@ -34,7 +34,8 @@
                 "venue": "2609.39375 (arXiv)",
                 "image": "publications/data/26_arxiv10.jpg",
                 "pdf": "https://arxiv.org/abs/2609.39375",
-                "comment": "(*Equal contribution)"
+                "comment": "(*Equal contribution)",
+                "web": "https://www.haebeom.com/BeyondCSe/"
             },
             {
                 "language": "international",
@@ -312,6 +313,13 @@
             {
                 "title": "<b>Publication Chair</b>",
                 "venue": "Asian Conference on Computer Vision (<b>ACCV</b>)"
+            }
+        ],
+        "talks": [
+            {
+                "title": "Open3D and Beyond: Advancing Geometric Intelligence",
+                "venue": "Workshop on Open Robotics Software (in conjunction with IROS 2026), Pittsburgh, PA, U.S.)",
+                "month": 10
             }
         ]
     },
