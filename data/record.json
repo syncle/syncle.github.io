@@ -8,7 +8,8 @@
                 "title": "Distractor-Aware COLMAP-Free 3D Gaussian Splatting",
                 "author": ["Namtae Kim", "Haebeom Jung", "Jaesik Park"],
                 "venue": "Winter Conf. on Applications of Computer Vision (<b>WACV</b>)",
-                "image": "publications/data/26_wacv1.jpg"
+                "image": "publications/data/26_wacv1.jpg",
+                "web": "https://knt0613pow.github.io/DCF-3DGS"
             },
             {
                 "language": "international",
@@ -26,6 +27,15 @@
     "2026":
     {
         "papers": [
+            {
+                "language": "international",
+                "type": "arxiv",
+                "title": "MixPT: Point Transformer with Interleaved Window and Global Attention",
+                "author": ["Minkyun Seo, Hyungtae Lim, Jaesik Park"],
+                "venue": "2610.31455 (arXiv)",
+                "image": "publications/data/26_arxiv11.jpg",
+                "web": "https://minkyunseo.github.io/MixPT"
+            },
             {
                 "language": "international",
                 "type": "arxiv",
@@ -391,7 +401,7 @@
             {
                 "language": "international",
                 "type": "conference",
-                "title": "BUFFER-X: Towards Zero-Shot Point Cloud Registration in Diverse Scenes",
+                "title": "BUFFER-X: Toward Zero-Shot Point Cloud Registration in Diverse Scenes",
                 "author": ["Minkyun Seo*", "Hyungtae Lim*", "Kanghee Lee", "Luca Carlone", "Jaesik Park"],
                 "venue": "Int. Conf. on Computer Vision (<b>ICCV</b>)",
                 "image": "publications/data/25_arxiv2.jpg",
