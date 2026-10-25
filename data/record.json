@@ -105,7 +105,7 @@
             {
                 "language": "international",
                 "type": "journal",
-                "title": "Towards Zero-Shot Point Cloud Registration Across Diverse Scales, Scenes, and Sensor Setups",
+                "title": "Toward Zero-Shot Point Cloud Registration Across Diverse Scales, Scenes, and Sensor Setups",
                 "author": ["Hyungtae Lim*", "Minkyun Seo*", "Luca Carlone", "Jaesik Park"],
                 "venue": "Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>)",
                 "comment": "(*Equal contribution)",
@@ -401,7 +401,7 @@
             {
                 "language": "international",
                 "type": "conference",
-                "title": "BUFFER-X: Toward Zero-Shot Point Cloud Registration in Diverse Scenes",
+                "title": "BUFFER-X: Towards Zero-Shot Point Cloud Registration in Diverse Scenes",
                 "author": ["Minkyun Seo*", "Hyungtae Lim*", "Kanghee Lee", "Luca Carlone", "Jaesik Park"],
                 "venue": "Int. Conf. on Computer Vision (<b>ICCV</b>)",
                 "image": "publications/data/25_arxiv2.jpg",
