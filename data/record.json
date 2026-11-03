@@ -83,7 +83,8 @@
                 "author": ["Youngjoong Kim", "Duhoe Kim", "Woosung Kim", "Jaesik Park"],
                 "venue": "Transactions on Machine Learning Research (<b>TMLR</b>)",
                 "image": "publications/data/26_arxiv2.jpg",
-                "pdf": "http://arxiv.org/abs/2601.22679"
+                "pdf": "http://arxiv.org/abs/2601.22679",
+                "web": "https://snu-vgilab.github.io/improvedSelfDistillation/"
             },
             {
                 "language": "international",
