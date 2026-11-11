@@ -22,6 +22,15 @@
                 "comment": "(*Equal contribution)",
                 "web": "https://eunsungcha.github.io/PairGS-web"
             }
+        ], "program committee": [
+            {
+                "title": "<b>Organizing Committee</b>",
+                "venue": "OMeGA 2027: The 1st Workshop on Overcoming the Memory Wall in Generative AI (in conjuction with IEEE International Symposium on High-Performance Computer Architecture (<b>HPCA</b>))"
+            },
+            {
+                "title": "Conflict-of-Interest (<b>CoI</b>) <b>Coordinator</b> for the Technical Papers Program",
+                "venue": "ACM <b>SIGGRAPH</b>"
+            }
         ]
     },
     "2026":
@@ -74,7 +83,8 @@
                 "author": ["Hosung Jeon", "Jun Young Jeong", "Sangwoon Kwak", "Joonsoo Kim", "Sangmin Kim", "Jaesik Park", "Won-Sik Cheong", "Hyon-Gon Choo"],
                 "venue": "Int. Conf. on Neural Information Processing Systems (<b>NeurIPS</b>)",
                 "image": "publications/data/26_neurips1.jpg",
-                "web": "https://oc-dev74.github.io/Phase-DGS/"
+                "web": "https://oc-dev74.github.io/Phase-DGS/",
+                "pdf": "https://arxiv.org/abs/2611.04666"
             },
             {
                 "language": "international",
@@ -92,7 +102,8 @@
                 "title": "AmodalBox: Automated 3D Bounding Box Annotation under Partial Visibility",
                 "author": ["In-Jae Lee", "Namtae Kim", "Robert Exley", "Kwonyoung Ryu", "Jaesik Park"],
                 "venue": "The Conference on Robot Learning (<b>CoRL</b>)",
-                "image": "publications/data/26_corl.jpg"
+                "image": "publications/data/26_corl.jpg",
+                "web": "https://oliver0922.github.io/AmodalBox"
             },
             {
                 "language": "international",
@@ -626,7 +637,7 @@
                 "month": 10
             },
             {
-                "title": "3차원 복원과 실환경 시뮬레이션 & 이미지 생성에서 로봇 컨트롤까지",
+                "title": "3차원 복원과 실환경 시뮬레이션 \\& 이미지 생성에서 로봇 컨트롤까지",
                 "venue": "숭실대학교 AI융합학부 콜로퀴움",
                 "month": 12
             },
@@ -1112,7 +1123,7 @@
                 "semester": "Spring"
             },
             {
-                "title": "AIGS537 Artificial Intelligence & Data Science",
+                "title": "AIGS537 Artificial Intelligence \\& Data Science",
                 "semester": "Spring"
             }
         ],
@@ -1162,7 +1173,7 @@
         ],
         "talks": [
             {
-                "title": "Topics in 3D vision & integrating AI modules",
+                "title": "Topics in 3D vision \\& integrating AI modules",
                 "venue": "<b>Hyundai Motor Group</b>, Virtual",
                 "month": 10
             },
