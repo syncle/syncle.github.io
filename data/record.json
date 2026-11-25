@@ -43,8 +43,18 @@
             {
                 "language": "international",
                 "type": "arxiv",
+                "title": "A Mesh to Remember: Persistent Appearance for Interactive Video Models",
+                "author": ["Joonghyuk Shin", "Alex Trevithick", "Katarína Tóthová", "Liyuan Zhu", "Shengyu Huang", "Jaesik Park", "Shalini De Mello", "Laura Leal-Taixé", "Riccardo de Lutio", "Haithem Turki"],
+                "venue": "2611.XXXXX (arXiv)",
+                "image": "publications/data/26_arxiv12.jpg",
+                "web": "https://research.nvidia.com/labs/sil/projects/m2r/",
+                "pdf": "https://research.nvidia.com/labs/sil/projects/m2r/assets/paper.pdf"
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
                 "title": "MixPT: Point Transformer with Interleaved Window and Global Attention",
-                "author": ["Minkyun Seo, Hyungtae Lim, Jaesik Park"],
+                "author": ["Minkyun Seo", "Hyungtae Lim", "Jaesik Park"],
                 "venue": "2610.31455 (arXiv)",
                 "image": "publications/data/26_arxiv11.jpg",
                 "web": "https://minkyunseo.github.io/MixPT"
