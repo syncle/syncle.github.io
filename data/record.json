@@ -43,7 +43,16 @@
             {
                 "language": "international",
                 "type": "arxiv",
-                "title": "A Mesh to Remember: Persistent Appearance for Interactive Video Models",
+                "title": "PokéWorld: Training Video World Models for an Hours-Long Role-Playing Game",
+                "author": ["Minhyuk Hwang", "Joonghyuk Shin", "Jaesik Park"],
+                "venue": "2611.XXXXX (arXiv)",
+                "image": "publications/data/26_arxiv13.jpg",
+                "pdf": "https://arxiv.org/abs/2611.XXXXX"
+            },
+            {
+                "language": "international",
+                "type": "arxiv",
+                "title": "A Mesh to Remember: Persistent Appearance for Interactive Video Worlds",
                 "author": ["Joonghyuk Shin", "Alex Trevithick", "Katarína Tóthová", "Liyuan Zhu", "Shengyu Huang", "Jaesik Park", "Shalini De Mello", "Laura Leal-Taixé", "Riccardo de Lutio", "Haithem Turki"],
                 "venue": "2611.32445 (arXiv)",
                 "image": "publications/data/26_arxiv12.jpg",
