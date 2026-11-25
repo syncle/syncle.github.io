@@ -1,4 +1,40 @@
 {
+	"Sion Lee": {
+		"ms_start": "2027 Spring",
+		"ms_end": "current",
+		"ms_comment": "Integrated Ph.D. student",
+		"photo": "source/members/sion.jpg",
+        "member_now": "yes"
+	},
+	"Byungkyu Kong": {
+		"ms_start": "2027 Spring",
+		"ms_end": "current",
+		"ms_comment": "Master's student",
+		"photo": "source/members/byungkyu.jpg",
+        "member_now": "yes"
+	},
+	"Kyoosuk Hwang": {
+		"ms_start": "2027 Spring",
+		"ms_end": "current",
+		"ms_comment": "Integrated Ph.D. student",
+		"photo": "source/members/kyoosuk.jpg",
+        "member_now": "yes"
+	},
+	"Minhyeok Song": {
+		"ms_start": "2027 Spring",
+		"ms_end": "current",
+		"ms_comment": "Integrated Ph.D. student",
+		"photo": "source/members/minhyeok.jpg",
+        "member_now": "yes"
+	},
+	"Minhyuk Hwang": {
+		"ms_start": "2027 Spring",
+		"ms_end": "current",
+		"ms_comment": "Integrated Ph.D. student",
+		"photo": "source/members/minhyuk.jpg",
+		"web": "https://sisyphm.github.io/",
+        "member_now": "yes"
+	},
 	"Woosung Kim": {
 		"ms_start": "2026 Fall",
 		"ms_end": "current",
@@ -56,19 +92,19 @@
 	},
 	"Daeun Lee": {
 		"ms_start": "2025 Spring",
-		"ms_end": "current",
+		"ms_end": "2026 Winter",
 		"ms_comment": "Master's student",
 		"photo": "source/members/daeun.jpg",
 		"web": "https://www.linkedin.com/in/da-eun-lee-9a369427b",
-        "member_now": "yes"
+        "member_now": "no"
 	},
 	"YoungJoong Kim": {
 		"ms_start": "2025 Spring",
-		"ms_end": "current",
+		"ms_end": "2026 Winter",
 		"ms_comment": "Master's student",
 		"photo": "source/members/youngjoong_2026.jpg",
 		"web": "https://revsic.github.io/",
-        "member_now": "yes"
+        "member_now": "no"
 	},
 	"Brent Zoomers": {
 		"ms_start": "2026 Fall",
@@ -80,10 +116,18 @@
 	},
 	"Namtae Kim": {
 		"int_start": "2024 Fall",
-		"int_end": "2026 Spring",
+		"int_end": "2026 Summer",
 		"int_comment": "Masters student",
 		"photo": "source/members/namtae.jpg",
         "member_now": "no"
+	},
+	"Joong-On Choi": {
+		"int_start": "2027 Spring",
+		"int_end": "current",
+		"int_comment": "Ph.D. student",
+		"photo": "source/members/joongon.jpg",
+		"web": "https://www.tesollo.com",
+        "member_now": "yes"
 	},
 	"Hyedo Kim": {
 		"int_start": "2026 Fall",
@@ -186,7 +230,7 @@
 	},
 	"Jaeah Lee": {
 		"ms_start": "2024 Spring",
-		"ms_end": "2026 Spring",
+		"ms_end": "2025 Winter",
 		"ms_comment": "Master's student",
 		"web": "https://jaeah.me/",
 		"photo": "source/members/jaeah.jpeg",
@@ -204,7 +248,7 @@
 	},
 	"Dongmin You": {
 		"ms_start": "2022 Spring",
-		"ms_end": "2023 Fall",
+		"ms_end": "2023 Winter",
 		"ms_comment": "MS degree (POSTECH)",
 		"job": "GenGenAI",
 		"web": "https://www.linkedin.com/in/you-dongmin-28297012b",
@@ -230,7 +274,7 @@
 	},
 	"Seungjoo Shin": {
 		"ms_start": "2021 Fall",
-		"ms_end": "2023 Spring",
+		"ms_end": "2022 Winter",
 		"ms_comment": "MS degree (POSTECH)",
 		"phd_start": "2023 Fall",
 		"phd_end": "current",
@@ -271,7 +315,7 @@
 	},
 	"Jiye Kim": {
 		"ms_start": "2021 Spring",
-		"ms_end": "2022 Fall",
+		"ms_end": "2022 Winter",
 		"ms_comment": "MS degree (POSTECH)",
 		"job": "LG AI Research",
 		"web": "https://www.linkedin.com/in/jk3472",
@@ -298,7 +342,7 @@
 	},
 	"Chunghyun Park": {
 		"ms_start": "2020 Spring",
-		"ms_end": "2021 Fall",
+		"ms_end": "2021 Winter",
 		"ms_comment": "MS degree (POSTECH)",
 		"phd_start": "2022 Spring",
 		"phd_end": "2026 Spring",
